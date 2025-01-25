@@ -240,9 +240,8 @@ for site_id,data in site_data.items():
 
 json_file_path = 'LATEST_static.json'
 
-with open(json_file_path, 'w') as json_file:
-    json.dump(site_data, json_file, indent=4)
-
+with open(json_file_path, 'w', encoding='utf-8') as json_file:
+    json.dump(site_data, json_file, indent=4, ensure_ascii=False)
 
 
 
