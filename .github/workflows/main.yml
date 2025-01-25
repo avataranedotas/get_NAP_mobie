@@ -24,9 +24,9 @@ jobs:
         chmod +x ./get_NAP_202501.sh
         ./get_NAP_202501.sh
       shell: bash
-    #- name: compare 2023
-    #  run: |
-    #    python compare_20231006.py
+    - name: Processa estaticos XML para JSON
+      run: |
+        python t2.py
     #- name: find 2023
     #  run: |
     #    python find_20231006.py
