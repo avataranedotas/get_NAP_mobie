@@ -12,4 +12,4 @@ echo Hoje  : $AGORA
 
 #ir buscar os ficheiros
 wget -O LATEST_static.xml "https://pgm.mobie.pt/integration/nap/evChargingInfra" --no-check-certificate
-#wget -O LATEST_dynamic.json "https://idacs.mobinteli.com/datex/dynamic" --no-check-certificate
+wget -O LATEST_dynamic.xml "https://pgm.mobie.pt/integration/nap/evActualStatus" --no-check-certificate
