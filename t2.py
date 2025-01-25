@@ -3,7 +3,7 @@
 #pip install xmlschema
 
 from lxml import etree
-import xmlschema
+#import xmlschema
 import json
 
 # Parse the XML file
