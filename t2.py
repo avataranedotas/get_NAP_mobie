@@ -133,9 +133,15 @@ for site in energy_infrastructure_sites:
         # Buscar evse associadas a esta estação
         evses = station.xpath('.//ns6:refillPoint', namespaces=namespace)
     
+
+        #Obter ids dos EVSE's
         if evses is not None:
             station_data[cs]["evses"] = []
         for evse in evses:
+
+            evse_codigo = evse.xpath('@id', namespaces=namespace)[0]
+            evse_codigo_texto = evse_codigo if evse_codigo else "N§A"
+            
             evse_id = evse.xpath('ns4:externalIdentifier', namespaces=namespace)
             evse_id_texto = evse_id[0].text if evse_id else "N§A"
             
@@ -164,6 +170,7 @@ for site in energy_infrastructure_sites:
                 })
 
             evse_info = {
+                "evse_code": evse_codigo_texto,
                 "evse_id": evse_id_texto,
                 "connectors": connector_details
             }
@@ -201,7 +208,7 @@ for site in energy_infrastructure_sites:
 
 def display_station_info(evse_data):
     for evse in evse_data:
-        print(f"  EVSE: {evse['evse_id']}")
+        print(f"  EVSE: {evse['evse_code']} {evse['evse_id']}")
         for connector in evse["connectors"]:
             print(
                 f"   Tomada: {connector['connector_type']} {connector['charging_mode']} {connector['max_power']} {connector['voltage']} {connector['max_current']}"
