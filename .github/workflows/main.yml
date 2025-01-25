@@ -30,6 +30,10 @@ jobs:
     - name: Processa estaticos XML para JSON
       run: |
         python t2.py
+    - name: Processa dinâmicos XML para JSON
+      run: |
+        python u1.py
+        
     #- name: find 2023
     #  run: |
     #    python find_20231006.py
