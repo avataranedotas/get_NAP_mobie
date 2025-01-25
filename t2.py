@@ -28,6 +28,9 @@ namespace = {
 # Dicionário para agrupar os dados dos sites
 site_data = {}
 
+# Data de actualização
+publication_time = root.find('.//ns:publicationTime', namespaces=namespace).text
+
 # Extrair sites
 energy_infrastructure_sites = tree.xpath('//ns6:energyInfrastructureSite', namespaces=namespace)
 
@@ -42,6 +45,9 @@ for site in energy_infrastructure_sites:
     if name_texto == site_id :
         name_texto = ""
 
+    # Ultima actualizacao
+    actual = site.xpath('.//ns4:lastUpdated', namespaces=namespace)
+    actual_texto = actual[0].text if actual else "N§A"
 
     # Extrair a cidade do site
     city = site.xpath('.//ns2:city/ns:values/ns:value[@lang="pt-pt"]/text()', namespaces=namespace)
@@ -169,6 +175,7 @@ for site in energy_infrastructure_sites:
     # Armazenar as informações no dicionário agrupadas por site
     site_data[site_id] = {
         'name': name_texto,
+        'lastUpdated' : actual_texto,
         'city': city_texto,
         'street': rua_texto,
         'postcode' : cp_texto,
@@ -228,7 +235,6 @@ json_file_path = 'LATEST_static.json'
 
 with open(json_file_path, 'w') as json_file:
     json.dump(site_data, json_file, indent=4)
-
 
 
 
