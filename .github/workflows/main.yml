@@ -10,15 +10,16 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
+
     - name: Check out this repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
          python-version: 3.8 #install the python needed    
-    - name: Install deps
-      run: pip install lxml
-      
+         cache: 'pip' # caching pip dependencies
+    - run: pip install -r requirements.txt
+     
     - name: Get the NAP static data
       run: |
         chmod +x ./get_static.sh
