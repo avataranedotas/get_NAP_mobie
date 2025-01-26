@@ -233,13 +233,14 @@ def display_station_info(evse_data):
 #    print ("---")
 
 
+#ordenar o dicionário
+sorted_dict = {key: site_data[key] for key in sorted(site_data)}
 
 # Exportar para json
-
 json_file_path = 'LATEST_static.json'
 
 with open(json_file_path, 'w', encoding='utf-8') as json_file:
-    json.dump(site_data, json_file, indent=4, ensure_ascii=False)
+    json.dump(sorted_dict, json_file, indent=4, ensure_ascii=False)
 
 
 
