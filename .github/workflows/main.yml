@@ -1,7 +1,7 @@
-name: Obter dados
+name: Obter dados estaticos
 
 on:
-  push:
+  #push:
   workflow_dispatch:
   schedule:
     - cron:  '*/60 * * * *'
@@ -22,24 +22,15 @@ jobs:
     - name: Install deps
       run: pip install lxml
       
-    - name: Get the NAP data
+    - name: Get the NAP static data
       run: |
-        chmod +x ./get_NAP_202501.sh
-        ./get_NAP_202501.sh
+        chmod +x ./get_static.sh
+        ./get_static.sh
       shell: bash
     - name: Processa estaticos XML para JSON
       run: |
         python t2.py
-    - name: Processa dinâmicos XML para JSON
-      run: |
-        python u1.py
-    - name: Cria lista de postos em uso
-      run: |
-        python u1_inuse.py        
-    - name: Detecta postos em uso
-      run: |
-        python charging.py        
-
+    
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
