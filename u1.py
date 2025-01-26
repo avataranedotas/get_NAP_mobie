@@ -87,15 +87,15 @@ def display_station_info(evse_data):
 
 # Print dos resultados agrupados por site
 
-print ("---")
-for site_id,data in status_data.items():
-    print(f"Local: {site_id}" )
-    for yy in data['stations']:
-        if "station_id" in yy:
-            print (f" Posto: {yy.get('station_id')}")
-        if "evses" in yy:
-            display_station_info (yy.get('evses'))
-    print ("---")
+#print ("---")
+#for site_id,data in status_data.items():
+#    print(f"Local: {site_id}" )
+#    for yy in data['stations']:
+#        if "station_id" in yy:
+#            print (f" Posto: {yy.get('station_id')}")
+#        if "evses" in yy:
+#            display_station_info (yy.get('evses'))
+#    print ("---")
 
 
 
