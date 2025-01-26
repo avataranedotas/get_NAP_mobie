@@ -33,6 +33,9 @@ jobs:
       run: |
         python compare_static.py
 
+    - name: Obtem lista de postos sem actualização há mais de 30 dias
+      run: |
+        python disused.py
     
     - name: Commit and push if it changed
       run: |-
