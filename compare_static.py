@@ -27,8 +27,9 @@ print (diff)
 
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-with open(f"changes.txt", "a") as file:
-    file.write (str(timestamp))
-    file.write ("\n")
-    json.dump(diff, file, indent=4)
+if diff:
+    with open(f"changes.txt", "a") as file:
+        file.write (str(timestamp))
+        file.write ("\n")
+        json.dump(diff, file, indent=4)
   
