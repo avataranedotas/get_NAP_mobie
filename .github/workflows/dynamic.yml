@@ -18,10 +18,7 @@ jobs:
          python-version: 3.8 #install the python needed    
          cache: 'pip' # caching pip dependencies
     - run: pip install -r requirements.txt
-    
-    #- name: Install deps
-    #  run: pip install lxml
-      
+
     - name: Get the NAP dynamic
       run: |
         chmod +x ./get_dynamic.sh
