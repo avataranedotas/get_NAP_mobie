@@ -28,6 +28,11 @@ jobs:
     - name: Processa estaticos XML para JSON
       run: |
         python t2.py
+
+    - name: Compara dados com os anteriores
+      run: |
+        python compare_static.py
+
     
     - name: Commit and push if it changed
       run: |-
