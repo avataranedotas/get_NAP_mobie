@@ -36,6 +36,9 @@ jobs:
     - name: Cria lista de postos em uso
       run: |
         python u1_inuse.py        
+    - name: Detecta postos em uso
+      run: |
+        python charging.py        
 
     - name: Commit and push if it changed
       run: |-
