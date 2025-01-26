@@ -28,8 +28,14 @@ print (diff)
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 if diff:
-    with open(f"changes.txt", "a") as file:
-        file.write (str(timestamp))
-        file.write ("\n")
-        json.dump(diff, file, indent=4)
-  
+    
+    try:
+        json_data = json.dumps(diff, indent=4)
+        with open(f"changes.txt", "a") as file:
+            file.write (str(timestamp))
+            file.write ("\n")
+            json.dump(diff, file, indent=4)
+            
+    except TypeError as e:
+        print(f"Serialization error: {e}")
+        
