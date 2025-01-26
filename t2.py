@@ -216,23 +216,21 @@ def display_station_info(evse_data):
 
 # Print dos resultados agrupados por site
 
-print ("---")
-for site_id,data in site_data.items():
-    print(f"Local: {site_id} {data['latitude']} {data['longitude']} {data['hours']} {data['opc']} {data['opc_name']}" )
-    print(f"       {data['name']} {data['street']} {data['postcode']} {data['city']}" )
-    for yy in data['stations']:
-        #print ("dentro stations")
-        #print (type (yy))
-        #print (yy)
-        if "station_id" in yy:
-            print (f" Posto: {yy.get('station_id')}")
-        if "facilities" in yy:
-            print (f" Facilities: {yy.get('facilities')}")
-        if "payment" in yy:
-            print (f" Payment: {yy.get('payment')}")
-        if "evses" in yy:
-            display_station_info (yy.get('evses'))
-    print ("---")
+#print ("---")
+#for site_id,data in site_data.items():
+#    print(f"Local: {site_id} {data['latitude']} {data['longitude']} {data['hours']} {data['opc']} {data['opc_name']}" )
+#    print(f"       {data['name']} {data['street']} {data['postcode']} {data['city']}" )
+#    for yy in data['stations']:
+#
+#        if "station_id" in yy:
+#            print (f" Posto: {yy.get('station_id')}")
+#        if "facilities" in yy:
+#            print (f" Facilities: {yy.get('facilities')}")
+#        if "payment" in yy:
+#            print (f" Payment: {yy.get('payment')}")
+#        if "evses" in yy:
+#            display_station_info (yy.get('evses'))
+#    print ("---")
 
 
 
