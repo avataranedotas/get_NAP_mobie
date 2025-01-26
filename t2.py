@@ -67,6 +67,7 @@ for site in energy_infrastructure_sites:
     latitude_texto = latitude[0].text if latitude else "N§A"
     longitude = site.xpath('.//ns3:longitude', namespaces=namespace)
     longitude_texto = longitude[0].text if longitude else "N§A"
+    latlon_texto = latitude_texto + " " + longitude_texto
     #print (latitude_texto,longitude_texto)
     
     # Extrair o OPC
@@ -188,6 +189,7 @@ for site in energy_infrastructure_sites:
         'postcode' : cp_texto,
         'latitude': latitude_texto,
         'longitude': longitude_texto,
+        'latlon' : latlon_texto,
         'opc': opc_texto,
         'opc_name': opc_nome_texto,
         'hours' : horas_texto,
