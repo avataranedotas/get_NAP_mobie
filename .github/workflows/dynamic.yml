@@ -1,0 +1,47 @@
+name: Obter dados dinamicos
+
+on:
+  #push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '2,7,12,17,22,27,32,37,42,47,52,57  * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+         python-version: 3.8 #install the python needed    
+    - name: Install deps
+      run: pip install lxml
+      
+    - name: Get the NAP dynamic
+      run: |
+        chmod +x ./get_dynamic.sh
+        ./get_dynamic.sh
+      shell: bash
+    - name: Processa dinâmicos XML para JSON
+      run: |
+        python u1.py
+    - name: Cria lista de postos em uso
+      run: |
+        python u1_inuse.py        
+    - name: Detecta postos em uso
+      run: |
+        python charging.py        
+
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
