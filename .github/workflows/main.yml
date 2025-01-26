@@ -36,6 +36,10 @@ jobs:
     - name: Obtem lista de postos sem actualização há mais de 30 dias
       run: |
         python disused.py
+
+    - name: Pontos sem actualização que não estejam no watchbusy
+      run: |
+        python find_new_disused.py
     
     - name: Commit and push if it changed
       run: |-
