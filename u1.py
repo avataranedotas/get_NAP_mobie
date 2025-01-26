@@ -98,12 +98,16 @@ def display_station_info(evse_data):
 #    print ("---")
 
 
+#ordenar o dicionário
+
+sorted_dict = {key: status_data[key] for key in sorted(status_data)}
+
 
 
 # Exportar para json
 
 json_file_path = 'LATEST_dynamic.json'
 with open(json_file_path, 'w', encoding='utf-8') as json_file:
-    json.dump(status_data, json_file, indent=4, ensure_ascii=False)
+    json.dump(sorted_dict, json_file, indent=4, ensure_ascii=False)
 
 
