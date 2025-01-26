@@ -33,15 +33,10 @@ jobs:
     - name: Processa dinâmicos XML para JSON
       run: |
         python u1.py
-        
-    #- name: find 2023
-    #  run: |
-    #    python find_20231006.py
-    #- name: Check and log changes
-    #  run: |
-    #    chmod +x ./log_changes_20231006.sh
-    #    ./log_changes_20231006.sh
-    #  shell: bash
+    - name: Cria lista de postos em uso
+      run: |
+        python u1_inuse.py        
+
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
