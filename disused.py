@@ -34,7 +34,8 @@ for station_id, station_data in latest.items():
 
 #print (old)
 
-# Write to file
-with open("old.txt", "w") as output_file:
-    output_file.writelines(f"{line}\n" for line in old)
+if old:
+    # Write to file
+    with open("old.txt", "w") as output_file:
+        output_file.writelines(f"{line}\n" for line in old)
 
