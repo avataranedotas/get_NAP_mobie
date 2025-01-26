@@ -18,11 +18,12 @@ with open(file1_path, "r") as file1, open(file2_path, "r") as file2:
 # Get the current timestamp
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-# Write the matching lines to a new file or print them
-with open("charging.txt", "a") as output_file:
-    output_file.write(f"Timestamp: {timestamp}\n")
-    #output_file.write("Matching Lines:\n")
-    output_file.writelines(matching_lines)
+if matching_lines:
 
-print("Matching lines have been written to 'charging.txt'.")
+    # Write the matching lines to a new file or print them
+    with open("charging.txt", "a") as output_file:
+        output_file.write(f"Timestamp: {timestamp}\n")
+        output_file.writelines(matching_lines)
+
+    print("Matching lines have been written to 'charging.txt'.")
 
