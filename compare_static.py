@@ -30,7 +30,7 @@ timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 if diff:
     
     try:
-        json_data = json.dumps(diff, indent=4)
+        json_data = json.dumps(list(diff), indent=4)
         with open(f"changes.txt", "a") as file:
             file.write (str(timestamp))
             file.write ("\n")
