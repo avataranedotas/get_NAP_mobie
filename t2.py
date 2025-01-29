@@ -158,6 +158,7 @@ for site in energy_infrastructure_sites:
             for connector in connectors:
                 connector_type = connector.find('ns6:connectorType', namespaces=namespace)
                 charging_mode = connector.find('ns6:chargingMode', namespaces=namespace)
+                connector_format = connector.find('ns6:connectorFormat', namespaces=namespace)
                 max_power = connector.find('ns6:maxPowerAtSocket', namespaces=namespace)
                 voltage = connector.find('ns6:voltage', namespaces=namespace)
                 max_current = connector.find('ns6:maximumCurrent', namespaces=namespace)
@@ -165,6 +166,7 @@ for site in energy_infrastructure_sites:
                 connector_details.append({
                     'connector_type': connector_type.text if connector_type is not None else "N§A",
                     'charging_mode': charging_mode.text if charging_mode is not None else "N§A",
+                    'connector_format': connector_format.text if connector_format is not None else "N§A",
                     'max_power': max_power.text if max_power is not None else "N§A",
                     'voltage': voltage.text if voltage is not None else "N§A",
                     'max_current': max_current.text if max_current is not None else "N§A"
