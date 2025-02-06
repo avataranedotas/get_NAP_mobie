@@ -43,7 +43,7 @@ jobs:
 
     - name: Conta postos por OPC
       run: |
-        pyhton count_opc.py
+        python count_opc.py
     
     - name: Commit and push if it changed
       run: |-
