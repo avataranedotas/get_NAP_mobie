@@ -40,6 +40,10 @@ jobs:
     - name: Pontos sem actualização que não estejam no watchbusy
       run: |
         python find_new_disused.py
+
+    - name: Conta postos por OPC
+      run: |
+        pyhton count_opc.py
     
     - name: Commit and push if it changed
       run: |-
