@@ -37,6 +37,10 @@ jobs:
       run: |
         python disused.py
 
+    - name: Obtem lista de postos sem charging há mais de 30 dias
+      run: |
+        python find_old2.py
+
     - name: Pontos sem actualização que não estejam no watchbusy
       run: |
         python find_new_disused.py
