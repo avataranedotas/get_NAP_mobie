@@ -10196,3 +10196,476 @@ Modificados:
         }
     }
 }
+2025-02-14 04:20:34
+Adicionados:
+{
+    "OBD-00025": {
+        "name": "IONITY Obidos",
+        "lastUpdated": "2025-02-13T18:59:40.257Z",
+        "city": "Óbidos",
+        "street": "Gaeiras",
+        "postcode": "2540",
+        "latitude": "39.375282",
+        "longitude": "-9.13915",
+        "latlon": "39.375282 -9.13915",
+        "opc": "IONY",
+        "opc_name": "IONITY GmbH",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OBD-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OBD-00025-01",
+                        "evse_id": "PT*IOY*E449301",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "350000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OBD-00025-02",
+                        "evse_id": "PT*IOY*E449302",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "350000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OBD-00025-03",
+                        "evse_id": "PT*IOY*E449303",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "350000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OBD-00025-04",
+                        "evse_id": "PT*IOY*E449304",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "350000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OBD-00025-05",
+                        "evse_id": "PT*IOY*E449305",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "350000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OBD-00025-06",
+                        "evse_id": "PT*IOY*E449306",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "350000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AND-00008": {
+        "street": {
+            "old": "Rua do Vale Santo\t3780-202 Anadia",
+            "new": "Rua do Vale Santo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AND*00008*01",
+                            "new": "PT*GLP*EAND*00008*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AND*00008*02",
+                            "new": "PT*GLP*EAND*00008*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "AND-00009": {
+        "street": {
+            "old": "Rua do Vale Santo\t3780-202 Anadia",
+            "new": "Rua do Vale Santo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AND*00009*01",
+                            "new": "PT*GLP*EAND*00009*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AND*00009*02",
+                            "new": "PT*GLP*EAND*00009*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "AND-90002": {
+        "street": {
+            "old": "Avenida Plátanos",
+            "new": "AV. DOS PLÁTANOS"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "AND-90002-1",
+                            "new": "AND-90002-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*AND*90002*1",
+                            "new": "PT*GLP*EAND*90002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "AND-90002-2",
+                            "new": "AND-90002-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*AND*90002*2",
+                            "new": "PT*GLP*EAND*90002*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "trainStation",
+                        "carPark",
+                        "NATURE"
+                    ]
+                }
+            }
+        }
+    },
+    "AVR-00014": {
+        "street": {
+            "old": "N109 km 3,25",
+            "new": "ESTRADA NACIONAL 16 KM 3,35"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00014*01",
+                            "new": "PT*GLG*EAVR*00014*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00014*02",
+                            "new": "PT*GLG*EAVR*00014*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00014*03",
+                            "new": "PT*GLG*EAVR*00014*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "AVR-00031": {
+        "longitude": {
+            "old": "-8.60942",
+            "new": "-8.610738"
+        },
+        "street": {
+            "old": "Estrada Nacional 16 Km 3,35",
+            "new": "ESTRADA NACIONAL 16 KM 3,35"
+        },
+        "latitude": {
+            "old": "40.66579",
+            "new": "40.664867"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00031*01",
+                            "new": "PT*GLG*EAVR*00031*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00031*02",
+                            "new": "PT*GLG*EAVR*00031*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00031*03",
+                            "new": "PT*GLG*EAVR*00031*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "latlon": {
+            "old": "40.66579 -8.60942",
+            "new": "40.664867 -8.610738"
+        }
+    },
+    "AVR-00039": {
+        "street": {
+            "old": "A25 IP5 - Km 15,20",
+            "new": "A25 IP5 - Km 15,20 Aveiro"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00039*01",
+                            "new": "PT*GLG*EAVR*00039*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AVR*00039*02",
+                            "new": "PT*GLG*EAVR*00039*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "AVR-80004": {
+        "street": {
+            "old": "Rua Doutor Alberto Souto",
+            "new": "RUA DOUTOR ALBERTO SOARES MACHADO"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "AVR-80004-1",
+                            "new": "AVR-80004-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*AVR*80004*1",
+                            "new": "PT*GLP*EAVR*80004*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "AVR-80004-2",
+                            "new": "AVR-80004-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*AVR*80004*2",
+                            "new": "PT*GLP*EAVR*80004*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ETR-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ETR*00017*01",
+                            "new": "PT*GLP*EETR*00017*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ETR*00017*02",
+                            "new": "PT*GLP*EETR*00017*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "ILH-00005": {
+        "street": {
+            "old": "Lugar da Vista Alegre",
+            "new": "Lugar da Vista Alegre, 3830-292 Ílhavo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ILH*00005*01",
+                            "new": "PT*GLP*EILH*00005*01"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ILH-00006": {
+        "street": {
+            "old": "Lugar da Vista Alegre",
+            "new": "Lugar da Vista Alegre, 3830-292 Ílhavo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ILH*00006*01",
+                            "new": "PT*GLP*EILH*00006*01"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ILH-00007": {
+        "street": {
+            "old": "Lugar da Vista Alegre",
+            "new": "Lugar da Vista Alegre, 3830-292 Ílhavo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ILH*00007*01",
+                            "new": "PT*GLP*EILH*00007*01"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
