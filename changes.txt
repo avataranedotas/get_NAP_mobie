@@ -20531,3 +20531,534 @@ Modificados:
         }
     }
 }
+2025-02-27 04:20:53
+Adicionados:
+{
+    "CTB-00047": {
+        "name": "620  Alcains",
+        "lastUpdated": "2025-02-27T02:59:51.575Z",
+        "city": "Castelo Branco",
+        "street": "Estrada de São Domingos",
+        "postcode": "6005-010",
+        "latitude": "39.6425",
+        "longitude": "-7.656111",
+        "latlon": "39.6425 -7.656111",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CTB-00047",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CTB-00047-01",
+                        "evse_id": "PT*KLS*E*CTB*00047*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CTB-00047-02",
+                        "evse_id": "PT*KLS*E*CTB*00047*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "49000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            },
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "49000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDM-00053": {
+        "name": "PRIO Fânzeres",
+        "lastUpdated": "2025-02-27T02:59:22.508Z",
+        "city": "Gondomar",
+        "street": "R. Dr. Severiano 130, 4510-554 Fânzeres",
+        "postcode": "4510-554",
+        "latitude": "41.16008",
+        "longitude": "-8.530807",
+        "latlon": "41.16008 -8.530807",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDM-00053",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDM-00053-01",
+                        "evse_id": "PT*PRI*E*GDM*00053*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00053-02",
+                        "evse_id": "PT*PRI*E*GDM*00053*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LNH-00035": {
+        "name": "CIM OESTE - LOURINHÃ - S3",
+        "lastUpdated": "2025-02-26T19:08:44.885Z",
+        "city": "Lourinhã",
+        "street": "Largo do Turismo Praia da Areia Branca",
+        "postcode": "2530-227",
+        "latitude": "39.265907",
+        "longitude": "-9.33445",
+        "latlon": "39.265907 -9.33445",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LNH-00035",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LNH-00035-01",
+                        "evse_id": "PT*GLP*ELNH*00035*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LNH-00035-02",
+                        "evse_id": "PT*GLP*ELNH*00035*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00017": {
+        "name": "",
+        "lastUpdated": "2025-02-27T02:59:53.849Z",
+        "city": "Odivelas",
+        "street": "Rua Heróis de Chaimite, 2675-374 Odivelas",
+        "postcode": "2675-374",
+        "latitude": "38.794167",
+        "longitude": "-9.168611",
+        "latlon": "38.794167 -9.168611",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00017",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00017-01",
+                        "evse_id": "PT*KLS*E*ODV*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00017-02",
+                        "evse_id": "PT*KLS*E*ODV*00017*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00017-03",
+                        "evse_id": "PT*KLS*E*ODV*00017*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "CBR-00016": {
+        "latitude": {
+            "old": "40.251137",
+            "new": "40.250797"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CBR*00016*01",
+                            "new": "PT*GLG*ECBR*00016*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CBR*00016*02",
+                            "new": "PT*GLG*ECBR*00016*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CBR*00016*03",
+                            "new": "PT*GLG*ECBR*00016*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "40.251137 -8.442012",
+            "new": "40.250797 -8.441839"
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "Ponte De Eiras",
+            "new": "(N111) (ACESSO A31) PONTE DE EIRAS - ADÉMIA"
+        },
+        "longitude": {
+            "old": "-8.442012",
+            "new": "-8.441839"
+        }
+    },
+    "CDR-90001": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CDR*90001*1",
+                            "new": "PT*GLP*ECDR*90001*01"
+                        },
+                        "evse_code": {
+                            "old": "CDR-90001-1",
+                            "new": "CDR-90001-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CDR*90001*2",
+                            "new": "PT*GLP*ECDR*90001*02"
+                        },
+                        "evse_code": {
+                            "old": "CDR-90001-2",
+                            "new": "CDR-90001-02"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CDR-90001-1",
+                            "evse_id": "PT*GLP*E*CDR*90001*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "CDR-90001-2",
+                            "evse_id": "PT*GLP*E*CDR*90001*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "R. Inocêncio Santos Cruz",
+            "new": "RUA INOCÊNCIO SANTOS CRUZ"
+        }
+    },
+    "LSB-00647": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "chademo"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OFR-90002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*OFR*90002*1",
+                            "new": "PT*GLP*EOFR*90002*01"
+                        },
+                        "evse_code": {
+                            "old": "OFR-90002-1",
+                            "new": "OFR-90002-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*OFR*90002*2",
+                            "new": "PT*GLP*EOFR*90002*02"
+                        },
+                        "evse_code": {
+                            "old": "OFR-90002-2",
+                            "new": "OFR-90002-02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua Professor Lobo 29",
+            "new": "RUA PROFESSOR LOBO"
+        }
+    },
+    "PLM-00028": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PLM*00028*01",
+                            "new": "PT*GLP*EPLM*00028*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PLM*00028*02",
+                            "new": "PT*GLP*EPLM*00028*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "cafe",
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Área de Serviço Palmela A2 - N/S ",
+            "new": "(A2) KM 31.2 (SENTIDO NORTE/SUL)"
+        },
+        "postcode": {
+            "old": "2950-064",
+            "new": "2951-901"
+        }
+    },
+    "PVZ-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        }
+    },
+    "VFX-00071": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VFX*00071*01",
+                            "new": "PT*GLP*EVFX*00071*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VFX*00071*02",
+                            "new": "PT*GLP*EVFX*00071*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "94.0",
+                                    "new": "90.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Avenida Flamenga",
+            "new": "Avenida Flamenga, Vialonga"
+        }
+    }
+}
