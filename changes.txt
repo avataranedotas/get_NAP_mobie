@@ -27178,3 +27178,61 @@ Modificados:
         }
     }
 }
+2025-03-09 04:17:06
+Modificados:
+{
+    "FIG-00034": {
+        "name": {
+            "old": "Galp Hotel Wellington",
+            "new": ""
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*FIG*00034*01",
+                            "new": "PT*GLP*EFIG*00034*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "240.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*FIG*00034*02",
+                            "new": "PT*GLP*EFIG*00034*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "240.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Rua Doutor Calado, 25",
+            "new": "R. Dr. Calado 43, 3080-153 Figueira da Foz"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    }
+}
