@@ -1,5 +1,6 @@
 import json
 from datetime import datetime, timedelta
+from collections import defaultdict
 
 # Load the data 
 with open('charging_evses.json', 'r') as file:
