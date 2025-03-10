@@ -8,10 +8,10 @@ with open('charging_evses.json', 'r') as file:
 # Get the current time
 current_time = datetime.utcnow()
 
-# Define the cutoff time (5 days ago)
+# Define the cutoff time (X days ago)
 cutoff_time = current_time - timedelta(days=30)
 
-# Filter out entries older than 5 days
+# Filter out entries older than X days
 old_entries = [entry["evse_id"].rsplit('-', 1)[0] for entry in data if datetime.fromisoformat(entry["lastUpdated"].replace("Z", "")) < cutoff_time]
 
 # Write the filtered EVSE-ids to a new file
