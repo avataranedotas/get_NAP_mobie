@@ -27236,3 +27236,79 @@ Modificados:
         }
     }
 }
+2025-03-10 04:17:41
+Modificados:
+{
+    "MTS-00074": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "chademo"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power OPC",
+            "new": "Galp Power"
+        }
+    },
+    "MTS-00094": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "250.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "250.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galpgeste",
+            "new": "Galp Gest"
+        }
+    }
+}
