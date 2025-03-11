@@ -27312,3 +27312,617 @@ Modificados:
         }
     }
 }
+2025-03-11 04:22:25
+Adicionados:
+{
+    "LRS-00137": {
+        "name": "Mercadona Santa Iria da Azoia",
+        "lastUpdated": "2025-03-11T02:58:07.554Z",
+        "city": "Loures",
+        "street": "RUA DOM AFONSO DE ALBUQUERQUE ",
+        "postcode": "2690-340",
+        "latitude": "38.85059",
+        "longitude": "-9.075584",
+        "latlon": "38.85059 -9.075584",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LRS-00137",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00137-01",
+                        "evse_id": "PT*IBD*E*LRS*00137*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00137-02",
+                        "evse_id": "PT*IBD*E*LRS*00137*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ACB-00009": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*ACB*00009*01",
+                            "new": "PT*GLG*EACB*00009*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*ACB*00009*02",
+                            "new": "PT*GLG*EACB*00009*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ACB-00029": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00029*01",
+                            "new": "PT*GLP*EACB*00029*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00029*02",
+                            "new": "PT*GLP*EACB*00029*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ACB-00031": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00031*01",
+                            "new": "PT*GLP*EACB*00031*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00031*02",
+                            "new": "PT*GLP*EACB*00031*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CLD-00012": {
+        "street": {
+            "old": "Quinta Dos Pinheiros",
+            "new": "QUINTA DOS PINHEIROS, LOTE 1"
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping",
+                        "NATURE"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*CLD*00012*01",
+                            "new": "PT*MLT*ECLD*00012*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*CLD*00012*02",
+                            "new": "PT*MLT*ECLD*00012*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CLD-00022": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "latlon": {
+            "old": "39.405018 -9.152001",
+            "new": "39.405033 -9.151997"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CLD*00022*01",
+                            "new": "PT*GLP*ECLD*00022*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CLD*00022*02",
+                            "new": "PT*GLP*ECLD*00022*02"
+                        }
+                    }
+                }
+            }
+        },
+        "longitude": {
+            "old": "-9.152001",
+            "new": "-9.151997"
+        },
+        "latitude": {
+            "old": "39.405018",
+            "new": "39.405033"
+        }
+    },
+    "ILH-00008": {
+        "street": {
+            "old": "Lugar da Vista Alegre",
+            "new": "Lugar da Vista Alegre, 3830-292 Ílhavo"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ILH*00008*01",
+                            "new": "PT*GLP*EILH*00008*01"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LRA-00086": {
+        "street": {
+            "old": "Rua do Alto Vieiro, 2400-441 Leiria",
+            "new": "Rua do Alto Vieiro"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRA*00086*01",
+                            "new": "PT*GLP*ELRA*00086*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRA*00086*02",
+                            "new": "PT*GLP*ELRA*00086*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LRA-00087": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRA*00087*01",
+                            "new": "PT*GLP*ELRA*00087*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRA*00087*02",
+                            "new": "PT*GLP*ELRA*00087*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00310": {
+        "street": {
+            "old": "Avª Da Índia E Rua Fernão Mendes Pinto",
+            "new": "AVENIDA DA ÍNDIA"
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "trainStation",
+                        "cafe"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LSB*00310*01",
+                            "new": "PT*GLG*ELSB*00310*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LSB*00310*02",
+                            "new": "PT*GLG*ELSB*00310*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LSB*00310*03",
+                            "new": "PT*GLG*ELSB*00310*03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MGR-00010": {
+        "street": {
+            "old": "Rua de Leiria nº 50/52",
+            "new": "Rua de Leiria nº 50/52, Marinha Grande"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*MGR*00010*01",
+                            "new": "PT*GLP*EMGR*00010*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*MGR*00010*02",
+                            "new": "PT*GLP*EMGR*00010*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PNI-00015": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PNI*00015*01",
+                            "new": "PT*GLP*EPNI*00015*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PNI*00015*02",
+                            "new": "PT*GLP*EPNI*00015*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PNI-00018": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PNI*00018*01",
+                            "new": "PT*GLP*EPNI*00018*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PNI*00018*02",
+                            "new": "PT*GLP*EPNI*00018*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PNI-00019": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PNI*00019*01",
+                            "new": "PT*GLP*EPNI*00019*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PNI*00019*02",
+                            "new": "PT*GLP*EPNI*00019*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VFX-00067": {
+        "street": {
+            "old": "Rua Eça de Queirós",
+            "new": "Rua Eça de Queirós - Vila Franca de Xira"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VFX*00067*01",
+                            "new": "PT*GLP*EVFX*00067*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VFX*00067*02",
+                            "new": "PT*GLP*EVFX*00067*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "126.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VLF-00004": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VLF*00004*01",
+                            "new": "PT*GLP*EVLF*00004*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VLF*00004*02",
+                            "new": "PT*GLP*EVLF*00004*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VNC-00008": {
+        "street": {
+            "old": "Rua Alto das Veigas, EN13",
+            "new": "Rua Alto das Veigas"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel",
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VNC*00008*01",
+                            "new": "PT*GLP*EVNC*00008*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*VNC*00008*02",
+                            "new": "PT*GLP*EVNC*00008*02"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
