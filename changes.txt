@@ -27926,3 +27926,935 @@ Modificados:
         }
     }
 }
+2025-03-12 04:21:50
+Adicionados:
+{
+    "VFC-00008": {
+        "name": "VFC",
+        "lastUpdated": "2025-03-12T02:58:49.715Z",
+        "city": "Vila Franca do Campo",
+        "street": "Parque Estacionamento - Rua das Hortas - VFC",
+        "postcode": "9680-130",
+        "latitude": "37.719948",
+        "longitude": "-25.43309",
+        "latlon": "37.719948 -25.43309",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VFC-00008",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFC-00008-01",
+                        "evse_id": "PT*SEG*E*VFC*00008*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFC-00008-02",
+                        "evse_id": "PT*SEG*E*VFC*00008*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "ABF-00013"
+]
+Modificados:
+{
+    "ACB-00024": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00024*01",
+                            "new": "PT*GLP*EACB*00024*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "126.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00024*02",
+                            "new": "PT*GLP*EACB*00024*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "126.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Largo 28 de Maio",
+            "new": "Largo 28 de Maio, São Martinho do Porto"
+        }
+    },
+    "ACB-00028": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00028*01",
+                            "new": "PT*GLP*EACB*00028*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00028*02",
+                            "new": "PT*GLP*EACB*00028*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "ACB-00030": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00030*01",
+                            "new": "PT*GLP*EACB*00030*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*ACB*00030*02",
+                            "new": "PT*GLP*EACB*00030*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "ACN-00002": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ACN-00002-1",
+                            "new": "ACN-00002-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*MLT*E*ACN*00002*1",
+                            "new": "PT*MLT*EACN*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ACN-00002-2",
+                            "new": "ACN-00002-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*MLT*E*ACN*00002*2",
+                            "new": "PT*MLT*EACN*00002*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Intermarche Alcanena",
+            "new": "LUGAR DE MARRUJO, 2380-180 ALCANENA"
+        }
+    },
+    "ACN-00004": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*ACN*00004*01",
+                            "new": "PT*MLT*EACN*00004*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*ACN*00004*02",
+                            "new": "PT*MLT*EACN*00004*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "street": {
+            "old": "Lugar do Marrujo",
+            "new": "LUGAR DO MARRUJO"
+        }
+    },
+    "CLB-00001": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CLB*00001*01",
+                            "new": "PT*GLG*ECLB*00001*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CLB*00001*02",
+                            "new": "PT*GLG*ECLB*00001*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CLB*00001*03",
+                            "new": "PT*GLG*ECLB*00001*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A25 km 145.9 (Sentido Oeste/Este)",
+            "new": "A25"
+        }
+    },
+    "CLB-00002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CLB*00002*01",
+                            "new": "PT*GLG*ECLB*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CLB*00002*02",
+                            "new": "PT*GLG*ECLB*00002*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CLB*00002*03",
+                            "new": "PT*GLG*ECLB*00002*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION",
+                        "NATURE"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A25 km 145.9 (Sentido Este/Oeste)",
+            "new": "A25"
+        }
+    },
+    "FVN-00002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*FVN*00002*01",
+                            "new": "PT*GLP*EFVN*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*FVN*00002*02",
+                            "new": "PT*GLP*EFVN*00002*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "GMR-00141": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "McD Quintã - Rua Cónego Dr. Manuel Faria, SN ",
+            "new": "McD Quintã - R. Cónego Dr. Manuel Faria, SN "
+        }
+    },
+    "GRD-00007": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00007*01",
+                            "new": "PT*GLG*EGRD*00007*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00007*02",
+                            "new": "PT*GLG*EGRD*00007*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00007*03",
+                            "new": "PT*GLG*EGRD*00007*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A23 - Km 213,3 (Sentido Sul/Norte)",
+            "new": "A23, A.S. GUARDA (SENTIDO SUL/NORTE)"
+        }
+    },
+    "GRD-00008": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00008*01",
+                            "new": "PT*GLG*EGRD*00008*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00008*02",
+                            "new": "PT*GLG*EGRD*00008*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00008*03",
+                            "new": "PT*GLG*EGRD*00008*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A23 - Km 213,3 (Sentido Norte/Sul)",
+            "new": "A23, A.S. GUARDA (SENTIDO NORTE/SUL)"
+        }
+    },
+    "GRD-00020": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00020*01",
+                            "new": "PT*GLG*EGRD*00020*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*GRD*00020*02",
+                            "new": "PT*GLG*EGRD*00020*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "GRD-90005": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "GRD-90005-1",
+                            "new": "GRD-90005-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*GRD*90005*1",
+                            "new": "PT*GLP*EGRD*90005*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "GRD-90005-2",
+                            "new": "GRD-90005-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*GRD*90005*2",
+                            "new": "PT*GLP*EGRD*90005*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Avenida Bombeiros Voluntários Egitanienses",
+            "new": "AV DOS BOMBEIROS VOLUNTÁRIOS"
+        }
+    },
+    "LRA-00079": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "removed_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRA-00079-2",
+                            "evse_id": "PT*EDP*ELRA*00079*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00011": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "OER-00011-1",
+                            "new": "OER-00011-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00011*1",
+                            "new": "PT*MLT*EOER*00011*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "OER-00011-2",
+                            "new": "OER-00011-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00011*2",
+                            "new": "PT*MLT*EOER*00011*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "street": {
+            "old": "Av. dos Cavaleiros",
+            "new": "AV. DOS CAVALEIROS 60"
+        }
+    },
+    "OER-00012": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "OER-00012-1",
+                            "new": "OER-00012-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00012*1",
+                            "new": "PT*MLT*EOER*00012*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "OER-00012-2",
+                            "new": "OER-00012-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00012*2",
+                            "new": "PT*MLT*EOER*00012*02"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "OER-00012-1",
+                            "evse_id": "PT*MLT*E*OER*00012*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "OER-00012-2",
+                            "evse_id": "PT*MLT*E*OER*00012*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "street": {
+            "old": "Av. dos Cavaleiros",
+            "new": "AV. DOS CAVALEIROS 60"
+        }
+    },
+    "PMS-00009": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PMS*00009*01",
+                            "new": "PT*GLP*EPMS*00009*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PMS*00009*02",
+                            "new": "PT*GLP*EPMS*00009*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua Carreiro da Lebre Nº8",
+            "new": "Rua Carreiro da Lebre Nº8, 2480-032 Alvados"
+        }
+    },
+    "SBG-00002": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SBG*00002*01",
+                            "new": "PT*GLP*ESBG*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SBG*00002*02",
+                            "new": "PT*GLP*ESBG*00002*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SBG*00002*03",
+                            "new": "PT*GLP*ESBG*00002*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "NATURE"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua 25 de Abril S/N",
+            "new": "RUA 25 ABRIL S/N"
+        }
+    },
+    "SNT-00163": {
+        "latlon": {
+            "old": "38.75124 -9.305478",
+            "new": "38.75152 -9.304657"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00163-01",
+                            "new": "PT-EDP-ESNT-00163-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00163*01",
+                            "new": "PT*EDP*ESNT*00163*1"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00163-02",
+                            "new": "PT-EDP-ESNT-00163-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00163*02",
+                            "new": "PT*EDP*ESNT*00163*2"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00163-01",
+                            "evse_id": "PT*EDP*E*SNT*00163*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "120.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00163-02",
+                            "evse_id": "PT*EDP*E*SNT*00163*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "120.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-9.305478",
+            "new": "-9.304657"
+        },
+        "latitude": {
+            "old": "38.75124",
+            "new": "38.75152"
+        },
+        "name": {
+            "old": "Aldi Sintra-SãoMarcos - PCR1",
+            "new": "Aldi - São Marcos"
+        },
+        "street": {
+            "old": "Estrada de São Marcos, RC 1",
+            "new": "Estrada de São Marcos 1"
+        }
+    }
+}
