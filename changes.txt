@@ -35025,3 +35025,1604 @@ Modificados:
         }
     }
 }
+2025-03-19 16:23:22
+Adicionados:
+{
+    "EVR-00057": {
+        "name": "Crédito Agrícola Évora",
+        "lastUpdated": "2025-03-19T02:59:50.364Z",
+        "city": "Évora",
+        "street": "Rua Circular Norte - Edifício NERE",
+        "postcode": "7005-841",
+        "latitude": "38.548885",
+        "longitude": "-7.91367",
+        "latlon": "38.548885 -7.91367",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "EVR-00057",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "EVR-00057-01",
+                        "evse_id": "PT*IBD*E*EVR*00057*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EVR-00057-02",
+                        "evse_id": "PT*IBD*E*EVR*00057*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SNT-00140": {
+        "name": "Burger King Tagus Park",
+        "lastUpdated": "2025-03-18T22:52:02.761Z",
+        "city": "Sintra",
+        "street": "Estrada de Sao Marcos 9857",
+        "postcode": "2735-307",
+        "latitude": "38.75093",
+        "longitude": "-9.305052",
+        "latlon": "38.75093 -9.305052",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SNT-00140",
+                "facilities": [
+                    "restaurant"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ESNT-00140-1",
+                        "evse_id": "PT*EDP*ESNT*00140*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ESNT-00140-2",
+                        "evse_id": "PT*EDP*ESNT*00140*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "62500.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00140-01",
+                        "evse_id": "PT*EDP*E*SNT*00140*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00140-02",
+                        "evse_id": "PT*EDP*E*SNT*00140*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "62500.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AGD-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AGD*00008*01",
+                            "new": "PT*GLP*EAGD*00008*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AGD*00008*02",
+                            "new": "PT*GLP*EAGD*00008*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua Rio Grande",
+            "new": "RUA RIO GRANDE"
+        }
+    },
+    "AJT-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AJT*00002*01",
+                            "new": "PT*GLG*EAJT*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AJT*00002*02",
+                            "new": "PT*GLG*EAJT*00002*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*AJT*00002*03",
+                            "new": "PT*GLG*EAJT*00002*03"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A2 km 148 (Sentido Norte/Sul)",
+            "new": "(A2) KM 148 (SENTIDO NORTE/SUL)"
+        }
+    },
+    "AJT-00019": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "cafe",
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AJT*00019*01",
+                            "new": "PT*GLP*EAJT*00019*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AJT*00019*02",
+                            "new": "PT*GLP*EAJT*00019*02"
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "Galp A.S. ALJUSTREL (N/S)",
+            "new": ""
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "AJT-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "cafe",
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AJT*00020*01",
+                            "new": "PT*GLP*EAJT*00020*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AJT*00020*02",
+                            "new": "PT*GLP*EAJT*00020*02"
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "(A2) KM 148 (SENTIDO NORTE/SUL)",
+            "new": ""
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "AJT-00021": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "cafe"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AJT*00021*01",
+                            "new": "PT*GLP*EAJT*00021*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*AJT*00021*02",
+                            "new": "PT*GLP*EAJT*00021*02"
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "Galp A.S. ALJUSTREL (S/N)",
+            "new": ""
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "AMD-00047": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*AMD*00047*01",
+                            "new": "PT*MLT*EAMD*00047*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*AMD*00047*02",
+                            "new": "PT*MLT*EAMD*00047*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "street": {
+            "old": "Avenida Hospitais Civis de Lisboa, n.º8",
+            "new": "AVENIDA HOSPITAIS CIVIS DE LISBOA, Nº 8"
+        }
+    },
+    "ASL-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*ASL*00009*01",
+                            "new": "PT*GLG*EASL*00009*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*ASL*00009*02",
+                            "new": "PT*GLG*EASL*00009*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*ASL*00009*03",
+                            "new": "PT*GLG*EASL*00009*03"
+                        }
+                    }
+                }
+            }
+        },
+        "latlon": {
+            "old": "38.51535 -8.58595",
+            "new": "38.515354 -8.586059"
+        },
+        "longitude": {
+            "old": "-8.58595",
+            "new": "-8.586059"
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A.S. Alcacer (N/S) - A 2 - Km 68",
+            "new": "(A2) KM 68 (SENTIDO NORTE/SUL)"
+        },
+        "latitude": {
+            "old": "38.51535",
+            "new": "38.515354"
+        }
+    },
+    "ASL-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "cafe",
+                        "FUEL_STATION",
+                        "RECREATION_AREA"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*ASL*00016*01",
+                            "new": "PT*GLP*EASL*00016*01"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*ASL*00016*02",
+                            "new": "PT*GLP*EASL*00016*02"
+                        }
+                    }
+                }
+            }
+        },
+        "latlon": {
+            "old": "38.51535 -8.58595",
+            "new": "38.515354 -8.586059"
+        },
+        "longitude": {
+            "old": "-8.58595",
+            "new": "-8.586059"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "latitude": {
+            "old": "38.51535",
+            "new": "38.515354"
+        }
+    },
+    "CVR-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "cafe",
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CVR*00002*01",
+                            "new": "PT*GLP*ECVR*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CVR*00002*02",
+                            "new": "PT*GLP*ECVR*00002*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CVR*00002*03",
+                            "new": "PT*GLP*ECVR*00002*03"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Farjais de Castro, R. Nova da Feira",
+            "new": "FARJAIS DE CASTRO, R. NOVA DA FEIRA"
+        }
+    },
+    "CVR-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CVR*00003*01",
+                            "new": "PT*GLP*ECVR*00003*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CVR*00003*02",
+                            "new": "PT*GLP*ECVR*00003*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "latlon": {
+            "old": "37.70624 -8.084996",
+            "new": "37.694378 -8.090075"
+        },
+        "longitude": {
+            "old": "-8.084996",
+            "new": "-8.090075"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "postcode": {
+            "old": "7780-000",
+            "new": "7780-201"
+        },
+        "street": {
+            "old": "Intermarché Castro Verde - Trav. Serrana",
+            "new": "FARJAIS DE CASTRO, R. NOVA DA FEIRA"
+        },
+        "latitude": {
+            "old": "37.70624",
+            "new": "37.694378"
+        }
+    },
+    "FAF-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EFAF-00012-1",
+                            "evse_id": "PT*EDP*EFAF*00012*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EFAF-00012-2",
+                            "evse_id": "PT*EDP*EFAF*00012*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": " Rua dos Combatentes da Grande Guerra, 174",
+            "new": "Rua dos Combatentes da Grande Guerra 174"
+        }
+    },
+    "LLE-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00002*01",
+                            "new": "PT*GLG*ELLE*00002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00002*02",
+                            "new": "PT*GLG*ELLE*00002*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00002*03",
+                            "new": "PT*GLG*ELLE*00002*03"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A22 km 62,5 (Sentido Oeste/Este)",
+            "new": "(A22)KM62"
+        }
+    },
+    "LLE-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00003*01",
+                            "new": "PT*GLG*ELLE*00003*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00003*02",
+                            "new": "PT*GLG*ELLE*00003*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00003*03",
+                            "new": "PT*GLG*ELLE*00003*03"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "A22 km 62,5 (Sentido Este/Oeste)",
+            "new": "(A22)KM62"
+        }
+    },
+    "LLE-00054": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping",
+                        "restaurant",
+                        "cafe",
+                        "FUEL_STATION",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00054*01",
+                            "new": "PT*GLG*ELLE*00054*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00054*02",
+                            "new": "PT*GLG*ELLE*00054*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LLE*00054*03",
+                            "new": "PT*GLG*ELLE*00054*03"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "Avenida Eng. João Meireles",
+            "new": "(M?)AV.ENG.JOÃO MEIRELES - SENTIDO ALBUFEIRA"
+        }
+    },
+    "LLE-00099": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00099*01",
+                            "new": "PT*GLP*ELLE*00099*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00099*02",
+                            "new": "PT*GLP*ELLE*00099*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00100": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00100*01",
+                            "new": "PT*GLP*ELLE*00100*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00100*02",
+                            "new": "PT*GLP*ELLE*00100*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00101": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00101*01",
+                            "new": "PT*GLP*ELLE*00101*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00101*02",
+                            "new": "PT*GLP*ELLE*00101*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00102": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00102*01",
+                            "new": "PT*GLP*ELLE*00102*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00102*02",
+                            "new": "PT*GLP*ELLE*00102*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00103": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00103*01",
+                            "new": "PT*GLP*ELLE*00103*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00103*02",
+                            "new": "PT*GLP*ELLE*00103*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00104": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00104*01",
+                            "new": "PT*GLP*ELLE*00104*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00104*02",
+                            "new": "PT*GLP*ELLE*00104*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00105": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00105*01",
+                            "new": "PT*GLP*ELLE*00105*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00105*02",
+                            "new": "PT*GLP*ELLE*00105*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00106": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00106*01",
+                            "new": "PT*GLP*ELLE*00106*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00106*02",
+                            "new": "PT*GLP*ELLE*00106*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LLE-00107": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00107*01",
+                            "new": "PT*GLP*ELLE*00107*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00107*02",
+                            "new": "PT*GLP*ELLE*00107*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LLE-00108": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00108*01",
+                            "new": "PT*GLP*ELLE*00108*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00108*02",
+                            "new": "PT*GLP*ELLE*00108*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LLE-00109": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00109*01",
+                            "new": "PT*GLP*ELLE*00109*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00109*02",
+                            "new": "PT*GLP*ELLE*00109*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LLE-00110": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00110*01",
+                            "new": "PT*GLP*ELLE*00110*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00110*02",
+                            "new": "PT*GLP*ELLE*00110*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LLE-00111": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00111*01",
+                            "new": "PT*GLP*ELLE*00111*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00111*02",
+                            "new": "PT*GLP*ELLE*00111*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LLE-00112": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00112*01",
+                            "new": "PT*GLP*ELLE*00112*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00112*02",
+                            "new": "PT*GLP*ELLE*00112*02"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LLE-00113": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00113*01",
+                            "new": "PT*GLP*ELLE*00113*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LLE*00113*02",
+                            "new": "PT*GLP*ELLE*00113*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "MAR Shopping Algarve - Av. Algarve",
+            "new": "Av. Algarve"
+        }
+    },
+    "LRS-80029": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*80029*1",
+                            "new": "PT*GLP*ELRS*80029*01"
+                        },
+                        "evse_code": {
+                            "old": "LRS-80029-1",
+                            "new": "LRS-80029-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*80029*2",
+                            "new": "PT*GLP*ELRS*80029*02"
+                        },
+                        "evse_code": {
+                            "old": "LRS-80029-2",
+                            "new": "LRS-80029-02"
+                        }
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Rua Almirante Gago Coutinho",
+            "new": "RUA ALMIRANTE GAGO COUTINHO"
+        }
+    },
+    "LRS-80033": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*80033*01",
+                            "new": "PT*GLP*ELRS*80033*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*80033*02",
+                            "new": "PT*GLP*ELRS*80033*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua Álvaro Manuel Roxo",
+            "new": "RUA ANGOLA/RUA ÁLVARO MANUEL ROXO"
+        }
+    },
+    "LSA-90001": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSA*90001*1",
+                            "new": "PT*GLP*ELSA*90001*01"
+                        },
+                        "evse_code": {
+                            "old": "LSA-90001-1",
+                            "new": "LSA-90001-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSA*90001*2",
+                            "new": "PT*GLP*ELSA*90001*02"
+                        },
+                        "evse_code": {
+                            "old": "LSA-90001-2",
+                            "new": "LSA-90001-02"
+                        }
+                    }
+                }
+            }
+        },
+        "latlon": {
+            "old": "40.11246 -8.244643",
+            "new": "40.112526 -8.244583"
+        },
+        "longitude": {
+            "old": "-8.244643",
+            "new": "-8.244583"
+        },
+        "latitude": {
+            "old": "40.11246",
+            "new": "40.112526"
+        }
+    },
+    "MTS-00119": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMTS-00119-1",
+                            "evse_id": "PT*EDP*EMTS*00119*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMTS-00119-2",
+                            "evse_id": "PT*EDP*EMTS*00119*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Rua Guilherme Ferreira Thedim"
+        },
+        "street": {
+            "old": "RUA GUILHERME F THEDIM, Lavra",
+            "new": "Rua Guilherme Ferreira Thedim 2"
+        }
+    },
+    "OBR-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "800.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*OBR*00011*01",
+                            "new": "PT*GLP*EOBR*00011*01"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "800.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*OBR*00011*02",
+                            "new": "PT*GLP*EOBR*00011*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*OBR*00011*03",
+                            "new": "PT*GLP*EOBR*00011*03"
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "Galp - Foral ",
+            "new": ""
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "R. do Foral , 3770-218 Oliveira do Bairro",
+            "new": "R. do Foral , 3770-218"
+        }
+    },
+    "OER-00129": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOER-00129-1",
+                            "evse_id": "PT*EDP*EOER*00129*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOER-00129-2",
+                            "evse_id": "PT*EDP*EOER*00129*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOER-00129-3",
+                            "evse_id": "PT*EDP*EOER*00129*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "McDonald's Tagus Park"
+        },
+        "street": {
+            "old": "EN 249 - McDonald´s Tagus Park",
+            "new": "EN 249-3 KM 2 2"
+        }
+    }
+}
