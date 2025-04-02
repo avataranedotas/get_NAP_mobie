@@ -48414,3 +48414,387 @@ Modificados:
         }
     }
 }
+2025-04-02 04:22:04
+Adicionados:
+{
+    "VLG-00048": {
+        "name": "Santa Justa Supermercado",
+        "lastUpdated": "2025-04-01T11:20:02.679Z",
+        "city": "Valongo",
+        "street": "R. do Borbulhão 715, Campo",
+        "postcode": "4440-106",
+        "latitude": "41.18479",
+        "longitude": "-8.476813",
+        "latlon": "41.18479 -8.476813",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VLG-00048",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VLG-00048-01",
+                        "evse_id": "PT*EDP*E*VLG*00048*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VLG-00048-02",
+                        "evse_id": "PT*EDP*E*VLG*00048*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VLG-00048-03",
+                        "evse_id": "PT*EDP*E*VLG*00048*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AVR-00040": {
+        "latlon": {
+            "old": "40.660072 -8.591291",
+            "new": "40.6623 -8.592514"
+        },
+        "longitude": {
+            "old": "-8.591291",
+            "new": "-8.592514"
+        },
+        "latitude": {
+            "old": "40.660072",
+            "new": "40.6623"
+        }
+    },
+    "LSB-00011": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LSB*00011*01",
+                            "new": "PT*GLG*ELSB*00011*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LSB*00011*02",
+                            "new": "PT*GLG*ELSB*00011*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*LSB*00011*03",
+                            "new": "PT*GLG*ELSB*00011*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION",
+                        "NATURE"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "street": {
+            "old": "Calçada de Carriche",
+            "new": "(M?) CALÇADA DE CARRICHE"
+        }
+    },
+    "LSB-00090": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*LSB*00090*01",
+                            "new": "PT*MLT*ELSB*00090*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*LSB*00090*02",
+                            "new": "PT*MLT*ELSB*00090*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*LSB*00090*03",
+                            "new": "PT*MLT*ELSB*00090*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "street": {
+            "old": "Calçada do Tojal",
+            "new": "CALÇADA DO TOJAL"
+        }
+    },
+    "LSB-00336": {
+        "latlon": {
+            "old": "38.772766 -9.143836",
+            "new": "38.768364 -9.146584"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00336*01",
+                            "new": "PT*GLP*ELSB*00336*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00336*02",
+                            "new": "PT*GLP*ELSB*00336*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "longitude": {
+            "old": "-9.143836",
+            "new": "-9.146584"
+        },
+        "latitude": {
+            "old": "38.772766",
+            "new": "38.768364"
+        },
+        "street": {
+            "old": "Aeroporto de Lisboa, Parque P NCC2",
+            "new": "ACESSO TERMINAL DE CARGA AÉREA"
+        }
+    },
+    "LSB-00506": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00506*01",
+                            "new": "PT*GLP*ELSB*00506*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00506*02",
+                            "new": "PT*GLP*ELSB*00506*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LSB-00790": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00790*01",
+                            "new": "PT*GLP*ELSB*00790*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "240.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00790*02",
+                            "new": "PT*GLP*ELSB*00790*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "240.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LSB-80081": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "cafe",
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00068": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*OER*00068*01",
+                            "new": "PT*GLP*EOER*00068*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*OER*00068*02",
+                            "new": "PT*GLP*EOER*00068*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*OER*00068*03",
+                            "new": "PT*GLP*EOER*00068*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua Coro Santo Amaro de Oeiras",
+            "new": "RUA CORO DE SANTO AMARO DE OEIRAS (OEIRAS)"
+        }
+    },
+    "SNT-00095": {
+        "opc_name": {
+            "old": "Horizondistance, Unipessoal Lda",
+            "new": "Powerdot, S.A"
+        }
+    },
+    "VFR-00004": {
+        "opc_name": {
+            "old": "Horizondistance, Unipessoal Lda",
+            "new": "Powerdot, S.A"
+        }
+    }
+}
