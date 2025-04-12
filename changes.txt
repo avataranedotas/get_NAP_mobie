@@ -56403,3 +56403,194 @@ Modificados:
         }
     }
 }
+2025-04-12 04:21:06
+Modificados:
+{
+    "CSC-00280": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FIG-00037": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "120.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "50000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "iec62196T2"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "32.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "22000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode4DC",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FIG-00038": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "120.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "50000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "iec62196T2"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "32.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "22000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode4DC",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OER-00037": {
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00037*01",
+                            "new": "PT*MLT*EOER*00037*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00037*02",
+                            "new": "PT*MLT*EOER*00037*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Avenida Eng. Bonneville Franco",
+            "new": "AVENIDA ENG. BONNEVILLE FRANCO"
+        }
+    },
+    "SRE-90002": {
+        "opc_name": {
+            "old": "Horizondistance, Unipessoal Lda",
+            "new": "Powerdot, S.A"
+        }
+    }
+}
