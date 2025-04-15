@@ -56594,3 +56594,911 @@ Modificados:
         }
     }
 }
+2025-04-15 04:22:50
+Adicionados:
+{
+    "LLE-00210": {
+        "name": "INFRAMOURA FASE II - S22",
+        "lastUpdated": "2025-04-15T02:41:33.870Z",
+        "city": "Loulé",
+        "street": "CAMINHO DO GALEAO 9522",
+        "postcode": "8125-182",
+        "latitude": "37.08001",
+        "longitude": "-8.100831",
+        "latlon": "37.08001 -8.100831",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LLE-00210",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LLE-00210-01",
+                        "evse_id": "PT*GLP*ELLE*00210*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LLE-00210-02",
+                        "evse_id": "PT*GLP*ELLE*00210*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00925": {
+        "name": "Hotel Corinthia - Expansão",
+        "lastUpdated": "2025-04-14T16:23:49.731Z",
+        "city": "Lisboa",
+        "street": "AVENIDA COLUMBANO BORDALO PINHEIRO",
+        "postcode": "1099-031",
+        "latitude": "38.738888",
+        "longitude": "-9.166025",
+        "latlon": "38.738888 -9.166025",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00925",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00925-01",
+                        "evse_id": "PT*GLP*ELSB*00925*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00925-02",
+                        "evse_id": "PT*GLP*ELSB*00925*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00926": {
+        "name": "Hotel Corinthia - Expansão",
+        "lastUpdated": "2025-04-14T16:29:06.731Z",
+        "city": "Lisboa",
+        "street": "AVENIDA COLUMBANO BORDALO PINHEIRO",
+        "postcode": "1099-031",
+        "latitude": "38.738888",
+        "longitude": "-9.166025",
+        "latlon": "38.738888 -9.166025",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00926",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00926-01",
+                        "evse_id": "PT*GLP*ELSB*00926*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00926-02",
+                        "evse_id": "PT*GLP*ELSB*00926*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAI-00062": {
+        "name": "Município Maia - PCN1",
+        "lastUpdated": "2025-04-15T02:59:16.174Z",
+        "city": "Maia",
+        "street": "PRC MUNICIPIO",
+        "postcode": "4470-202",
+        "latitude": "41.234028",
+        "longitude": "-8.62247",
+        "latlon": "41.234028 -8.62247",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MAI-00062",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00062-01",
+                        "evse_id": "PT*EDP*E*MAI*00062*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MAI-00062-02",
+                        "evse_id": "PT*EDP*E*MAI*00062*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MMN-00015": {
+        "name": "",
+        "lastUpdated": "2025-04-14T20:33:37.928Z",
+        "city": "Montemor-o-Novo",
+        "street": "A6 KM 55,4, SENTIDO CAIA-MARATECA",
+        "postcode": "7050-349",
+        "latitude": "38.61795",
+        "longitude": "-8.07873",
+        "latlon": "38.61795 -8.07873",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MMN-00015",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MMN-00015-01",
+                        "evse_id": "PT*GLP*EMMN*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MMN-00015-02",
+                        "evse_id": "PT*GLP*EMMN*00015*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTA-00020": {
+        "name": "McDonalds Moita do Ribatejo",
+        "lastUpdated": "2025-04-14T15:05:02.404Z",
+        "city": "Moita",
+        "street": "R. dos Espanhóis,",
+        "postcode": "2860-402",
+        "latitude": "38.647842",
+        "longitude": "-8.984408",
+        "latlon": "38.647842 -8.984408",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTA-00020",
+                "facilities": [
+                    "restaurant"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTA-00020-01",
+                        "evse_id": "PT*EDP*E*MTA*00020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "12000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00020-02",
+                        "evse_id": "PT*EDP*E*MTA*00020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00020-03",
+                        "evse_id": "PT*EDP*E*MTA*00020*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "12000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OAZ-00016": {
+        "name": "Av. João pinto Bessa",
+        "lastUpdated": "2025-04-14T23:50:02.342Z",
+        "city": "Oliveira de Azeméis",
+        "street": "Av. João pinto Bessa, s/n,",
+        "postcode": "3720-763",
+        "latitude": "40.87562",
+        "longitude": "-8.509119",
+        "latlon": "40.87562 -8.509119",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OAZ-00016",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OAZ-00016-01",
+                        "evse_id": "PT*HLX*E*OAZ*00016*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "140.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00016-02",
+                        "evse_id": "PT*HLX*E*OAZ*00016*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00016-03",
+                        "evse_id": "PT*HLX*E*OAZ*00016*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OAZ-00017": {
+        "name": "RUA LUIS DE CAMOES",
+        "lastUpdated": "2025-04-15T03:00:02.388Z",
+        "city": "Oliveira de Azeméis",
+        "street": "RUA LUIS DE CAMOES, nº 102",
+        "postcode": "3720-230",
+        "latitude": "40.838417",
+        "longitude": "-8.480075",
+        "latlon": "40.838417 -8.480075",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OAZ-00017",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OAZ-00017-01",
+                        "evse_id": "PT*HLX*E*OAZ*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "140.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00017-02",
+                        "evse_id": "PT*HLX*E*OAZ*00017*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00017-03",
+                        "evse_id": "PT*HLX*E*OAZ*00017*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OAZ-00018": {
+        "name": "RUA JOAO GODINHO",
+        "lastUpdated": "2025-04-15T03:00:01.318Z",
+        "city": "Oliveira de Azeméis",
+        "street": "RUA JOAO GODINHO - CENTRO SUL, nº 9696",
+        "postcode": "3720-254",
+        "latitude": "40.831985",
+        "longitude": "-8.485306",
+        "latlon": "40.831985 -8.485306",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OAZ-00018",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OAZ-00018-01",
+                        "evse_id": "PT*HLX*E*OAZ*00018*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "140.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00018-02",
+                        "evse_id": "PT*HLX*E*OAZ*00018*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00018-03",
+                        "evse_id": "PT*HLX*E*OAZ*00018*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00069": {
+        "name": "Edibúzio Empreend Imobil. Turisticos ",
+        "lastUpdated": "2025-04-14T14:35:03.432Z",
+        "city": "Portimão",
+        "street": "LUGAR Aldeamento Turistico da Prainha - Praia",
+        "postcode": "8500-072",
+        "latitude": "37.121414",
+        "longitude": "-8.574083",
+        "latlon": "37.121414 -8.574083",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00069",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00069-01",
+                        "evse_id": "PT*EDP*E*PTM*00069*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00069-02",
+                        "evse_id": "PT*EDP*E*PTM*00069*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00070": {
+        "name": "Edibúzio Empreend Imobil. Turisticos",
+        "lastUpdated": "2025-04-14T14:45:03.308Z",
+        "city": "Portimão",
+        "street": " Aldeamento Turistico da Prainha - Praia",
+        "postcode": "8500-072",
+        "latitude": "37.121414",
+        "longitude": "-8.574083",
+        "latlon": "37.121414 -8.574083",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00070",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00070-01",
+                        "evse_id": "PT*EDP*E*PTM*00070*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00070-02",
+                        "evse_id": "PT*EDP*E*PTM*00070*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SLV-00024": {
+        "name": "CM SILVES - Posição S9",
+        "lastUpdated": "2025-04-14T16:28:12.133Z",
+        "city": "Silves",
+        "street": "Rua da Horta - Algoz",
+        "postcode": "8365-184",
+        "latitude": "37.165966",
+        "longitude": "-8.301435",
+        "latlon": "37.165966 -8.301435",
+        "opc": "GLPP",
+        "opc_name": "Galp Power",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SLV-00024",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SLV-00024-01",
+                        "evse_id": "PT*GLP*E*SLV*00024*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SLV-00024-02",
+                        "evse_id": "PT*GLP*E*SLV*00024*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "CSC-00068": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CSC*00068*01",
+                            "new": "PT*GLP*ECSC*00068*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CSC*00068*02",
+                            "new": "PT*GLP*ECSC*00068*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CSC*00068*03",
+                            "new": "PT*GLP*ECSC*00068*03"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Avenida Eng. Adelino Amaro da Costa",
+            "new": "AV. ENG. ADELINO AMARO DA COSTA 911"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LRS-90023": {
+        "longitude": {
+            "old": "-9.098262",
+            "new": "-9.098261"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*90023*1",
+                            "new": "PT*GLP*ELRS*90023*01"
+                        },
+                        "evse_code": {
+                            "old": "LRS-90023-1",
+                            "new": "LRS-90023-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*90023*2",
+                            "new": "PT*GLP*ELRS*90023*02"
+                        },
+                        "evse_code": {
+                            "old": "LRS-90023-2",
+                            "new": "LRS-90023-02"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LRS-90023-1",
+                            "evse_id": "PT*GLP*E*LRS*90023*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRS-90023-2",
+                            "evse_id": "PT*GLP*E*LRS*90023*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "latlon": {
+            "old": "38.78405 -9.098262",
+            "new": "38.78405 -9.098261"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LSB-00090": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Mobiletric",
+            "new": "Mobiletric, LDA"
+        }
+    },
+    "MMN-00011": {
+        "longitude": {
+            "old": "-8.200054",
+            "new": "-8.200531"
+        },
+        "latlon": {
+            "old": "37.646427 -8.200054",
+            "new": "38.646416 -8.200531"
+        },
+        "latitude": {
+            "old": "37.646427",
+            "new": "38.646416"
+        }
+    },
+    "VIS-00019": {
+        "opc_name": {
+            "old": "VISACASA",
+            "new": "VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A."
+        }
+    },
+    "VIS-00020": {
+        "opc_name": {
+            "old": "VISACASA",
+            "new": "VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A."
+        }
+    },
+    "VIS-00024": {
+        "opc_name": {
+            "old": "VISACASA",
+            "new": "VISACASA - SERVIÇOS DE ASSISTÊNCIA E MANUTENÇÃO GLOBAL S.A."
+        }
+    }
+}
