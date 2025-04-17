@@ -57654,3 +57654,242 @@ Modificados:
         }
     }
 }
+2025-04-17 04:22:37
+Adicionados:
+{
+    "MTS-00181": {
+        "name": "Burger King - Monte dos Burgos",
+        "lastUpdated": "2025-04-17T02:59:17.309Z",
+        "city": "Matosinhos",
+        "street": "Rua Nova do Seixo 780",
+        "postcode": "4465-216",
+        "latitude": "41.186295",
+        "longitude": "-8.631843",
+        "latlon": "41.186295 -8.631843",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTS-00181",
+                "facilities": [
+                    "restaurant"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTS-00181-01",
+                        "evse_id": "PT*EDP*E*MTS*00181*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTS-00181-02",
+                        "evse_id": "PT*EDP*E*MTS*00181*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTS-00181-03",
+                        "evse_id": "PT*EDP*E*MTS*00181*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PNF-00050": {
+        "name": "Mercadona Milhundos",
+        "lastUpdated": "2025-04-17T02:59:10.321Z",
+        "city": "Penafiel",
+        "street": "Variante Cavalum",
+        "postcode": "4560-232",
+        "latitude": "41.21183",
+        "longitude": "-8.269608",
+        "latlon": "41.21183 -8.269608",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "PNF-00050",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PNF-00050-01",
+                        "evse_id": "PT*IBD*E*PNF*00050*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PNF-00050-02",
+                        "evse_id": "PT*IBD*E*PNF*00050*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VFR-00057": {
+        "name": "",
+        "lastUpdated": "2025-04-17T02:58:56.004Z",
+        "city": "Santa Maria da Feira",
+        "street": "Rua Principal do Bolhão N326 80-96",
+        "postcode": "4535-014",
+        "latitude": "40.99617",
+        "longitude": "-8.537525",
+        "latlon": "40.99617 -8.537525",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VFR-00057",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFR-00057-01",
+                        "evse_id": "PT*GLP*EVFR*00057*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFR-00057-02",
+                        "evse_id": "PT*GLP*EVFR*00057*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFR-00057-03",
+                        "evse_id": "PT*GLP*EVFR*00057*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "CSC-00103": {
+        "latlon": {
+            "old": "38.691093 -9.426273",
+            "new": "38.69117 -9.424109"
+        },
+        "longitude": {
+            "old": "-9.426273",
+            "new": "-9.424109"
+        },
+        "latitude": {
+            "old": "38.691093",
+            "new": "38.69117"
+        }
+    },
+    "MTA-00020": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "12000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "12000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
