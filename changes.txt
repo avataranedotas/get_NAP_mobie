@@ -57893,3 +57893,201 @@ Modificados:
         }
     }
 }
+2025-04-18 04:21:56
+Adicionados:
+{
+    "VFX-00075": {
+        "name": "MARVIFORCE, LDA.",
+        "lastUpdated": "2025-04-17T17:51:59.890Z",
+        "city": "Vila Franca de Xira",
+        "street": "RUA VASCO DA GAMA (URBANIZAÇÃO DA CHASA)",
+        "postcode": "2615-215",
+        "latitude": "38.89226",
+        "longitude": "-9.04458",
+        "latlon": "38.89226 -9.04458",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VFX-00075",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFX-00075-01",
+                        "evse_id": "PT*GLP*EVFX*00075*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFX-00075-02",
+                        "evse_id": "PT*GLP*EVFX*00075*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIS-00113": {
+        "name": "",
+        "lastUpdated": "2025-04-17T19:35:07.882Z",
+        "city": "Viseu",
+        "street": "Av. Alto de Abraveses 20",
+        "postcode": "3500-085",
+        "latitude": "40.68817",
+        "longitude": "-7.926998",
+        "latlon": "40.68817 -7.926998",
+        "opc": "GLPP",
+        "opc_name": "Galp Power",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VIS-00113",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VIS-00113-01",
+                        "evse_id": "PT*GLP*EVIS*00113*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VIS-00113-02",
+                        "evse_id": "PT*GLP*EVIS*00113*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ALQ-00017": {
+        "opc_name": {
+            "old": "Atlante Infra Portugal, S.A",
+            "new": "Atlante"
+        }
+    },
+    "CHV-00007": {
+        "latitude": {
+            "old": "41.73216",
+            "new": "41.732136"
+        },
+        "latlon": {
+            "old": "41.73216 -7.467565",
+            "new": "41.732136 -7.468113"
+        },
+        "longitude": {
+            "old": "-7.467565",
+            "new": "-7.468113"
+        }
+    },
+    "CHV-00008": {
+        "latitude": {
+            "old": "41.73216",
+            "new": "41.732193"
+        },
+        "latlon": {
+            "old": "41.73216 -7.467565",
+            "new": "41.732193 -7.4680996"
+        },
+        "longitude": {
+            "old": "-7.467565",
+            "new": "-7.4680996"
+        }
+    },
+    "CHV-00011": {
+        "latitude": {
+            "old": "41.732185",
+            "new": "41.732296"
+        },
+        "latlon": {
+            "old": "41.732185 -7.4675636",
+            "new": "41.732296 -7.467894"
+        },
+        "longitude": {
+            "old": "-7.4675636",
+            "new": "-7.467894"
+        }
+    },
+    "CHV-00014": {
+        "latitude": {
+            "old": "41.761333",
+            "new": "41.761223"
+        },
+        "latlon": {
+            "old": "41.761333 -7.467445",
+            "new": "41.761223 -7.4674277"
+        },
+        "longitude": {
+            "old": "-7.467445",
+            "new": "-7.4674277"
+        }
+    },
+    "PNF-00035": {
+        "latitude": {
+            "old": "41.215076",
+            "new": "41.215096"
+        },
+        "latlon": {
+            "old": "41.215076 -8.282991",
+            "new": "41.215096 -8.283322"
+        },
+        "longitude": {
+            "old": "-8.282991",
+            "new": "-8.283322"
+        }
+    },
+    "VIS-00090": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
