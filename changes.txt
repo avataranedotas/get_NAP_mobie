@@ -58091,3 +58091,294 @@ Modificados:
         }
     }
 }
+2025-04-22 04:22:04
+Adicionados:
+{
+    "FNC-00066": {
+        "name": "Parque 2000",
+        "lastUpdated": "2025-04-21T12:00:04.105Z",
+        "city": "Funchal",
+        "street": "Av. Calouste Gulbekian, Ed 2000",
+        "postcode": "9000-011",
+        "latitude": "32.647507",
+        "longitude": "-16.91596",
+        "latlon": "32.647507 -16.91596",
+        "opc": "FACT",
+        "opc_name": "FactorENERGIA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FNC-00066",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FNC-00066-01",
+                        "evse_id": "PT*FAC*E*FNC*00066*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FNC-00066-02",
+                        "evse_id": "PT*FAC*E*FNC*00066*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FNC-00069": {
+        "name": "Parque Campo da Barca",
+        "lastUpdated": "2025-04-21T10:35:01.960Z",
+        "city": "Funchal",
+        "street": "Rua Ribeira de João Gomes",
+        "postcode": "9050-100",
+        "latitude": "32.65293",
+        "longitude": "-16.90182",
+        "latlon": "32.65293 -16.90182",
+        "opc": "FACT",
+        "opc_name": "FactorENERGIA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FNC-00069",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FNC-00069-01",
+                        "evse_id": "PT*FAC*E*FNC*00069*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FNC-00069-02",
+                        "evse_id": "PT*FAC*E*FNC*00069*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00071": {
+        "name": "Marina de Portimão V2C 01",
+        "lastUpdated": "2025-04-22T02:58:51.866Z",
+        "city": "Portimão",
+        "street": "Marina de Portimão Avenida do Arade",
+        "postcode": "8500-843",
+        "latitude": "37.11766",
+        "longitude": "-8.52952",
+        "latlon": "37.11766 -8.52952",
+        "opc": "EVPW",
+        "opc_name": "EVpower, Charging Solutions Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00071",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00071-01",
+                        "evse_id": "PT*EVP*E*PTM*00071*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00072": {
+        "name": "Marina de Portimão V2C 02",
+        "lastUpdated": "2025-04-22T02:58:32.987Z",
+        "city": "Portimão",
+        "street": "Marina de Portimão Avenida do Arade",
+        "postcode": "8500-843",
+        "latitude": "37.11766",
+        "longitude": "-8.52952",
+        "latlon": "37.11766 -8.52952",
+        "opc": "EVPW",
+        "opc_name": "EVpower, Charging Solutions Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00072",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00072-01",
+                        "evse_id": "PT*EVP*E*PTM*00072*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SNT-00111": {
+        "name": "Parque EMES - Massamá 1",
+        "lastUpdated": "2025-04-22T02:59:31.432Z",
+        "city": "Sintra",
+        "street": "Av. 25 de Abril 73",
+        "postcode": "2745-786",
+        "latitude": "38.75209",
+        "longitude": "-9.28414",
+        "latlon": "38.75209 -9.28414",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SNT-00111",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ESNT-00111-1",
+                        "evse_id": "N§A",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ESNT-00111-2",
+                        "evse_id": "N§A",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00111-01",
+                        "evse_id": "PT*EDP*E*SNT*00111*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00111-02",
+                        "evse_id": "PT*EDP*E*SNT*00111*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "VIS-00080": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "100000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
