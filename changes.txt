@@ -58382,3 +58382,263 @@ Modificados:
         }
     }
 }
+2025-04-23 04:22:52
+Adicionados:
+{
+    "ELV-00017": {
+        "name": "Elvas",
+        "lastUpdated": "2025-04-23T02:58:19.228Z",
+        "city": "Elvas",
+        "street": "Av. de Badajoz",
+        "postcode": "7350-096",
+        "latitude": "38.8775",
+        "longitude": "-7.1709",
+        "latlon": "38.8775 -7.1709",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ELV-00017",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ELV-00017-01",
+                        "evse_id": "PT*FCT*E*ELV*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ELV-00017-02",
+                        "evse_id": "PT*FCT*E*ELV*00017*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LNH-00036": {
+        "name": "",
+        "lastUpdated": "2025-04-22T12:59:33.458Z",
+        "city": "Lourinhã",
+        "street": "Jnt de Freg. Moita dos Ferreiros, R13 Maio n1",
+        "postcode": "2530-499",
+        "latitude": "39.24746",
+        "longitude": "-9.223557",
+        "latlon": "39.24746 -9.223557",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LNH-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LNH-00036-01",
+                        "evse_id": "PT*GLP*ELNH*00036*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LNH-00036-02",
+                        "evse_id": "PT*GLP*ELNH*00036*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ARV-00009": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "200.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CBR-00073": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CTB-90002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "CTB-90002-1",
+                            "new": "CTB-90002-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*CTB*90002*1",
+                            "new": "PT*GLP*ECTB*90002*01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "CTB-90002-2",
+                            "new": "CTB-90002-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*CTB*90002*2",
+                            "new": "PT*GLP*ECTB*90002*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Rua Prof. Dr. Faria de Vasconcelos",
+            "new": "RUA PROF. DR. FARIA DE VASCONCELOS"
+        }
+    },
+    "GRD-00025": {
+        "longitude": {
+            "old": "-7.2521477",
+            "new": "-7.252859"
+        },
+        "latitude": {
+            "old": "40.52921",
+            "new": "40.529556"
+        },
+        "latlon": {
+            "old": "40.52921 -7.2521477",
+            "new": "40.529556 -7.252859"
+        }
+    },
+    "LRS-90025": {
+        "postcode": {
+            "old": "4900-441",
+            "new": "2680-122"
+        },
+        "street": {
+            "old": "RUA AQUILINO RIBEIRO",
+            "new": "Rua Aquilino Ribeiro"
+        }
+    },
+    "MNC-00006": {
+        "longitude": {
+            "old": "-8.531079",
+            "new": "-8.531008"
+        },
+        "latitude": {
+            "old": "42.05672",
+            "new": "42.05662"
+        },
+        "latlon": {
+            "old": "42.05672 -8.531079",
+            "new": "42.05662 -8.531008"
+        }
+    },
+    "SNT-00139": {
+        "longitude": {
+            "old": "-9.35621",
+            "new": "-9.356976"
+        },
+        "latitude": {
+            "old": "38.85177",
+            "new": "38.83364"
+        },
+        "latlon": {
+            "old": "38.85177 -9.35621",
+            "new": "38.83364 -9.356976"
+        }
+    }
+}
