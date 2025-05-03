@@ -2484,3 +2484,151 @@ Modificados:
         }
     }
 }
+2025-05-03 04:21:48
+Adicionados:
+{
+    "TVR-00026": {
+        "name": "Benamor ACTIVIDADES TURISTICAS",
+        "lastUpdated": "2025-05-03T02:58:27.821Z",
+        "city": "Tavira",
+        "street": "Quinta Benamor 395",
+        "postcode": "8800-800",
+        "latitude": "37.15195",
+        "longitude": "-7.607824",
+        "latlon": "37.15195 -7.607824",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVR-00026",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVR-00026-01",
+                        "evse_id": "PT*EDP*E*TVR*00026*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVR-00026-02",
+                        "evse_id": "PT*EDP*E*TVR*00026*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "CRT-90001": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CRT*90001*1",
+                            "new": "PT*GLP*ECRT*90001*01"
+                        },
+                        "evse_code": {
+                            "old": "CRT-90001-1",
+                            "new": "CRT-90001-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CRT*90001*2",
+                            "new": "PT*GLP*ECRT*90001*02"
+                        },
+                        "evse_code": {
+                            "old": "CRT-90001-2",
+                            "new": "CRT-90001-02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Largo Dr. Belo Morais",
+            "new": "LARGO DR. BELO MORAIS"
+        }
+    },
+    "SNT-90024": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SNT*90024*01",
+                            "new": "PT*GLP*ESNT*90024*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SNT*90024*02",
+                            "new": "PT*GLP*ESNT*90024*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    }
+}
