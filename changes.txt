@@ -2632,3 +2632,557 @@ Modificados:
         }
     }
 }
+2025-05-06 04:22:54
+Adicionados:
+{
+    "ORM-00026": {
+        "name": "Hotel Fátima - PCR",
+        "lastUpdated": "2025-05-05T13:45:02.832Z",
+        "city": "Ourém",
+        "street": "R. João Paulo II",
+        "postcode": "2495-451",
+        "latitude": "39.63076",
+        "longitude": "-8.6769",
+        "latlon": "39.63076 -8.6769",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ORM-00026",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ORM-00026-01",
+                        "evse_id": "PT*EDP*E*ORM*00026*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ORM-00026-02",
+                        "evse_id": "PT*EDP*E*ORM*00026*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PSR-00014": {
+        "name": "Aeródromo Ponte de Sor_PCUR",
+        "lastUpdated": "2025-05-06T02:58:47.934Z",
+        "city": "Ponte de Sôr",
+        "street": "N2 KM 440 37, 7400-601 Ponte de Sor",
+        "postcode": "7400-601",
+        "latitude": "39.207615",
+        "longitude": "-8.056268",
+        "latlon": "39.207615 -8.056268",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PSR-00014",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PSR-00014-01",
+                        "evse_id": "PT*PRI*E*PSR*00014*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PSR-00014-02",
+                        "evse_id": "PT*PRI*E*PSR*00014*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PSR-00015": {
+        "name": "Aeródromo Ponte de Sor_PCN",
+        "lastUpdated": "2025-05-06T02:59:45.442Z",
+        "city": "Ponte de Sôr",
+        "street": "N2 KM 440 37, 7400-601 Ponte de Sor",
+        "postcode": "7400-601",
+        "latitude": "39.207703",
+        "longitude": "-8.056215",
+        "latlon": "39.207703 -8.056215",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PSR-00015",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PSR-00015-01",
+                        "evse_id": "PT*PRI*E*PSR*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PSR-00015-02",
+                        "evse_id": "PT*PRI*E*PSR*00015*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TMR-00047": {
+        "name": "ALDI Tomar - PCR 2",
+        "lastUpdated": "2025-05-05T11:05:02.780Z",
+        "city": "Tomar",
+        "street": "Av. Maria de Lourdes de Mello e Castro",
+        "postcode": "2300-625",
+        "latitude": "39.609596",
+        "longitude": "-8.397517",
+        "latlon": "39.609596 -8.397517",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TMR-00047",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TMR-00047-01",
+                        "evse_id": "PT*EDP*E*TMR*00047*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TMR-00047-02",
+                        "evse_id": "PT*EDP*E*TMR*00047*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVR-00025": {
+        "name": "BENAMOR ACTIVIDADES TURISTICAS",
+        "lastUpdated": "2025-05-06T02:58:12.517Z",
+        "city": "Tavira",
+        "street": "Quinta Benamor 395",
+        "postcode": "8800-000",
+        "latitude": "37.15195",
+        "longitude": "-7.607824",
+        "latlon": "37.15195 -7.607824",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVR-00025",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVR-00025-01",
+                        "evse_id": "PT*EDP*E*TVR*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVR-00025-02",
+                        "evse_id": "PT*EDP*E*TVR*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "OAZ-00016",
+    "OAZ-00017",
+    "PRT-00164",
+    "PRT-00166"
+]
+Modificados:
+{
+    "CBR-00119": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CBR-00122": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "11000.0",
+                                    "new": "22000.0"
+                                },
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "11000.0",
+                                    "new": "22000.0"
+                                },
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CSC-00166": {
+        "latlon": {
+            "old": "32.659615 -16.95119",
+            "new": "38.703728 -9.394972"
+        },
+        "longitude": {
+            "old": "-16.95119",
+            "new": "-9.394972"
+        },
+        "postcode": {
+            "old": "9024-501",
+            "new": "2775-303"
+        },
+        "latitude": {
+            "old": "32.659615",
+            "new": "38.703728"
+        }
+    },
+    "CSC-00167": {
+        "latlon": {
+            "old": "32.659615 -16.95119",
+            "new": "38.703728 -9.394972"
+        },
+        "longitude": {
+            "old": "-16.95119",
+            "new": "-9.394972"
+        },
+        "postcode": {
+            "old": "9024-501",
+            "new": "2775-303"
+        },
+        "latitude": {
+            "old": "32.659615",
+            "new": "38.703728"
+        }
+    },
+    "CSC-90014": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CSC*90014*01",
+                            "new": "PT*GLP*ECSC*90014*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*CSC*90014*02",
+                            "new": "PT*GLP*ECSC*90014*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-90097": {
+        "street": {
+            "old": "Campo Grande",
+            "new": "Campo Grande 25"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-90097-1",
+                            "evse_id": "PT*EDP*ELSB*90097*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-90097-2",
+                            "evse_id": "PT*EDP*ELSB*90097*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "NATURE"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Câmara Municipal de Lisboa"
+        }
+    },
+    "SJM-00037": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "2200.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SNT-00165": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00165-02",
+                            "evse_id": "PT*REP*E*SNT*00165*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00165-03",
+                            "evse_id": "PT*REP*E*SNT*00165*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
