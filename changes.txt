@@ -9342,3 +9342,631 @@ Modificados:
         }
     }
 }
+2025-05-16 04:24:04
+Adicionados:
+{
+    "ILH-00025": {
+        "name": "Ílhavo",
+        "lastUpdated": "2025-05-16T02:59:30.626Z",
+        "city": "Ílhavo",
+        "street": "Rua da Igreja",
+        "postcode": "3830-408",
+        "latitude": "40.587765",
+        "longitude": "-8.741636",
+        "latlon": "40.587765 -8.741636",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ILH-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ILH-00025-01",
+                        "evse_id": "PT*DTE*E*ILH*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ILH-00025-02",
+                        "evse_id": "PT*DTE*E*ILH*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MLD-00046": {
+        "name": "MEALHADA A",
+        "lastUpdated": "2025-05-15T10:41:11.000Z",
+        "city": "Mealhada",
+        "street": "EST NAC 1-KM 217.2, 1 Z0463597",
+        "postcode": "3050-374",
+        "latitude": "40.36416",
+        "longitude": "-8.4542",
+        "latlon": "40.36416 -8.4542",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MLD-00046",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT*REP*E16786*1",
+                        "evse_id": "PT*REP*E16786*1",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "72.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT*REP*E16786*2",
+                        "evse_id": "PT*REP*E16786*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "72.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT*REP*E16786*3",
+                        "evse_id": "PT*REP*E16786*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "230.0",
+                                "max_current": "72.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MLD-00047": {
+        "name": "MEALHADA A",
+        "lastUpdated": "2025-05-15T11:00:39.000Z",
+        "city": "Mealhada",
+        "street": "EST NAC 1-KM 217.2, 1 Z0463597",
+        "postcode": "3050-374",
+        "latitude": "40.36416",
+        "longitude": "-8.4542",
+        "latlon": "40.36416 -8.4542",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MLD-00047",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT*REP*E16787*1",
+                        "evse_id": "PT*REP*E16787*1",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "72.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT*REP*E16787*2",
+                        "evse_id": "PT*REP*E16787*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "75.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT*REP*E16787*3",
+                        "evse_id": "PT*REP*E16787*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "230.0",
+                                "max_current": "72.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00073": {
+        "name": "Marina de Portimão V2C 03",
+        "lastUpdated": "2025-05-16T02:59:30.716Z",
+        "city": "Portimão",
+        "street": "Marina de Portimão Avenida do Arade",
+        "postcode": "8500-843",
+        "latitude": "37.11766",
+        "longitude": "-8.52952",
+        "latlon": "37.11766 -8.52952",
+        "opc": "EVPW",
+        "opc_name": "EVpower, Charging Solutions Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00073",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00073-01",
+                        "evse_id": "PT*EVP*E*PTM*00073*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "BGC-00007": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "920.0"
+                                },
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "200.0"
+                                },
+                                "max_power": {
+                                    "old": "43000.0",
+                                    "new": "60000.0"
+                                },
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "BGC-00007-03",
+                            "evse_id": "PT*REP*E*BGC*00007*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "43000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "63.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "FAR-00041": {
+        "latlon": {
+            "old": "37.025074 -7.927165",
+            "new": "37.02542 -7.92476"
+        },
+        "longitude": {
+            "old": "-7.927165",
+            "new": "-7.92476"
+        },
+        "latitude": {
+            "old": "37.025074",
+            "new": "37.02542"
+        }
+    },
+    "LSB-90018": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "5": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*90018*06",
+                            "new": "PT*GLP*ELSB*90018*06"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LSB-90041": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Rua do Pólo Sul",
+            "new": "RUA DO PÓLO SUL"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*90041*1",
+                            "new": "PT*GLP*ELSB*90041*01"
+                        },
+                        "evse_code": {
+                            "old": "LSB-90041-1",
+                            "new": "LSB-90041-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*90041*2",
+                            "new": "PT*GLP*ELSB*90041*02"
+                        },
+                        "evse_code": {
+                            "old": "LSB-90041-2",
+                            "new": "LSB-90041-02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*90041*3",
+                            "new": "PT*GLP*ELSB*90041*03"
+                        },
+                        "evse_code": {
+                            "old": "LSB-90041-3",
+                            "new": "LSB-90041-03"
+                        }
+                    },
+                    "3": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*90041*4",
+                            "new": "PT*GLP*ELSB*90041*04"
+                        },
+                        "evse_code": {
+                            "old": "LSB-90041-4",
+                            "new": "LSB-90041-04"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-90041-1",
+                            "evse_id": "PT*GLP*E*LSB*90041*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LSB-90041-2",
+                            "evse_id": "PT*GLP*E*LSB*90041*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LSB-90041-3",
+                            "evse_id": "PT*GLP*E*LSB*90041*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LSB-90041-4",
+                            "evse_id": "PT*GLP*E*LSB*90041*4",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel",
+                        "restaurant"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "MTJ-00107": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MTJ-00108": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OLH-00039": {
+        "latlon": {
+            "old": "37.037037 -7.834335",
+            "new": "37.03664 -7.8321"
+        },
+        "longitude": {
+            "old": "-7.834335",
+            "new": "-7.8321"
+        },
+        "latitude": {
+            "old": "37.037037",
+            "new": "37.03664"
+        }
+    },
+    "SLV-00028": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "name": {
+            "old": "CM SILVES - Posição S13",
+            "new": ""
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SLV*00028*01",
+                            "new": "PT*GLP*ESLV*00028*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*SLV*00028*02",
+                            "new": "PT*GLP*ESLV*00028*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "TVD-00009": {
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "street": {
+            "old": "Parque do Choupal",
+            "new": "PARQUE DO CHOUPAL, 2560-629 - TORRES VEDRAS"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*TVD*00009*1",
+                            "new": "PT*MLT*ETVD*00009*01"
+                        },
+                        "evse_code": {
+                            "old": "TVD-00009-1",
+                            "new": "TVD-00009-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*TVD*00009*2",
+                            "new": "PT*MLT*ETVD*00009*02"
+                        },
+                        "evse_code": {
+                            "old": "TVD-00009-2",
+                            "new": "TVD-00009-02"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TVD-00009-1",
+                            "evse_id": "PT*MLT*E*TVD*00009*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "TVD-00009-2",
+                            "evse_id": "PT*MLT*E*TVD*00009*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
