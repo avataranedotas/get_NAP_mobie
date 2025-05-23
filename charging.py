@@ -1,7 +1,7 @@
 
 from datetime import datetime
 
-# Define the file paths
+# Define the file paths test
 file1_path = "inuse_stations.txt"
 file2_path = "watchbusy.txt"
 
