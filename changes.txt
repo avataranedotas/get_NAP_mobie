@@ -15040,3 +15040,190 @@ Modificados:
         }
     }
 }
+2025-05-27 04:25:51
+Adicionados:
+{
+    "LSB-00939": {
+        "name": "SABA - NOS Campo Grande 8",
+        "lastUpdated": "2025-05-26T12:50:08.163Z",
+        "city": "Lisboa",
+        "street": "Rua Actor António Silva 15",
+        "postcode": "1600-404",
+        "latitude": "38.759377",
+        "longitude": "-9.158496",
+        "latlon": "38.759377 -9.158496",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00939",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELSB-00939-1",
+                        "evse_id": "PT*EDP*ELSB*00939*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00939-2",
+                        "evse_id": "PT*EDP*ELSB*00939*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "LRS-80016": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*80016*01",
+                            "new": "PT*GLP*ELRS*80016*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LRS*80016*02",
+                            "new": "PT*GLP*ELRS*80016*02"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LSB-00473": {
+        "longitude": {
+            "old": "-9.148822",
+            "new": "-9.152706"
+        },
+        "latlon": {
+            "old": "38.723145 -9.148822",
+            "new": "38.722702 -9.152706"
+        },
+        "latitude": {
+            "old": "38.723145",
+            "new": "38.722702"
+        }
+    },
+    "PLM-00014": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PLM*00014*01",
+                            "new": "PT*GLP*EPLM*00014*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PLM*00014*02",
+                            "new": "PT*GLP*EPLM*00014*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*PLM*00014*03",
+                            "new": "PT*GLP*EPLM*00014*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Praça Independência-Mercado Mun. Pinhal Novo",
+            "new": "Praça da Independência"
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "SSB-00009": {
+        "longitude": {
+            "old": "-8.898501",
+            "new": "-9.087246"
+        },
+        "latlon": {
+            "old": "38.522625 -8.898501",
+            "new": "38.4719 -9.087246"
+        },
+        "latitude": {
+            "old": "38.522625",
+            "new": "38.4719"
+        }
+    },
+    "STB-00035": {
+        "longitude": {
+            "old": "-9.087246",
+            "new": "-8.898501"
+        },
+        "latlon": {
+            "old": "38.4719 -9.087246",
+            "new": "38.522625 -8.898501"
+        },
+        "latitude": {
+            "old": "38.4719",
+            "new": "38.522625"
+        }
+    },
+    "VNG-00101": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    }
+}
