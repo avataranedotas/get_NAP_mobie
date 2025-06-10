@@ -20321,3 +20321,118 @@ Adicionados:
         ]
     }
 }
+2025-06-10 04:27:44
+Adicionados:
+{
+    "PSR-00018": {
+        "name": "",
+        "lastUpdated": "2025-06-09T13:34:22.774Z",
+        "city": "Ponte de Sôr",
+        "street": "Rua de Angola",
+        "postcode": "7400-213",
+        "latitude": "39.25815",
+        "longitude": "-8.016239",
+        "latlon": "39.25815 -8.016239",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PSR-00018",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PSR-00018-01",
+                        "evse_id": "PT*GLP*EPSR*00018*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PSR-00018-02",
+                        "evse_id": "PT*GLP*EPSR*00018*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PSR-00018-03",
+                        "evse_id": "PT*GLP*EPSR*00018*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ABT-00023": {
+        "longitude": {
+            "old": "-8.193079",
+            "new": "-8.19284"
+        },
+        "latitude": {
+            "old": "39.474304",
+            "new": "39.474064"
+        },
+        "latlon": {
+            "old": "39.474304 -8.193079",
+            "new": "39.474064 -8.19284"
+        }
+    },
+    "PTG-90001": {
+        "longitude": {
+            "old": "-9.146472",
+            "new": "-7.429791"
+        },
+        "latitude": {
+            "old": "38.720585",
+            "new": "39.29597"
+        },
+        "latlon": {
+            "old": "38.720585 -9.146472",
+            "new": "39.29597 -7.429791"
+        }
+    },
+    "TVD-00042": {
+        "longitude": {
+            "old": "-9.26401",
+            "new": "-9.262085"
+        },
+        "latitude": {
+            "old": "39.081924",
+            "new": "39.082455"
+        },
+        "latlon": {
+            "old": "39.081924 -9.26401",
+            "new": "39.082455 -9.262085"
+        }
+    }
+}
