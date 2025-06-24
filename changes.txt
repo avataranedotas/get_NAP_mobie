@@ -33464,3 +33464,232 @@ Modificados:
         }
     }
 }
+2025-06-24 04:29:14
+Adicionados:
+{
+    "FNC-00068": {
+        "name": "Parque Severiano Ferraz",
+        "lastUpdated": "2025-06-23T14:20:02.397Z",
+        "city": "Funchal",
+        "street": "Largo Severiano Ferraz",
+        "postcode": "9000-076",
+        "latitude": "32.65207",
+        "longitude": "-16.911669",
+        "latlon": "32.65207 -16.911669",
+        "opc": "FACT",
+        "opc_name": "FactorENERGIA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FNC-00068",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FNC-00068-01",
+                        "evse_id": "PT*FAC*E*FNC*00068*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FNC-00068-02",
+                        "evse_id": "PT*FAC*E*FNC*00068*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00826": {
+        "name": "Telheiras 2",
+        "lastUpdated": "2025-06-24T02:58:16.673Z",
+        "city": "Lisboa",
+        "street": "R. Prof. Francisco Gentil, frente ao 33",
+        "postcode": "1600-622",
+        "latitude": "38.7606",
+        "longitude": "-9.16911",
+        "latlon": "38.7606 -9.16911",
+        "opc": "HEXA",
+        "opc_name": "HEXAGONAL OCEAN, LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00826",
+                "facilities": [
+                    "publicTransportHub"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00826-01",
+                        "evse_id": "PT*HEX*E*LSB*00826*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00826-02",
+                        "evse_id": "PT*HEX*E*LSB*00826*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PVL-00007": {
+        "name": "",
+        "lastUpdated": "2025-06-23T10:21:58.980Z",
+        "city": "Póvoa de Lanhoso",
+        "street": "Rua Amândio de Oliveira",
+        "postcode": "4830-528",
+        "latitude": "41.575356",
+        "longitude": "-8.276991",
+        "latlon": "41.575356 -8.276991",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PVL-00007",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PVL-00007-01",
+                        "evse_id": "PT*GLP*EPVL*00007*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PVL-00007-02",
+                        "evse_id": "PT*GLP*EPVL*00007*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PVL-00007-03",
+                        "evse_id": "PT*GLP*EPVL*00007*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TBR-00010": {
+        "name": "",
+        "lastUpdated": "2025-06-23T23:29:13.282Z",
+        "city": "Terras de Bouro",
+        "street": "Avenida Manuel Francisco da Costa",
+        "postcode": "4845-067",
+        "latitude": "41.727135",
+        "longitude": "-8.162564",
+        "latlon": "41.727135 -8.162564",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TBR-00010",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TBR-00010-01",
+                        "evse_id": "PT*GLP*ETBR*00010*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TBR-00010-02",
+                        "evse_id": "PT*GLP*ETBR*00010*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
