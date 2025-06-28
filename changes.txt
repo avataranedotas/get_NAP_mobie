@@ -1,1 +1,241 @@
 
+2025-06-28 04:23:54
+Adicionados:
+{
+    "AGB-00003": {
+        "name": "Aguiar da Beira",
+        "lastUpdated": "2025-06-28T02:59:53.170Z",
+        "city": "Aguiar da Beira",
+        "street": "Avenida Principal nº 80 - Quinta das Lameiras",
+        "postcode": "3570-180",
+        "latitude": "40.7878",
+        "longitude": "-7.5921",
+        "latlon": "40.7878 -7.5921",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AGB-00003",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AGB-00003-01",
+                        "evse_id": "PT*FCT*E*AGB*00003*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGB-00003-02",
+                        "evse_id": "PT*FCT*E*AGB*00003*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OER-00243": {
+        "name": "BK - Alfragide - PCR1",
+        "lastUpdated": "2025-06-28T02:58:03.289Z",
+        "city": "Oeiras",
+        "street": "Rua Q.ta do Paizinho",
+        "postcode": "2790-138",
+        "latitude": "38.72228",
+        "longitude": "-9.218216",
+        "latlon": "38.72228 -9.218216",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OER-00243",
+                "facilities": [
+                    "carPark",
+                    "restaurant"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00243-01",
+                        "evse_id": "PT*EDP*E*OER*00243*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00243-02",
+                        "evse_id": "PT*EDP*E*OER*00243*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "MRA-00006",
+    "SRT-00005"
+]
+Modificados:
+{
+    "MGR-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "920.0"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "375.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "10000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MTA-00020": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "200.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "iec62196T2"
+                                },
+                                "charging_mode": {
+                                    "old": "mode4DC",
+                                    "new": "mode3AC3p"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "32.0"
+                                },
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SNT-00105": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "chademo"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
