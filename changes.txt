@@ -261,3 +261,3214 @@ Modificados:
         }
     }
 }
+2025-07-01 04:38:00
+Adicionados:
+{
+    "LGA-00032": {
+        "name": "Burger King Lagoa",
+        "lastUpdated": "2025-06-30T14:52:17.486Z",
+        "city": "Lagoa, Faro",
+        "street": "Rua dos Vales 12",
+        "postcode": "4800-439",
+        "latitude": "37.13589",
+        "longitude": "-8.46003",
+        "latlon": "37.13589 -8.46003",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LGA-00032",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LGA-00032-01",
+                        "evse_id": "PT*EDP*E*LGA*00032*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LGA-00032-02",
+                        "evse_id": "PT*EDP*E*LGA*00032*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELGA-00032-1",
+                        "evse_id": "PT*EDP*ELGA*00032*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELGA-00032-2",
+                        "evse_id": "PT*EDP*ELGA*00032*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00827": {
+        "name": "Fernando Namora",
+        "lastUpdated": "2025-07-01T02:59:38.046Z",
+        "city": "Lisboa",
+        "street": "Rua Fernando Namora, frente ao 44",
+        "postcode": "1600-451",
+        "latitude": "38.76",
+        "longitude": "-9.17926",
+        "latlon": "38.76 -9.17926",
+        "opc": "HEXA",
+        "opc_name": "HEXAGONAL OCEAN, LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00827",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00827-01",
+                        "evse_id": "PT*HEX*E*LSB*00827*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00827-02",
+                        "evse_id": "PT*HEX*E*LSB*00827*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00829": {
+        "name": "Lidl Carnide 1",
+        "lastUpdated": "2025-06-30T10:20:02.308Z",
+        "city": "Lisboa",
+        "street": "Rua José Farinha, frente ao 21C",
+        "postcode": "1500-700",
+        "latitude": "38.75969",
+        "longitude": "-9.19741",
+        "latlon": "38.75969 -9.19741",
+        "opc": "HEXA",
+        "opc_name": "HEXAGONAL OCEAN, LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00829",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00829-01",
+                        "evse_id": "PT*HEX*E*LSB*00829*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00829-02",
+                        "evse_id": "PT*HEX*E*LSB*00829*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OAZ-00019": {
+        "name": "RUA DOUTOR ERNESTO SOARES DOS REIS",
+        "lastUpdated": "2025-07-01T02:59:21.916Z",
+        "city": "Oliveira de Azeméis",
+        "street": "RUA DOUTOR ERNESTO SOARES DOS REIS",
+        "postcode": "3720-256",
+        "latitude": "40.8352",
+        "longitude": "-8.479427",
+        "latlon": "40.8352 -8.479427",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OAZ-00019",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OAZ-00019-01",
+                        "evse_id": "PT*HLX*E*OAZ*00019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00019-02",
+                        "evse_id": "PT*HLX*E*OAZ*00019*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "140.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00019-03",
+                        "evse_id": "PT*HLX*E*OAZ*00019*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SNT-00154": {
+        "name": "Intermarché Mem Martins",
+        "lastUpdated": "2025-07-01T02:58:58.601Z",
+        "city": "Sintra",
+        "street": "Avenida Capitães de Abril, Lote 103",
+        "postcode": "2725-039",
+        "latitude": "38.801445",
+        "longitude": "-9.33613",
+        "latlon": "38.801445 -9.33613",
+        "opc": "EVIO",
+        "opc_name": "EVIO - Electrical Mobility",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SNT-00154",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SNT-00154-01",
+                        "evse_id": "PT*EVI*E*SNT*00154*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00154-02",
+                        "evse_id": "PT*EVI*E*SNT*00154*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "STC-00017": {
+        "name": "Cercal do Alentejo",
+        "lastUpdated": "2025-07-01T03:00:01.434Z",
+        "city": "Santiago do Cacém",
+        "street": "Estrada Nacional 389, Km 0.650",
+        "postcode": "7555-211",
+        "latitude": "37.79945",
+        "longitude": "-8.66449",
+        "latlon": "37.79945 -8.66449",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "STC-00017",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "STC-00017-01",
+                        "evse_id": "PT*FCT*E*STC*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STC-00017-02",
+                        "evse_id": "PT*FCT*E*STC*00017*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STC-00017-03",
+                        "evse_id": "PT*FCT*E*STC*00017*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "CBR-00071",
+    "CBR-00119",
+    "CBR-00120",
+    "LSB-00454",
+    "LSB-00939",
+    "LSB-00940",
+    "LSB-00941",
+    "LSB-00942",
+    "LSB-00943",
+    "MTS-00181",
+    "PRT-00041"
+]
+Modificados:
+{
+    "ACH-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "77.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "77.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ACH-00008-03",
+                            "evse_id": "PT*REP*E*ACH*00008*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "BCL-00013": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "77.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "77.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "BCL-00013-03",
+                            "evse_id": "PT*REP*E*BCL*00013*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CBR-00073": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "100000.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "800.0"
+                                },
+                                "max_current": {
+                                    "old": "100.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CLD-00014": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CLD-00014-03",
+                            "evse_id": "PT*REP*E*CLD*00014*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00076": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "75.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "75.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CSC-00076-02",
+                            "evse_id": "PT*REP*E*CSC*00076*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "CSC-00076-03",
+                            "evse_id": "PT*REP*E*CSC*00076*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00077": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "75.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "75.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CSC-00077-02",
+                            "evse_id": "PT*REP*E*CSC*00077*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "CSC-00077-03",
+                            "evse_id": "PT*REP*E*CSC*00077*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00078": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "75.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "75.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CSC-00078-02",
+                            "evse_id": "PT*REP*E*CSC*00078*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "CSC-00078-03",
+                            "evse_id": "PT*REP*E*CSC*00078*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00085": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "77.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "77.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CSC-00085-03",
+                            "evse_id": "PT*REP*E*CSC*00085*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CTB-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "72.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "CTB-00017-03",
+                            "evse_id": "PT*REP*E*CTB*00017*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "EPS-00002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "72.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "EPS-00002-03",
+                            "evse_id": "PT*REP*E*EPS*00002*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ESP-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ESP-00008-03",
+                            "evse_id": "PT*REP*E*ESP*00008*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "FUN-00036": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "FUN-00036-03",
+                            "evse_id": "PT*REP*E*FUN*00036*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "FUN-00037": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "FUN-00037-03",
+                            "evse_id": "PT*REP*E*FUN*00037*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "FUN-00038": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "FUN-00038-03",
+                            "evse_id": "PT*REP*E*FUN*00038*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "FUN-00039": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "FUN-00039-03",
+                            "evse_id": "PT*REP*E*FUN*00039*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "GDM-00016": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "GDM-00016-03",
+                            "evse_id": "PT*REP*E*GDM*00016*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LGA-00015": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "75.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "75.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LGA-00015-03",
+                            "evse_id": "PT*REP*E*LGA*00015*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00444": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00444-03",
+                            "evse_id": "PT*REP*E*LSB*00444*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00933": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00933-1",
+                            "evse_id": "PT*EDP*ELSB*00933*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00933-2",
+                            "evse_id": "PT*EDP*ELSB*00933*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "SabaPortugal - Parques de Estacionamento",
+            "new": "Parque SABA - Torres de Lisboa"
+        },
+        "street": {
+            "old": "Rua Tomás da Fonseca",
+            "new": "Rua Tomás da Fonseca 1"
+        }
+    },
+    "MFR-00021": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "75.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "75.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MFR-00021-02",
+                            "evse_id": "PT*REP*E*MFR*00021*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MFR-00021-03",
+                            "evse_id": "PT*REP*E*MFR*00021*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "MTJ-00021": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MTJ-00021-03",
+                            "evse_id": "PT*REP*E*MTJ*00021*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "MTS-00044": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MTS-00044-03",
+                            "evse_id": "PT*REP*E*MTS*00044*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ODV-00011": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ODV-00011-02",
+                            "evse_id": "PT*REP*E*ODV*00011*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ODV-00011-03",
+                            "evse_id": "PT*REP*E*ODV*00011*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ODV-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "80.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ODV-00012-02",
+                            "evse_id": "PT*REP*E*ODV*00012*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ODV-00012-03",
+                            "evse_id": "PT*REP*E*ODV*00012*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PFR-00013": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PFR-00013-02",
+                            "evse_id": "PT*REP*E*PFR*00013*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PFR-00013-03",
+                            "evse_id": "PT*REP*E*PFR*00013*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PLM-00011": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PLM-00011-02",
+                            "evse_id": "PT*REP*E*PLM*00011*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PLM-00011-03",
+                            "evse_id": "PT*REP*E*PLM*00011*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00152": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PRT-00152-03",
+                            "evse_id": "PT*REP*E*PRT*00152*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PTL-00009": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "72.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PTL-00009-02",
+                            "evse_id": "PT*REP*E*PTL*00009*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PTL-00009-03",
+                            "evse_id": "PT*REP*E*PTL*00009*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "75.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "75.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PVZ-00012-02",
+                            "evse_id": "PT*REP*E*PVZ*00012*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PVZ-00012-03",
+                            "evse_id": "PT*REP*E*PVZ*00012*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RBR-00003": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "RBR-00003-03",
+                            "evse_id": "PT*REP*E*RBR*00003*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SCR-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SCR-00012-03",
+                            "evse_id": "PT*REP*E*SCR*00012*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SCR-00020": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "60000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SCR-00020-03",
+                            "evse_id": "PT*REP*E*SCR*00020*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SJM-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "77.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "77.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SJM-00008-03",
+                            "evse_id": "PT*REP*E*SJM*00008*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00061": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00061-03",
+                            "evse_id": "PT*REP*E*SNT*00061*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00062": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "80.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00062-02",
+                            "evse_id": "PT*REP*E*SNT*00062*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00062-03",
+                            "evse_id": "PT*REP*E*SNT*00062*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "STS-00010": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "72.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STS-00010-02",
+                            "evse_id": "PT*REP*E*STS*00010*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STS-00010-03",
+                            "evse_id": "PT*REP*E*STS*00010*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "STS-00033": {
+        "opc_name": {
+            "old": "Galp Power OPC",
+            "new": "Galp Power"
+        }
+    },
+    "TNV-00007": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "77.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "77.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TNV-00007-03",
+                            "evse_id": "PT*REP*E*TNV*00007*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "TNV-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "77.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "77.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TNV-00008-03",
+                            "evse_id": "PT*REP*E*TNV*00008*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "VCT-00027": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "72.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VCT-00027-03",
+                            "evse_id": "PT*REP*E*VCT*00027*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "VIS-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "80.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "72.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VIS-00017-03",
+                            "evse_id": "PT*REP*E*VIS*00017*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "VLG-00014": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            },
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "499.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "30000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "750.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VLG-00014-03",
+                            "evse_id": "PT*REP*E*VLG*00014*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "VNG-00100": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "removed_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "80.0"
+                                },
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VNG-00100-02",
+                            "evse_id": "PT*REP*E*VNG*00100*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "30000.0",
+                                    "voltage": "750.0",
+                                    "max_current": "80.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00100-03",
+                            "evse_id": "PT*REP*E*VNG*00100*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
