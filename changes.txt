@@ -6088,3 +6088,224 @@ Modificados:
         }
     }
 }
+2025-07-04 04:29:53
+Adicionados:
+{
+    "LSB-00919": {
+        "name": "Marques de Pombal",
+        "lastUpdated": "2025-07-04T03:00:11.790Z",
+        "city": "Lisboa",
+        "street": "Praça Marquês de Pombal",
+        "postcode": "1250-000",
+        "latitude": "38.72636",
+        "longitude": "-9.15117",
+        "latlon": "38.72636 -9.15117",
+        "opc": "MAKS",
+        "opc_name": "Maksu",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00919",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00919-01",
+                        "evse_id": "PT*MAK*E*LSB*00919*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "400.0",
+                                "max_current": "144.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00919-02",
+                        "evse_id": "PT*MAK*E*LSB*00919*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "400.0",
+                                "max_current": "144.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TND-00017": {
+        "name": "Museu do Caramulo",
+        "lastUpdated": "2025-07-04T02:58:48.719Z",
+        "city": "Tondela",
+        "street": "R.Jean Lurcat 42",
+        "postcode": "3475-031",
+        "latitude": "40.569927",
+        "longitude": "-8.172297",
+        "latlon": "40.569927 -8.172297",
+        "opc": "CMEL",
+        "opc_name": "CME",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TND-00017",
+                "facilities": [
+                    "MUSEUM"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TND-00017-01",
+                        "evse_id": "PT*CME*E*TND*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TND-00018": {
+        "name": "Museu do Caramulo",
+        "lastUpdated": "2025-07-04T02:59:10.551Z",
+        "city": "Tondela",
+        "street": "R.Jean Lurcat 42",
+        "postcode": "3475-031",
+        "latitude": "40.569927",
+        "longitude": "-8.172297",
+        "latlon": "40.569927 -8.172297",
+        "opc": "CMEL",
+        "opc_name": "CME",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TND-00018",
+                "facilities": [
+                    "MUSEUM"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TND-00018-01",
+                        "evse_id": "PT*CME*E*TND*00018*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TND-00019": {
+        "name": "Museu do Caramulo",
+        "lastUpdated": "2025-07-04T02:58:43.727Z",
+        "city": "Tondela",
+        "street": "R.Jean Lurcat 42",
+        "postcode": "3475-031",
+        "latitude": "40.569927",
+        "longitude": "-8.172297",
+        "latlon": "40.569927 -8.172297",
+        "opc": "CMEL",
+        "opc_name": "CME",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TND-00019",
+                "facilities": [
+                    "MUSEUM"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TND-00019-01",
+                        "evse_id": "PT*CME*E*TND*00019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "PRT-00042"
+]
+Modificados:
+{
+    "OER-00223": {
+        "longitude": {
+            "old": "-9.305032",
+            "new": "-9.305406"
+        },
+        "latitude": {
+            "old": "38.70073",
+            "new": "38.700954"
+        },
+        "street": {
+            "old": "Rua Coro de Santo Amaro de Oeiras 11",
+            "new": "Rua coro de Santo Amaro de Oeiras 12"
+        },
+        "latlon": {
+            "old": "38.70073 -9.305032",
+            "new": "38.700954 -9.305406"
+        }
+    },
+    "PRD-00028": {
+        "longitude": {
+            "old": "-8.333357",
+            "new": "-8.327753"
+        },
+        "latitude": {
+            "old": "41.21028",
+            "new": "41.207794"
+        },
+        "latlon": {
+            "old": "41.21028 -8.333357",
+            "new": "41.207794 -8.327753"
+        }
+    }
+}
