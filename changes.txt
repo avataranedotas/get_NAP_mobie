@@ -7739,3 +7739,2376 @@ Modificados:
         }
     }
 }
+2025-07-08 04:30:23
+Adicionados:
+{
+    "AJZ-00007": {
+        "name": "",
+        "lastUpdated": "2025-07-07T15:06:33.193Z",
+        "city": "Aljezur",
+        "street": "ESTRADA NACIONAL 120 S/N, IGREJA NOVA",
+        "postcode": "8670-161",
+        "latitude": "37.31857",
+        "longitude": "-8.798404",
+        "latlon": "37.31857 -8.798404",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AJZ-00007",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AJZ-00007-01",
+                        "evse_id": "PT*GLP*EAJZ*00007*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "950.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AJZ-00007-02",
+                        "evse_id": "PT*GLP*EAJZ*00007*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "950.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "AND-00030": {
+        "name": "Ibervita",
+        "lastUpdated": "2025-07-08T02:58:16.631Z",
+        "city": "Anadia",
+        "street": "Rua das Sobreiras",
+        "postcode": "3780-297",
+        "latitude": "40.431442",
+        "longitude": "-8.436643",
+        "latlon": "40.431442 -8.436643",
+        "opc": "ECOI",
+        "opc_name": "Ecoinside - Soluções em Ecoeficiência e Sustentabilidade Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AND-00030",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AND-00030-01",
+                        "evse_id": "PT*ECI*E*AND*00030*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AND-00030-02",
+                        "evse_id": "PT*ECI*E*AND*00030*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BRR-00153": {
+        "name": "",
+        "lastUpdated": "2025-07-08T02:55:32.540Z",
+        "city": "Barreiro",
+        "street": "Rua Miguel Bombarda",
+        "postcode": "2830-355",
+        "latitude": "38.656883",
+        "longitude": "-9.071317",
+        "latlon": "38.656883 -9.071317",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BRR-00153",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRR-00153-01",
+                        "evse_id": "PT*GLP*EBRR*00153*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRR-00153-02",
+                        "evse_id": "PT*GLP*EBRR*00153*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRR-00153-03",
+                        "evse_id": "PT*GLP*EBRR*00153*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00830": {
+        "name": "Lidl Carnide 2",
+        "lastUpdated": "2025-07-08T02:59:24.767Z",
+        "city": "Lisboa",
+        "street": "Rua José Farinha, frente ao 21C",
+        "postcode": "1500-700",
+        "latitude": "38.75969",
+        "longitude": "-9.19741",
+        "latlon": "38.75969 -9.19741",
+        "opc": "HEXA",
+        "opc_name": "HEXAGONAL OCEAN, LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00830",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00830-01",
+                        "evse_id": "PT*HEX*E*LSB*00830*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00830-02",
+                        "evse_id": "PT*HEX*E*LSB*00830*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OER-00217": {
+        "name": "",
+        "lastUpdated": "2025-07-08T02:59:05.311Z",
+        "city": "Oeiras",
+        "street": "Rua Joao Chagas n. 130 loja A",
+        "postcode": "1495-070",
+        "latitude": "38.706112",
+        "longitude": "-9.238333",
+        "latlon": "38.706112 -9.238333",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OER-00217",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00217-01",
+                        "evse_id": "PT*KLS*EOER*00217*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00217-02",
+                        "evse_id": "PT*KLS*EOER*00217*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00217-03",
+                        "evse_id": "PT*KLS*EOER*00217*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ORM-00030": {
+        "name": "Restaurante O Crispim",
+        "lastUpdated": "2025-07-08T02:59:16.807Z",
+        "city": "Ourém",
+        "street": "Rua de São João Eudes, 23",
+        "postcode": "2495-630",
+        "latitude": "39.63113",
+        "longitude": "-8.662822",
+        "latlon": "39.63113 -8.662822",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ORM-00030",
+                "facilities": [
+                    "restaurant"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ORM-00030-01",
+                        "evse_id": "PT*HLX*E*ORM*00030*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ORM-00030-02",
+                        "evse_id": "PT*HLX*E*ORM*00030*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SPS-00009": {
+        "name": "",
+        "lastUpdated": "2025-07-08T02:26:01.566Z",
+        "city": "São Pedro do Sul",
+        "street": "Avenida da Ponte",
+        "postcode": "3660-511",
+        "latitude": "40.76102",
+        "longitude": "-8.06281",
+        "latlon": "40.76102 -8.06281",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SPS-00009",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SPS-00009-01",
+                        "evse_id": "PT*GLP*ESPS*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SPS-00009-02",
+                        "evse_id": "PT*GLP*ESPS*00009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SPS-00009-03",
+                        "evse_id": "PT*GLP*ESPS*00009*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SRQ-00002": {
+        "name": "SRQ",
+        "lastUpdated": "2025-07-08T03:00:00.676Z",
+        "city": "São Roque do Pico",
+        "street": "Alameda 10 de Novembro de 1542",
+        "postcode": "9940-353",
+        "latitude": "38.525307",
+        "longitude": "-28.319056",
+        "latlon": "38.525307 -28.319056",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SRQ-00002",
+                "facilities": [
+                    "RECREATION_AREA"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SRQ-00002-01",
+                        "evse_id": "PT*SEG*E*SRQ*00002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SRQ-00002-02",
+                        "evse_id": "PT*SEG*E*SRQ*00002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SXL-00073": {
+        "name": "",
+        "lastUpdated": "2025-07-08T00:04:47.534Z",
+        "city": "Seixal",
+        "street": "Rua da República",
+        "postcode": "2865-631",
+        "latitude": "38.556038",
+        "longitude": "-9.087206",
+        "latlon": "38.556038 -9.087206",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SXL-00073",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SXL-00073-01",
+                        "evse_id": "PT*GLP*ESXL*00073*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SXL-00073-02",
+                        "evse_id": "PT*GLP*ESXL*00073*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SXL-00073-03",
+                        "evse_id": "PT*GLP*ESXL*00073*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "ALM-90026",
+    "LSB-90048"
+]
+Modificados:
+{
+    "ABF-00073": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ABF-00109": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ABT-00030": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ABT-00034": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ACH-00013": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ACN-00010": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ADV-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AGD-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AJT-00011": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALM-00071": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALM-00073": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALM-00075": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALM-00091": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALM-00092": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALQ-00015": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ALR-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AMD-00105": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AND-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ANS-00003": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ANS-00004": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ARV-00013": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AVR-00051": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AVR-00053": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AVR-00062": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AVR-00063": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "AVV-00010": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BCL-00042": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BGC-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BJA-00028": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BNV-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BNV-00010": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRB-00003": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRG-00111": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRG-00127": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRR-00130": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRR-00131": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRR-00132": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRR-00143": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BTL-00006": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CBR-00085": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CBR-00091": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CBR-00092": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CCH-00004": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CDN-00003": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CDN-00004": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CHM-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CHV-00017": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CHV-00018": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CLD-00028": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CSC-00164": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CSC-00168": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CSC-00169": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CSC-00170": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CSC-00419": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CTB-00034": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CTM-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CTX-00004": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "CVD-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ENT-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "EPS-00036": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                },
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EPS-00038": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ESP-00011": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ETR-00014": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ETZ-00023": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "EVR-00037": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "EVR-00038": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "EVR-00039": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "EVR-00048": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAF-00010": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAF-00020": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAF-00021": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAF-00022": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAR-00039": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAR-00040": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FAR-00041": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FIG-00024": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FIG-00025": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FLG-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FND-00018": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GDM-00039": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GDM-00040": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GDM-00055": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GDM-00057": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GMR-00108": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GMR-00109": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GMR-00145": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "GRD-00028": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ILH-00009": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LGA-00023": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LGS-00028": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LGS-00029": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LLE-00157": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LLE-00158": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LLE-00159": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LLE-00176": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LNH-00009": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LOU-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRA-00099": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRA-00101": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRS-00098": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRS-00102": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRS-00103": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRS-00104": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRS-00109": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LRS-00110": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00641": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00642": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00643": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00644": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00646": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00647": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00650": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00651": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00652": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00662": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00663": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00664": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00665": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00666": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00667": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00668": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00669": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00670": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00689": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MAI-00041": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MAI-00042": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MAI-00043": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MAI-00046": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MCN-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MDL-00010": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MDR-00009": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MFR-00031": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MFR-00034": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MGL-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MGR-00013": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MIR-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MLD-00011": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MMN-00012": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MNC-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MRA-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTJ-00038": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTJ-00039": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTS-00132": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTS-00134": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTS-00137": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTS-00172": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "NZR-00028": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OBR-00006": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ODV-00019": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ODV-00021": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ODV-00042": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ODV-00043": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OER-00187": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OER-00188": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OER-00189": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OER-00190": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OER-00192": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OER-00223": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*EDP*EOER*00223*1",
+                            "new": "N§A"
+                        }
+                    },
+                    "3": {
+                        "evse_id": {
+                            "old": "PT*EDP*EOER*00223*2",
+                            "new": "N§A"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OFR-00003": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OHP-00011": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OLH-00039": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ORM-00011": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ORM-00018": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "ORQ-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OVR-00017": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "OVR-00018": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PBL-00018": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PFR-00012": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PFR-00014": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PMS-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PNF-00022": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PNF-00042": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PNF-00043": {
+        "latitude": {
+            "old": "41.16972",
+            "new": "41.169456"
+        },
+        "latlon": {
+            "old": "41.16972 -8.32955",
+            "new": "41.169456 -8.329462"
+        },
+        "longitude": {
+            "old": "-8.32955",
+            "new": "-8.329462"
+        }
+    },
+    "PRD-00019": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRD-00021": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRD-00022": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRG-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRT-00218": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRT-00219": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRT-00220": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRT-00228": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRT-00283": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PRT-00284": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PSR-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PTG-00021": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PTL-00022": {
+        "latitude": {
+            "old": "41.782925",
+            "new": "41.78279"
+        },
+        "latlon": {
+            "old": "41.782925 -8.586295",
+            "new": "41.78279 -8.58659"
+        },
+        "longitude": {
+            "old": "-8.586295",
+            "new": "-8.58659"
+        }
+    },
+    "PTM-00050": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PTM-00051": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PTM-00052": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PTM-00057": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PVZ-00037": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "PVZ-00042": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "RMR-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "RMR-00013": {
+        "latitude": {
+            "old": "39.30081",
+            "new": "39.301094"
+        },
+        "latlon": {
+            "old": "39.30081 -8.89603",
+            "new": "39.301094 -8.89651"
+        },
+        "longitude": {
+            "old": "-8.89603",
+            "new": "-8.89651"
+        }
+    },
+    "RMZ-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SAT-00004": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SBA-00006": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SJM-00019": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SLV-00012": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SNS-00014": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SNT-00127": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SNT-00128": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SNT-00164": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SNT-00175": {
+        "latitude": {
+            "old": "38.78884",
+            "new": "38.788956"
+        },
+        "latlon": {
+            "old": "38.78884 -9.37445",
+            "new": "38.788956 -9.373888"
+        },
+        "longitude": {
+            "old": "-9.37445",
+            "new": "-9.373888"
+        }
+    },
+    "SNT-00176": {
+        "latitude": {
+            "old": "38.78884",
+            "new": "38.788956"
+        },
+        "latlon": {
+            "old": "38.78884 -9.37445",
+            "new": "38.788956 -9.373888"
+        },
+        "longitude": {
+            "old": "-9.37445",
+            "new": "-9.373888"
+        }
+    },
+    "SNT-00177": {
+        "latitude": {
+            "old": "38.78884",
+            "new": "38.788956"
+        },
+        "latlon": {
+            "old": "38.78884 -9.37445",
+            "new": "38.788956 -9.373888"
+        },
+        "longitude": {
+            "old": "-9.37445",
+            "new": "-9.373888"
+        }
+    },
+    "SNT-00178": {
+        "latitude": {
+            "old": "38.78884",
+            "new": "38.788956"
+        },
+        "latlon": {
+            "old": "38.78884 -9.37445",
+            "new": "38.788956 -9.373888"
+        },
+        "longitude": {
+            "old": "-9.37445",
+            "new": "-9.373888"
+        }
+    },
+    "SNT-00183": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SPS-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SRE-00005": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SRT-00006": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SSB-00013": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SSB-00015": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STB-00060": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STB-00061": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STB-00062": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STB-00067": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STB-00068": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STB-00069": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STC-00018": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STR-00035": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STR-00039": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STR-00045": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STS-00022": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "STS-00023": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SVV-00003": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SXL-00047": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SXL-00048": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SXL-00050": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "SXL-00051": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TCS-00003": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TMR-00034": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TND-00009": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TNV-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TRF-00015": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TRF-00016": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TVD-00044": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TVR-00021": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "TVR-00022": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VCT-00053": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFR-00080": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFR-00081": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFR-00082": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFX-00037": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFX-00038": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFX-00046": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VFX-00047": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VGS-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VIS-00087": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VIS-00097": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VIS-00104": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VIZ-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VIZ-00010": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VLC-00011": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VLG-00032": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VLG-00033": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VLG-00034": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNC-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VND-00014": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNF-00047": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNF-00048": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNF-00049": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00132": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00133": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00134": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00135": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00136": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00138": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00139": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00140": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00141": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00142": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00168": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00169": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00171": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00172": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VNG-00180": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VRL-00037": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VRS-00007": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VRS-00008": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "VVD-00014": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    }
+}
