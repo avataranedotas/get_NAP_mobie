@@ -92526,3 +92526,738 @@ Modificados:
         }
     }
 }
+2025-07-18 04:39:10
+Adicionados:
+{
+    "AVV-00013": {
+        "name": "",
+        "lastUpdated": "2025-07-17T18:56:15.819Z",
+        "city": "Arcos de Valdevez",
+        "street": "E.N. 101, 4970-243 Arcos de Valdevez",
+        "postcode": "4970-243",
+        "latitude": "41.827",
+        "longitude": "-8.415699",
+        "latlon": "41.827 -8.415699",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AVV-00013",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AVV-00013-01",
+                        "evse_id": "PT*GLP*EAVV*00013*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AVV-00013-02",
+                        "evse_id": "PT*GLP*EAVV*00013*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AVV-00013-03",
+                        "evse_id": "PT*GLP*EAVV*00013*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LOU-00011": {
+        "name": "",
+        "lastUpdated": "2025-07-18T00:09:14.078Z",
+        "city": "Lousada",
+        "street": "Rua António Gomes Ribeiro, 123",
+        "postcode": "4620-131",
+        "latitude": "41.27107",
+        "longitude": "-8.28465",
+        "latlon": "41.27107 -8.28465",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LOU-00011",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LOU-00011-01",
+                        "evse_id": "PT*GLP*ELOU*00011*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LOU-00011-02",
+                        "evse_id": "PT*GLP*ELOU*00011*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LOU-00011-03",
+                        "evse_id": "PT*GLP*ELOU*00011*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00999": {
+        "name": "Atlante - Pingo Doce Telheiras",
+        "lastUpdated": "2025-07-17T19:58:47.115Z",
+        "city": "Lisboa",
+        "street": "Rua César de Oliveira 12",
+        "postcode": "1600-427",
+        "latitude": "38.76693",
+        "longitude": "-9.17291",
+        "latlon": "38.76693 -9.17291",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00999",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00999-01",
+                        "evse_id": "PT*ATL*ELSB*00999*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01000": {
+        "name": "Atlante - Pingo Doce Telheiras",
+        "lastUpdated": "2025-07-17T20:04:02.369Z",
+        "city": "Lisboa",
+        "street": "Rua César de Oliveira",
+        "postcode": "1600-427",
+        "latitude": "38.76693",
+        "longitude": "-9.17291",
+        "latlon": "38.76693 -9.17291",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01000",
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01000-01",
+                        "evse_id": "PT*ATL*ELSB*01000*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01000-02",
+                        "evse_id": "PT*ATL*ELSB*01000*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01001": {
+        "name": "Atlante - Pingo Doce Telheiras",
+        "lastUpdated": "2025-07-17T19:59:34.048Z",
+        "city": "Lisboa",
+        "street": "Rua César de Oliveira",
+        "postcode": "1600-427",
+        "latitude": "38.76693",
+        "longitude": "-9.17291",
+        "latlon": "38.76693 -9.17291",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01001",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01001-01",
+                        "evse_id": "PT*ATL*ELSB*01001*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01002": {
+        "name": "Atlante - Pingo Doce Telheiras",
+        "lastUpdated": "2025-07-17T20:00:54.865Z",
+        "city": "Lisboa",
+        "street": "Rua César de Oliveira",
+        "postcode": "1600-427",
+        "latitude": "38.76693",
+        "longitude": "-9.17291",
+        "latlon": "38.76693 -9.17291",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01002",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01002-01",
+                        "evse_id": "PT*ATL*ELSB*01002*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MCN-00020": {
+        "name": "",
+        "lastUpdated": "2025-07-18T00:17:06.199Z",
+        "city": "Marco de Canaveses",
+        "street": "Largo da Feira",
+        "postcode": "4630-215",
+        "latitude": "41.18101",
+        "longitude": "-8.154007",
+        "latlon": "41.18101 -8.154007",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MCN-00020",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MCN-00020-01",
+                        "evse_id": "PT*GLP*EMCN*00020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MCN-00020-02",
+                        "evse_id": "PT*GLP*EMCN*00020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MCN-00020-03",
+                        "evse_id": "PT*GLP*EMCN*00020*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PFR-00023": {
+        "name": "",
+        "lastUpdated": "2025-07-17T21:04:52.682Z",
+        "city": "Paços de Ferreira",
+        "street": "Avenida Doutor Jaime Barros",
+        "postcode": "4590-892",
+        "latitude": "41.279736",
+        "longitude": "-8.375858",
+        "latlon": "41.279736 -8.375858",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PFR-00023",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PFR-00023-01",
+                        "evse_id": "PT*GLP*EPFR*00023*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PFR-00023-02",
+                        "evse_id": "PT*GLP*EPFR*00023*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PFR-00023-03",
+                        "evse_id": "PT*GLP*EPFR*00023*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PGR-00002": {
+        "name": "Atlante - Bombeiros Voluntários de Pedrogão",
+        "lastUpdated": "2025-07-18T02:02:35.521Z",
+        "city": "Pedrógão Grande",
+        "street": "R. Dr. Júlio Baeta Rebelo",
+        "postcode": "3270-116",
+        "latitude": "39.914345",
+        "longitude": "-8.149038",
+        "latlon": "39.914345 -8.149038",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PGR-00002",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PGR-00002-01",
+                        "evse_id": "PT*ATL*EPGR*00002*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PGR-00002-02",
+                        "evse_id": "PT*ATL*EPGR*00002*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PGR-00003": {
+        "name": "Atlante - Bombeiros Voluntários de Pedrogão",
+        "lastUpdated": "2025-07-17T20:41:07.472Z",
+        "city": "Pedrógão Grande",
+        "street": "R. Dr. Júlio Baeta Rebelo",
+        "postcode": "3270-116",
+        "latitude": "39.914345",
+        "longitude": "-8.149038",
+        "latlon": "39.914345 -8.149038",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PGR-00003",
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PGR-00003-01",
+                        "evse_id": "PT*ATL*EPGR*00003*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "400.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PGR-00003-02",
+                        "evse_id": "PT*ATL*EPGR*00003*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "400.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRD-00036": {
+        "name": "",
+        "lastUpdated": "2025-07-17T23:53:22.786Z",
+        "city": "Paredes",
+        "street": "Rua Dona Maria Sotto Mayor Meneses,",
+        "postcode": "4580-146",
+        "latitude": "41.199043",
+        "longitude": "-8.333242",
+        "latlon": "41.199043 -8.333242",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRD-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRD-00036-01",
+                        "evse_id": "PT*GLP*EPRD*00036*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRD-00036-02",
+                        "evse_id": "PT*GLP*EPRD*00036*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRD-00036-03",
+                        "evse_id": "PT*GLP*EPRD*00036*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AVR-90005": {
+        "longitude": {
+            "old": "-8.641327",
+            "new": "-8.64171"
+        },
+        "latitude": {
+            "old": "40.64416",
+            "new": "40.644035"
+        },
+        "latlon": {
+            "old": "40.64416 -8.641327",
+            "new": "40.644035 -8.64171"
+        }
+    },
+    "LSB-91101": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "NZR-00035": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "NZR-00035-01",
+                            "new": " NZR-00035-01"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "NZR-00035-02",
+                            "new": " NZR-00035-02"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "NZR-00035-01",
+                            "evse_id": "PT*ATL*ENZR*00035*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "NZR-00035-02",
+                            "evse_id": "PT*ATL*ENZR*00035*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "VNG-00198": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "chademo"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "125.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "50000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VNG-90001": {
+        "longitude": {
+            "old": "-8.605302",
+            "new": "-8.605518"
+        },
+        "latitude": {
+            "old": "41.12916",
+            "new": "41.129135"
+        },
+        "latlon": {
+            "old": "41.12916 -8.605302",
+            "new": "41.129135 -8.605518"
+        }
+    }
+}
