@@ -2250,3 +2250,797 @@ Modificados:
         }
     }
 }
+2025-07-23 04:41:03
+Adicionados:
+{
+    "LRS-00143": {
+        "name": "",
+        "lastUpdated": "2025-07-22T19:03:46.550Z",
+        "city": "Loures",
+        "street": "Quinta Sýo Joýo das Areias",
+        "postcode": "2685-012",
+        "latitude": "38.796062",
+        "longitude": "-9.116989",
+        "latlon": "38.796062 -9.116989",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00143",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00143-01",
+                        "evse_id": "PT*GLP*ELRS*00143*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00143-02",
+                        "evse_id": "PT*GLP*ELRS*00143*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00143-03",
+                        "evse_id": "PT*GLP*ELRS*00143*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00978": {
+        "name": "",
+        "lastUpdated": "2025-07-23T02:56:30.126Z",
+        "city": "Lisboa",
+        "street": "Rua Cidade de Bolama",
+        "postcode": "1800-079",
+        "latitude": "38.762493",
+        "longitude": "-9.117499",
+        "latlon": "38.762493 -9.117499",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00978",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00978-01",
+                        "evse_id": "PT*GLP*ELSB*00978*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00978-02",
+                        "evse_id": "PT*GLP*ELSB*00978*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00978-03",
+                        "evse_id": "PT*GLP*ELSB*00978*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RGR-00011": {
+        "name": "RGR",
+        "lastUpdated": "2025-07-22T09:05:02.509Z",
+        "city": "Ribeira Grande",
+        "street": "Avenida da Paz, Pico da Pedra",
+        "postcode": "9600-053",
+        "latitude": "37.801975",
+        "longitude": "-25.611813",
+        "latlon": "37.801975 -25.611813",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "RGR-00011",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "RGR-00011-01",
+                        "evse_id": "PT*SEG*E*RGR*00011*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "RGR-00011-02",
+                        "evse_id": "PT*SEG*E*RGR*00011*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RGR-00012": {
+        "name": "RGR",
+        "lastUpdated": "2025-07-22T09:30:03.005Z",
+        "city": "Ribeira Grande",
+        "street": "Rua Nossa Senhora de Fátima, Rabo de Peixe",
+        "postcode": "9600-998",
+        "latitude": "37.814896",
+        "longitude": "-25.581778",
+        "latlon": "37.814896 -25.581778",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "RGR-00012",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "RGR-00012-01",
+                        "evse_id": "PT*SEG*E*RGR*00012*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "RGR-00012-02",
+                        "evse_id": "PT*SEG*E*RGR*00012*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RGR-00013": {
+        "name": "RGR",
+        "lastUpdated": "2025-07-22T09:50:02.857Z",
+        "city": "Ribeira Grande",
+        "street": "Rua da Saudade, Ribeira Seca",
+        "postcode": "9600-213",
+        "latitude": "37.812927",
+        "longitude": "-25.535208",
+        "latlon": "37.812927 -25.535208",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "RGR-00013",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "RGR-00013-01",
+                        "evse_id": "PT*SEG*E*RGR*00013*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "RGR-00013-02",
+                        "evse_id": "PT*SEG*E*RGR*00013*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RGR-00014": {
+        "name": "RGR",
+        "lastUpdated": "2025-07-22T10:30:02.664Z",
+        "city": "Ribeira Grande",
+        "street": "Rua Benemérito Cónego Cristiano Jesus Borges",
+        "postcode": "9600-522",
+        "latitude": "37.82453",
+        "longitude": "-25.514647",
+        "latlon": "37.82453 -25.514647",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "RGR-00014",
+                "facilities": [
+                    "cafe",
+                    "restaurant",
+                    "NATURE"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "RGR-00014-01",
+                        "evse_id": "PT*SEG*E*RGR*00014*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "RGR-00014-02",
+                        "evse_id": "PT*SEG*E*RGR*00014*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RGR-00016": {
+        "name": "RGR",
+        "lastUpdated": "2025-07-22T10:00:02.943Z",
+        "city": "Ribeira Grande",
+        "street": "Avenida Doutor José Nunes da Ponte",
+        "postcode": "9600-525",
+        "latitude": "37.819817",
+        "longitude": "-25.528801",
+        "latlon": "37.819817 -25.528801",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "RGR-00016",
+                "facilities": [
+                    "shoppingCentre",
+                    "carPark",
+                    "hotel",
+                    "restaurant",
+                    "cafe",
+                    "foodShopping",
+                    "SPORT",
+                    "RECREATION_AREA",
+                    "NATURE",
+                    "MUSEUM"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "RGR-00016-01",
+                        "evse_id": "PT*SEG*E*RGR*00016*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "RGR-00016-02",
+                        "evse_id": "PT*SEG*E*RGR*00016*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VLC-00019": {
+        "name": "",
+        "lastUpdated": "2025-07-23T03:00:01.705Z",
+        "city": "Vale de Cambra",
+        "street": "Av. Vale do Caima, Nº S/N",
+        "postcode": "3730-203",
+        "latitude": "40.845917",
+        "longitude": "-8.394",
+        "latlon": "40.845917 -8.394",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VLC-00019",
+                "payment": [
+                    "nfc",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VLC-00019-01",
+                        "evse_id": "PT*MOT*E*VLC*00019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "45000.0",
+                                "voltage": "1000.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VLC-00019-02",
+                        "evse_id": "PT*MOT*E*VLC*00019*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "45000.0",
+                                "voltage": "1000.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "LSB-90063",
+    "LSB-90080",
+    "LSB-90136"
+]
+Modificados:
+{
+    "AMT-00011": {
+        "street": {
+            "old": "Rua Pedro Alvellos",
+            "new": "Rua Pedro Alvellos 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAMT-00011-1",
+                            "evse_id": "PT*EDP*EAMT*00011*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAMT-00011-2",
+                            "evse_id": "PT*EDP*EAMT*00011*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAMT-00011-3",
+                            "evse_id": "PT*EDP*EAMT*00011*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "43000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "63.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Rua Pedro Alvellos 1"
+        }
+    },
+    "AZB-00016": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "MOO"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00050": {
+        "street": {
+            "old": "Rua Pedro Álvares Cabral",
+            "new": "Rua Pedro Álvares Cabral 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRS-00050-1",
+                            "evse_id": "PT*EDP*ELRS*00050*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELRS-00050-2",
+                            "evse_id": "PT*EDP*ELRS*00050*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Intermarché Santo António dos Cavaleiros 1"
+        }
+    },
+    "LRS-00100": {
+        "street": {
+            "old": "RUA Dom Afonso de Albuquerque",
+            "new": "RUA Dom Afonso de Albuquerque 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRS-00100-1",
+                            "evse_id": "PT*EDP*ELRS*00100*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELRS-00100-2",
+                            "evse_id": "PT*EDP*ELRS*00100*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "INTERAZOIA",
+            "new": "Intermarché Santa Iria de Azóia"
+        }
+    },
+    "LSB-00824": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00827": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00828": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "STB-00019": {
+        "opc_name": {
+            "old": "E-Plug, Lda",
+            "new": "e-Plug, Lda"
+        }
+    },
+    "STC-00002": {
+        "opc_name": {
+            "old": "E-Plug, Lda",
+            "new": "e-Plug, Lda"
+        }
+    }
+}
