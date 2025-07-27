@@ -27,10 +27,17 @@ sorted_prefix_counts = sorted(prefix_counts.items(), key=lambda x: x[1], reverse
 
 # Write results to a file with opc, opc_name, and count
 output_file = "opc_counts.csv"
+output_file_tsv = "opc_counts.tsv"
 with open(output_file, "w", encoding="utf-8") as file:
     for (opc, opc_name), count in sorted_opc_counts:
         file.write(f"{opc};{opc_name};{count}\n")
 print(f"Results written to {output_file}")
+
+with open(output_file_tsv, "w", encoding="utf-8") as file:
+    for (opc, opc_name), count in sorted_opc_counts:
+        file.write(f"{opc}\t{opc_name}\t{count}\n")
+print(f"Results written to {output_file_tsv}")
+
 
 # Write prefix counts to a separate file
 prefix_output_file = "prefix_counts.csv"
@@ -38,4 +45,11 @@ with open(prefix_output_file, "w", encoding="utf-8") as file:
     for prefix, count in sorted_prefix_counts:
         file.write(f"{prefix};{count}\n")
 print(f"Prefix counts written to {prefix_output_file}")
+
+prefix_output_file_tsv = "prefix_counts.tsv"
+with open(prefix_output_file_tsv, "w", encoding="utf-8") as file:
+    for prefix, count in sorted_prefix_counts:
+        file.write(f"{prefix}\t{count}\n")
+print(f"Prefix counts written to {prefix_output_file_tsv}")
+
 
