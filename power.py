@@ -9,8 +9,10 @@ with open('LATEST_static.json', 'r', encoding='utf-8') as f:
 rows = []
 
 # Prepare CSV output
-with open('power_table.csv', 'w', newline='', encoding='utf-8') as csvfile:
+with open('power_table.csv', 'w', newline='', encoding='utf-8') as csvfile, \
+     open('power_table.tsv', 'w', newline='', encoding='utf-8') as tsvfile:
     writer = csv.writer(csvfile, delimiter=';')
+    tsb_writer = csv.writer(tsvfile, delimiter='\t')
     
     # Write header
     writer.writerow([
@@ -18,6 +20,12 @@ with open('power_table.csv', 'w', newline='', encoding='utf-8') as csvfile:
         'Voltage (V)', 'Max Current (A)', 'Calculated Power (W)', 'Claimed Power (W)', 'Power Difference (W)'
     ])
     
+    # Write header
+    tsb_writer.writerow([
+        'Station ID', 'OPC', 'EVSE ID', 'Connector Type', 'Charging Mode',
+        'Voltage (V)', 'Max Current (A)', 'Calculated Power (W)', 'Claimed Power (W)', 'Power Difference (W)'
+    ])
+
     # Write connector rows
     for station in data.values():
         for station_entry in station.get('stations', []):
@@ -70,3 +78,4 @@ with open('power_table.csv', 'w', newline='', encoding='utf-8') as csvfile:
     rows.sort(key=lambda r: float(r[-1]))
 
     writer.writerows(rows)
+    tsb_writer.writerows(rows)
