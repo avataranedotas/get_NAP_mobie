@@ -48,6 +48,11 @@ jobs:
     - name: Conta postos por OPC
       run: |
         python count_opc.py
+
+    - name: Verifica potencias
+      run: |
+        python power.py
+
     
     - name: Commit and push if it changed
       run: |-
