@@ -7348,3 +7348,2261 @@ Modificados:
         }
     }
 }
+2025-07-29 04:48:42
+Adicionados:
+{
+    "ALQ-00029": {
+        "name": "",
+        "lastUpdated": "2025-07-28T19:29:24.553Z",
+        "city": "Alenquer",
+        "street": "Rua Sacadura Cabral",
+        "postcode": "2580-371",
+        "latitude": "39.050667",
+        "longitude": "-9.006527",
+        "latlon": "39.050667 -9.006527",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ALQ-00029",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALQ-00029-01",
+                        "evse_id": "PT*GLP*EALQ*00029*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALQ-00029-02",
+                        "evse_id": "PT*GLP*EALQ*00029*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00205": {
+        "name": "WOW-CSC-00411",
+        "lastUpdated": "2025-07-28T13:55:02.226Z",
+        "city": "Cascais",
+        "street": "Rua da Holanda, 125",
+        "postcode": "2775-405",
+        "latitude": "38.680878",
+        "longitude": "-9.325491",
+        "latlon": "38.680878 -9.325491",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00205",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00205-01",
+                        "evse_id": "PT*TRK*E*CSC*00205*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00205-02",
+                        "evse_id": "PT*TRK*E*CSC*00205*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00314": {
+        "name": "WOW-CSC-00392",
+        "lastUpdated": "2025-07-28T14:25:02.684Z",
+        "city": "Cascais",
+        "street": "R. Amália Rodrigues, 138",
+        "postcode": "2755-020",
+        "latitude": "38.717476",
+        "longitude": "-9.416702",
+        "latlon": "38.717476 -9.416702",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00314",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00314-01",
+                        "evse_id": "PT*TRK*E*CSC*00314*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00314-02",
+                        "evse_id": "PT*TRK*E*CSC*00314*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00315": {
+        "name": "WOW-CSC-00395",
+        "lastUpdated": "2025-07-28T14:45:02.676Z",
+        "city": "Cascais",
+        "street": "R. Professor Agostinho da Silva, 133",
+        "postcode": "2775-571",
+        "latitude": "38.694096",
+        "longitude": "-9.348812",
+        "latlon": "38.694096 -9.348812",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00315",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00315-01",
+                        "evse_id": "PT*TRK*E*CSC*00315*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00315-02",
+                        "evse_id": "PT*TRK*E*CSC*00315*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00318": {
+        "name": "WOW-CSC-00409",
+        "lastUpdated": "2025-07-28T14:30:02.695Z",
+        "city": "Cascais",
+        "street": "R. Helena Félix, 291",
+        "postcode": "2785-599",
+        "latitude": "38.713326",
+        "longitude": "-9.331565",
+        "latlon": "38.713326 -9.331565",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00318",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00318-01",
+                        "evse_id": "PT*TRK*E*CSC*00318*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00318-02",
+                        "evse_id": "PT*TRK*E*CSC*00318*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00376": {
+        "name": "WOW-CSC-00513",
+        "lastUpdated": "2025-07-28T14:40:02.704Z",
+        "city": "Cascais",
+        "street": "Av. das Tílias, 53",
+        "postcode": "2765-343",
+        "latitude": "38.696823",
+        "longitude": "-9.368281",
+        "latlon": "38.696823 -9.368281",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00376",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00376-01",
+                        "evse_id": "PT*TRK*E*CSC*00376*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00376-02",
+                        "evse_id": "PT*TRK*E*CSC*00376*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00383": {
+        "name": "WOW-CSC-00528",
+        "lastUpdated": "2025-07-28T13:50:02.658Z",
+        "city": "Cascais",
+        "street": "R. Álamos, 196",
+        "postcode": "2750-609",
+        "latitude": "38.699047",
+        "longitude": "-9.442668",
+        "latlon": "38.699047 -9.442668",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00383",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00383-01",
+                        "evse_id": "PT*TRK*E*CSC*00383*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00383-02",
+                        "evse_id": "PT*TRK*E*CSC*00383*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00390": {
+        "name": "WOW-CSC-00540",
+        "lastUpdated": "2025-07-28T14:00:03.082Z",
+        "city": "Cascais",
+        "street": "R. Frei Agostinho de Santa Maria, 63",
+        "postcode": "2785-751",
+        "latitude": "38.73",
+        "longitude": "-9.32507",
+        "latlon": "38.73 -9.32507",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00390",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00390-01",
+                        "evse_id": "PT*TRK*E*CSC*00390*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00390-02",
+                        "evse_id": "PT*TRK*E*CSC*00390*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00401": {
+        "name": "WOW-CSC-00557",
+        "lastUpdated": "2025-07-28T14:50:02.576Z",
+        "city": "Cascais",
+        "street": "R. Ilha de São Jorge, 14",
+        "postcode": "2775-801",
+        "latitude": "38.699326",
+        "longitude": "-9.321622",
+        "latlon": "38.699326 -9.321622",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00401",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00401-01",
+                        "evse_id": "PT*TRK*E*CSC*00401*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00401-02",
+                        "evse_id": "PT*TRK*E*CSC*00401*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00402": {
+        "name": "WOW-CSC-00558",
+        "lastUpdated": "2025-07-28T13:50:02.562Z",
+        "city": "Cascais",
+        "street": "R. Dom Dinis, 197",
+        "postcode": "2785-723",
+        "latitude": "38.740753",
+        "longitude": "-9.313533",
+        "latlon": "38.740753 -9.313533",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00402",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00402-01",
+                        "evse_id": "PT*TRK*E*CSC*00402*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00402-02",
+                        "evse_id": "PT*TRK*E*CSC*00402*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00411": {
+        "name": "",
+        "lastUpdated": "2025-07-29T02:54:05.233Z",
+        "city": "Cascais",
+        "street": "Rua Manuel Vieira Rosa",
+        "postcode": "2785-629",
+        "latitude": "38.71482",
+        "longitude": "-9.344939",
+        "latlon": "38.71482 -9.344939",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00411",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00411-01",
+                        "evse_id": "PT*GLP*ECSC*00411*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00411-02",
+                        "evse_id": "PT*GLP*ECSC*00411*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00411-03",
+                        "evse_id": "PT*GLP*ECSC*00411*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00420": {
+        "name": "Vila Galé Cascais - 3",
+        "lastUpdated": "2025-07-28T14:40:06.243Z",
+        "city": "Cascais",
+        "street": "Rua Frei Nicolau de Oliveira 82",
+        "postcode": "2750-641",
+        "latitude": "38.69142",
+        "longitude": "-9.422881",
+        "latlon": "38.69142 -9.422881",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00420",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECSC-00420-1",
+                        "evse_id": "PT*EDP*ECSC*00420*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECSC-00420-2",
+                        "evse_id": "PT*EDP*ECSC*00420*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FLG-00025": {
+        "name": "",
+        "lastUpdated": "2025-07-29T02:48:23.891Z",
+        "city": "Felgueiras",
+        "street": "Estrada Nacional 15",
+        "postcode": "4615-667",
+        "latitude": "41.316116",
+        "longitude": "-8.141451",
+        "latlon": "41.316116 -8.141451",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FLG-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FLG-00025-01",
+                        "evse_id": "PT*GLP*EFLG*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FLG-00025-02",
+                        "evse_id": "PT*GLP*EFLG*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FLG-00025-03",
+                        "evse_id": "PT*GLP*EFLG*00025*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FLG-00026": {
+        "name": "",
+        "lastUpdated": "2025-07-28T19:54:51.068Z",
+        "city": "Felgueiras",
+        "street": "Rua Professor Joaquim Barros Leite",
+        "postcode": "4610-211",
+        "latitude": "41.36119",
+        "longitude": "-8.197931",
+        "latlon": "41.36119 -8.197931",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FLG-00026",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FLG-00026-01",
+                        "evse_id": "PT*GLP*EFLG*00026*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FLG-00026-02",
+                        "evse_id": "PT*GLP*EFLG*00026*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FLG-00026-03",
+                        "evse_id": "PT*GLP*EFLG*00026*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GMR-00149": {
+        "name": "",
+        "lastUpdated": "2025-07-28T18:32:22.715Z",
+        "city": "Guimarães",
+        "street": "Avenida Sociedade Musical de Pevidém",
+        "postcode": "4835-297",
+        "latitude": "41.421486",
+        "longitude": "-8.355444",
+        "latlon": "41.421486 -8.355444",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GMR-00149",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GMR-00149-01",
+                        "evse_id": "PT*GLP*EGMR*00149*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00149-02",
+                        "evse_id": "PT*GLP*EGMR*00149*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00149-03",
+                        "evse_id": "PT*GLP*EGMR*00149*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LLE-00229": {
+        "name": "Loulé Naterial #3",
+        "lastUpdated": "2025-07-29T02:58:13.986Z",
+        "city": "Loulé",
+        "street": "Av. Algarve Loulé, Faro",
+        "postcode": "8100-299",
+        "latitude": "37.100853",
+        "longitude": "-8.002108",
+        "latlon": "37.100853 -8.002108",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LLE-00229",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LLE-00229-01",
+                        "evse_id": "PT*FCT*E*LLE*00229*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LLE-00229-02",
+                        "evse_id": "PT*FCT*E*LLE*00229*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LLE-00231": {
+        "name": "Loulé Naterial #5",
+        "lastUpdated": "2025-07-29T03:00:01.196Z",
+        "city": "Loulé",
+        "street": "Av. Algarve Loulé, Faro",
+        "postcode": "8100-299",
+        "latitude": "37.100853",
+        "longitude": "-8.002108",
+        "latlon": "37.100853 -8.002108",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LLE-00231",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LLE-00231-01",
+                        "evse_id": "PT*FCT*E*LLE*00231*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LLE-00231-02",
+                        "evse_id": "PT*FCT*E*LLE*00231*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTJ-00087": {
+        "name": "WOW-MTJ-00286",
+        "lastUpdated": "2025-07-28T14:05:02.514Z",
+        "city": "Montijo",
+        "street": "Rua de São João",
+        "postcode": "2870-868",
+        "latitude": "38.68457",
+        "longitude": "-8.611051",
+        "latlon": "38.68457 -8.611051",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTJ-00087",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTJ-00087-01",
+                        "evse_id": "PT*TRK*E*MTJ*00087*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTJ-00087-02",
+                        "evse_id": "PT*TRK*E*MTJ*00087*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTJ-00112": {
+        "name": "WOW-MTJ-00281",
+        "lastUpdated": "2025-07-28T14:35:02.646Z",
+        "city": "Montijo",
+        "street": "Av. Corregedor Rodrigo Dias, 9999",
+        "postcode": "2870-153",
+        "latitude": "38.70508",
+        "longitude": "-8.9648285",
+        "latlon": "38.70508 -8.9648285",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTJ-00112",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTJ-00112-01",
+                        "evse_id": "PT*TRK*E*MTJ*00112*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTJ-00112-02",
+                        "evse_id": "PT*TRK*E*MTJ*00112*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OER-00259": {
+        "name": "",
+        "lastUpdated": "2025-07-28T17:22:14.012Z",
+        "city": "Oeiras",
+        "street": "Avenida Professor Doutor Cavaco Silva",
+        "postcode": "2740-122",
+        "latitude": "38.742638",
+        "longitude": "-9.303552",
+        "latlon": "38.742638 -9.303552",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OER-00259",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00259-01",
+                        "evse_id": "PT*GLP*EOER*00259*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00259-02",
+                        "evse_id": "PT*GLP*EOER*00259*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SLV-00035": {
+        "name": "AC2 - PQ Estacionamento Armacao Pera",
+        "lastUpdated": "2025-07-29T02:59:06.001Z",
+        "city": "Silves",
+        "street": "Rua Praia dos Pescadores",
+        "postcode": "8365-102",
+        "latitude": "37.100864",
+        "longitude": "-8.35572",
+        "latlon": "37.100864 -8.35572",
+        "opc": "IHOM",
+        "opc_name": "iHome Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SLV-00035",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SLV-00035-01",
+                        "evse_id": "PT*IHM*E*SLV*00035*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SLV-00036": {
+        "name": "AD+DC - PQ Estacionamento Armacao Pera",
+        "lastUpdated": "2025-07-29T02:59:42.495Z",
+        "city": "Silves",
+        "street": "Rua Praia dos Pescadores",
+        "postcode": "8365-102",
+        "latitude": "37.100864",
+        "longitude": "-8.35572",
+        "latlon": "37.100864 -8.35572",
+        "opc": "IHOM",
+        "opc_name": "iHome Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SLV-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SLV-00036-01",
+                        "evse_id": "PT*IHM*E*SLV*00036*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SLV-00036-02",
+                        "evse_id": "PT*IHM*E*SLV*00036*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SNT-00195": {
+        "name": "",
+        "lastUpdated": "2025-07-28T23:09:53.067Z",
+        "city": "Sintra",
+        "street": "Avenida da Liberdade - 151",
+        "postcode": "2715-004",
+        "latitude": "38.86139",
+        "longitude": "-9.326944",
+        "latlon": "38.86139 -9.326944",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SNT-00195",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SNT-00195-01",
+                        "evse_id": "PT*GLP*ESNT*00195*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00195-02",
+                        "evse_id": "PT*GLP*ESNT*00195*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00195-03",
+                        "evse_id": "PT*GLP*ESNT*00195*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIZ-00015": {
+        "name": "",
+        "lastUpdated": "2025-07-29T01:30:40.566Z",
+        "city": "Vizela",
+        "street": "Rua Guilherme Caldas Peixoto, Vizela",
+        "postcode": "4815-433",
+        "latitude": "41.37154",
+        "longitude": "-8.312236",
+        "latlon": "41.37154 -8.312236",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VIZ-00015",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VIZ-00015-01",
+                        "evse_id": "PT*GLP*EVIZ*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VIZ-00015-02",
+                        "evse_id": "PT*GLP*EVIZ*00015*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VIZ-00015-03",
+                        "evse_id": "PT*GLP*EVIZ*00015*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00049": {
+        "name": "InparSelect",
+        "lastUpdated": "2025-07-29T03:00:00.429Z",
+        "city": "Vila Real",
+        "street": "M1249 Zona Industrial Constantim, lugar da Ga",
+        "postcode": "5000-081",
+        "latitude": "41.275646",
+        "longitude": "-7.715376",
+        "latlon": "41.275646 -7.715376",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00049",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00049-01",
+                        "evse_id": "PT*HLX*E*VRL*00049*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "140.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00049-02",
+                        "evse_id": "PT*HLX*E*VRL*00049*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00049-03",
+                        "evse_id": "PT*HLX*E*VRL*00049*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ARC-00006": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "45000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "45000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CBR-00101": {
+        "street": {
+            "old": "RUA ADRIANO LUCAS, R. MONTE DE SÃO MIGUEL",
+            "new": "RUA ADRIANO LUCAS R. MONTE DE SÃO MIGUEL 1"
+        },
+        "latitude": {
+            "old": "40.237404",
+            "new": "40.237446"
+        },
+        "longitude": {
+            "old": "-8.435729",
+            "new": "-8.435733"
+        },
+        "latlon": {
+            "old": "40.237404 -8.435729",
+            "new": "40.237446 -8.435733"
+        },
+        "name": {
+            "old": "VOLVO LITOCAR - COIMBRA",
+            "new": "Volvo Litocar - Coimbra"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBR-00101-1",
+                            "evse_id": "PT*EDP*ECBR*00101*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBR-00101-2",
+                            "evse_id": "PT*EDP*ECBR*00101*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CBR-00122": {
+        "street": {
+            "old": "Av. José Bonifácio de Andrade e Silva, 1",
+            "new": "Av. José Bonifácio de Andrade e Silva 3"
+        },
+        "name": {
+            "old": "Decathlon Coimbra",
+            "new": "Decathlon Coimbra 3"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBR-00122-1",
+                            "evse_id": "PT*EDP*ECBR*00122*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBR-00122-2",
+                            "evse_id": "PT*EDP*ECBR*00122*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CNT-00015": {
+        "street": {
+            "old": "EN 234 - Nº 99914",
+            "new": "EN 234 - Nº 99914 1"
+        },
+        "name": {
+            "old": "MCDONALD'S CANTANHEDE",
+            "new": "McDonald's Cantanhede"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECNT-00015-1",
+                            "evse_id": "PT*EDP*ECNT*00015*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECNT-00015-2",
+                            "evse_id": "PT*EDP*ECNT*00015*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECNT-00015-3",
+                            "evse_id": "PT*EDP*ECNT*00015*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CNT-00020": {
+        "street": {
+            "old": "AV. COMANDANTE XAVIER GOMES GAMA N.1",
+            "new": "AV. COMANDANTE XAVIER GOMES GAMA 1"
+        },
+        "name": {
+            "old": "HOTEL B&B CANTANHEDE",
+            "new": "B&B Hotel Cantanhede"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECNT-00020-1",
+                            "evse_id": "PT*EDP*ECNT*00020*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECNT-00020-2",
+                            "evse_id": "PT*EDP*ECNT*00020*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00414": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FAF-00017": {
+        "street": {
+            "old": "Rua Monsenhor Vieira de Castro, SN",
+            "new": "Rua Monsenhor Vieira de Castro 2"
+        },
+        "name": {
+            "old": "ALDI Fafe",
+            "new": "Aldi Fafe 3"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EFAF-00017-1",
+                            "evse_id": "PT*EDP*EFAF*00017*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EFAF-00017-2",
+                            "evse_id": "PT*EDP*EFAF*00017*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "FAF-00018": {
+        "street": {
+            "old": "Rua Monsenhor Vieira de Castro, SN",
+            "new": "Rua Monsenhor Vieira de Castro SN 3"
+        },
+        "name": {
+            "old": "ALDI Fafe",
+            "new": "Aldi Fafe 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EFAF-00018-1",
+                            "evse_id": "PT*EDP*EFAF*00018*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EFAF-00018-2",
+                            "evse_id": "PT*EDP*EFAF*00018*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EFAF-00018-3",
+                            "evse_id": "PT*EDP*EFAF*00018*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "GDM-00061": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00119": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00119-02",
+                            "evse_id": "PT*MAK*E*LSB*00119*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00120": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00120-02",
+                            "evse_id": "PT*MAK*E*LSB*00120*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00121": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00121-02",
+                            "evse_id": "PT*MAK*E*LSB*00121*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00125": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00125-02",
+                            "evse_id": "PT*MAK*E*LSB*00125*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00126": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00126-02",
+                            "evse_id": "PT*MAK*E*LSB*00126*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00152": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00152-02",
+                            "evse_id": "PT*MAK*E*LSB*00152*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00769": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00769-02",
+                            "evse_id": "PT*MAK*E*LSB*00769*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00770": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00770-02",
+                            "evse_id": "PT*MAK*E*LSB*00770*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00771": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00771-02",
+                            "evse_id": "PT*MAK*E*LSB*00771*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00976": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00023": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MAI-00025": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "MTS-00183": {
+        "latitude": {
+            "old": "41.204567",
+            "new": "41.204247"
+        },
+        "longitude": {
+            "old": "-8.698824",
+            "new": "-8.697027"
+        },
+        "latlon": {
+            "old": "41.204567 -8.698824",
+            "new": "41.204247 -8.697027"
+        }
+    },
+    "SNT-00197": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00201": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "22000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode4DC",
+                                    "new": "mode2AC1p"
+                                },
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "iec62196T2"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "50000.0"
+                                },
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "chademo"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
