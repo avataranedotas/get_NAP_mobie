@@ -13977,3 +13977,73 @@ Modificados:
         }
     }
 }
+2025-08-04 04:57:50
+Adicionados:
+{
+    "ODV-00049": {
+        "name": "",
+        "lastUpdated": "2025-08-04T01:51:44.512Z",
+        "city": "Odivelas",
+        "street": "Estrada de Montemor",
+        "postcode": "1975-483",
+        "latitude": "38.814445",
+        "longitude": "-9.215",
+        "latlon": "38.814445 -9.215",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00049",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00049-01",
+                        "evse_id": "PT*GLP*EODV*00049*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "500.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00049-02",
+                        "evse_id": "PT*GLP*EODV*00049*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00049-03",
+                        "evse_id": "PT*GLP*EODV*00049*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
