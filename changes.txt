@@ -29264,3 +29264,1009 @@ Modificados:
         }
     }
 }
+2025-08-20 04:23:37
+Adicionados:
+{
+    "CCH-00008": {
+        "name": "Avenida do Sorraia",
+        "lastUpdated": "2025-08-19T16:16:08.000Z",
+        "city": "Coruche",
+        "street": "Avenida do Sorraia 1",
+        "postcode": "2100-101",
+        "latitude": "38.955914",
+        "longitude": "-8.530397",
+        "latlon": "38.955914 -8.530397",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CCH-00008",
+                "facilities": [
+                    "CARPOOL_PARKING"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECCH-00008-1",
+                        "evse_id": "PT*EDP*ECCH*00008*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECCH-00008-2",
+                        "evse_id": "PT*EDP*ECCH*00008*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CCH-00009": {
+        "name": "Avenida do Sorraia 2",
+        "lastUpdated": "2025-08-19T16:21:38.000Z",
+        "city": "Coruche",
+        "street": "Avenida do Sorraia 2",
+        "postcode": "2100-101",
+        "latitude": "38.95592",
+        "longitude": "-8.530393",
+        "latlon": "38.95592 -8.530393",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CCH-00009",
+                "facilities": [
+                    "CARPOOL_PARKING"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECCH-00009-1",
+                        "evse_id": "PT*EDP*ECCH*00009*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECCH-00009-2",
+                        "evse_id": "PT*EDP*ECCH*00009*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GRD-00019": {
+        "name": "",
+        "lastUpdated": "2025-08-20T02:58:14.021Z",
+        "city": "Guarda",
+        "street": "R. dos Castelos Velhos 16",
+        "postcode": "6300-000",
+        "latitude": "40.541473",
+        "longitude": "-7.260768",
+        "latlon": "40.541473 -7.260768",
+        "opc": "REPS",
+        "opc_name": "REPSOL PORTUGUESA LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GRD-00019",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GRD-00019-01",
+                        "evse_id": "PT*REP*E*GRD*00019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GRD-00019-02",
+                        "evse_id": "PT*REP*E*GRD*00019*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "750.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GRD-00019-03",
+                        "evse_id": "PT*REP*E*GRD*00019*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MDL-00014": {
+        "name": "",
+        "lastUpdated": "2025-08-20T02:46:08.935Z",
+        "city": "Mirandela",
+        "street": "Lugar da Quinta Branca",
+        "postcode": "5370-346",
+        "latitude": "41.494175",
+        "longitude": "-7.184129",
+        "latlon": "41.494175 -7.184129",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MDL-00014",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MDL-00014-01",
+                        "evse_id": "PT*GLP*EMDL*00014*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MDL-00014-02",
+                        "evse_id": "PT*GLP*EMDL*00014*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MDL-00014-03",
+                        "evse_id": "PT*GLP*EMDL*00014*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OHP-00025": {
+        "name": "",
+        "lastUpdated": "2025-08-20T02:43:00.628Z",
+        "city": "Oliveira do Hospital",
+        "street": "Av. Dr. Vasco de Campos 116, 3400-358 Avô",
+        "postcode": "3400-358",
+        "latitude": "40.294376",
+        "longitude": "-7.902734",
+        "latlon": "40.294376 -7.902734",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OHP-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OHP-00025-01",
+                        "evse_id": "PT*GLP*EOHP*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OHP-00025-02",
+                        "evse_id": "PT*GLP*EOHP*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRT-00331": {
+        "name": "Powerlab",
+        "lastUpdated": "2025-08-20T02:59:02.922Z",
+        "city": "Porto",
+        "street": "Rua de Anselmo Braamcamp",
+        "postcode": "4000-099",
+        "latitude": "41.154022",
+        "longitude": "-8.600647",
+        "latlon": "41.154022 -8.600647",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRT-00331",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRT-00331-01",
+                        "evse_id": "PT*HRZ*E*PRT*00331*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRT-00331-02",
+                        "evse_id": "PT*HRZ*E*PRT*00331*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SSB-00022": {
+        "name": "PDC - Clube de Golfe Quinta do Peru",
+        "lastUpdated": "2025-08-20T02:58:07.258Z",
+        "city": "Sesimbra",
+        "street": "Rua do Medronheiro, Quinta do Conde",
+        "postcode": "2975-666",
+        "latitude": "38.54393",
+        "longitude": "-9.053123",
+        "latlon": "38.54393 -9.053123",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SSB-00022",
+                "facilities": [
+                    "SPORT"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SSB-00022-01",
+                        "evse_id": "PT*IBD*E*SSB*00022*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "20700.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SSB-00022-02",
+                        "evse_id": "PT*IBD*E*SSB*00022*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "20700.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "VNG-00144"
+]
+Modificados:
+{
+    "AVR-00066": {
+        "street": {
+            "old": "R. MÁRIO DUARTE FILHO",
+            "new": "R. MÁRIO DUARTE FILHO 1"
+        },
+        "latlon": {
+            "old": "40.646408 -8.599147",
+            "new": "40.64641 -8.599146"
+        },
+        "name": {
+            "old": "DECATHLON - AVEIRO",
+            "new": "Decathlon Aveiro 1"
+        },
+        "longitude": {
+            "old": "-8.599147",
+            "new": "-8.599146"
+        },
+        "latitude": {
+            "old": "40.646408",
+            "new": "40.64641"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAVR-00066-1",
+                            "evse_id": "PT*EDP*EAVR*00066*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAVR-00066-2",
+                            "evse_id": "PT*EDP*EAVR*00066*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "SPORT",
+                        "RECREATION_AREA"
+                    ]
+                }
+            }
+        }
+    },
+    "AVR-00067": {
+        "street": {
+            "old": "R. MÁRIO DUARTE FILHO",
+            "new": "R. MÁRIO DUARTE FILHO 2"
+        },
+        "latlon": {
+            "old": "40.646408 -8.599147",
+            "new": "40.64641 -8.599146"
+        },
+        "name": {
+            "old": "DECATHLON - AVEIRO",
+            "new": "Decathlon Aveiro 2"
+        },
+        "longitude": {
+            "old": "-8.599147",
+            "new": "-8.599146"
+        },
+        "latitude": {
+            "old": "40.646408",
+            "new": "40.64641"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAVR-00067-1",
+                            "evse_id": "PT*EDP*EAVR*00067*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAVR-00067-2",
+                            "evse_id": "PT*EDP*EAVR*00067*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "SPORT",
+                        "RECREATION_AREA"
+                    ]
+                }
+            }
+        }
+    },
+    "AZB-00021": {
+        "opc_name": {
+            "old": "MOO",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis"
+        }
+    },
+    "BCL-00018": {
+        "street": {
+            "old": "Rua Dr. Manuel Pais Vila Frescainha",
+            "new": "Rua Dr. Manuel Pais Vila Frescainha 1"
+        },
+        "name": {
+            "old": "McDonalds Barcelos",
+            "new": "McDonald's Barcelos"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EBCL-00018-1",
+                            "evse_id": "PT*EDP*EBCL*00018*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EBCL-00018-2",
+                            "evse_id": "PT*EDP*EBCL*00018*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EBCL-00018-3",
+                            "evse_id": "PT*EDP*EBCL*00018*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed_items": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "EPS-00006": {
+        "street": {
+            "old": "Rua Raúl Sousa Martins, 99",
+            "new": "Rua Raúl Sousa Martins 100"
+        },
+        "name": {
+            "old": "Axis Ofir Beach Resort Hotel",
+            "new": "Axis Ofir Beach Resort Hotel 2"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EEPS-00006-1",
+                            "evse_id": "PT*EDP*EEPS*00006*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EEPS-00006-2",
+                            "evse_id": "PT*EDP*EEPS*00006*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "EPS-00007": {
+        "street": {
+            "old": "Rua Raúl Sousa Martins, 99",
+            "new": "Rua Raúl Sousa Martins 99"
+        },
+        "name": {
+            "old": "Axis Ofir Beach Resort Hotel",
+            "new": "Axis Ofir Beach Resort Hotel 1"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EEPS-00007-1",
+                            "evse_id": "PT*EDP*EEPS*00007*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EEPS-00007-2",
+                            "evse_id": "PT*EDP*EEPS*00007*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "MNC-00009": {
+        "latlon": {
+            "old": "42.067093 -8.495301",
+            "new": "42.0671 -8.495299"
+        },
+        "longitude": {
+            "old": "-8.495301",
+            "new": "-8.495299"
+        },
+        "latitude": {
+            "old": "42.067093",
+            "new": "42.0671"
+        }
+    },
+    "PVZ-00016": {
+        "street": {
+            "old": "Rua Gomes de Amorim 1453, Vila de Aver-o-Mar",
+            "new": "Rua Gomes de Amorim 1453"
+        },
+        "name": {
+            "old": "McDonalds Póvoa de Varzim",
+            "new": "McDonald's Póvoa de Varzim"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00016*01",
+                            "new": "PT*EDP*EPVZ*00016*1"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00016-01",
+                            "new": "PT-EDP-EPVZ-00016-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00016*02",
+                            "new": "PT*EDP*EPVZ*00016*2"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00016-02",
+                            "new": "PT-EDP-EPVZ-00016-2"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00016*03",
+                            "new": "PT*EDP*EPVZ*00016*3"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00016-03",
+                            "new": "PT-EDP-EPVZ-00016-3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PVZ-00016-01",
+                            "evse_id": "PT*EDP*E*PVZ*00016*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PVZ-00016-02",
+                            "evse_id": "PT*EDP*E*PVZ*00016*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PVZ-00016-03",
+                            "evse_id": "PT*EDP*E*PVZ*00016*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "added": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00038": {
+        "street": {
+            "old": "Rua da Imprensa Regional, 90",
+            "new": "Rua da Imprensa Regional 90"
+        },
+        "name": {
+            "old": "Axis Vermar Conference & Beach Hotel",
+            "new": "Axis Vermar Conference & Beach Hotel 1"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "creditCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00038*01",
+                            "new": "PT*EDP*EPVZ*00038*1"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00038-01",
+                            "new": "PT-EDP-EPVZ-00038-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00038*02",
+                            "new": "PT*EDP*EPVZ*00038*2"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00038-02",
+                            "new": "PT-EDP-EPVZ-00038-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PVZ-00038-01",
+                            "evse_id": "PT*EDP*E*PVZ*00038*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PVZ-00038-02",
+                            "evse_id": "PT*EDP*E*PVZ*00038*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00039": {
+        "street": {
+            "old": "Rua da Imprensa Regional, 90",
+            "new": "Rua da Imprensa Regional 91"
+        },
+        "name": {
+            "old": "Axis Vermar Conference & Beach Hotel",
+            "new": "Axis Vermar Conference & Beach Hotel 2"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "creditCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00039*01",
+                            "new": "PT*EDP*EPVZ*00039*1"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00039-01",
+                            "new": "PT-EDP-EPVZ-00039-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*PVZ*00039*02",
+                            "new": "PT*EDP*EPVZ*00039*2"
+                        },
+                        "evse_code": {
+                            "old": "PVZ-00039-02",
+                            "new": "PT-EDP-EPVZ-00039-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PVZ-00039-01",
+                            "evse_id": "PT*EDP*E*PVZ*00039*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PVZ-00039-02",
+                            "evse_id": "PT*EDP*E*PVZ*00039*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00200": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
