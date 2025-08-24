@@ -111,7 +111,7 @@ with open("changes.txt", "a", encoding="utf-8") as file:
         json.dump(modificados, file, indent=4, ensure_ascii=False)
         file.write("\n")
 
-with open("changes_add.txt", "a", encoding="utf-8") as file:
+with open("changes_add.json", "a", encoding="utf-8") as file:
     if adicionados:
         json.dump(adicionados, file, indent=4, ensure_ascii=False)
         
