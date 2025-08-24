@@ -33,6 +33,10 @@ jobs:
       run: |
         python compare_static.py
 
+    - name: Converte os adicionados em formato OSM
+      run: |
+        python convert4.py
+
     - name: Obtem lista de postos sem actualização há mais de 30 dias
       run: |
         python disused.py
