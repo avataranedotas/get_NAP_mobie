@@ -19,9 +19,10 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
     tags += [
         f"LOCAL={data.get('latlon','24/7')}",
         "access=yes",
-        "amenity=charging_station",
+        "construction:amenity=charging_station",
         "authentication:membership_card=yes",
         "authentication:none=no",
+        "authentication:app=yes",
         "fee=yes",
         "maxstay=unlimited",
         "motorcar=yes",
@@ -29,7 +30,7 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
         "network=Mobi.E",
         "opening_hours=§§§§§",
         "parking:fee=§§§§§",
-        "website=https://www.mobie.pt/",
+        "website=https://www.mobie.pt",
         f"ref={station_id}",
         "capacity=§§§§§",
     ]
