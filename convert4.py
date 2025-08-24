@@ -2,16 +2,20 @@ from lookup_wiki import OPERATORS
 
 from typing import List, Dict
 
+from datetime import datetime
+
 import json
 
 import os
 
-print("DEBUG: Does changes_add.json exist?", os.path.exists("changes_add.json"))
 print("DEBUG: File size:", os.path.getsize("changes_add.json") if os.path.exists("changes_add.json") else "N/A")
 
-# Load the input stations file (JSON)
-with open("changes_add.json", "r", encoding="utf-8") as finput:
-    stations: Dict[str, Dict] = json.load(finput)
+try:
+    with open("changes_add.json", "r", encoding="utf-8") as finput:
+        stations: Dict[str, Dict] = json.load(finput)
+except (FileNotFoundError, json.JSONDecodeError):
+    stations = {}
+    print("WARNING: changes_add.json missing or invalid — continuing with empty stations.")
 
 def station_to_tags(station_id: str, data: Dict) -> List[str]:
     opc = data.get("opc")
@@ -160,6 +164,9 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
 
 # Write output for all stations
 with open("stations_add_osm.txt", "a", encoding="utf-8") as f:
+    # Write timestamp once at the top
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    f.write(f"# Generated on {timestamp}\n\n")
     for station_id, station_data in stations.items():
         f.write("\n".join(station_to_tags(station_id, station_data)))
         f.write("\n\n")  # blank line between stations
