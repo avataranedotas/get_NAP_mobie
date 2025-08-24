@@ -19,10 +19,9 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
     tags += [
         f"LOCAL={data.get('latlon','24/7')}",
         "access=yes",
-        "construction:amenity=charging_station",
+        "amenity=charging_station",
         "authentication:membership_card=yes",
         "authentication:none=no",
-        "authentication:app=yes",
         "fee=yes",
         "maxstay=unlimited",
         "motorcar=yes",
@@ -30,7 +29,7 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
         "network=Mobi.E",
         "opening_hours=§§§§§",
         "parking:fee=§§§§§",
-        "website=https://www.mobie.pt",
+        "website=https://www.mobie.pt/",
         f"ref={station_id}",
         "capacity=§§§§§",
     ]
@@ -72,31 +71,56 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
     connector_summary: Dict[str, Dict[str, int]] = {}
 
     for evse in data["stations"][0].get("evses", []):
+        evse_ident = evse["evse_id"]   # save it once
+        #print (evse_ident)
         evse_ids.append(evse["evse_id"])
         for conn in evse.get("connectors", []):
             ctype = conn["connector_type"].lower()
             cformat = conn.get("connector_format", "").lower()
+            cmode = conn.get("charging_mode", "").lower()
+            #id_evse = conn.get("evse_id", "")
             tag = connector_mapping.get((ctype, cformat))
+            #tag2 = connector_mapping.get((ctype, cformat, cmode))
             if not tag:
                 continue
 
             current = int(float(conn.get("max_current", 0)))
             voltage = int(float(conn.get("voltage", 0)))
             power_w = float(conn.get("max_power", 0))
-            power_kw = int(round(power_w / 1000))
+            power_kw = round(power_w / 1000, 1)
 
             # --- Warning conditions ---
             if tag in ("socket:type2", "socket:type2_cable"):
+                
                 if power_kw > 7.6 and voltage < 400:
+                    #print (evse_ident)
                     warnings.append(
-                        f"WARNING {station_id}: {tag} reports {power_kw}kW at {voltage}V (expected ~400V for >7.6kW)."
+                        f"WARNING {station_id}/{evse_ident}: {tag} reports {power_kw}kW at {voltage}V (expected ~400V for >7.6kW)."
                     )
+                if cmode=="mode2ac1p" and power_w > ((current * voltage) + 500):
+                    #print ("mono_errado")
+                    warnings.append(
+                        f"WARNING {station_id}/{evse_ident}: {tag} power {power_w:.0f}W exceeds current*voltage ({current*voltage}W)."
+                    )
+                if cmode=="mode2ac1p" and power_w > 7600:
+                    #print ("mono_demasiado")
+                    warnings.append(
+                        f"WARNING {station_id}/{evse_ident}: {tag} power {power_w:.0f}W singlephase power exceeds 7.6kW"
+                    )
+                if cmode=="mode3ac3p" and power_w > ((current * 240 * 3)+500):
+                    #print ("tri_errado")
+                    warnings.append(
+                        f"WARNING {station_id}/{evse_ident}: {tag} power {power_w:.0f}W exceeds threephase current*voltage ({current*240*3}W)."
+                    )
+
 
             if tag in ("socket:chademo", "socket:type2_combo"):
                 if power_w > current * voltage:
                     warnings.append(
-                        f"WARNING {station_id}: {tag} power {power_w:.0f}W exceeds current*voltage ({current*voltage}W)."
+                        f"WARNING {station_id}/{evse_ident}: {tag} power {power_w:.0f}W exceeds current*voltage ({current*voltage}W)."
                     )
+
+ 
 
             # --- Aggregation ---
             if tag not in connector_summary:
@@ -118,7 +142,11 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
 
     for tag, values in connector_summary.items():
         tags.append(f"{tag}:current={values['current']}")
-        tags.append(f"{tag}:output={values['power']} kW")
+        if float(values["power"]).is_integer():
+            potencia = f"{int(values['power'])}"
+        else:
+            potencia = f"{values['power']:.1f}"
+        tags.append(f"{tag}:output={potencia} kW")
         tags.append(f"{tag}:voltage={values['voltage']}")
         tags.append(f"{tag}={values['count']}")
 
@@ -130,4 +158,3 @@ with open("stations_add_osm.txt", "a", encoding="utf-8") as f:
     for station_id, station_data in stations.items():
         f.write("\n".join(station_to_tags(station_id, station_data)))
         f.write("\n\n")  # blank line between stations
-
