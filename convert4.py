@@ -4,6 +4,11 @@ from typing import List, Dict
 
 import json
 
+import os
+
+print("DEBUG: Does changes_add.json exist?", os.path.exists("changes_add.json"))
+print("DEBUG: File size:", os.path.getsize("changes_add.json") if os.path.exists("changes_add.json") else "N/A")
+
 # Load the input stations file (JSON)
 with open("changes_add.json", "r", encoding="utf-8") as finput:
     stations: Dict[str, Dict] = json.load(finput)
