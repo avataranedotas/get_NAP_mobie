@@ -1,59 +1,45 @@
 import json
+import csv
 from collections import defaultdict
 
+# Load JSON
+with open("LATEST_static.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-# Load JSON data from file
-with open("LATEST_static.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
-
-# Dictionary to store counts with (opc, opc_name) as key
+# Aggregate by OPC code
 opc_counts = defaultdict(int)
+opc_names = defaultdict(set)
 
-# Dictionary to store station prefix counts
-prefix_counts = defaultdict(int)
-
-# Loop through each entry and count occurrences
-for station_id, entry in data.items():
+for entry in data.values():
     opc = entry.get("opc", "Unknown")
     opc_name = entry.get("opc_name", "Unknown")
-    opc_counts[(opc, opc_name)] += 1  # Store counts by (opc, opc_name)
-    # Extract the 3-letter prefix from the station ID and count
-    prefix = station_id[:3]  # First 3 characters
+    opc_counts[opc] += 1
+    opc_names[opc].add(opc_name)
+
+# Aggregate by prefix
+prefix_counts = defaultdict(int)
+for station_id in data.keys():
+    prefix = station_id[:3] if len(station_id) >= 3 else station_id
     prefix_counts[prefix] += 1
 
-# Sort results from most to least occurrences
+# Sort results
 sorted_opc_counts = sorted(opc_counts.items(), key=lambda x: x[1], reverse=True)
 sorted_prefix_counts = sorted(prefix_counts.items(), key=lambda x: x[1], reverse=True)
 
-# Write results to a file with opc, opc_name, and count
-output_file = "opc_counts.csv"
-output_file_tsv = "opc_counts.tsv"
-with open(output_file, "w", encoding="utf-8") as file:
-    file.write("OPC;Name;Count\n")
-    for (opc, opc_name), count in sorted_opc_counts:
-        file.write(f"{opc};{opc_name};{count}\n")
-print(f"Results written to {output_file}")
+# Helper to write CSV/TSV
+def write_counts(filename, header, rows, delimiter=";"):
+    with open(filename, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f, delimiter=delimiter)
+        writer.writerow(header)
+        writer.writerows(rows)
 
-with open(output_file_tsv, "w", encoding="utf-8") as file:
-    file.write("OPC\tName\tCount\n")
-    for (opc, opc_name), count in sorted_opc_counts:
-        file.write(f"{opc}\t{opc_name}\t{count}\n")
-print(f"Results written to {output_file_tsv}")
+# Write OPC counts with joined names
+opc_rows = [(opc, ", ".join(sorted(opc_names[opc])), count) for opc, count in sorted_opc_counts]
+write_counts("opc_counts.csv", ["OPC", "Names", "Count"], opc_rows, ";")
+write_counts("opc_counts.tsv", ["OPC", "Names", "Count"], opc_rows, "\t")
 
+# Write prefix counts
+write_counts("prefix_counts.csv", ["Prefix", "Count"], sorted_prefix_counts, ";")
+write_counts("prefix_counts.tsv", ["Prefix", "Count"], sorted_prefix_counts, "\t")
 
-# Write prefix counts to a separate file
-prefix_output_file = "prefix_counts.csv"
-with open(prefix_output_file, "w", encoding="utf-8") as file:
-    file.write("Prefix;Count\n")
-    for prefix, count in sorted_prefix_counts:
-        file.write(f"{prefix};{count}\n")
-print(f"Prefix counts written to {prefix_output_file}")
-
-prefix_output_file_tsv = "prefix_counts.tsv"
-with open(prefix_output_file_tsv, "w", encoding="utf-8") as file:
-    file.write("Prefix\tCount\n")
-    for prefix, count in sorted_prefix_counts:
-        file.write(f"{prefix}\t{count}\n")
-print(f"Prefix counts written to {prefix_output_file_tsv}")
-
-
+print("All results written successfully.")
