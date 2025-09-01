@@ -9,6 +9,14 @@ OPERATORS = {
         "phone": "+351 800 222 222",
         "email": None,
     },
+    "DTEI": {
+        "operator": "Galp Power",
+        "operator:wikidata": None,
+        "brand": "e-flow",
+        "brand:wikidata": None,
+        "phone": "+351 912 872 459",
+        "email": "geral@dte.pt",
+    },
     "GLPP": {
         "operator": "Galp Power",
         "operator:wikidata": "Q135275372",
