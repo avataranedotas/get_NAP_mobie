@@ -44290,3 +44290,441 @@ Modificados:
         }
     }
 }
+2025-09-01 04:28:23
+Adicionados:
+{
+    "LSB-00835": {
+        "name": "Parque de estacionamento SABA - Alto do Parque 2",
+        "lastUpdated": "2025-08-31T22:35:02.499Z",
+        "city": "Lisboa",
+        "street": "Rua Castilho 2",
+        "postcode": "1269-073",
+        "latitude": "38.73058",
+        "longitude": "-9.157327",
+        "latlon": "38.73058 -9.157327",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00835",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00835-01",
+                        "evse_id": "PT*EDP*E*LSB*00835*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00835-02",
+                        "evse_id": "PT*EDP*E*LSB*00835*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00835-1",
+                        "evse_id": "PT*EDP*ELSB*00835*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00835-2",
+                        "evse_id": "PT*EDP*ELSB*00835*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "LSB-00180": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00180-1",
+                            "evse_id": "PT*EDP*ELSB*00180*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00180-2",
+                            "evse_id": "PT*EDP*ELSB*00180*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Avenida Lusíada",
+            "new": "Avenida Lusíada 2"
+        },
+        "name": {
+            "old": "",
+            "new": "Hospital da Luz Lisboa 2"
+        }
+    },
+    "STB-00020": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00020*01",
+                            "new": "PT*EDP*ESTB*00020*1"
+                        },
+                        "evse_code": {
+                            "old": "STB-00020-01",
+                            "new": "PT-EDP-ESTB-00020-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00020*02",
+                            "new": "PT*EDP*ESTB*00020*2"
+                        },
+                        "evse_code": {
+                            "old": "STB-00020-02",
+                            "new": "PT-EDP-ESTB-00020-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STB-00020-01",
+                            "evse_id": "PT*EDP*E*STB*00020*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STB-00020-02",
+                            "evse_id": "PT*EDP*E*STB*00020*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Hospital da Luz Setúbal, EN 10, km 37,",
+            "new": "EN 10 km 37 1"
+        },
+        "name": {
+            "old": "",
+            "new": "Hospital da Luz Setúbal 1"
+        }
+    },
+    "STB-00065": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00065*01",
+                            "new": "PT*EDP*ESTB*00065*1"
+                        },
+                        "evse_code": {
+                            "old": "STB-00065-01",
+                            "new": "PT-EDP-ESTB-00065-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00065*02",
+                            "new": "PT*EDP*ESTB*00065*2"
+                        },
+                        "evse_code": {
+                            "old": "STB-00065-02",
+                            "new": "PT-EDP-ESTB-00065-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STB-00065-01",
+                            "evse_id": "PT*EDP*E*STB*00065*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STB-00065-02",
+                            "evse_id": "PT*EDP*E*STB*00065*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "RUA ALTO GUERRA",
+            "new": "RUA ALTO GUERRA 1"
+        },
+        "name": {
+            "old": "Intermaché Setubal - SUPERSETÚBAL - SUPERMERCADOS, LDA",
+            "new": "Intermarché Setúbal 1"
+        }
+    },
+    "STB-00075": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00075*01",
+                            "new": "PT*EDP*ESTB*00075*1"
+                        },
+                        "evse_code": {
+                            "old": "STB-00075-01",
+                            "new": "PT-EDP-ESTB-00075-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00075*02",
+                            "new": "PT*EDP*ESTB*00075*2"
+                        },
+                        "evse_code": {
+                            "old": "STB-00075-02",
+                            "new": "PT-EDP-ESTB-00075-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STB-00075-01",
+                            "evse_id": "PT*EDP*E*STB*00075*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STB-00075-02",
+                            "evse_id": "PT*EDP*E*STB*00075*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "RUA ALTO GUERRA",
+            "new": "RUA ALTO GUERRA 2"
+        },
+        "name": {
+            "old": "Intermaché Setubal - SUPERSETÚBAL - SUPERMERCADOS, LDA",
+            "new": "Intermarché Setúbal 2"
+        }
+    },
+    "STB-00080": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00080*01",
+                            "new": "PT*EDP*ESTB*00080*1"
+                        },
+                        "evse_code": {
+                            "old": "STB-00080-01",
+                            "new": "PT-EDP-ESTB-00080-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00080*02",
+                            "new": "PT*EDP*ESTB*00080*2"
+                        },
+                        "evse_code": {
+                            "old": "STB-00080-02",
+                            "new": "PT-EDP-ESTB-00080-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STB-00080-01",
+                            "evse_id": "PT*EDP*E*STB*00080*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STB-00080-02",
+                            "evse_id": "PT*EDP*E*STB*00080*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "creditCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "B&B HOTEL Sado Setúbal",
+            "new": "B&B Hotel Sado - Setúbal"
+        }
+    }
+}
