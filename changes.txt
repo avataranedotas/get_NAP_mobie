@@ -51379,3 +51379,210 @@ Modificados:
         }
     }
 }
+2025-09-08 04:23:22
+Adicionados:
+{
+    "ABF-00116": {
+        "name": "",
+        "lastUpdated": "2025-09-07T21:26:46.529Z",
+        "city": "Albufeira",
+        "street": "Loteamento da Quinta da Bolota - Lote 2",
+        "postcode": "8200-053",
+        "latitude": "37.101772",
+        "longitude": "-8.261213",
+        "latlon": "37.101772 -8.261213",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00116",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ABF-00116-01",
+                        "evse_id": "PT*GLP*EABF*00116*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ABF-00116-02",
+                        "evse_id": "PT*GLP*EABF*00116*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ABF-00117": {
+        "name": "",
+        "lastUpdated": "2025-09-07T21:27:13.353Z",
+        "city": "Albufeira",
+        "street": "Loteamento da Quinta da Bolota - Lote 2",
+        "postcode": "8200-053",
+        "latitude": "37.101772",
+        "longitude": "-8.261213",
+        "latlon": "37.101772 -8.261213",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00117",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ABF-00117-01",
+                        "evse_id": "PT*GLP*EABF*00117*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ABF-00117-02",
+                        "evse_id": "PT*GLP*EABF*00117*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ABF-00118": {
+        "name": "",
+        "lastUpdated": "2025-09-07T21:27:25.011Z",
+        "city": "Albufeira",
+        "street": "Loteamento da Quinta da Bolota - Lote 2",
+        "postcode": "8200-053",
+        "latitude": "37.101772",
+        "longitude": "-8.261213",
+        "latlon": "37.101772 -8.261213",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00118",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ABF-00118-01",
+                        "evse_id": "PT*GLP*EABF*00118*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ABF-00118-02",
+                        "evse_id": "PT*GLP*EABF*00118*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AVR-00039": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "BRG-00080": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
