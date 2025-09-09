@@ -51586,3 +51586,372 @@ Modificados:
         }
     }
 }
+2025-09-09 04:23:36
+Adicionados:
+{
+    "FLG-00028": {
+        "name": "",
+        "lastUpdated": "2025-09-09T02:59:07.129Z",
+        "city": "Felgueiras",
+        "street": " VIA NACIONAL QUINZE - MONTE S/N MONTE",
+        "postcode": "4615-191",
+        "latitude": "41.313824",
+        "longitude": "-8.164187",
+        "latlon": "41.313824 -8.164187",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FLG-00028",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FLG-00028-01",
+                        "evse_id": "PT*MOT*E*FLG*00028*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FLG-00028-02",
+                        "evse_id": "PT*MOT*E*FLG*00028*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01019": {
+        "name": "",
+        "lastUpdated": "2025-09-08T20:20:08.229Z",
+        "city": "Lisboa",
+        "street": "AV. DOM JOÃO II",
+        "postcode": "1990-083",
+        "latitude": "38.768417",
+        "longitude": "-9.097083",
+        "latlon": "38.768417 -9.097083",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01019",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01019-01",
+                        "evse_id": "PT*GLP*ELSB*01019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01019-02",
+                        "evse_id": "PT*GLP*ELSB*01019*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01020": {
+        "name": "",
+        "lastUpdated": "2025-09-08T20:50:18.715Z",
+        "city": "Lisboa",
+        "street": "AV. DOM JOÃO II",
+        "postcode": "1990-083",
+        "latitude": "38.768417",
+        "longitude": "-9.097083",
+        "latlon": "38.768417 -9.097083",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01020",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01020-01",
+                        "evse_id": "PT*GLP*ELSB*01020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01020-02",
+                        "evse_id": "PT*GLP*ELSB*01020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OVR-00053": {
+        "name": "",
+        "lastUpdated": "2025-09-08T22:23:49.453Z",
+        "city": "Ovar",
+        "street": "R. Dr. Francisco Zagalo, 3880-225 Ovar",
+        "postcode": "3880-225",
+        "latitude": "40.857445",
+        "longitude": "-8.630064",
+        "latlon": "40.857445 -8.630064",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OVR-00053",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OVR-00053-01",
+                        "evse_id": "PT*GLP*EOVR*00053*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OVR-00053-02",
+                        "evse_id": "PT*GLP*EOVR*00053*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OVR-00054": {
+        "name": "",
+        "lastUpdated": "2025-09-08T17:37:44.180Z",
+        "city": "Ovar",
+        "street": "R. Dr. Francisco Zagalo, 3880-225 Ovar",
+        "postcode": "380-225",
+        "latitude": "40.857445",
+        "longitude": "-8.630064",
+        "latlon": "40.857445 -8.630064",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OVR-00054",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OVR-00054-01",
+                        "evse_id": "PT*GLP*EOVR*00054*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OVR-00054-02",
+                        "evse_id": "PT*GLP*EOVR*00054*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRT-00333": {
+        "name": "REPSOL ANTAS II",
+        "lastUpdated": "2025-09-09T02:58:58.070Z",
+        "city": "Porto",
+        "street": "R. Santo António das Antas 36",
+        "postcode": "4200-483",
+        "latitude": "41.16455",
+        "longitude": "-8.58949",
+        "latlon": "41.16455 -8.58949",
+        "opc": "REPS",
+        "opc_name": "REPSOL PORTUGUESA LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRT-00333",
+                "facilities": [
+                    "cafe",
+                    "FUEL_STATION",
+                    "WIFI"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRT-00333-01",
+                        "evse_id": "PT*REP*E*PRT*00333*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRT-00333-02",
+                        "evse_id": "PT*REP*E*PRT*00333*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "SNT-00146": {
+        "latlon": {
+            "old": "38.844975 -9.320784",
+            "new": "38.844658 -9.322009"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "N§A",
+                            "new": "PT*EDP*ESNT*00146*1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "N§A",
+                            "new": "PT*EDP*ESNT*00146*2"
+                        }
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Rua da Capela Nossa Senhora da Conceição 5",
+            "new": "RUA DA CAPELA NOSSA SENHORA DA CONC 5"
+        },
+        "latitude": {
+            "old": "38.844975",
+            "new": "38.844658"
+        },
+        "name": {
+            "old": "Evolution Padel Academy - 1",
+            "new": "Evolution Padel Academy 1"
+        },
+        "longitude": {
+            "old": "-9.320784",
+            "new": "-9.322009"
+        }
+    }
+}
