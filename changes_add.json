@@ -1,0 +1,371 @@
+{
+    "LSB-01021": {
+        "name": "Rua José Duro",
+        "lastUpdated": "2025-09-09T09:00:05.008Z",
+        "city": "Lisboa",
+        "street": "Rua José Duro, 9940",
+        "postcode": "1700-261",
+        "latitude": "38.755558",
+        "longitude": "-9.141025",
+        "latlon": "38.755558 -9.141025",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01021",
+                "facilities": [
+                    "CARPOOL_PARKING"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01021-01",
+                        "evse_id": "PT*EML*E*LSB*01021*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01021-02",
+                        "evse_id": "PT*EML*E*LSB*01021*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MLG-00008": {
+        "name": "",
+        "lastUpdated": "2025-09-10T02:58:17.285Z",
+        "city": "Melgaço",
+        "street": "Lugar do Galvão, s/n",
+        "postcode": "4960-513",
+        "latitude": "42.109318",
+        "longitude": "-8.261032",
+        "latlon": "42.109318 -8.261032",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MLG-00008",
+                "payment": [
+                    "nfc",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MLG-00008-01",
+                        "evse_id": "PT*MOT*E*MLG*00008*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MLG-00008-02",
+                        "evse_id": "PT*MOT*E*MLG*00008*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OER-00268": {
+        "name": "IPPLUS Alfragide",
+        "lastUpdated": "2025-09-10T02:59:14.004Z",
+        "city": "Oeiras",
+        "street": "Rua Casal do Canas",
+        "postcode": "2790-204",
+        "latitude": "38.729694",
+        "longitude": "-9.222799",
+        "latlon": "38.729694 -9.222799",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OER-00268",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00268-01",
+                        "evse_id": "PT*DTE*E*OER*00268*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00268-02",
+                        "evse_id": "PT*DTE*E*OER*00268*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRD-00037": {
+        "name": "",
+        "lastUpdated": "2025-09-09T19:34:29.840Z",
+        "city": "Paredes",
+        "street": "Largo da Feira, 4580-094 Paredes",
+        "postcode": "4580-094",
+        "latitude": "41.2052",
+        "longitude": "-8.330962",
+        "latlon": "41.2052 -8.330962",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRD-00037",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRD-00037-01",
+                        "evse_id": "PT*GLP*EPRD*00037*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRD-00037-02",
+                        "evse_id": "PT*GLP*EPRD*00037*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRD-00038": {
+        "name": "",
+        "lastUpdated": "2025-09-09T18:21:22.964Z",
+        "city": "Paredes",
+        "street": "Largo da Feira, 4580-094 Paredes",
+        "postcode": "4580-094",
+        "latitude": "41.2052",
+        "longitude": "-8.330962",
+        "latlon": "41.2052 -8.330962",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRD-00038",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRD-00038-01",
+                        "evse_id": "PT*GLP*EPRD*00038*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRD-00038-02",
+                        "evse_id": "PT*GLP*EPRD*00038*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRD-00039": {
+        "name": "",
+        "lastUpdated": "2025-09-09T08:06:37.674Z",
+        "city": "Paredes",
+        "street": "Largo da Feira, 4580-094 Paredes",
+        "postcode": "4580-094",
+        "latitude": "41.2052",
+        "longitude": "-8.330962",
+        "latlon": "41.2052 -8.330962",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRD-00039",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRD-00039-01",
+                        "evse_id": "PT*GLP*EPRD*00039*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRD-00039-02",
+                        "evse_id": "PT*GLP*EPRD*00039*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRD-00040": {
+        "name": "",
+        "lastUpdated": "2025-09-09T20:09:08.699Z",
+        "city": "Paredes",
+        "street": "Largo da Feira, 4580-094 Paredes",
+        "postcode": "4580-094",
+        "latitude": "41.2052",
+        "longitude": "-8.330962",
+        "latlon": "41.2052 -8.330962",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRD-00040",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRD-00040-01",
+                        "evse_id": "PT*GLP*EPRD*00040*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRD-00040-02",
+                        "evse_id": "PT*GLP*EPRD*00040*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
