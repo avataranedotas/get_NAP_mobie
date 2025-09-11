@@ -52799,3 +52799,674 @@ Modificados:
         }
     }
 }
+2025-09-11 04:22:38
+Adicionados:
+{
+    "CSC-00299": {
+        "name": "Fundação Alfredo Sousa_SABA Nova SBE",
+        "lastUpdated": "2025-09-10T16:15:03.372Z",
+        "city": "Cascais",
+        "street": "Rua da Holanda n1",
+        "postcode": "2775-405",
+        "latitude": "38.679607",
+        "longitude": "-9.325967",
+        "latlon": "38.679607 -9.325967",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00299",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00299-01",
+                        "evse_id": "PT*EDP*E*CSC*00299*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00299-02",
+                        "evse_id": "PT*EDP*E*CSC*00299*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDM-00052": {
+        "name": "BK Gondomar",
+        "lastUpdated": "2025-09-10T09:40:02.707Z",
+        "city": "Gondomar",
+        "street": "Rua Padre Andrade Silva 31",
+        "postcode": "4420-230",
+        "latitude": "41.135193",
+        "longitude": "-8.533957",
+        "latlon": "41.135193 -8.533957",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDM-00052",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDM-00052-01",
+                        "evse_id": "PT*EDP*E*GDM*00052*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00052-02",
+                        "evse_id": "PT*EDP*E*GDM*00052*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDM-00052-1",
+                        "evse_id": "PT*EDP*EGDM*00052*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDM-00052-2",
+                        "evse_id": "PT*EDP*EGDM*00052*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ILH-00022": {
+        "name": "Ílhavo",
+        "lastUpdated": "2025-09-10T23:20:03.013Z",
+        "city": "Ílhavo",
+        "street": "Avenida José Estevão",
+        "postcode": "3830-453",
+        "latitude": "40.61139",
+        "longitude": "-8.749251",
+        "latlon": "40.61139 -8.749251",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ILH-00022",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ILH-00022-01",
+                        "evse_id": "PT*DTE*E*ILH*00022*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ILH-00022-02",
+                        "evse_id": "PT*DTE*E*ILH*00022*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ILH-00022-03",
+                        "evse_id": "PT*DTE*E*ILH*00022*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LOU-00014": {
+        "name": "ES SEQUEIROS_Hellonext",
+        "lastUpdated": "2025-09-10T08:59:49.000Z",
+        "city": "Lousada",
+        "street": "Av. de Sequeiros 940",
+        "postcode": "4620-226",
+        "latitude": "41.23925",
+        "longitude": "-8.306453",
+        "latlon": "41.23925 -8.306453",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LOU-00014",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT*REP*E17174*1",
+                        "evse_id": "PT*REP*E17174*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT*REP*E17174*2",
+                        "evse_id": "PT*REP*E17174*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OFR-00008": {
+        "name": "WOW-OFR-00297",
+        "lastUpdated": "2025-09-11T02:59:02.693Z",
+        "city": "Oliveira de Frades",
+        "street": "Av. Dr. Arménio Maia, 56",
+        "postcode": "3680-115",
+        "latitude": "40.729504",
+        "longitude": "-8.175508",
+        "latlon": "40.729504 -8.175508",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OFR-00008",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OFR-00008-01",
+                        "evse_id": "PT*TRK*E*OFR*00008*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "400.0",
+                                "max_current": "320.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OFR-00008-02",
+                        "evse_id": "PT*TRK*E*OFR*00008*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "400.0",
+                                "max_current": "320.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PLM-00068": {
+        "name": "Avenida de Liberdade - Municipio Palmela",
+        "lastUpdated": "2025-09-10T15:07:11.648Z",
+        "city": "Palmela",
+        "street": "Avenida de Liberdade 5",
+        "postcode": "2965-575",
+        "latitude": "38.603134",
+        "longitude": "-8.691821",
+        "latlon": "38.603134 -8.691821",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PLM-00068",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EPLM-00068-1",
+                        "evse_id": "PT*EDP*EPLM*00068*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EPLM-00068-2",
+                        "evse_id": "PT*EDP*EPLM*00068*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EPLM-00068-3",
+                        "evse_id": "PT*EDP*EPLM*00068*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PLM-00069": {
+        "name": "Rua Manuel Ferreira Caramelo- Municipio Palmela",
+        "lastUpdated": "2025-09-10T23:48:41.341Z",
+        "city": "Palmela",
+        "street": "Rua Manuel Ferreira Caramelo 2",
+        "postcode": "2950-637",
+        "latitude": "38.554596",
+        "longitude": "-8.973123",
+        "latlon": "38.554596 -8.973123",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PLM-00069",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EPLM-00069-1",
+                        "evse_id": "PT*EDP*EPLM*00069*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EPLM-00069-2",
+                        "evse_id": "PT*EDP*EPLM*00069*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EPLM-00069-3",
+                        "evse_id": "PT*EDP*EPLM*00069*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ALM-00070": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "200000.0"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "300.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AVZ-00006": {
+        "name": {
+            "old": "Meu Super Alvaiázere PCN",
+            "new": "Meu Super Alvaiázere"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAVZ-00006-1",
+                            "evse_id": "PT*EDP*EAVZ*00006*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAVZ-00006-2",
+                            "evse_id": "PT*EDP*EAVZ*00006*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed_items": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "R. Dr. Filipe Antunes dos Santos nº 8 a 10",
+            "new": "R. Dr. Filipe Antunes dos Santos 8"
+        }
+    },
+    "LRS-00051": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "LSB-00467": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "180000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "195.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00468": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "180000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "195.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OAZ-00009": {
+        "name": {
+            "old": "INTERMARCHÉ OLIVEIRA DE AZEMÉIS",
+            "new": "Intermarché Oliveira de Azeméis 2"
+        },
+        "latlon": {
+            "old": "40.827625 -8.483054",
+            "new": "40.827625 -8.483055"
+        },
+        "longitude": {
+            "old": "-8.483054",
+            "new": "-8.483055"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOAZ-00009-1",
+                            "evse_id": "PT*EDP*EOAZ*00009*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOAZ-00009-2",
+                            "evse_id": "PT*EDP*EOAZ*00009*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOAZ-00009-3",
+                            "evse_id": "PT*EDP*EOAZ*00009*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "foodShopping",
+                        "new": "carPark"
+                    },
+                    "removed_items": [
+                        "cafe"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "AV. D. MARIA I - LUGAR DE ALDAS",
+            "new": "AV. D. MARIA I - LUGAR DE ALDAS 1"
+        }
+    },
+    "OER-00072": {
+        "latitude": {
+            "old": "38.711876",
+            "new": "38.71184"
+        },
+        "latlon": {
+            "old": "38.711876 -9.320643",
+            "new": "38.71184 -9.297665"
+        },
+        "longitude": {
+            "old": "-9.320643",
+            "new": "-9.297665"
+        }
+    }
+}
