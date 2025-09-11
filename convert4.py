@@ -149,14 +149,36 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
     if evse_ids:
         tags.append(f"ref:EU:EVSE={';'.join(evse_ids)}")
 
+
+    #for tag, values in connector_summary.items():
+    #    tags.append(f"{tag}:current={values['current']}")
+    #    if float(values["power"]).is_integer():
+    #        potencia = f"{int(values['power'])}"
+    #    else:
+    #        potencia = f"{values['power']:.1f}"
+    #   tags.append(f"{tag}:output={potencia} kW")
+    #    tags.append(f"{tag}:voltage={values['voltage']}")
+    #    tags.append(f"{tag}={values['count']}")
+
+
     for tag, values in connector_summary.items():
+        # --- Special handling for CCS voltage ---
+        if tag == "socket:type2_combo":
+            voltage_val = 500 if values["voltage"] <= 500 else 1000
+        else:
+            voltage_val = values["voltage"]
+
+        # Current stays unchanged
         tags.append(f"{tag}:current={values['current']}")
+
+        # Power formatting
         if float(values["power"]).is_integer():
-            potencia = f"{int(values['power'])}"
+            potencia = str(int(values["power"]))
         else:
             potencia = f"{values['power']:.1f}"
+
         tags.append(f"{tag}:output={potencia} kW")
-        tags.append(f"{tag}:voltage={values['voltage']}")
+        tags.append(f"{tag}:voltage={voltage_val}")
         tags.append(f"{tag}={values['count']}")
 
     # return both tags and warnings
