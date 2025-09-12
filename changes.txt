@@ -53470,3 +53470,544 @@ Modificados:
         }
     }
 }
+2025-09-12 04:21:41
+Adicionados:
+{
+    "BGC-00012": {
+        "name": "Brigantia EcoPark",
+        "lastUpdated": "2025-09-11T13:27:01.000Z",
+        "city": "Bragança",
+        "street": "Avenida Cidade de León 506",
+        "postcode": "5300-358",
+        "latitude": "41.81858",
+        "longitude": "-6.749081",
+        "latlon": "41.81858 -6.749081",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BGC-00012",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BGC-00012-01",
+                        "evse_id": "PT*EDP*E*BGC*00012*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BGC-00012-02",
+                        "evse_id": "PT*EDP*E*BGC*00012*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EBGC-00012-1",
+                        "evse_id": "PT*EDP*EBGC*00012*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EBGC-00012-2",
+                        "evse_id": "PT*EDP*EBGC*00012*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SNT-00215": {
+        "name": "",
+        "lastUpdated": "2025-09-12T02:52:25.065Z",
+        "city": "Sintra",
+        "street": "Rua Dona Matilde, lt. 177-179",
+        "postcode": "2605-246",
+        "latitude": "38.761868",
+        "longitude": "-9.280506",
+        "latlon": "38.761868 -9.280506",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SNT-00215",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SNT-00215-01",
+                        "evse_id": "PT*GLP*ESNT*00215*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00215-02",
+                        "evse_id": "PT*GLP*ESNT*00215*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00215-03",
+                        "evse_id": "PT*GLP*ESNT*00215*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VFX-00123": {
+        "name": "",
+        "lastUpdated": "2025-09-11T21:48:03.500Z",
+        "city": "Vila Franca de Xira",
+        "street": "Rua Dr António José de Almeida",
+        "postcode": "2600-180",
+        "latitude": "38.953262",
+        "longitude": "-8.990394",
+        "latlon": "38.953262 -8.990394",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VFX-00123",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFX-00123-01",
+                        "evse_id": "PT*GLP*EVFX*00123*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFX-00123-02",
+                        "evse_id": "PT*GLP*EVFX*00123*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "MDR-00004": {
+        "street": {
+            "old": "Pousada do Picote, S/N ",
+            "new": "Pousada do Picote S/N 1"
+        },
+        "name": {
+            "old": "Pousada do Picote",
+            "new": "Pestana Pousada do Picote"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMDR-00004-1",
+                            "evse_id": "PT*EDP*EMDR*00004*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMDR-00004-2",
+                            "evse_id": "PT*EDP*EMDR*00004*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "hotel"
+                    }
+                }
+            }
+        }
+    },
+    "MTS-00093": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "90000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OER-00099": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "195.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PRD-00010": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "TMR-00039": {
+        "street": {
+            "old": "R. Santa Iria, 8",
+            "new": "R. Santa Iria 8"
+        },
+        "name": {
+            "old": "VILA GALÉ TOMAR",
+            "new": "Vila Galé Tomar 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "TMR-00039-01",
+                            "new": "PT-EDP-ETMR-00039-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TMR*00039*01",
+                            "new": "PT*EDP*ETMR*00039*1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TMR-00039-01",
+                            "evse_id": "PT*EDP*E*TMR*00039*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "creditCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "hotel"
+                    }
+                }
+            }
+        }
+    },
+    "TMR-00040": {
+        "street": {
+            "old": "R. Santa Iria, 8",
+            "new": "R. Santa Iria 9"
+        },
+        "name": {
+            "old": "VILA GALÉ TOMAR",
+            "new": "Vila Galé Tomar 3"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "TMR-00040-01",
+                            "new": "PT-EDP-ETMR-00040-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TMR*00040*01",
+                            "new": "PT*EDP*ETMR*00040*1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TMR-00040-01",
+                            "evse_id": "PT*EDP*E*TMR*00040*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "creditCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "hotel"
+                    }
+                }
+            }
+        }
+    },
+    "TMR-00041": {
+        "street": {
+            "old": "R. Santa Iria, 8",
+            "new": "R. Santa Iria 10"
+        },
+        "name": {
+            "old": "VILA GALÉ TOMAR",
+            "new": "Vila Galé Tomar 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "TMR-00041-01",
+                            "new": "PT-EDP-ETMR-00041-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TMR*00041*01",
+                            "new": "PT*EDP*ETMR*00041*1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TMR-00041-01",
+                            "evse_id": "PT*EDP*E*TMR*00041*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "creditCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
