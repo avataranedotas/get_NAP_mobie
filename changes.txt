@@ -55014,3 +55014,43 @@ Modificados:
         }
     }
 }
+2025-09-15 04:23:06
+Modificados:
+{
+    "CSC-00202": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CSC-00249": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "23.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
