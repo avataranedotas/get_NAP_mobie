@@ -361,5 +361,13 @@ OPERATORS = {
         "phone": None,
         "email": None,
     },
+        "MOBA": {
+        "operator": "mobel",
+        "operator:wikidata": None,
+        "brand": "mobel",
+        "brand:wikidata": None,
+        "phone": "+351 210 514 956",
+        "email": "info@mobel.pt",
+    },
 }
 
