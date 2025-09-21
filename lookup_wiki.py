@@ -276,7 +276,7 @@ OPERATORS = {
     "IONY": {
         "operator": "Ionity",
         "operator:wikidata": "Q42717773",
-        "brand": "Ionity",
+        "brand": "IONITY",
         "brand:wikidata": "Q42717773",
         "phone": "+351 308 803 137",
         "email": None,
