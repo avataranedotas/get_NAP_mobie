@@ -4966,3 +4966,243 @@ Modificados:
         }
     }
 }
+2025-09-21 04:21:42
+Modificados:
+{
+    "CSC-00043": {
+        "name": {
+            "old": "",
+            "new": "Vila Galé Cascais - Apartamentos 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECSC-00043-1",
+                            "evse_id": "PT*EDP*ECSC*00043*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Vila Galé - Apartamentos Cascais",
+            "new": "Vila Galé Apartamentos Cascais 1"
+        }
+    },
+    "CSC-00049": {
+        "name": {
+            "old": "",
+            "new": "Parque de estacionamento SABA - Nova SBE 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECSC-00049-1",
+                            "evse_id": "PT*EDP*ECSC*00049*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Rua Holanda 1",
+            "new": "Rua Holanda"
+        }
+    },
+    "CSC-00050": {
+        "name": {
+            "old": "",
+            "new": "Parque de estacionamento SABA - Nova SBE 2"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECSC-00050-1",
+                            "evse_id": "PT*EDP*ECSC*00050*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Rua Holanda 1",
+            "new": "Rua Holanda 2"
+        },
+        "longitude": {
+            "old": "-9.32752",
+            "new": "-9.325461"
+        },
+        "latlon": {
+            "old": "38.67834 -9.32752",
+            "new": "38.680485 -9.325461"
+        },
+        "latitude": {
+            "old": "38.67834",
+            "new": "38.680485"
+        }
+    },
+    "CSC-00200": {
+        "name": {
+            "old": "Parque interior - Onyria Marinha Boutique Hotel | PCN1",
+            "new": "Onyria Marinha Boutique Hotel 2"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECSC-00200-1",
+                            "evse_id": "PT*EDP*ECSC*00200*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECSC-00200-2",
+                            "evse_id": "PT*EDP*ECSC*00200*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Rua das Piscinas Lote D",
+            "new": "Rua das Piscinas Lote D 1"
+        }
+    },
+    "CSC-00201": {
+        "name": {
+            "old": "Parque interior - Onyria Marinha Boutique Hotel | PCN2",
+            "new": "Onyria Marinha Boutique Hotel 3"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECSC-00201-1",
+                            "evse_id": "PT*EDP*ECSC*00201*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECSC-00201-2",
+                            "evse_id": "PT*EDP*ECSC*00201*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Rua das Piscinas Lote D",
+            "new": "Rua das Piscinas Lote D 2"
+        }
+    }
+}
