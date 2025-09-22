@@ -5206,3 +5206,398 @@ Modificados:
         }
     }
 }
+2025-09-22 04:22:50
+Modificados:
+{
+    "SNT-00113": {
+        "latitude": {
+            "old": "38.769627",
+            "new": "38.7697"
+        },
+        "latlon": {
+            "old": "38.769627 -9.303994",
+            "new": "38.7697 -9.303878"
+        },
+        "street": {
+            "old": "Tv. da Terceira Idade 2735-276 Agualva-Cacém",
+            "new": "Tv da Terceira Idade 1"
+        },
+        "longitude": {
+            "old": "-9.303994",
+            "new": "-9.303878"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00113-01",
+                            "new": "PT-EDP-ESNT-00113-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00113*01",
+                            "new": "PT*EDP*ESNT*00113*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00113-02",
+                            "new": "PT-EDP-ESNT-00113-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00113*02",
+                            "new": "PT*EDP*ESNT*00113*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00113-01",
+                            "evse_id": "PT*EDP*E*SNT*00113*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00113-02",
+                            "evse_id": "PT*EDP*E*SNT*00113*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Parque Estacionamento EMES - Cacém 1"
+        }
+    },
+    "SNT-00114": {
+        "latitude": {
+            "old": "38.769627",
+            "new": "38.7697"
+        },
+        "latlon": {
+            "old": "38.769627 -9.303994",
+            "new": "38.7697 -9.303878"
+        },
+        "street": {
+            "old": "Tv. da Terceira Idade 2735-276 Agualva-Cacém",
+            "new": "Tv da Terceira Idade 2"
+        },
+        "longitude": {
+            "old": "-9.303994",
+            "new": "-9.303878"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00114-01",
+                            "new": "PT-EDP-ESNT-00114-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00114*01",
+                            "new": "PT*EDP*ESNT*00114*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00114-02",
+                            "new": "PT-EDP-ESNT-00114-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00114*02",
+                            "new": "PT*EDP*ESNT*00114*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00114-01",
+                            "evse_id": "PT*EDP*E*SNT*00114*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00114-02",
+                            "evse_id": "PT*EDP*E*SNT*00114*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Parque Estacionamento EMES - Cacém 2"
+        }
+    },
+    "SNT-00116": {
+        "latitude": {
+            "old": "38.765526",
+            "new": "38.76553"
+        },
+        "latlon": {
+            "old": "38.765526 -9.297455",
+            "new": "38.76553 -9.297455"
+        },
+        "street": {
+            "old": "R. Henrique Amaro, ",
+            "new": "R Henrique Amaro 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00116-1",
+                            "new": "PT-EDP-ESNT-00116-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00116*1",
+                            "new": "PT*EDP*ESNT*00116*1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00116-1",
+                            "evse_id": "PT*EDP*E*SNT*00116*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Parque Estacionamento EMES - Agualva 2"
+        }
+    },
+    "SNT-00144": {
+        "street": {
+            "old": "Av. Miguel Bombarda, 2745-173 Queluz",
+            "new": "Av Miguel Bombarda 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00144-01",
+                            "new": "PT-EDP-ESNT-00144-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00144*01",
+                            "new": "PT*EDP*ESNT*00144*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00144-02",
+                            "new": "PT-EDP-ESNT-00144-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00144*02",
+                            "new": "PT*EDP*ESNT*00144*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00144-01",
+                            "evse_id": "PT*EDP*E*SNT*00144*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00144-02",
+                            "evse_id": "PT*EDP*E*SNT*00144*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "trainStation"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Parque Queluz - EMES",
+            "new": "Parque Estacionamento EMES - Queluz 1"
+        }
+    },
+    "SNT-00145": {
+        "street": {
+            "old": "Av. Miguel Bombarda, 2745-173 Queluz",
+            "new": "Av. Miguel Bombarda 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00145-01",
+                            "new": "PT-EDP-ESNT-00145-1"
+                        },
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode2AC1p"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00145*01",
+                            "new": "PT*EDP*ESNT*00145*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00145-02",
+                            "new": "PT-EDP-ESNT-00145-2"
+                        },
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode2AC1p"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00145*02",
+                            "new": "PT*EDP*ESNT*00145*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00145-01",
+                            "evse_id": "PT*EDP*E*SNT*00145*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00145-02",
+                            "evse_id": "PT*EDP*E*SNT*00145*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "trainStation"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Parque Queluz - EMES",
+            "new": "Parque Estacionamento EMES - Queluz 2"
+        }
+    }
+}
