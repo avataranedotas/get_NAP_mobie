@@ -1,0 +1,54 @@
+{
+    "GRD-00045": {
+        "name": "Municipio Guarda - Caldeirão",
+        "lastUpdated": "2025-09-24T01:33:33.016Z",
+        "city": "Guarda",
+        "street": "Estrada Municipal 556 SN",
+        "postcode": "6300-165",
+        "latitude": "40.532124",
+        "longitude": "-7.3285",
+        "latlon": "40.532124 -7.3285",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GRD-00045",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGRD-00045-1",
+                        "evse_id": "PT*EDP*EGRD*00045*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGRD-00045-2",
+                        "evse_id": "PT*EDP*EGRD*00045*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
