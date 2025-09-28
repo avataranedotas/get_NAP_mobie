@@ -13335,3 +13335,452 @@ Modificados:
         }
     }
 }
+2025-09-28 04:21:52
+Adicionados:
+{
+    "MBR-00003": {
+        "name": "Intermarché Moimenta da Beira",
+        "lastUpdated": "2025-09-27T18:40:03.022Z",
+        "city": "Moimenta da Beira",
+        "street": "AV. EXTERNATO INF.D. HENRIQUE 1",
+        "postcode": "3620-306",
+        "latitude": "40.986332",
+        "longitude": "-7.61893",
+        "latlon": "40.986332 -7.61893",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MBR-00003",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MBR-00003-01",
+                        "evse_id": "PT*EDP*E*MBR*00003*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MBR-00003-02",
+                        "evse_id": "PT*EDP*E*MBR*00003*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMBR-00003-1",
+                        "evse_id": "PT*EDP*EMBR*00003*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMBR-00003-2",
+                        "evse_id": "PT*EDP*EMBR*00003*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AGD-00015": {
+        "street": {
+            "old": "Parque Industrial do Vale do Forno, S/N",
+            "new": "Parque Industrial do Vale do Forno SN 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAGD-00015-1",
+                            "evse_id": "PT*EDP*EAGD*00015*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAGD-00015-2",
+                            "evse_id": "PT*EDP*EAGD*00015*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AMM-00002": {
+        "street": {
+            "old": "Quinta do Val Moreira",
+            "new": "Quinta do Val Moreira3 1"
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Douro Vineyards 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAMM-00002-1",
+                            "evse_id": "PT*EDP*EAMM*00002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AMM-00003": {
+        "street": {
+            "old": "Quinta do Val Moreira",
+            "new": "Quinta do Val Moreira2 2"
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Douro Vineyards 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAMM-00003-1",
+                            "evse_id": "PT*EDP*EAMM*00003*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "NATURE"
+                    ]
+                }
+            }
+        }
+    },
+    "MBR-00002": {
+        "latlon": {
+            "old": "40.965874 -7.5991774",
+            "new": "40.965874 -7.599177"
+        },
+        "street": {
+            "old": "Rua do Pombo, S/N",
+            "new": "Rua do Pombo SN 1"
+        },
+        "longitude": {
+            "old": "-7.5991774",
+            "new": "-7.599177"
+        },
+        "name": {
+            "old": "",
+            "new": "Hotel Verdeal"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMBR-00002-1",
+                            "evse_id": "PT*EDP*EMBR*00002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMBR-00002-2",
+                            "evse_id": "PT*EDP*EMBR*00002*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00023": {
+        "street": {
+            "old": "Pestana Sintra Golf & Resort",
+            "new": "Pestana Sintra Golf Resort 1"
+        },
+        "name": {
+            "old": "",
+            "new": "Pestana Sintra Golf 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00023*1",
+                            "new": "PT*EDP*ESNT*00023*1"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00023-1",
+                            "new": "PT-EDP-ESNT-00023-1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00023-1",
+                            "evse_id": "PT*EDP*E*SNT*00023*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "SNT-00027": {
+        "street": {
+            "old": "Pestana Sintra Golf & Resort",
+            "new": "Pestana Sintra Golf Resort 2"
+        },
+        "name": {
+            "old": "",
+            "new": "Pestana Sintra Golf 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00027*1",
+                            "new": "PT*EDP*ESNT*00027*1"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00027-1",
+                            "new": "PT-EDP-ESNT-00027-1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00027-1",
+                            "evse_id": "PT*EDP*E*SNT*00027*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "TBC-00003": {
+        "street": {
+            "old": "Estrada Nacional 222, SN",
+            "new": "Estrada Nacional222SN 1"
+        },
+        "name": {
+            "old": "Hotel Rural Quinta do Pego",
+            "new": "Hotel Rural Quinta do Pégo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*TBC*00003*01",
+                            "new": "PT*EDP*ETBC*00003*1"
+                        },
+                        "evse_code": {
+                            "old": "TBC-00003-01",
+                            "new": "PT-EDP-ETBC-00003-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*TBC*00003*02",
+                            "new": "PT*EDP*ETBC*00003*2"
+                        },
+                        "evse_code": {
+                            "old": "TBC-00003-02",
+                            "new": "PT-EDP-ETBC-00003-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TBC-00003-01",
+                            "evse_id": "PT*EDP*E*TBC*00003*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "TBC-00003-02",
+                            "evse_id": "PT*EDP*E*TBC*00003*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "NATURE"
+                    ]
+                }
+            }
+        }
+    }
+}
