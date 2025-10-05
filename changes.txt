@@ -19500,3 +19500,192 @@ Modificados:
         }
     }
 }
+2025-10-05 04:20:49
+Modificados:
+{
+    "OER-00172": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOER-00172-1",
+                            "evse_id": "PT*EDP*EOER*00172*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOER-00172-2",
+                            "evse_id": "PT*EDP*EOER*00172*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Parque de estacionamento GaragePT"
+        },
+        "street": {
+            "old": "Season Scope Alto Barronhos LT 73 C Frc",
+            "new": "Parque de estacionamento GaragePT 73"
+        }
+    },
+    "OER-00221": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOER-00221-1",
+                            "evse_id": "PT*EDP*EOER*00221*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOER-00221-2",
+                            "evse_id": "PT*EDP*EOER*00221*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "B&B HOTEL Lisboa Oeiras",
+            "new": "BB Hotel Oeiras"
+        },
+        "street": {
+            "old": "Rua José Malhoa 27",
+            "new": "Rua Jose Malhoa 27"
+        }
+    },
+    "SNT-00110": {
+        "latitude": {
+            "old": "38.75216",
+            "new": "38.752098"
+        },
+        "latlon": {
+            "old": "38.75216 -9.283549",
+            "new": "38.752098 -9.28411"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00110*01",
+                            "new": "PT*EDP*ESNT*00110*1"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00110-01",
+                            "new": "PT-EDP-ESNT-00110-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00110*02",
+                            "new": "PT*EDP*ESNT*00110*2"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00110-02",
+                            "new": "PT-EDP-ESNT-00110-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00110-01",
+                            "evse_id": "PT*EDP*E*SNT*00110*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00110-02",
+                            "evse_id": "PT*EDP*E*SNT*00110*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Parque Estacionamento EMES - Massamá 1"
+        },
+        "longitude": {
+            "old": "-9.283549",
+            "new": "-9.28411"
+        },
+        "street": {
+            "old": "Av. 25 de Abril 73",
+            "new": "Avenida 25 de Abril 73"
+        }
+    }
+}
