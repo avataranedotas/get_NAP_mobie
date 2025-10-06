@@ -3,22 +3,16 @@
 OPERATORS = {
     "EDPC": {
         "operator": "EDP",
+        "code3": "EDP",
         "operator:wikidata": "Q1341222",
         "brand": "edp Charge",
         "brand:wikidata": "Q1341222",
         "phone": "+351 800 222 222",
         "email": None,
     },
-    "DTEI": {
-        "operator": "Galp Power",
-        "operator:wikidata": None,
-        "brand": "e-flow",
-        "brand:wikidata": None,
-        "phone": "+351 912 872 459",
-        "email": "geral@dte.pt",
-    },
     "GLPP": {
         "operator": "Galp Power",
+        "code3": "GLP",
         "operator:wikidata": "Q135275372",
         "brand": "Galp electric",
         "brand:wikidata": "Q135275372",
@@ -27,6 +21,7 @@ OPERATORS = {
     },
     "HORZ": {
         "operator": "Powerdot",
+        "code3": "HRZ",
         "operator:wikidata": "Q123574541",
         "brand": "Powerdot",
         "brand:wikidata": "Q123574541",
@@ -35,6 +30,7 @@ OPERATORS = {
     },
     "ATLA": {
         "operator": "Atlante",
+        "code3": "ATL",
         "operator:wikidata": "Q126913632",
         "brand": "Atlante",
         "brand:wikidata": "Q126913632",
@@ -43,6 +39,7 @@ OPERATORS = {
     },
     "TRUE": {
         "operator": "True Kare",
+        "code3": "TRK",
         "operator:wikidata": None,
         "brand": "wowplug",
         "brand:wikidata": None,
@@ -51,6 +48,7 @@ OPERATORS = {
     },
     "KLCS": {
         "operator": "KLC Serviços",
+        "code3": "KLS",
         "operator:wikidata": "Q127504745",
         "brand": "KLC",
         "brand:wikidata": "Q127504745",
@@ -59,6 +57,7 @@ OPERATORS = {
     },
     "MAKS": {
         "operator": "Maksu Services",
+        "code3": "MAK",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -67,6 +66,7 @@ OPERATORS = {
     },
     "IBRD": {
         "operator": "Iberdrola",
+        "code3": "IBD",
         "operator:wikidata": "Q1437502",
         "brand": "Iberdrola",
         "brand:wikidata": "Q1437502",
@@ -75,6 +75,7 @@ OPERATORS = {
     },
     "HELX": {
         "operator": "Helexia II",
+        "code3": "HLX",
         "operator:wikidata": None,
         "brand": "helexia",
         "brand:wikidata": None,
@@ -83,6 +84,7 @@ OPERATORS = {
     },
     "REPS": {
         "operator": "Repsol",
+        "code3": "REP",
         "operator:wikidata": "Q174747",
         "brand": "Repsol",
         "brand:wikidata": "Q174747",
@@ -91,6 +93,7 @@ OPERATORS = {
     },
     "GLPG": {
         "operator": "Galp Geste",
+        "code3": "GLG",
         "operator:wikidata": "Q1492739",
         "brand": "Galp electric",
         "brand:wikidata": "Q135275372",
@@ -99,6 +102,7 @@ OPERATORS = {
     },
     "PRIO": {
         "operator": "Prio.E",
+        "code3": "PRI",
         "operator:wikidata": None,
         "brand": "Prio",
         "brand:wikidata": "Q62530421",
@@ -107,6 +111,7 @@ OPERATORS = {
     },
     "FCTO": {
         "operator": "Charging Together",
+        "code3": "FCT",
         "operator:wikidata": None,
         "brand": "Iberdrola bp pulse",
         "brand:wikidata": None,
@@ -115,6 +120,7 @@ OPERATORS = {
     },
     "MOTA": {
         "operator": "Mota Engil II",
+        "code3": "MOT",
         "operator:wikidata": "Q1949595",
         "brand": "REMO",
         "brand:wikidata": None,
@@ -123,6 +129,7 @@ OPERATORS = {
     },
     "MLTR": {
         "operator": "Mobiletric",
+        "code3": "MLT",
         "operator:wikidata": None,
         "brand": "Mobiletric",
         "brand:wikidata": None,
@@ -131,6 +138,7 @@ OPERATORS = {
     },
     "EMEL": {
         "operator": "EMEL",
+        "code3": "EML",
         "operator:wikidata": "Q30256831",
         "brand": "leve",
         "brand:wikidata": "Q30256831",
@@ -139,6 +147,7 @@ OPERATORS = {
     },
     "ECOI": {
         "operator": "EcoInside",
+        "code3": "ECI",
         "operator:wikidata": None,
         "brand": "ecoinside",
         "brand:wikidata": None,
@@ -147,6 +156,7 @@ OPERATORS = {
     },
     "EVCE": {
         "operator": "EVCE",
+        "code3": "EVC",
         "operator:wikidata": None,
         "brand": "MobiSmart",
         "brand:wikidata": None,
@@ -155,6 +165,7 @@ OPERATORS = {
     },
     "SEGM": {
         "operator": "SEGMA",
+        "code3": "SEG",
         "operator:wikidata": None,
         "brand": "SEGMA",
         "brand:wikidata": None,
@@ -163,6 +174,7 @@ OPERATORS = {
     },
     "FACT": {
         "operator": "Factor Energia",
+        "code3": "FAC",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -171,6 +183,7 @@ OPERATORS = {
     },
     "HEXA": {
         "operator": "Hexagonal Ocean",
+        "code3": "HEX",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -179,14 +192,16 @@ OPERATORS = {
     },
     "DTEI": {
         "operator": "DTE",
+        "code3": "DTE",
         "operator:wikidata": None,
-        "brand": None,
+        "brand": "e-flow",
         "brand:wikidata": None,
-        "phone": None,
+        "phone": "+351 912 872 459",
         "email": "geral@dte.pt",
     },
     "LOGI": {
         "operator": "Logical Gravity",
+        "code3": "LOG",
         "operator:wikidata": None,
         "brand": "uCharge",
         "brand:wikidata": None,
@@ -195,6 +210,7 @@ OPERATORS = {
     },
     "PLUG": {
         "operator": "Plug",
+        "code3": "PLG",
         "operator:wikidata": None,
         "brand": "E-Plug",
         "brand:wikidata": None,
@@ -203,6 +219,7 @@ OPERATORS = {
     },
     "MOON": {
         "operator": "Moon",
+        "code3": "MOO",
         "operator:wikidata": None,
         "brand": "Moon",
         "brand:wikidata": None,
@@ -211,6 +228,7 @@ OPERATORS = {
     },
     "HIGH": {
         "operator": "High Green Power",
+        "code3": "HGP",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -219,6 +237,7 @@ OPERATORS = {
     },
     "EVPW": {
         "operator": "EV Power",
+        "code3": "EVP",
         "operator:wikidata": None,
         "brand": "EVpower",
         "brand:wikidata": None,
@@ -227,6 +246,7 @@ OPERATORS = {
     },
     "EMAC": {
         "operator": "Emacom",
+        "code3": "EMA",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -235,6 +255,7 @@ OPERATORS = {
     },
     "GENJ": {
         "operator": "Generation Journey",
+        "code3": "GEN",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -243,6 +264,7 @@ OPERATORS = {
     },
     "LOUL": {
         "operator": "Loulé Concelho Global",
+        "code3": "LCG",
         "operator:wikidata": None,
         "brand": "loulé concelho Global",
         "brand:wikidata": None,
@@ -251,6 +273,7 @@ OPERATORS = {
     },
     "VEIM": {
         "operator": "Veimonte",
+        "code3": "VEI",
         "operator:wikidata": None,
         "brand": "powercharge",
         "brand:wikidata": None,
@@ -259,6 +282,7 @@ OPERATORS = {
     },
     "CEPS": {
         "operator": "Cepsa",
+        "code3": "CPS",
         "operator:wikidata": "Q608819",
         "brand": "Cepsa",
         "brand:wikidata": "Q608819",
@@ -267,6 +291,7 @@ OPERATORS = {
     },
     "BLUE": {
         "operator": "Bluecharge",
+        "code3": "BLU",
         "operator:wikidata": "Q113289672",
         "brand": "Bluecharge",
         "brand:wikidata": "Q113289672",
@@ -275,6 +300,7 @@ OPERATORS = {
     },
     "IONY": {
         "operator": "Ionity",
+        "code3": "IOY",
         "operator:wikidata": "Q42717773",
         "brand": "IONITY",
         "brand:wikidata": "Q42717773",
@@ -283,6 +309,7 @@ OPERATORS = {
     },
     "GREE": {
         "operator": "GreenCharge",
+        "code3": "GRN",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -291,6 +318,7 @@ OPERATORS = {
     },
     "INTV": {
         "operator": "InstaVolt",
+        "code3": "ITV",
         "operator:wikidata": "Q111173904",
         "brand": "Instavolt",
         "brand:wikidata": "Q111173904",
@@ -299,6 +327,7 @@ OPERATORS = {
     },
     "ALFA": {
         "operator": "Alfa Energia",
+        "code3": "ALF",
         "operator:wikidata": None,
         "brand": "ALFA Energia",
         "brand:wikidata": None,
@@ -307,6 +336,7 @@ OPERATORS = {
     },
     "LUSI": {
         "operator": "Luzigás",
+        "code3": "LUZ",
         "operator:wikidata": None,
         "brand": "Luzigás",
         "brand:wikidata": None,
@@ -315,6 +345,7 @@ OPERATORS = {
     },
     "EVIO": {
         "operator": "Evio",
+        "code3": "EVI",
         "operator:wikidata": None,
         "brand": None,
         "brand:wikidata": None,
@@ -323,6 +354,7 @@ OPERATORS = {
     },
     "PFTW": {
         "operator": "Plug Four The World",
+        "code3": "PFU",
         "operator:wikidata": None,
         "brand": "Plug4Us",
         "brand:wikidata": None,
@@ -331,6 +363,7 @@ OPERATORS = {
     },
     "CAPW": {
         "operator": "CapWatt",
+        "code3": "CAP",
         "operator:wikidata": None,
         "brand": "capWatt",
         "brand:wikidata": None,
@@ -339,6 +372,7 @@ OPERATORS = {
     },
     "CABL": {
         "operator": "Cable Energia",
+        "code3": "CAB",
         "operator:wikidata": None,
         "brand": "Shell Recharge",
         "brand:wikidata": "Q105883058",
@@ -347,6 +381,7 @@ OPERATORS = {
     },
     "ACCI": {
         "operator": "Acciona",
+        "code3": "ACC",
         "operator:wikidata": "Q339142",
         "brand": "acciona",
         "brand:wikidata": "Q339142",
@@ -355,6 +390,7 @@ OPERATORS = {
     },
     "AUCH": {
         "operator": "Auchan",
+        "code3": "AUC",
         "operator:wikidata": "Q119609729",
         "brand": "Auchan",
         "brand:wikidata": "Q758603",
@@ -363,6 +399,7 @@ OPERATORS = {
     },
     "MOBA": {
         "operator": "mobel",
+        "code3": "MOA",
         "operator:wikidata": None,
         "brand": "mobel",
         "brand:wikidata": None,
