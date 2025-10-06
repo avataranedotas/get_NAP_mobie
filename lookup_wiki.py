@@ -361,7 +361,7 @@ OPERATORS = {
         "phone": None,
         "email": None,
     },
-        "MOBA": {
+    "MOBA": {
         "operator": "mobel",
         "operator:wikidata": None,
         "brand": "mobel",
