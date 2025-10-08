@@ -20878,3 +20878,1001 @@ Modificados:
         }
     }
 }
+2025-10-08 04:22:10
+Adicionados:
+{
+    "LRS-00138": {
+        "name": "Bombeiros Voluntários Sacavém",
+        "lastUpdated": "2025-10-08T02:59:02.677Z",
+        "city": "Loures",
+        "street": "R. Cidade de Goa 1424, Sacavém",
+        "postcode": "2685-150",
+        "latitude": "38.7896",
+        "longitude": "-9.104267",
+        "latlon": "38.7896 -9.104267",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00138",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00138-01",
+                        "evse_id": "PT*HRZ*E*LRS*00138*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00138-02",
+                        "evse_id": "PT*HRZ*E*LRS*00138*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00138-03",
+                        "evse_id": "PT*HRZ*E*LRS*00138*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00138-04",
+                        "evse_id": "PT*HRZ*E*LRS*00138*04",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00138-05",
+                        "evse_id": "PT*HRZ*E*LRS*00138*05",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00149": {
+        "name": "Mercadona Frielas",
+        "lastUpdated": "2025-10-08T02:58:50.982Z",
+        "city": "Loures",
+        "street": "Rua das Lameiras",
+        "postcode": "2660-556",
+        "latitude": "38.814144",
+        "longitude": "-9.147583",
+        "latlon": "38.814144 -9.147583",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LRS-00149",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00149-01",
+                        "evse_id": "PT*IBD*E*LRS*00149*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00149-02",
+                        "evse_id": "PT*IBD*E*LRS*00149*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "GMR-80014",
+    "GMR-90014",
+    "PTL-00012",
+    "PVZ-00018",
+    "PVZ-00019"
+]
+Modificados:
+{
+    "AMM-00004": {
+        "name": {
+            "old": "",
+            "new": "Intermarché Armamar"
+        },
+        "latlon": {
+            "old": "41.098766 -7.6861424",
+            "new": "41.098766 -7.686142"
+        },
+        "street": {
+            "old": "Intermarché Armamar,Lugar de Rossafes, EN 313",
+            "new": "Lugar de Rossafes EN 313 1"
+        },
+        "longitude": {
+            "old": "-7.6861424",
+            "new": "-7.686142"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EAMM-00004-1",
+                            "evse_id": "PT*EDP*EAMM*00004*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EAMM-00004-2",
+                            "evse_id": "PT*EDP*EAMM*00004*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00041": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00130": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "FND-00020": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00124": {
+        "name": {
+            "old": "Municipio de Guimarães",
+            "new": "GMR-80014 "
+        }
+    },
+    "LGA-00032": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "LMG-00005": {
+        "name": {
+            "old": "",
+            "new": "Vila Galé Collection Douro 1"
+        },
+        "street": {
+            "old": "Hotel Vila Galé-VILA GALÉ COLLECTION DOURO",
+            "new": "Hotel Vila Galé-VILA GALÉ COLLECTION DOURO 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELMG-00005-1",
+                            "evse_id": "PT*EDP*ELMG*00005*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LMG-00006": {
+        "name": {
+            "old": "",
+            "new": "Vila Galé Collection Douro 2"
+        },
+        "street": {
+            "old": "Hotel Vila Galé-VILA GALÉ COLLECTION DOURO",
+            "new": "Hotel Vila Galé-VILA GALÉ COLLECTION DOURO 2"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELMG-00006-1",
+                            "evse_id": "PT*EDP*ELMG*00006*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LOU-00011": {
+        "name": {
+            "old": "LOU-00007",
+            "new": ""
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LSB-00159": {
+        "name": {
+            "old": "",
+            "new": "Pestana Lisboa Vintage 1"
+        },
+        "street": {
+            "old": "Rua Braamcamp",
+            "new": "Rua Braamcamp 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00159-1",
+                            "evse_id": "PT*EDP*ELSB*00159*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00160": {
+        "name": {
+            "old": "",
+            "new": "Pestana Lisboa Vintage 2"
+        },
+        "street": {
+            "old": "Rua Braamcamp",
+            "new": "Rua Braamcamp 2"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "cafe"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00160-1",
+                            "evse_id": "PT*EDP*ELSB*00160*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00217": {
+        "name": {
+            "old": "",
+            "new": "Vila Galé Ópera 2"
+        },
+        "street": {
+            "old": "Hotel Vila Galé Opera",
+            "new": "Hotel Vila Galé Opera 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00217-1",
+                            "evse_id": "PT*EDP*ELSB*00217*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00450": {
+        "name": {
+            "old": "",
+            "new": "Hotel Júpiter Lisboa 1"
+        },
+        "street": {
+            "old": "Júpiter Lisboa Hotel - Av. da República",
+            "new": "Av. da República 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00450-1",
+                            "evse_id": "PT*EDP*ELSB*00450*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00452": {
+        "name": {
+            "old": "",
+            "new": "Hotel Júpiter Lisboa 3"
+        },
+        "street": {
+            "old": "Júpiter Lisboa Hotel - Av. da República",
+            "new": "Av. da República 3"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00452-1",
+                            "evse_id": "PT*EDP*ELSB*00452*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00453": {
+        "name": {
+            "old": "",
+            "new": "Hotel Júpiter Lisboa 4"
+        },
+        "street": {
+            "old": "Júpiter Lisboa Hotel - Av. da República",
+            "new": "Av. da República 4"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00453-1",
+                            "evse_id": "PT*EDP*ELSB*00453*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00589": {
+        "name": {
+            "old": "",
+            "new": "HF Fénix Lisboa 1"
+        },
+        "latlon": {
+            "old": "38.725067 -9.151137",
+            "new": "38.725067 -9.151138"
+        },
+        "street": {
+            "old": "Praça Marquês de Pombal 8, Lisboa",
+            "new": "Praça Marquês de Pombal 8"
+        },
+        "longitude": {
+            "old": "-9.151137",
+            "new": "-9.151138"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00589-1",
+                            "evse_id": "PT*EDP*ELSB*00589*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00589-2",
+                            "evse_id": "PT*EDP*ELSB*00589*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00590": {
+        "name": {
+            "old": "",
+            "new": "HF Fénix Lisboa 2"
+        },
+        "latlon": {
+            "old": "38.725067 -9.151137",
+            "new": "38.725067 -9.151138"
+        },
+        "street": {
+            "old": "Praça Marquês de Pombal 8, Lisboa",
+            "new": "Praça Marquês de Pombal 9"
+        },
+        "longitude": {
+            "old": "-9.151137",
+            "new": "-9.151138"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00590-1",
+                            "evse_id": "PT*EDP*ELSB*00590*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00590-2",
+                            "evse_id": "PT*EDP*ELSB*00590*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00627": {
+        "name": {
+            "old": "Vila Galé Opera",
+            "new": "Vila Galé Ópera 3"
+        },
+        "street": {
+            "old": "Tv. do Conde da Ponte",
+            "new": "Tv. do Conde da Ponte 1"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00627-1",
+                            "evse_id": "PT*EDP*ELSB*00627*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00627-2",
+                            "evse_id": "PT*EDP*ELSB*00627*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00694": {
+        "name": {
+            "old": "Sheraton Lisboa Hotel & Spa",
+            "new": "Sheraton Lisboa Hotel & Spa 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00694-1",
+                            "evse_id": "PT*EDP*ELSB*00694*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00694-2",
+                            "evse_id": "PT*EDP*ELSB*00694*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00695": {
+        "name": {
+            "old": "Sheraton Lisboa Hotel & Spa",
+            "new": "Sheraton Lisboa Hotel & Spa 2"
+        },
+        "street": {
+            "old": "R. Latino Coelho 1",
+            "new": "R. Latino Coelho 2"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00695-1",
+                            "evse_id": "PT*EDP*ELSB*00695*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00695-2",
+                            "evse_id": "PT*EDP*ELSB*00695*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "MED-00002": {
+        "name": {
+            "old": "",
+            "new": "Intermarché Mêda"
+        },
+        "street": {
+            "old": "Lugar do Noval",
+            "new": "Lugar do Noval 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMED-00002-1",
+                            "evse_id": "PT*EDP*EMED*00002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMED-00002-2",
+                            "evse_id": "PT*EDP*EMED*00002*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PLM-00027": {
+        "name": {
+            "old": "GALP A2 Palmela",
+            "new": ""
+        }
+    },
+    "PLM-00028": {
+        "name": {
+            "old": "GALP A2 Palmela",
+            "new": ""
+        },
+        "latlon": {
+            "old": "38.58485 -8.931031",
+            "new": "38.584846 -8.931031"
+        },
+        "latitude": {
+            "old": "38.58485",
+            "new": "38.584846"
+        }
+    },
+    "SJP-00002": {
+        "name": {
+            "old": "",
+            "new": "Intermarché São João da Pesqueira"
+        },
+        "latlon": {
+            "old": "41.145325 -7.4112678",
+            "new": "41.145325 -7.411268"
+        },
+        "street": {
+            "old": "Av. João do Nascimento Costa",
+            "new": "Av. João do Nascimento Costa 1"
+        },
+        "longitude": {
+            "old": "-7.4112678",
+            "new": "-7.411268"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SJP*00002*01",
+                            "new": "PT*EDP*ESJP*00002*1"
+                        },
+                        "evse_code": {
+                            "old": "SJP-00002-01",
+                            "new": "PT-EDP-ESJP-00002-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SJP*00002*02",
+                            "new": "PT*EDP*ESJP*00002*2"
+                        },
+                        "evse_code": {
+                            "old": "SJP-00002-02",
+                            "new": "PT-EDP-ESJP-00002-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SJP-00002-01",
+                            "evse_id": "PT*EDP*E*SJP*00002*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SJP-00002-02",
+                            "evse_id": "PT*EDP*E*SJP*00002*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00116": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
