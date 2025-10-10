@@ -23614,3 +23614,911 @@ Modificados:
         }
     }
 }
+2025-10-10 04:22:46
+Adicionados:
+{
+    "ALM-00118": {
+        "name": "",
+        "lastUpdated": "2025-10-10T00:49:22.548Z",
+        "city": "Almada",
+        "street": "Rua de Oliveira Feijão - Charneca de Caparica",
+        "postcode": "2820-205",
+        "latitude": "38.62338",
+        "longitude": "-9.194799",
+        "latlon": "38.62338 -9.194799",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ALM-00118",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALM-00118-01",
+                        "evse_id": "PT*GLP*EALM*00118*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-00118-02",
+                        "evse_id": "PT*GLP*EALM*00118*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-00118-03",
+                        "evse_id": "PT*GLP*EALM*00118*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00113": {
+        "name": "B&B Hotel Lisboa - Aeroporto 1",
+        "lastUpdated": "2025-10-09T15:27:49.495Z",
+        "city": "Loures",
+        "street": "R Vasco da Gama 4",
+        "postcode": "2685-011",
+        "latitude": "38.786148",
+        "longitude": "-9.11715",
+        "latlon": "38.786148 -9.11715",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00113",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00113-01",
+                        "evse_id": "PT*EDP*E*LRS*00113*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00113-02",
+                        "evse_id": "PT*EDP*E*LRS*00113*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELRS-00113-1",
+                        "evse_id": "PT*EDP*ELRS*00113*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELRS-00113-2",
+                        "evse_id": "PT*EDP*ELRS*00113*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00151": {
+        "name": "INTERMARCHÉ DE SACAVÉM",
+        "lastUpdated": "2025-10-10T00:24:36.984Z",
+        "city": "Loures",
+        "street": "RUA DA CIDADE DE GÔA, 24, EDIFÍCIO 2 C-D",
+        "postcode": "2685-038",
+        "latitude": "38.790947",
+        "longitude": "-9.102759",
+        "latlon": "38.790947 -9.102759",
+        "opc": "GLPP",
+        "opc_name": "Galp Power",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00151",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00151-01",
+                        "evse_id": "PT*GLP*ELRS*00151*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00151-02",
+                        "evse_id": "PT*GLP*ELRS*00151*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00794": {
+        "name": "NEYA Lisboa Hotel",
+        "lastUpdated": "2025-10-09T13:24:57.952Z",
+        "city": "Lisboa",
+        "street": "R. Gen. Garcia Rosado 11",
+        "postcode": "1150-174",
+        "latitude": "38.729122",
+        "longitude": "-9.140919",
+        "latlon": "38.729122 -9.140919",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00794",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00794-01",
+                        "evse_id": "PT*EDP*E*LSB*00794*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00794-02",
+                        "evse_id": "PT*EDP*E*LSB*00794*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00794-1",
+                        "evse_id": "PT*EDP*ELSB*00794*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00794-2",
+                        "evse_id": "PT*EDP*ELSB*00794*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01016": {
+        "name": "Olaias",
+        "lastUpdated": "2025-10-10T02:58:39.580Z",
+        "city": "Lisboa",
+        "street": "Rua Robalo Gouveia, 1",
+        "postcode": "1900-317",
+        "latitude": "38.74121",
+        "longitude": "-9.123419",
+        "latlon": "38.74121 -9.123419",
+        "opc": "MOBA",
+        "opc_name": "MOBI A - Mobilidade e Ambiente, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01016",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01016-01",
+                        "evse_id": "PT*MOA*E*LSB*01016*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01016-02",
+                        "evse_id": "PT*MOA*E*LSB*01016*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "LSB-00106"
+]
+Modificados:
+{
+    "ACB-00008": {
+        "name": {
+            "old": "",
+            "new": "Vale d'Azenha Hotel & Residences"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EACB-00008-1",
+                            "evse_id": "PT*EDP*EACB*00008*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EACB-00008-2",
+                            "evse_id": "PT*EDP*EACB*00008*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "foodShopping",
+                        "new": "hotel"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Hotel Vale da Azenha, Rua da Barrada nº39",
+            "new": "Rua da Barrada 39"
+        }
+    },
+    "CNT-00029": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CNT-00030": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LRS-00114": {
+        "name": {
+            "old": "B&B HOTEL Lisboa Aeroporto",
+            "new": "B&B Hotel Lisboa - Aeroporto 2"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRS-00114-1",
+                            "evse_id": "PT*EDP*ELRS*00114*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELRS-00114-2",
+                            "evse_id": "PT*EDP*ELRS*00114*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed_items": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "R. Vasco da Gama 4",
+            "new": "R Vasco da Gama 5"
+        }
+    },
+    "LSB-00113": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00576": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00839": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00839-1",
+                            "evse_id": "PT*EDP*ELSB*00839*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00839-2",
+                            "evse_id": "PT*EDP*ELSB*00839*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "hotel",
+                        "new": "carPark"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Av. João XXI 80, 1000-081 Lisboa",
+            "new": "Av. João XXI 80"
+        }
+    },
+    "MTJ-00043": {
+        "name": {
+            "old": "B&B HOTEL Lisboa Montijo",
+            "new": "B&B Hotel Montijo 1"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMTJ-00043-1",
+                            "evse_id": "PT*EDP*EMTJ*00043*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMTJ-00043-2",
+                            "evse_id": "PT*EDP*EMTJ*00043*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "hotel",
+                        "restaurant",
+                        "cafe"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Av. Dom Afonso Henriques 32",
+            "new": "Av Dom Afonso Henriques 32"
+        }
+    },
+    "MTJ-00044": {
+        "name": {
+            "old": "B&B HOTEL Lisboa Montijo",
+            "new": "B&B Hotel Montijo 2"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMTJ-00044-1",
+                            "evse_id": "PT*EDP*EMTJ*00044*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMTJ-00044-2",
+                            "evse_id": "PT*EDP*EMTJ*00044*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel",
+                        "restaurant",
+                        "NATURE"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Av. Dom Afonso Henriques 32",
+            "new": "Av Dom Afonso Henriques 33"
+        }
+    },
+    "PNI-00011": {
+        "name": {
+            "old": "Intermarché - Peniche",
+            "new": "Intermarché Peniche"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EPNI-00011-1",
+                            "evse_id": "PT*EDP*EPNI*00011*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPNI-00011-2",
+                            "evse_id": "PT*EDP*EPNI*00011*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "foodShopping"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Avenida Monsenhor Bastos",
+            "new": "Avenida Monsenhor Bastos 1"
+        }
+    },
+    "STB-00021": {
+        "name": {
+            "old": "",
+            "new": "Hospital da Luz Setúbal 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "STB-00021-01",
+                            "new": "PT-EDP-ESTB-00021-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00021*01",
+                            "new": "PT*EDP*ESTB*00021*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "STB-00021-02",
+                            "new": "PT-EDP-ESTB-00021-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00021*02",
+                            "new": "PT*EDP*ESTB*00021*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STB-00021-01",
+                            "evse_id": "PT*EDP*E*STB*00021*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STB-00021-02",
+                            "evse_id": "PT*EDP*E*STB*00021*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Hospital da Luz Setúbal, EN 10, km 37,",
+            "new": "EN 10 km 37 2"
+        }
+    },
+    "STB-00086": {
+        "name": {
+            "old": "Clínica Santa Madalena Setúbal",
+            "new": "Clínica Santa Madalena - Setúbal"
+        },
+        "latlon": {
+            "old": "38.542015 -8.875403",
+            "new": "38.541424 -8.875477"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "STB-00086-01",
+                            "new": "PT-EDP-ESTB-00086-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00086*01",
+                            "new": "PT*EDP*ESTB*00086*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "STB-00086-02",
+                            "new": "PT-EDP-ESTB-00086-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*STB*00086*02",
+                            "new": "PT*EDP*ESTB*00086*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STB-00086-01",
+                            "evse_id": "PT*EDP*E*STB*00086*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STB-00086-02",
+                            "evse_id": "PT*EDP*E*STB*00086*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Av. Mte. Lima de Freitas 28, 2910-866 Setúbal",
+            "new": "Av Mte Lima de Freitas 28"
+        },
+        "latitude": {
+            "old": "38.542015",
+            "new": "38.541424"
+        },
+        "longitude": {
+            "old": "-8.875403",
+            "new": "-8.875477"
+        }
+    }
+}
