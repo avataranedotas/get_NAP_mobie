@@ -299,7 +299,7 @@ OPERATORS = {
         "email": "geral@bluecharge.pt",
     },
     "IONY": {
-        "operator": "Ionity",
+        "operator": "IONITY",
         "code3": "IOY",
         "operator:wikidata": "Q42717773",
         "brand": "IONITY",
