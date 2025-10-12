@@ -26111,3 +26111,192 @@ Modificados:
         }
     }
 }
+2025-10-12 04:21:33
+Modificados:
+{
+    "LSB-00182": {
+        "name": {
+            "old": "",
+            "new": "Hospital da Luz Lisboa 3"
+        },
+        "street": {
+            "old": "Avenida Lusíada",
+            "new": "Avenida Lusíada 3"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00182-1",
+                            "evse_id": "PT*EDP*ELSB*00182*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00182-2",
+                            "evse_id": "PT*EDP*ELSB*00182*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00183": {
+        "name": {
+            "old": "",
+            "new": "Hospital da Luz Lisboa 4"
+        },
+        "street": {
+            "old": "Avenida Lusíada",
+            "new": "Avenida Lusíada 4"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-00183-1",
+                            "evse_id": "PT*EDP*ELSB*00183*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-00183-2",
+                            "evse_id": "PT*EDP*ELSB*00183*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VFX-00039": {
+        "name": {
+            "old": "INTERPIEDADE",
+            "new": "Intermarché Quinta da Piedade"
+        },
+        "latitude": {
+            "old": "38.8643",
+            "new": "38.85926"
+        },
+        "longitude": {
+            "old": "-9.0728",
+            "new": "-9.073545"
+        },
+        "street": {
+            "old": "Quinta da Piedade Póvoa de Santa Iria",
+            "new": "Povoa de Santa Iria 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "VFX-00039-01",
+                            "new": "PT-EDP-EVFX-00039-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00039*01",
+                            "new": "PT*EDP*EVFX*00039*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "VFX-00039-02",
+                            "new": "PT-EDP-EVFX-00039-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00039*02",
+                            "new": "PT*EDP*EVFX*00039*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VFX-00039-01",
+                            "evse_id": "PT*EDP*E*VFX*00039*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VFX-00039-02",
+                            "evse_id": "PT*EDP*E*VFX*00039*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "38.8643 -9.0728",
+            "new": "38.85926 -9.073545"
+        }
+    }
+}
