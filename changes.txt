@@ -30626,3 +30626,4174 @@ Modificados:
         }
     }
 }
+2025-10-16 04:22:11
+Adicionados:
+{
+    "ACB-00002": {
+        "name": "Intermarché Benedita",
+        "lastUpdated": "2025-10-15T14:18:09.932Z",
+        "city": "Alcobaça",
+        "street": "Estrada Nacional 86Casal do Leirião 1",
+        "postcode": "2475-022",
+        "latitude": "39.433216",
+        "longitude": "-8.982104",
+        "latlon": "39.433216 -8.982104",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACB-00002",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACB-00002-01",
+                        "evse_id": "PT*EDP*E*ACB*00002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00002-02",
+                        "evse_id": "PT*EDP*E*ACB*00002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EACB-00002-1",
+                        "evse_id": "PT*EDP*EACB*00002*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EACB-00002-2",
+                        "evse_id": "PT*EDP*EACB*00002*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ACB-00033": {
+        "name": "Alcobaça (Moleanos) #1",
+        "lastUpdated": "2025-10-16T03:00:01.108Z",
+        "city": "Alcobaça",
+        "street": "Estrada Nacional 1, km 95, Moleanos",
+        "postcode": "2460-615",
+        "latitude": "39.5248",
+        "longitude": "-8.9105",
+        "latlon": "39.5248 -8.9105",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACB-00033",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACB-00033-01",
+                        "evse_id": "PT*FCT*E*ACB*00033*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00033-02",
+                        "evse_id": "PT*FCT*E*ACB*00033*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00033-03",
+                        "evse_id": "PT*FCT*E*ACB*00033*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ACB-00034": {
+        "name": "Alcobaça (Moleanos) #2",
+        "lastUpdated": "2025-10-16T03:00:01.810Z",
+        "city": "Alcobaça",
+        "street": "Estrada Nacional 1, km 95, Moleanos",
+        "postcode": "2460-615",
+        "latitude": "39.5248",
+        "longitude": "-8.9105",
+        "latlon": "39.5248 -8.9105",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACB-00034",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACB-00034-01",
+                        "evse_id": "PT*FCT*E*ACB*00034*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00034-02",
+                        "evse_id": "PT*FCT*E*ACB*00034*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00034-03",
+                        "evse_id": "PT*FCT*E*ACB*00034*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOBI-ACH-00001": {
+        "name": "Academia Cristiano Ronaldo - Sporting CP 1",
+        "lastUpdated": "2025-10-15T21:02:10.804Z",
+        "city": "Alcochete",
+        "street": "Est Municipal Malhada de Meias 1",
+        "postcode": "2890-529",
+        "latitude": "38.72315",
+        "longitude": "-8.995358",
+        "latlon": "38.72315 -8.995358",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MOBI-ACH-00001",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MOBI-ACH-00001-01",
+                        "evse_id": "PT*EDP*E*MOBI*ACH*00001*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MOBI-ACH-00001-02",
+                        "evse_id": "PT*EDP*E*MOBI*ACH*00001*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMOBI-ACH-00001-1",
+                        "evse_id": "PT*EDP*EMOBI*ACH*00001*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMOBI-ACH-00001-2",
+                        "evse_id": "PT*EDP*EMOBI*ACH*00001*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTG-00005": {
+        "name": "Rua Dr. Esteves de Carvalho 1",
+        "lastUpdated": "2025-10-15T11:57:32.000Z",
+        "city": "Manteigas",
+        "street": "Rua Dr. Esteves de Carvalho 1",
+        "postcode": "6260-130",
+        "latitude": "40.402966",
+        "longitude": "-7.53621",
+        "latlon": "40.402966 -7.53621",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTG-00005",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EMTG-00005-1",
+                        "evse_id": "PT*EDP*EMTG*00005*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMTG-00005-2",
+                        "evse_id": "PT*EDP*EMTG*00005*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTG-00006": {
+        "name": "Rua Dr. Esteves de Carvalho 2",
+        "lastUpdated": "2025-10-15T11:56:56.000Z",
+        "city": "Manteigas",
+        "street": "Rua Dr. Esteves de Carvalho 2",
+        "postcode": "6260-130",
+        "latitude": "40.402966",
+        "longitude": "-7.53621",
+        "latlon": "40.402966 -7.53621",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTG-00006",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EMTG-00006-1",
+                        "evse_id": "PT*EDP*EMTG*00006*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMTG-00006-2",
+                        "evse_id": "PT*EDP*EMTG*00006*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "NZR-00042": {
+        "name": "Nazaré (Pataias) #2",
+        "lastUpdated": "2025-10-16T03:00:02.049Z",
+        "city": "Nazaré",
+        "street": "E. N. 242 - Km 29.25",
+        "postcode": "2445-252",
+        "latitude": "39.63904",
+        "longitude": "-9.041936",
+        "latlon": "39.63904 -9.041936",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "NZR-00042",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "NZR-00042-01",
+                        "evse_id": "PT*FCT*E*NZR*00042*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "NZR-00042-02",
+                        "evse_id": "PT*FCT*E*NZR*00042*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "NZR-00042-03",
+                        "evse_id": "PT*FCT*E*NZR*00042*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "NZR-00043": {
+        "name": "Nazaré (Pataias) #3",
+        "lastUpdated": "2025-10-16T03:00:01.878Z",
+        "city": "Nazaré",
+        "street": "E. N. 242 - Km 29.25",
+        "postcode": "2445-252",
+        "latitude": "39.63904",
+        "longitude": "-9.041936",
+        "latlon": "39.63904 -9.041936",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "NZR-00043",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid",
+                    "pinpad"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "NZR-00043-01",
+                        "evse_id": "PT*FCT*E*NZR*00043*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "NZR-00043-02",
+                        "evse_id": "PT*FCT*E*NZR*00043*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "NZR-00043-03",
+                        "evse_id": "PT*FCT*E*NZR*00043*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "NZR-00044": {
+        "name": "Nazaré (Pataias) #4",
+        "lastUpdated": "2025-10-16T03:00:02.101Z",
+        "city": "Nazaré",
+        "street": "E. N. 242 - Km 29.25",
+        "postcode": "2445-252",
+        "latitude": "39.63904",
+        "longitude": "-9.041936",
+        "latlon": "39.63904 -9.041936",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "NZR-00044",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "NZR-00044-01",
+                        "evse_id": "PT*FCT*E*NZR*00044*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "NZR-00044-02",
+                        "evse_id": "PT*FCT*E*NZR*00044*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "NZR-00044-03",
+                        "evse_id": "PT*FCT*E*NZR*00044*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRS-00011": {
+        "name": "",
+        "lastUpdated": "2025-10-15T14:43:25.629Z",
+        "city": "Vila Real de Santo António",
+        "street": "RUA 5 DE OUTUBRO S/N",
+        "postcode": "8900-307",
+        "latitude": "37.193153",
+        "longitude": "-7.42139",
+        "latlon": "37.193153 -7.42139",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRS-00011",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00011-01",
+                        "evse_id": "PT*GLP*EVRS*00011*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00011-02",
+                        "evse_id": "PT*GLP*EVRS*00011*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRS-00012": {
+        "name": "",
+        "lastUpdated": "2025-10-15T14:43:29.389Z",
+        "city": "Vila Real de Santo António",
+        "street": "RUA 5 DE OUTUBRO S/N",
+        "postcode": "8900-307",
+        "latitude": "37.193153",
+        "longitude": "-7.42139",
+        "latlon": "37.193153 -7.42139",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRS-00012",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00012-01",
+                        "evse_id": "PT*GLP*EVRS*00012*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00012-02",
+                        "evse_id": "PT*GLP*EVRS*00012*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ABF-00075": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "ABT-00027": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ACB-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "ACB-00025": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AGD-00013": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "AGD-00015": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "ALB-00031": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "ALM-00034": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "ALR-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ALT-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ALT-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AMM-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "AMM-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "AMM-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AMR-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "AMR-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "AMR-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "AND-00015": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "RECREATION_AREA"
+                    ]
+                }
+            }
+        }
+    },
+    "AND-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "RECREATION_AREA"
+                    ]
+                }
+            }
+        }
+    },
+    "AND-00017": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "RECREATION_AREA"
+                    ]
+                }
+            }
+        }
+    },
+    "ARL-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ARL-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ASL-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ASL-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AVR-00050": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "AVV-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "AVV-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "BCL-00018": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "BJA-00026": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "BMT-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "BRB-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "BRG-00094": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "BRG-00095": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "BRG-00105": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "BRG-00129": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "BRR-00017": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant",
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "CBR-00038": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "CBR-00104": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CDR-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CLD-00018": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "CNT-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CPV-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "CRT-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CRT-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00041": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00043": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00049": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00050": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00052": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00053": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00095": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00098": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00127": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00130": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CSC-00198": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "CTB-00018": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CTB-00028": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CVL-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "EPS-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "EPS-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "ESP-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "ETR-00022": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EETR-00022-1",
+                            "evse_id": "PT*EDP*EETR*00022*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EETR-00022-2",
+                            "evse_id": "PT*EDP*EETR*00022*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EETR-00022-3",
+                            "evse_id": "PT*EDP*EETR*00022*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-8.570183",
+            "new": "-8.570182"
+        },
+        "latlon": {
+            "old": "40.759327 -8.570183",
+            "new": "40.759327 -8.570182"
+        },
+        "street": {
+            "old": "R PROF. DR. EGAS MONI",
+            "new": "R PROF. DR. EGAS MONI 1"
+        }
+    },
+    "ETZ-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "EVR-00042": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "EVR-00043": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "EVR-00051": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "EVR-00053": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "EVR-00054": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "FAF-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "FAF-00013": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "FLG-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "GDL-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-8.876055",
+            "new": "-8.78508"
+        },
+        "latlon": {
+            "old": "38.465233 -8.876055",
+            "new": "39.06894 -8.78508"
+        },
+        "latitude": {
+            "old": "38.465233",
+            "new": "39.06894"
+        }
+    },
+    "GDL-00021": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "GDM-00017": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "GDM-00027": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "GDM-00035": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "GMR-00093": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "GMR-00106": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "GMR-00127": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "GMR-00136": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "GVA-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "GVA-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "ILH-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "LMG-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "LMG-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "LNH-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELNH-00007-1",
+                            "evse_id": "PT*EDP*ELNH*00007*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELNH-00007-2",
+                            "evse_id": "PT*EDP*ELNH*00007*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Superlourinhã",
+            "new": "Intermarché Lourinhã"
+        }
+    },
+    "LOU-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LRA-00154": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00058": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00059": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00061": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00113": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00114": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00072": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00159": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00160": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00180": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00182": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00183": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00217": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00450": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00451": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00453": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00576": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00578": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00579": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00582": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00589": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00590": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00627": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00694": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00695": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00794": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00798": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00799": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00800": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00801": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00802": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00803": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00804": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00805": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00806": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00807": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00835": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00839": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00877": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00881": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MAI-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MAI-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MAI-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MAI-00010": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MBR-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "MBR-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "MCN-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "MCV-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MCV-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MDR-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "MED-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "MFR-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "MFR-00022": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "MGR-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "MLD-00019": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "MLD-00035": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMLD-00035-1",
+                            "evse_id": "PT*EDP*EMLD*00035*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMLD-00035-2",
+                            "evse_id": "PT*EDP*EMLD*00035*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "ALDI - MEALHADA",
+            "new": "Aldi Mealhada 1"
+        },
+        "street": {
+            "old": "Av. Dr. Luiz Correia Navega",
+            "new": "Av. Dr. Luiz Correia Navega 1"
+        }
+    },
+    "MOBI-ACH-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MOBI-SXL-00001": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MOBI-SXL-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MOBI-SXL-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MOBI-SXL-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "SPORT"
+                    ]
+                }
+            }
+        }
+    },
+    "MRS-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "MTJ-00043": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MTJ-00044": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MTS-00046": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "MTS-00130": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "MTS-00170": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "NIS-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "CARPOOL_PARKING"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00010": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "CARPOOL_PARKING"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00013": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00014": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00017": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00019": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OAZ-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OAZ-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OBR-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOBR-00005-1",
+                            "evse_id": "PT*EDP*EOBR*00005*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOBR-00005-2",
+                            "evse_id": "PT*EDP*EOBR*00005*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "CALCOB",
+            "new": "CALCOB - Coop. Agrícola De Oliveira Do Bairro e Vagos"
+        },
+        "street": {
+            "old": "Rua dos Imigrantes, 22 ",
+            "new": "Rua dos Imigrantes 22"
+        }
+    },
+    "ODV-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00124": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00136": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00172": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00221": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00234": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OHP-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OVR-00023": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "SPORT"
+                    ]
+                }
+            }
+        }
+    },
+    "PBL-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "PNI-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "PNV-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRD-00032": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00029": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00031": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00033": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00034": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00094": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00095": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00176": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00177": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00178": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00189": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00190": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00191": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00192": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00212": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00213": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00214": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00223": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00224": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00258": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00261": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PTB-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PTG-00014": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PTG-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PTL-00015": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "PTL-00019": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PTM-00032": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PTM-00033": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PVL-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "shoppingCentre"
+                    ]
+                }
+            }
+        }
+    },
+    "PVZ-00039": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "SEI-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "SEI-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "SEI-00007": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "SEI-00015": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "SEI-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "SJM-00010": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SJP-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "SMG-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SMG-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00018": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00023": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00027": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00110": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00113": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00114": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00116": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00119": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00141": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00145": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00169": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00170": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SPS-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SRD-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00021": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00065": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00075": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00080": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00086": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "STB-00090": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "STR-00053": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "STR-00055": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "STS-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "SXL-00016": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "SXL-00030": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "90000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "90.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "TBC-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "TMR-00033": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "TMR-00039": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "TMR-00040": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "TMR-00045": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "TNV-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "TNV-00013": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "TRF-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "TVD-00012": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "TVD-00012-01",
+                            "new": "PT-EDP-ETVD-00012-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TVD*00012*01",
+                            "new": "PT*EDP*ETVD*00012*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "TVD-00012-02",
+                            "new": "PT-EDP-ETVD-00012-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TVD*00012*02",
+                            "new": "PT*EDP*ETVD*00012*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TVD-00012-01",
+                            "evse_id": "PT*EDP*E*TVD*00012*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "TVD-00012-02",
+                            "evse_id": "PT*EDP*E*TVD*00012*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Intermarché A-dos-Cunhados"
+        },
+        "street": {
+            "old": "Rua Vale da Murta",
+            "new": "Rua Vale Murta 1"
+        }
+    },
+    "TVD-00013": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "TVD-00013-01",
+                            "new": "PT-EDP-ETVD-00013-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TVD*00013*01",
+                            "new": "PT*EDP*ETVD*00013*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "TVD-00013-02",
+                            "new": "PT-EDP-ETVD-00013-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TVD*00013*02",
+                            "new": "PT*EDP*ETVD*00013*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TVD-00013-01",
+                            "evse_id": "PT*EDP*E*TVD*00013*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "TVD-00013-02",
+                            "evse_id": "PT*EDP*E*TVD*00013*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-9.365541",
+            "new": "-9.365542"
+        },
+        "name": {
+            "old": "",
+            "new": "Intermarché Silveira"
+        },
+        "latlon": {
+            "old": "39.10737 -9.365541",
+            "new": "39.10737 -9.365542"
+        },
+        "street": {
+            "old": "R. António Gomes",
+            "new": "R António Gomes 1"
+        }
+    },
+    "VCD-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "VCD-00017": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VCD-00051": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VCT-00035": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VCT-00047": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VCT-00056": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "VFX-00029": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "VFX-00039": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VLN-00004": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "VNC-00006": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VND-00010": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "VND-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "VNF-00025": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "VNG-00017": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "VNG-00066": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "VNG-00068": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "VPA-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VZL-00005": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
