@@ -37709,3 +37709,894 @@ Modificados:
         }
     }
 }
+2025-10-22 04:22:51
+Adicionados:
+{
+    "OER-00266": {
+        "name": "IPPLUS Alfragide",
+        "lastUpdated": "2025-10-22T02:58:16.649Z",
+        "city": "Oeiras",
+        "street": "Rua Casal do Canas",
+        "postcode": "2790-204",
+        "latitude": "38.729694",
+        "longitude": "-9.222799",
+        "latlon": "38.729694 -9.222799",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "OER-00266",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00266-01",
+                        "evse_id": "PT*DTE*E*OER*00266*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00266-02",
+                        "evse_id": "PT*DTE*E*OER*00266*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIS-00117": {
+        "name": "",
+        "lastUpdated": "2025-10-21T16:02:47.037Z",
+        "city": "Viseu",
+        "street": "RUA 5 DE OUTUBRO",
+        "postcode": "3500-093",
+        "latitude": "40.65657",
+        "longitude": "-7.905264",
+        "latlon": "40.65657 -7.905264",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VIS-00117",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VIS-00117-01",
+                        "evse_id": "PT*GLP*EVIS*00117*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VIS-00117-02",
+                        "evse_id": "PT*GLP*EVIS*00117*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIS-00118": {
+        "name": "",
+        "lastUpdated": "2025-10-21T12:37:46.965Z",
+        "city": "Viseu",
+        "street": "RUA 5 DE OUTUBRO",
+        "postcode": "3500-093",
+        "latitude": "40.65657",
+        "longitude": "-7.905264",
+        "latlon": "40.65657 -7.905264",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VIS-00118",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VIS-00118-01",
+                        "evse_id": "PT*GLP*EVIS*00118*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VIS-00118-02",
+                        "evse_id": "PT*GLP*EVIS*00118*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "MOBI-MFR-00080"
+]
+Modificados:
+{
+    "ABF-00008": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "hotel"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EABF-00008-1",
+                            "evse_id": "PT*EDP*EABF*00008*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Cerro Alagoa 2"
+        },
+        "street": {
+            "old": "Vila Galé Cerro Alagoaa",
+            "new": "Cerro da Lagoa"
+        }
+    },
+    "ABF-00009": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EABF-00009-1",
+                            "evse_id": "PT*EDP*EABF*00009*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "37.0904 -8.243906",
+            "new": "37.091404 -8.242397"
+        },
+        "longitude": {
+            "old": "-8.243906",
+            "new": "-8.242397"
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Gale Cerro Alagoa "
+        },
+        "street": {
+            "old": "Vila Galé Cerroa Alagoa",
+            "new": "Vila Gale Cerro Alagoa "
+        },
+        "latitude": {
+            "old": "37.0904",
+            "new": "37.091404"
+        }
+    },
+    "ABF-00067": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EABF-00067-1",
+                            "evse_id": "PT*EDP*EABF*00067*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EABF-00067-2",
+                            "evse_id": "PT*EDP*EABF*00067*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "37.09051 -8.243906",
+            "new": "37.12973 -8.300348"
+        },
+        "longitude": {
+            "old": "-8.243906",
+            "new": "-8.300348"
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Cerro Alagoa 1"
+        },
+        "street": {
+            "old": "Rua Do Municipio. Lote 26,",
+            "new": "Rua Do Municipio Lote 26 1"
+        },
+        "latitude": {
+            "old": "37.09051",
+            "new": "37.12973"
+        }
+    },
+    "ABF-00070": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EABF-00070-1",
+                            "evse_id": "PT*EDP*EABF*00070*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EABF-00070-2",
+                            "evse_id": "PT*EDP*EABF*00070*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "STAROTEIS  - Oura",
+            "new": "Luna Hotel da Oura"
+        },
+        "street": {
+            "old": "Luna Hotel da Oura - Rua de Dunfermline",
+            "new": "Rua de Dunfermline"
+        }
+    },
+    "ALM-00121": {
+        "name": {
+            "old": "WeMob Bento Gonçalves 1",
+            "new": ""
+        }
+    },
+    "ALM-00122": {
+        "name": {
+            "old": "WeMob Bento Gonçalves 2",
+            "new": "ALM-00122 - WeMob Bento Gonçalves 2"
+        }
+    },
+    "ALM-00123": {
+        "name": {
+            "old": "WeMob Bento Gonçalves 3",
+            "new": "ALM-00123 - WeMob Bento Gonçalves 3"
+        }
+    },
+    "ALM-00124": {
+        "name": {
+            "old": "WeMob - Parque Luísa Sigeia 1",
+            "new": "ALM-00124 - WeMob - Parque Luísa Sigeia 1"
+        }
+    },
+    "ALM-00125": {
+        "name": {
+            "old": "WeMob - Parque Luísa Sigeia 2",
+            "new": "ALM-00125 - WeMob - Parque Luísa Sigeia 2"
+        }
+    },
+    "ALM-00126": {
+        "name": {
+            "old": "WeMob - Parque Luísa Sigeia 3",
+            "new": "ALM-00126 - WeMob - Parque Luísa Sigeia 3"
+        }
+    },
+    "ALM-00127": {
+        "name": {
+            "old": "WeMob - Parque Conde Ferreira 1",
+            "new": "ALM-00127 - WeMob - Parque Conde Ferreira 1"
+        }
+    },
+    "ALM-00128": {
+        "name": {
+            "old": "WeMob - Parque Conde Ferreira 2",
+            "new": "ALM-00128 - WeMob - Parque Conde Ferreira 2"
+        }
+    },
+    "ALM-00129": {
+        "name": {
+            "old": "WeMob - Parque Conde Ferreira",
+            "new": "ALM-00129 - WeMob - Parque Conde Ferreira 3"
+        }
+    },
+    "ALM-00130": {
+        "name": {
+            "old": "WeMob - Parque do Laranjeiro 1",
+            "new": "ALM-00130 - WeMob - Parque do Laranjeiro 1"
+        }
+    },
+    "ALM-00131": {
+        "name": {
+            "old": "WeMob - Parque do Laranjeiro 2",
+            "new": "ALM-00131 - WeMob - Parque do Laranjeiro 2"
+        }
+    },
+    "ALM-00132": {
+        "name": {
+            "old": "WeMob - Parque do Laranjeiro 3",
+            "new": "ALM-00132 - WeMob - Parque do Laranjeiro 3"
+        }
+    },
+    "FAR-00023": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "hotel"
+                    },
+                    "removed_items": [
+                        "hotel",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EFAR-00023-1",
+                            "evse_id": "PT*EDP*EFAR*00023*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "37.096836 -7.895323",
+            "new": "37.09561 -7.896686"
+        },
+        "longitude": {
+            "old": "-7.895323",
+            "new": "-7.896686"
+        },
+        "name": {
+            "old": "",
+            "new": "Pestana Palácio Estói 2"
+        },
+        "street": {
+            "old": "Hotel Pestana Estói",
+            "new": "Hotel Pestana Estoi"
+        },
+        "latitude": {
+            "old": "37.096836",
+            "new": "37.09561"
+        }
+    },
+    "LLE-00025": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "hotel",
+                        "new": "carPark"
+                    }
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00025-1",
+                            "evse_id": "PT*EDP*ELLE*00025*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "37.07343 -8.117936",
+            "new": "37.076794 -8.049193"
+        },
+        "longitude": {
+            "old": "-8.117936",
+            "new": "-8.049193"
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Ampalius 2"
+        },
+        "street": {
+            "old": "Hotel Vila Galé Ampalius",
+            "new": "Hotel Vila Gale Ampalius "
+        },
+        "latitude": {
+            "old": "37.07343",
+            "new": "37.076794"
+        }
+    },
+    "LLE-00026": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00026-1",
+                            "evse_id": "PT*EDP*ELLE*00026*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Marina 1"
+        }
+    },
+    "LLE-00027": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00027-1",
+                            "evse_id": "PT*EDP*ELLE*00027*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "37.076702 -8.11757",
+            "new": "37.123093 -7.646161"
+        },
+        "longitude": {
+            "old": "-8.11757",
+            "new": "-7.646161"
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Marina 2"
+        },
+        "street": {
+            "old": "Hotel Vila Galé Marina",
+            "new": "Hotel Vila Gale Marina"
+        },
+        "latitude": {
+            "old": "37.076702",
+            "new": "37.123093"
+        }
+    },
+    "LLE-00087": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00087-1",
+                            "evse_id": "PT*EDP*ELLE*00087*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELLE-00087-2",
+                            "evse_id": "PT*EDP*ELLE*00087*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Hotel Quinta do Lago 1"
+        },
+        "street": {
+            "old": "Quinta do Lago Off Roundabout 7",
+            "new": "Quinta do Lago Off Roundabout  1"
+        }
+    },
+    "LLE-00088": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00088-1",
+                            "evse_id": "PT*EDP*ELLE*00088*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELLE-00088-2",
+                            "evse_id": "PT*EDP*ELLE*00088*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Hotel Quinta do Lago 2"
+        },
+        "street": {
+            "old": "Quinta do Lago Off Roundabout 7",
+            "new": "Quinta do Lago Off Roundabout  2"
+        }
+    },
+    "LLE-00089": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00089-1",
+                            "evse_id": "PT*EDP*ELLE*00089*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELLE-00089-2",
+                            "evse_id": "PT*EDP*ELLE*00089*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Hotel Quinta do Lago 3"
+        },
+        "street": {
+            "old": "Quinta do Lago Off Roundabout 7",
+            "new": "Quinta do Lago Off Roundabout  3"
+        }
+    },
+    "LLE-00148": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00148-1",
+                            "evse_id": "PT*EDP*ELLE*00148*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Vila Galé Ampalius 3"
+        }
+    },
+    "OAZ-00021": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "72.0",
+                                    "new": "200.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PT*REP*E16820*1",
+                            "new": "PT-REP-E16820-1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "PT*REP*E16820*2",
+                            "new": "PT-REP-E16820-2"
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        }
+    },
+    "PRT-00076": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EPRT-00076-1",
+                            "evse_id": "PT*EDP*EPRT*00076*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPRT-00076-2",
+                            "evse_id": "PT*EDP*EPRT*00076*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPRT-00076-3",
+                            "evse_id": "PT*EDP*EPRT*00076*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "43000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "63.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Rua do Doutor José António Marques"
+        },
+        "street": {
+            "old": "Rua do Doutor José António Marques",
+            "new": "Rua do Doutor José António Marques 1"
+        }
+    }
+}
