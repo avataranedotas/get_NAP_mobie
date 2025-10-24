@@ -41915,3 +41915,450 @@ Modificados:
         }
     }
 }
+2025-10-24 04:23:21
+Adicionados:
+{
+    "CMR-00003": {
+        "name": "Rua Pedro Álvares Cabral 2",
+        "lastUpdated": "2025-10-23T15:35:06.364Z",
+        "city": "Campo Maior",
+        "street": "Rua Pedro Álvares Cabral 2",
+        "postcode": "7370-124",
+        "latitude": "39.020416",
+        "longitude": "-7.066526",
+        "latlon": "39.020416 -7.066526",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CMR-00003",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECMR-00003-1",
+                        "evse_id": "PT*EDP*ECMR*00003*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECMR-00003-2",
+                        "evse_id": "PT*EDP*ECMR*00003*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PNF-00051": {
+        "name": "Ruas Elétricas Penafiel - 1",
+        "lastUpdated": "2025-10-23T14:46:54.413Z",
+        "city": "Penafiel",
+        "street": "Rua Eça de Queirós 1",
+        "postcode": "4560-893",
+        "latitude": "41.20282",
+        "longitude": "-8.293631",
+        "latlon": "41.20282 -8.293631",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PNF-00051",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EPNF-00051-1",
+                        "evse_id": "PT*EDP*EPNF*00051*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EPNF-00051-2",
+                        "evse_id": "PT*EDP*EPNF*00051*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "TVR-00008",
+    "TVR-00009",
+    "TVR-00018"
+]
+Modificados:
+{
+    "ABF-00068": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LLE-00202": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "125.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LLE-00226": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "0.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "0.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OER-00029": {
+        "latlon": {
+            "old": "38.709606 -9.292752",
+            "new": "38.707882 -9.274607"
+        },
+        "street": {
+            "old": "Rua Calvet de Magalhães",
+            "new": "Rua Calvet de Magalhaes 1"
+        },
+        "name": {
+            "old": "",
+            "new": "Edificio Impresa SIC 1"
+        },
+        "longitude": {
+            "old": "-9.292752",
+            "new": "-9.274607"
+        },
+        "latitude": {
+            "old": "38.709606",
+            "new": "38.707882"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOER-00029-1",
+                            "evse_id": "PT*EDP*EOER*00029*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00030": {
+        "latlon": {
+            "old": "38.709606 -9.292752",
+            "new": "38.70786 -9.274513"
+        },
+        "street": {
+            "old": "Rua Calvet de Magalhães",
+            "new": "Rua Calvet de Magalhaes 2"
+        },
+        "name": {
+            "old": "",
+            "new": "Edificio Impresa SIC 2"
+        },
+        "longitude": {
+            "old": "-9.292752",
+            "new": "-9.274513"
+        },
+        "latitude": {
+            "old": "38.709606",
+            "new": "38.70786"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOER-00030-1",
+                            "evse_id": "PT*EDP*EOER*00030*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "TVR-00017": {
+        "street": {
+            "old": "Sitio do Marco 632-A",
+            "new": "Sitio do Marco 632A 632"
+        },
+        "name": {
+            "old": "",
+            "new": "Quinta do Marco Eco Turismo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "TVR-00017-01",
+                            "new": "PT-EDP-ETVR-00017-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TVR*00017*01",
+                            "new": "PT*EDP*ETVR*00017*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "TVR-00017-02",
+                            "new": "PT-EDP-ETVR-00017-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*TVR*00017*02",
+                            "new": "PT*EDP*ETVR*00017*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "TVR-00017-01",
+                            "evse_id": "PT*EDP*E*TVR*00017*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "TVR-00017-02",
+                            "evse_id": "PT*EDP*E*TVR*00017*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "hotel",
+                        "new": "carPark"
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "VRS-00004": {
+        "street": {
+            "old": "Rua do Norte nº 8 a 10",
+            "new": "Rua do Norte"
+        },
+        "name": {
+            "old": "McDonalds Vila Real de Santo António",
+            "new": "McDonald's Vila Real de Santo António"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "VRS-00004-01",
+                            "new": "PT-EDP-EVRS-00004-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VRS*00004*01",
+                            "new": "PT*EDP*EVRS*00004*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "VRS-00004-02",
+                            "new": "PT-EDP-EVRS-00004-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VRS*00004*02",
+                            "new": "PT*EDP*EVRS*00004*2"
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "VRS-00004-03",
+                            "new": "PT-EDP-EVRS-00004-3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VRS*00004*03",
+                            "new": "PT*EDP*EVRS*00004*3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VRS-00004-01",
+                            "evse_id": "PT*EDP*E*VRS*00004*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VRS-00004-02",
+                            "evse_id": "PT*EDP*E*VRS*00004*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VRS-00004-03",
+                            "evse_id": "PT*EDP*E*VRS*00004*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
