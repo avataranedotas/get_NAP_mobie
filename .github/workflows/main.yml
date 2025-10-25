@@ -49,6 +49,11 @@ jobs:
       run: |
         python find_new_disused.py
 
+    - name: Encontrar CCS sem uso
+      run: |
+        python find_new_disused3.py
+        python find_new_disused4.py
+
     - name: Conta postos por OPC
       run: |
         python count_opc.py
