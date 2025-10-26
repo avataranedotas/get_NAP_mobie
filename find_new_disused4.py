@@ -32,11 +32,12 @@ for evse in evse_ids:
 # --- Write output ---
 timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
-with open(output_file, "a", encoding="utf-8") as f:
-    f.write(f"{timestamp}\n")
-    for evse in filtered:
-        f.write(f"{evse}\n")
-    f.write("\n\n")
-
 print(f"Filtered {len(evse_ids) - len(filtered)} EVSEs; {len(filtered)} kept.")
-print(f"Output written to: {output_file}")
+
+if filtered:
+    with open(output_file, "a", encoding="utf-8") as f:
+        f.write(f"{timestamp}\n")
+        for evse in filtered:
+            f.write(f"{evse}\n")
+        f.write("\n\n")
+        print(f"Output written to: {output_file}")
