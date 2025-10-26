@@ -21,6 +21,7 @@ timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 if matching_lines:
 
     # Write the matching lines to a new file or print them
+    print (matching_lines)
     with open("charging2.txt", "a") as output_file:
         output_file.write(f"Timestamp: {timestamp}\n")
         output_file.writelines(matching_lines)
