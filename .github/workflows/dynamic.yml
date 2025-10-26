@@ -32,7 +32,8 @@ jobs:
         python u1_inuse.py        
     - name: Detecta postos em uso
       run: |
-        python charging.py        
+        python charging.py
+        python charging2.py
 
     - name: Actualiza lista last_charging
       run: |
