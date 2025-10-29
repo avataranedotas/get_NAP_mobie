@@ -43687,3 +43687,700 @@ Modificados:
         }
     }
 }
+2025-10-29 04:26:39
+Adicionados:
+{
+    "LMG-00019": {
+        "name": "Municipio Lamego- Avenida Dom Egas Moniz",
+        "lastUpdated": "2025-10-28T13:18:27.844Z",
+        "city": "Lamego",
+        "street": "Avenida Dom Egas Moniz 1",
+        "postcode": "5100-196",
+        "latitude": "41.09145",
+        "longitude": "-7.80534",
+        "latlon": "41.09145 -7.80534",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LMG-00019",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELMG-00019-1",
+                        "evse_id": "PT*EDP*ELMG*00019*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELMG-00019-2",
+                        "evse_id": "PT*EDP*ELMG*00019*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00053": {
+        "name": "Muppie Metro Senhor Roubado",
+        "lastUpdated": "2025-10-29T02:59:12.526Z",
+        "city": "Odivelas",
+        "street": "Rua Sr. Roubado, Nº S/N",
+        "postcode": "2675-533",
+        "latitude": "38.786137",
+        "longitude": "-9.171794",
+        "latlon": "38.786137 -9.171794",
+        "opc": "LOGI",
+        "opc_name": "uCharge",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00053",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00053-01",
+                        "evse_id": "PT*LOG*E*ODV*00053*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00053-02",
+                        "evse_id": "PT*LOG*E*ODV*00053*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00050": {
+        "name": "Hotel Borralha",
+        "lastUpdated": "2025-10-29T02:59:54.973Z",
+        "city": "Vila Real",
+        "street": "Travessa Moreira de Carvalho 2",
+        "postcode": "5000-423",
+        "latitude": "41.31343",
+        "longitude": "-7.7351",
+        "latlon": "41.31343 -7.7351",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00050",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00050-01",
+                        "evse_id": "PT*GLD*E*VRL*00050*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "13800.0",
+                                "voltage": "400.0",
+                                "max_current": "20.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00050-02",
+                        "evse_id": "PT*GLD*E*VRL*00050*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "13800.0",
+                                "voltage": "400.0",
+                                "max_current": "20.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "CBT-00002": {
+        "street": {
+            "old": "Rua Fundo da Feira",
+            "new": "Rua Fundo da Feira 60"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBT-00002-1",
+                            "evse_id": "PT*EDP*ECBT*00002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBT-00002-2",
+                            "evse_id": "PT*EDP*ECBT*00002*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Rua Fundo Da Feira"
+        }
+    },
+    "CBT-00003": {
+        "street": {
+            "old": "Rua Nª Senhora da Oliveira",
+            "new": "Rua Nª Senhora da Oliveira 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBT-00003-1",
+                            "evse_id": "PT*EDP*ECBT*00003*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBT-00003-2",
+                            "evse_id": "PT*EDP*ECBT*00003*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Rua Nª Senhora da Oliveira"
+        }
+    },
+    "CBT-00004": {
+        "street": {
+            "old": "Praça Albino Alves Pereira",
+            "new": "Praça Albino Alves Pereira 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBT-00004-1",
+                            "evse_id": "PT*EDP*ECBT*00004*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBT-00004-2",
+                            "evse_id": "PT*EDP*ECBT*00004*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Praça Albino Alves Pereira"
+        }
+    },
+    "CBT-00005": {
+        "street": {
+            "old": "Rua de Fervença, SN",
+            "new": "Rua de Fervença SN 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBT-00005-1",
+                            "evse_id": "PT*EDP*ECBT*00005*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "20700.0",
+                                    "voltage": "400.0",
+                                    "max_current": "30.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBT-00005-2",
+                            "evse_id": "PT*EDP*ECBT*00005*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "20700.0",
+                                    "voltage": "400.0",
+                                    "max_current": "30.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "CM Celorico Bastos - Rua de Fervença, SN",
+            "new": "Rua de Fervença"
+        }
+    },
+    "CBT-90001": {
+        "street": {
+            "old": "Praça Cardeal Dom António Ribeiro",
+            "new": "Praça Cardeal Dom António Ribeiro 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ECBT-90001-1",
+                            "evse_id": "PT*EDP*ECBT*90001*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ECBT-90001-2",
+                            "evse_id": "PT*EDP*ECBT*90001*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "Praça Cardeal Dom António Ribeiro"
+        }
+    },
+    "FIG-00029": {
+        "street": {
+            "old": "AV. DOM JOÃO II",
+            "new": "AV DOM JOAO II 1"
+        },
+        "longitude": {
+            "old": "-8.894198",
+            "new": "-8.894199"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EFIG-00029-1",
+                            "evse_id": "PT*EDP*EFIG*00029*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EFIG-00029-2",
+                            "evse_id": "PT*EDP*EFIG*00029*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "HOTEL ATLÂNTIDA-SOL - FIGUEIRA DA FOZ",
+            "new": "HOTEL ATLÂNTIDA-SOL - FIGUEIRA DA FOZ 1"
+        },
+        "latlon": {
+            "old": "40.175804 -8.894198",
+            "new": "40.175804 -8.894199"
+        }
+    },
+    "FIG-00030": {
+        "street": {
+            "old": "AV. DOM JOÃO II",
+            "new": "AV. DOM JOÃO II 2"
+        },
+        "longitude": {
+            "old": "-8.894198",
+            "new": "-8.894199"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EFIG-00030-1",
+                            "evse_id": "PT*EDP*EFIG*00030*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EFIG-00030-2",
+                            "evse_id": "PT*EDP*EFIG*00030*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "HOTEL ATLÂNTIDA-SOL - FIGUEIRA DA FOZ",
+            "new": "HOTEL ATLÂNTIDA-SOL - FIGUEIRA DA FOZ 2"
+        },
+        "latlon": {
+            "old": "40.175804 -8.894198",
+            "new": "40.175804 -8.894199"
+        }
+    },
+    "LLE-00211": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "STB-00100": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "TVD-00075": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VFR-00095": {
+        "street": {
+            "old": "R. Principal, Lugar do Mosteiro",
+            "new": "R. Principal Lugar do Mosteiro 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFR*00095*01",
+                            "new": "PT*EDP*EVFR*00095*1"
+                        },
+                        "evse_code": {
+                            "old": "VFR-00095-01",
+                            "new": "PT-EDP-EVFR-00095-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFR*00095*02",
+                            "new": "PT*EDP*EVFR*00095*2"
+                        },
+                        "evse_code": {
+                            "old": "VFR-00095-02",
+                            "new": "PT-EDP-EVFR-00095-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VFR-00095-01",
+                            "evse_id": "PT*EDP*E*VFR*00095*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VFR-00095-02",
+                            "evse_id": "PT*EDP*E*VFR*00095*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "INTERMARCHÉ - CANEDO",
+            "new": "Intermarché Canedo"
+        }
+    }
+}

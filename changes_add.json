@@ -1,0 +1,158 @@
+{
+    "LMG-00019": {
+        "name": "Municipio Lamego- Avenida Dom Egas Moniz",
+        "lastUpdated": "2025-10-28T13:18:27.844Z",
+        "city": "Lamego",
+        "street": "Avenida Dom Egas Moniz 1",
+        "postcode": "5100-196",
+        "latitude": "41.09145",
+        "longitude": "-7.80534",
+        "latlon": "41.09145 -7.80534",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LMG-00019",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELMG-00019-1",
+                        "evse_id": "PT*EDP*ELMG*00019*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELMG-00019-2",
+                        "evse_id": "PT*EDP*ELMG*00019*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00053": {
+        "name": "Muppie Metro Senhor Roubado",
+        "lastUpdated": "2025-10-29T02:59:12.526Z",
+        "city": "Odivelas",
+        "street": "Rua Sr. Roubado, Nº S/N",
+        "postcode": "2675-533",
+        "latitude": "38.786137",
+        "longitude": "-9.171794",
+        "latlon": "38.786137 -9.171794",
+        "opc": "LOGI",
+        "opc_name": "uCharge",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00053",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00053-01",
+                        "evse_id": "PT*LOG*E*ODV*00053*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00053-02",
+                        "evse_id": "PT*LOG*E*ODV*00053*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00050": {
+        "name": "Hotel Borralha",
+        "lastUpdated": "2025-10-29T02:59:54.973Z",
+        "city": "Vila Real",
+        "street": "Travessa Moreira de Carvalho 2",
+        "postcode": "5000-423",
+        "latitude": "41.31343",
+        "longitude": "-7.7351",
+        "latlon": "41.31343 -7.7351",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00050",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00050-01",
+                        "evse_id": "PT*GLD*E*VRL*00050*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "13800.0",
+                                "voltage": "400.0",
+                                "max_current": "20.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00050-02",
+                        "evse_id": "PT*GLD*E*VRL*00050*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "13800.0",
+                                "voltage": "400.0",
+                                "max_current": "20.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
