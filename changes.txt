@@ -47159,3 +47159,187 @@ Modificados:
         }
     }
 }
+2025-11-02 04:23:17
+Modificados:
+{
+    "BTL-00011": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EBTL-00011-1",
+                            "evse_id": "PT*EDP*EBTL*00011*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EBTL-00011-2",
+                            "evse_id": "PT*EDP*EBTL*00011*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                },
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Mosteiro do Leitão - Batalha",
+            "new": "Restaurante Mosteiro do Leitão - Batalha"
+        },
+        "street": {
+            "old": "IC2, Casal da Amieira n.º 33",
+            "new": "IC2 Casal da Amieira 33"
+        }
+    },
+    "PMS-00007": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EPMS-00007-1",
+                            "evse_id": "PT*EDP*EPMS*00007*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPMS-00007-2",
+                            "evse_id": "PT*EDP*EPMS*00007*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPMS-00007-3",
+                            "evse_id": "PT*EDP*EPMS*00007*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "McDonalds Porto de Mós",
+            "new": "McDonald's Porto de Mós"
+        },
+        "street": {
+            "old": "McDonalds Porto de Mós - IC2 Km 107",
+            "new": "IC2 Km 107 1"
+        }
+    },
+    "PMS-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EPMS-00012-1",
+                            "evse_id": "PT*EDP*EPMS*00012*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPMS-00012-2",
+                            "evse_id": "PT*EDP*EPMS*00012*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "SUPER PORTO DE MÓS SUPERMERCADOS",
+            "new": "Intermarché Porto de Mós"
+        },
+        "latlon": {
+            "old": "39.59909 -8.8244095",
+            "new": "39.59909 -8.82441"
+        },
+        "longitude": {
+            "old": "-8.8244095",
+            "new": "-8.82441"
+        },
+        "street": {
+            "old": "Avenida de São Pedro 5 2480-303 Corredoura",
+            "new": "Avenida de São Pedro 5"
+        }
+    }
+}
