@@ -1,0 +1,285 @@
+{
+    "ABF-00126": {
+        "name": "Caminho dos Brejos ",
+        "lastUpdated": "2025-11-05T08:37:17.026Z",
+        "city": "Albufeira",
+        "street": "Caminho dos Brejos  1",
+        "postcode": "8200-047",
+        "latitude": "37.10339",
+        "longitude": "-8.238727",
+        "latlon": "37.10339 -8.238727",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00126",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00126-1",
+                        "evse_id": "PT*EDP*EABF*00126*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00126-2",
+                        "evse_id": "PT*EDP*EABF*00126*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "AND-00031": {
+        "name": "",
+        "lastUpdated": "2025-11-05T11:01:03.847Z",
+        "city": "Anadia",
+        "street": "Rua das Flores",
+        "postcode": "3780-222",
+        "latitude": "40.44223",
+        "longitude": "-8.450036",
+        "latlon": "40.44223 -8.450036",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AND-00031",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AND-00031-01",
+                        "evse_id": "PT*GLP*EAND*00031*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AND-00031-02",
+                        "evse_id": "PT*GLP*EAND*00031*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AND-00031-03",
+                        "evse_id": "PT*GLP*EAND*00031*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BRR-90002": {
+        "name": "",
+        "lastUpdated": "2025-11-06T02:58:46.547Z",
+        "city": "Barreiro",
+        "street": "Avenida de Santa Maria",
+        "postcode": "2830-007",
+        "latitude": "38.65706",
+        "longitude": "-9.067505",
+        "latlon": "38.65706 -9.067505",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BRR-90002",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRR-90002-1",
+                        "evse_id": "PT*EDP*E*BRR*90002*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRR-90002-2",
+                        "evse_id": "PT*EDP*E*BRR*90002*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTG-00007": {
+        "name": "Vila Galé - Serra da Estrela - 3",
+        "lastUpdated": "2025-11-05T13:08:55.000Z",
+        "city": "Manteigas",
+        "street": "Fonte Santa 2",
+        "postcode": "6260-013",
+        "latitude": "40.38185",
+        "longitude": "-7.54607",
+        "latlon": "40.38185 -7.54607",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTG-00007",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EMTG-00007-1",
+                        "evse_id": "PT*EDP*EMTG*00007*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMTG-00007-2",
+                        "evse_id": "PT*EDP*EMTG*00007*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVD-00062": {
+        "name": "",
+        "lastUpdated": "2025-11-06T02:59:46.151Z",
+        "city": "Torres Vedras",
+        "street": "R. da Fonte 6, Pte. do Rol",
+        "postcode": "2560-167",
+        "latitude": "39.09009",
+        "longitude": "-9.321421",
+        "latlon": "39.09009 -9.321421",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVD-00062",
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00062-01",
+                        "evse_id": "PT*MOT*E*TVD*00062*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00062-02",
+                        "evse_id": "PT*MOT*E*TVD*00062*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "90000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
