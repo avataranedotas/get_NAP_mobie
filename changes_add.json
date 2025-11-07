@@ -1,0 +1,114 @@
+{
+    "OVR-00062": {
+        "name": "",
+        "lastUpdated": "2025-11-06T19:12:12.493Z",
+        "city": "Ovar",
+        "street": "R. Jornal O Povo de Cortegaça 25",
+        "postcode": "3885-283",
+        "latitude": "40.94472",
+        "longitude": "-8.621783",
+        "latlon": "40.94472 -8.621783",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OVR-00062",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OVR-00062-01",
+                        "evse_id": "PT*GLP*EOVR*00062*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OVR-00062-02",
+                        "evse_id": "PT*GLP*EOVR*00062*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SCF-00002": {
+        "name": "SCF",
+        "lastUpdated": "2025-11-07T02:58:21.479Z",
+        "city": "Santa Cruz das Flores",
+        "street": "Rua Frei Diogo das Chagas",
+        "postcode": "9970-334",
+        "latitude": "39.45447",
+        "longitude": "-31.13007",
+        "latlon": "39.45447 -31.13007",
+        "opc": "SEGM",
+        "opc_name": "SEGMA - Serviços de Engenharia Gestão e Manutenção Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SCF-00002",
+                "facilities": [
+                    "shoppingCentre",
+                    "hotel",
+                    "restaurant",
+                    "cafe",
+                    "foodShopping",
+                    "SPORT"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SCF-00002-01",
+                        "evse_id": "PT*SEG*E*SCF*00002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SCF-00002-02",
+                        "evse_id": "PT*SEG*E*SCF*00002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
