@@ -127,6 +127,15 @@ OPERATORS = {
         "phone": "+351 800 020 940",
         "email": "renewing.charging@mota-engil.pt",
     },
+    "REMO": {
+        "operator": "REMO",
+        "code3": "REM",
+        "operator:wikidata": "Q1949595",
+        "brand": "REMO",
+        "brand:wikidata": None,
+        "phone": "+351 800 020 940",
+        "email": "renewing.charging@mota-engil.pt",
+    },
     "MLTR": {
         "operator": "Mobiletric",
         "code3": "MLT",
