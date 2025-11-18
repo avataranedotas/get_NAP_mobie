@@ -1,0 +1,137 @@
+{
+    "CNT-00025": {
+        "name": "AS BP Mealhada S/N - A1, Km 204 3",
+        "lastUpdated": "2025-11-17T23:22:07.376Z",
+        "city": "Cantanhede",
+        "street": "Cantanhede/Mealhada A1 km 2046 S/N 2",
+        "postcode": "3060-397",
+        "latitude": "40.33426",
+        "longitude": "-8.49234",
+        "latlon": "40.33426 -8.49234",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CNT-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CNT-00025-01",
+                        "evse_id": "PT*EDP*E*CNT*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CNT-00025-02",
+                        "evse_id": "PT*EDP*E*CNT*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECNT-00025-1",
+                        "evse_id": "PT*EDP*ECNT*00025*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECNT-00025-2",
+                        "evse_id": "PT*EDP*ECNT*00025*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVD-00060": {
+        "name": "",
+        "lastUpdated": "2025-11-18T02:58:53.665Z",
+        "city": "Torres Vedras",
+        "street": "R. da Escola 15, Freiria",
+        "postcode": "2565-321",
+        "latitude": "39.022476",
+        "longitude": "-9.319945",
+        "latlon": "39.022476 -9.319945",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVD-00060",
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00060-01",
+                        "evse_id": "PT*MOT*E*TVD*00060*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00060-02",
+                        "evse_id": "PT*MOT*E*TVD*00060*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
