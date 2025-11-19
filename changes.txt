@@ -6513,3 +6513,605 @@ Modificados:
         }
     }
 }
+2025-11-19 04:24:48
+Adicionados:
+{
+    "ACH-00040": {
+        "name": "ALDI Alcochete",
+        "lastUpdated": "2025-11-18T16:54:57.000Z",
+        "city": "Alcochete",
+        "street": "Avenida Sociedade Imparcial 112",
+        "postcode": "2890-512",
+        "latitude": "38.75073",
+        "longitude": "-8.96071",
+        "latlon": "38.75073 -8.96071",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACH-00040",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EACH-00040-1",
+                        "evse_id": "PT*EDP*EACH*00040*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EACH-00040-2",
+                        "evse_id": "PT*EDP*EACH*00040*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ACH-00041": {
+        "name": "ALDI Alcochete",
+        "lastUpdated": "2025-11-18T20:00:19.736Z",
+        "city": "Alcochete",
+        "street": "Avenida Sociedade Imparcial 112 2",
+        "postcode": "2890-512",
+        "latitude": "38.75073",
+        "longitude": "-8.960697",
+        "latlon": "38.75073 -8.960697",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACH-00041",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EACH-00041-1",
+                        "evse_id": "PT*EDP*EACH*00041*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EACH-00041-2",
+                        "evse_id": "PT*EDP*EACH*00041*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EACH-00041-3",
+                        "evse_id": "PT*EDP*EACH*00041*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "AGD-00037": {
+        "name": "Atlante - Pingo Doce Águeda",
+        "lastUpdated": "2025-11-18T21:17:26.310Z",
+        "city": "Águeda",
+        "street": "Quinta da Alagoa",
+        "postcode": "3750-301",
+        "latitude": "40.590553",
+        "longitude": "-8.457343",
+        "latlon": "40.590553 -8.457343",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AGD-00037",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AGD-00037-01",
+                        "evse_id": "PT*ATL*EAGD*00037*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "400.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00037-02",
+                        "evse_id": "PT*ATL*EAGD*00037*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00037-03",
+                        "evse_id": "PT*ATL*EAGD*00037*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ASL-00036": {
+        "name": "ALDI Alcácer do Sal",
+        "lastUpdated": "2025-11-18T16:56:25.000Z",
+        "city": "Alcácer do Sal",
+        "street": "Rua Olival da Capela 234 1",
+        "postcode": "7580-250",
+        "latitude": "38.38047",
+        "longitude": "-8.51217",
+        "latlon": "38.38047 -8.51217",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ASL-00036",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EASL-00036-1",
+                        "evse_id": "PT*EDP*EASL*00036*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EASL-00036-2",
+                        "evse_id": "PT*EDP*EASL*00036*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDL-00060": {
+        "name": "Aldi Grândola",
+        "lastUpdated": "2025-11-18T16:57:19.000Z",
+        "city": "Grândola",
+        "street": "Rua Bartolomeu Vaz Frayão 3",
+        "postcode": "7570-125",
+        "latitude": "38.189022",
+        "longitude": "-8.565676",
+        "latlon": "38.189022 -8.565676",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDL-00060",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGDL-00060-1",
+                        "evse_id": "PT*EDP*EGDL*00060*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDL-00060-2",
+                        "evse_id": "PT*EDP*EGDL*00060*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVD-00045": {
+        "name": "Torres Vedras (Alfaiata-150kW)",
+        "lastUpdated": "2025-11-19T03:00:01.086Z",
+        "city": "Torres Vedras",
+        "street": "E. N. 9 KM59 - Casalinhos de Alfaia",
+        "postcode": "2560-293",
+        "latitude": "39.091705",
+        "longitude": "-9.339153",
+        "latlon": "39.091705 -9.339153",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVD-00045",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00045-01",
+                        "evse_id": "PT*FCT*E*TVD*00045*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00045-02",
+                        "evse_id": "PT*FCT*E*TVD*00045*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00045-03",
+                        "evse_id": "PT*FCT*E*TVD*00045*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVD-00064": {
+        "name": "",
+        "lastUpdated": "2025-11-19T02:58:32.243Z",
+        "city": "Torres Vedras",
+        "street": "R. da Ribeira 1, Paúl",
+        "postcode": "2560-232",
+        "latitude": "39.100555",
+        "longitude": "-9.286191",
+        "latlon": "39.100555 -9.286191",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVD-00064",
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00064-01",
+                        "evse_id": "PT*MOT*E*TVD*00064*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00064-02",
+                        "evse_id": "PT*MOT*E*TVD*00064*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "AMD-00103": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "FUN-00028": {
+        "latitude": {
+            "old": "32.649933",
+            "new": "32.64942"
+        },
+        "latlon": {
+            "old": "32.649933 -16.903831",
+            "new": "32.64942 -16.903893"
+        },
+        "longitude": {
+            "old": "-16.903831",
+            "new": "-16.903893"
+        }
+    },
+    "FUN-00029": {
+        "latitude": {
+            "old": "32.649933",
+            "new": "32.64942"
+        },
+        "latlon": {
+            "old": "32.649933 -16.903831",
+            "new": "32.64942 -16.903893"
+        },
+        "longitude": {
+            "old": "-16.903831",
+            "new": "-16.903893"
+        }
+    },
+    "FUN-00030": {
+        "latitude": {
+            "old": "32.649933",
+            "new": "32.64942"
+        },
+        "latlon": {
+            "old": "32.649933 -16.903831",
+            "new": "32.64942 -16.903893"
+        },
+        "longitude": {
+            "old": "-16.903831",
+            "new": "-16.903893"
+        }
+    },
+    "FUN-00032": {
+        "latitude": {
+            "old": "32.6475",
+            "new": "32.64756"
+        },
+        "latlon": {
+            "old": "32.6475 -16.904371",
+            "new": "32.64756 -16.903502"
+        },
+        "longitude": {
+            "old": "-16.904371",
+            "new": "-16.903502"
+        }
+    },
+    "FUN-00033": {
+        "latitude": {
+            "old": "32.649803",
+            "new": "32.649525"
+        },
+        "latlon": {
+            "old": "32.649803 -16.903078",
+            "new": "32.649525 -16.904943"
+        },
+        "longitude": {
+            "old": "-16.903078",
+            "new": "-16.904943"
+        }
+    },
+    "MTS-00074": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "OBD-00006": {
+        "street": {
+            "old": "Parque Tecnológico de Óbidos",
+            "new": "Parque Tecnológico de Óbidos 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOBD-00006-1",
+                            "evse_id": "PT*EDP*EOBD*00006*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOBD-00006-2",
+                            "evse_id": "PT*EDP*EOBD*00006*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOBD-00006-3",
+                            "evse_id": "PT*EDP*EOBD*00006*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "43000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "63.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "OBITEC - Parque Tecnológico de Óbidos"
+        }
+    }
+}
