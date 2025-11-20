@@ -1,0 +1,249 @@
+{
+    "BRG-00036": {
+        "name": "Hotel Vila Galé Braga - 1",
+        "lastUpdated": "2025-11-19T15:25:28.000Z",
+        "city": "Braga",
+        "street": "Largo Carlos Amarante 1",
+        "postcode": "4700-308",
+        "latitude": "41.548923",
+        "longitude": "-8.423693",
+        "latlon": "41.548923 -8.423693",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BRG-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRG-00036-1",
+                        "evse_id": "PT*EDP*E*BRG*00036*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EBRG-00036-1",
+                        "evse_id": "PT*EDP*EBRG*00036*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CNF-00009": {
+        "name": "",
+        "lastUpdated": "2025-11-20T02:59:41.634Z",
+        "city": "Cinfães",
+        "street": " RUA DE VENTUZELAS N32 Santo Antonio",
+        "postcode": "4690-484",
+        "latitude": "41.064255",
+        "longitude": "-8.15697",
+        "latlon": "41.064255 -8.15697",
+        "opc": "REMO",
+        "opc_name": "MOTA-ENGIL REMO CHARGING S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CNF-00009",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CNF-00009-01",
+                        "evse_id": "PT*REM*E*CNF*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "93.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CNF-00009-02",
+                        "evse_id": "PT*REM*E*CNF*00009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "93.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FAF-00023": {
+        "name": "",
+        "lastUpdated": "2025-11-19T22:48:05.892Z",
+        "city": "Fafe",
+        "street": "Rua Cidade de Guimarães, 285",
+        "postcode": "4820-178",
+        "latitude": "41.451904",
+        "longitude": "-8.188453",
+        "latlon": "41.451904 -8.188453",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FAF-00023",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FAF-00023-01",
+                        "evse_id": "PT*GLP*EFAF*00023*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FAF-00023-02",
+                        "evse_id": "PT*GLP*EFAF*00023*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FAF-00023-03",
+                        "evse_id": "PT*GLP*EFAF*00023*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "STB-00120": {
+        "name": "ALDI Setúbal",
+        "lastUpdated": "2025-11-19T14:38:19.000Z",
+        "city": "Setúbal",
+        "street": "Avenida Bento Jesus Caraça 2",
+        "postcode": "2910-427",
+        "latitude": "38.52662",
+        "longitude": "-8.872936",
+        "latlon": "38.52662 -8.872936",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "STB-00120",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ESTB-00120-1",
+                        "evse_id": "PT*EDP*ESTB*00120*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ESTB-00120-2",
+                        "evse_id": "PT*EDP*ESTB*00120*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ESTB-00120-3",
+                        "evse_id": "PT*EDP*ESTB*00120*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
