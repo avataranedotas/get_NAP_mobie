@@ -10,7 +10,7 @@ with open('charging_evses.json', 'r') as file:
 current_time = datetime.utcnow()
 
 # Define the cutoff time (X days ago)
-cutoff_time = current_time - timedelta(days=30)
+cutoff_time = current_time - timedelta(days=45)
 
 # Dictionary to group sub-IDs under the same main EVSE ID
 evse_groups = defaultdict(list)
