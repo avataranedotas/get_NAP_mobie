@@ -1,0 +1,261 @@
+{
+    "GMR-00162": {
+        "name": "Restaurante Florêncio",
+        "lastUpdated": "2025-11-29T02:59:11.641Z",
+        "city": "Guimarães",
+        "street": "Rua N. Sra Madre de Deus, Calçada de Azurem",
+        "postcode": "4800-022",
+        "latitude": "41.459293",
+        "longitude": "-8.283967",
+        "latlon": "41.459293 -8.283967",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GMR-00162",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GMR-00162-01",
+                        "evse_id": "PT*HLX*E*GMR*00162*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00162-02",
+                        "evse_id": "PT*HLX*E*GMR*00162*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00985": {
+        "name": "McDonald's Alta de Lisboa",
+        "lastUpdated": "2025-11-28T15:10:09.048Z",
+        "city": "Lisboa",
+        "street": "Av. David Mourão Ferreira 1",
+        "postcode": "1750-314",
+        "latitude": "38.787075",
+        "longitude": "-9.148758",
+        "latlon": "38.787075 -9.148758",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00985",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELSB-00985-1",
+                        "evse_id": "PT*EDP*ELSB*00985*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00985-2",
+                        "evse_id": "PT*EDP*ELSB*00985*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-00985-3",
+                        "evse_id": "PT*EDP*ELSB*00985*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTJ-00126": {
+        "name": "A33 AS LANÇADA (MOITA/MONTIJO)",
+        "lastUpdated": "2025-11-29T03:00:02.578Z",
+        "city": "Montijo",
+        "street": "IC32 - NÓ DO BARREIRO / A12 (IP1) - KM 9,4",
+        "postcode": "2870-521",
+        "latitude": "38.66354",
+        "longitude": "-8.956911",
+        "latlon": "38.66354 -8.956911",
+        "opc": "CEPS",
+        "opc_name": "Cepsa Portuguesa Petroleos",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTJ-00126",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTJ-00126-01",
+                        "evse_id": "PT*CPS*E*MTJ*00126*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTJ-00126-02",
+                        "evse_id": "PT*CPS*E*MTJ*00126*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00048": {
+        "name": "Hotel Júpiter Marina",
+        "lastUpdated": "2025-11-28T10:04:41.000Z",
+        "city": "Portimão",
+        "street": "Estrada da Rocha",
+        "postcode": "8500-802",
+        "latitude": "37.12862",
+        "longitude": "-8.53373",
+        "latlon": "37.12862 -8.53373",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00048",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EPTM-00048-1",
+                        "evse_id": "PT*EDP*EPTM*00048*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EPTM-00048-2",
+                        "evse_id": "PT*EDP*EPTM*00048*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00048-01",
+                        "evse_id": "PT*EDP*E*PTM*00048*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00048-02",
+                        "evse_id": "PT*EDP*E*PTM*00048*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
