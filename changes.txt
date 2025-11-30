@@ -1438,3 +1438,47 @@ Modificados:
         }
     }
 }
+2025-11-30 04:33:59
+Modificados:
+{
+    "PBL-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "90000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
