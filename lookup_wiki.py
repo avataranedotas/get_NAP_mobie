@@ -415,5 +415,14 @@ OPERATORS = {
         "phone": "+351 210 514 956",
         "email": "info@mobel.pt",
     },
+        "VIAV": {
+        "operator": "Via Verde",
+        "code3": "VIA",
+        "operator:wikidata": None,
+        "brand": "Via Verde Electric",
+        "brand:wikidata": None,
+        "phone": None,
+        "email": None,
+    },
 }
 
