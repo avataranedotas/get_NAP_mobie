@@ -42,7 +42,7 @@ OPERATORS = {
         "code3": "TRK",
         "operator:wikidata": None,
         "brand": "wowplug",
-        "brand:wikidata": None,
+        "brand:wikidata": "Q137294207",
         "phone": None,
         "email": "suporte@wowplug.com",
     },
