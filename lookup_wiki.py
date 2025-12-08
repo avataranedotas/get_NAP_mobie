@@ -76,9 +76,9 @@ OPERATORS = {
     "HELX": {
         "operator": "Helexia II",
         "code3": "HLX",
-        "operator:wikidata": None,
+        "operator:wikidata": "Q137294295",
         "brand": "helexia",
-        "brand:wikidata": None,
+        "brand:wikidata": "Q137294295",
         "phone": "+351 210 181 157",
         "email": "geral.pt@helexia.eu",
     },
