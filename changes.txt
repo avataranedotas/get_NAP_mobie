@@ -9095,3 +9095,367 @@ Modificados:
         }
     }
 }
+2025-12-13 04:26:32
+Adicionados:
+{
+    "ARC-00010": {
+        "name": "ES AROUCA",
+        "lastUpdated": "2025-12-12T11:51:25.016Z",
+        "city": "Arouca",
+        "street": "Lugar do Arieiro, Nº S/N, Santa Eulália",
+        "postcode": "4540-515",
+        "latitude": "40.928394",
+        "longitude": "-8.277471",
+        "latlon": "40.928394 -8.277471",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ARC-00010",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-REP-E17558-1",
+                        "evse_id": "PT*REP*E17558*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-REP-E17558-2",
+                        "evse_id": "PT*REP*E17558*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00101": {
+        "name": "McDonald's Birre",
+        "lastUpdated": "2025-12-13T02:54:51.799Z",
+        "city": "Cascais",
+        "street": "Rua de Birre 581",
+        "postcode": "2750-217",
+        "latitude": "38.71425",
+        "longitude": "-9.446129",
+        "latlon": "38.71425 -9.446129",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00101",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00101-01",
+                        "evse_id": "PT*EDP*E*CSC*00101*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00101-02",
+                        "evse_id": "PT*EDP*E*CSC*00101*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00101-03",
+                        "evse_id": "PT*EDP*E*CSC*00101*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECSC-00101-1",
+                        "evse_id": "PT*EDP*ECSC*00101*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECSC-00101-2",
+                        "evse_id": "PT*EDP*ECSC*00101*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECSC-00101-3",
+                        "evse_id": "PT*EDP*ECSC*00101*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "ACB-00017",
+    "LSB-90083"
+]
+Modificados:
+{
+    "ALM-00091": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "10000.0",
+                                    "new": "30000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "10000.0",
+                                    "new": "30000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "10000.0",
+                                    "new": "220000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LGS-00026": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00045": {
+        "name": {
+            "old": "Atlante - CM Nazaré (Av. Manuel Remígio)",
+            "new": "Atlante - CM Nazaré - Av. Manuel Remígio (praia)"
+        }
+    },
+    "SNT-00187": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    },
+                    "added_items": [
+                        "creditCard",
+                        "debitCard",
+                        "apps",
+                        "rfid"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00188": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    },
+                    "added_items": [
+                        "creditCard",
+                        "debitCard",
+                        "apps",
+                        "rfid"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00189": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    },
+                    "added_items": [
+                        "creditCard",
+                        "debitCard",
+                        "apps",
+                        "rfid"
+                    ]
+                }
+            }
+        }
+    },
+    "VMS-00003": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*VMS*00003*01",
+                            "new": "PT*EDP*EVMS*00003*1"
+                        },
+                        "evse_code": {
+                            "old": "VMS-00003-01",
+                            "new": "PT-EDP-EVMS-00003-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*VMS*00003*02",
+                            "new": "PT*EDP*EVMS*00003*2"
+                        },
+                        "evse_code": {
+                            "old": "VMS-00003-02",
+                            "new": "PT-EDP-EVMS-00003-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VMS-00003-01",
+                            "evse_id": "PT*EDP*E*VMS*00003*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VMS-00003-02",
+                            "evse_id": "PT*EDP*E*VMS*00003*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Hotel Vileira",
+            "new": "A Vileira - Hotel & Restaurante"
+        },
+        "street": {
+            "old": "Hotel Vileira, Avenida de Alcanices, 1",
+            "new": "Avenida de Alcanices 1"
+        }
+    }
+}
