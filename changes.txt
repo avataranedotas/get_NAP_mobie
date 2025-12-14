@@ -9459,3 +9459,186 @@ Modificados:
         }
     }
 }
+2025-12-14 04:36:32
+Modificados:
+{
+    "ILH-90001": {
+        "street": {
+            "old": "Av. José Estevão",
+            "new": "Avenida José Estevão 1"
+        },
+        "name": {
+            "old": "",
+            "new": "Avenida José Estevão"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "cafe",
+                        "NATURE"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EILH-90001-1",
+                            "evse_id": "PT*EDP*EILH*90001*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EILH-90001-2",
+                            "evse_id": "PT*EDP*EILH*90001*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "MLD-90002": {
+        "street": {
+            "old": "Avenida Dr. Manuel Lousada",
+            "new": "Avenida Dr. Manuel Lousada 1"
+        },
+        "name": {
+            "old": "",
+            "new": "Avenida Dr. Manuel Lousada"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "trainStation",
+                        "carPark",
+                        "cafe"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMLD-90002-1",
+                            "evse_id": "PT*EDP*EMLD*90002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMLD-90002-2",
+                            "evse_id": "PT*EDP*EMLD*90002*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "VGS-90001": {
+        "street": {
+            "old": "R. do Gov",
+            "new": "R. do Gov 1"
+        },
+        "name": {
+            "old": "",
+            "new": "R. do Gov"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant",
+                        "cafe"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "VGS-90001-1",
+                            "new": "PT-EDP-EVGS-90001-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VGS*90001*1",
+                            "new": "PT*EDP*EVGS*90001*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "VGS-90001-2",
+                            "new": "PT-EDP-EVGS-90001-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VGS*90001*2",
+                            "new": "PT*EDP*EVGS*90001*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VGS-90001-1",
+                            "evse_id": "PT*EDP*E*VGS*90001*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VGS-90001-2",
+                            "evse_id": "PT*EDP*E*VGS*90001*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
