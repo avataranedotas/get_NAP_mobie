@@ -18530,3 +18530,220 @@ Modificados:
         }
     }
 }
+2025-12-21 04:37:44
+Modificados:
+{
+    "VFX-00022": {
+        "street": {
+            "old": "McDonalds - Povoa de Santa Iria da Azoia",
+            "new": "McDonald's - Povoa de Santa Iria da Azoia 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "VFX-00022-01",
+                            "new": "PT-EDP-EVFX-00022-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00022*01",
+                            "new": "PT*EDP*EVFX*00022*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "VFX-00022-02",
+                            "new": "PT-EDP-EVFX-00022-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00022*02",
+                            "new": "PT*EDP*EVFX*00022*2"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VFX-00022-03",
+                            "new": "PT-EDP-EVFX-00022-3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00022*03",
+                            "new": "PT*EDP*EVFX*00022*3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VFX-00022-01",
+                            "evse_id": "PT*EDP*E*VFX*00022*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VFX-00022-02",
+                            "evse_id": "PT*EDP*E*VFX*00022*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VFX-00022-03",
+                            "evse_id": "PT*EDP*E*VFX*00022*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "McDonalds - Povoa de Santa Iria da Azoia",
+            "new": "McDonald's Póvoa de Santa Iria"
+        }
+    },
+    "VFX-00026": {
+        "street": {
+            "old": "McDonalds Avenida Barranco de Cegos",
+            "new": "Avenida Barranco de Cego"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "VFX-00026-01",
+                            "new": "PT-EDP-EVFX-00026-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00026*01",
+                            "new": "PT*EDP*EVFX*00026*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "VFX-00026-02",
+                            "new": "PT-EDP-EVFX-00026-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00026*02",
+                            "new": "PT*EDP*EVFX*00026*2"
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "VFX-00026-03",
+                            "new": "PT-EDP-EVFX-00026-3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*VFX*00026*03",
+                            "new": "PT*EDP*EVFX*00026*3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VFX-00026-01",
+                            "evse_id": "PT*EDP*E*VFX*00026*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VFX-00026-02",
+                            "evse_id": "PT*EDP*E*VFX*00026*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VFX-00026-03",
+                            "evse_id": "PT*EDP*E*VFX*00026*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "McDonalds Vila Franca de Xira",
+            "new": "McDonald's Vila Franca de Xira"
+        }
+    }
+}
