@@ -20734,3 +20734,106 @@ Modificados:
         }
     }
 }
+2025-12-25 04:38:00
+Adicionados:
+{
+    "MFR-00054": {
+        "name": "",
+        "lastUpdated": "2025-12-24T11:12:49.913Z",
+        "city": "Mafra",
+        "street": "Rua das Silvas",
+        "postcode": "2655-400",
+        "latitude": "38.953545",
+        "longitude": "-9.41228",
+        "latlon": "38.953545 -9.41228",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MFR-00054",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MFR-00054-01",
+                        "evse_id": "PT*GLP*EMFR*00054*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "220.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MFR-00054-02",
+                        "evse_id": "PT*GLP*EMFR*00054*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "220.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "PRT-00313": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PTM-00051": {
+        "name": {
+            "old": "Atlante - Pingo Doce PORTIMÃO",
+            "new": "Atlante - Pingo Doce Portimão - Sá Carneiro"
+        }
+    },
+    "VLG-00052": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    }
+}
