@@ -415,7 +415,7 @@ OPERATORS = {
         "phone": "+351 210 514 956",
         "email": "info@mobel.pt",
     },
-        "VIAV": {
+    "VIAV": {
         "operator": "Via Verde",
         "code3": "VIA",
         "operator:wikidata": None,
@@ -423,6 +423,15 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": None,
         "email": None,
+    },
+    "FRTR": {
+        "operator": "Frontrow",
+        "code3": "FRR",
+        "operator:wikidata": None,
+        "brand": "Luz Verde",
+        "brand:wikidata": None,
+        "phone": "+351 255 810 219;+351 910 370 878",
+        "email": "geral@luz-verde.pt",
     },
 }
 
