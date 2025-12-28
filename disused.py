@@ -1,15 +1,9 @@
 import json
 from datetime import datetime, timedelta
 
-
-# Load dictionaries from JSON files
 def load_dict_from_json(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding="utf-8") as file:
         return json.load(file)
-
-# File paths
-file1 = "LATEST_static.json"
-
 
 def parse_iso8601(ts):
     for fmt in ("%Y-%m-%dT%H:%M:%S.%fZ",
@@ -20,23 +14,18 @@ def parse_iso8601(ts):
             pass
     raise ValueError(f"Unsupported date format: {ts}")
 
+latest = load_dict_from_json("LATEST_static.json")
 
-latest = load_dict_from_json(file1)
-
-# Get the current date and time
 current_date = datetime.utcnow()
 
-# Calculate the date 30 days ago from today
-thirty_days_ago = current_date - timedelta(days=30)
-cutoff_date = current_date - timedelta(days=30)
+cutoff_30 = current_date - timedelta(days=30)
+cutoff_60 = current_date - timedelta(days=60)
 
-# storage of old updated
-old = []
+old = []        # T2COMBO, >30 days
+old_ac = []     # all stations, >60 days
 
-# Loop through the dictionary to check if 'lastUpdated' is older than 1 month
 for station_id, station_data in latest.items():
 
-    # --- Check lastUpdated ---
     last_updated_str = station_data.get("lastUpdated")
     if not last_updated_str:
         continue
@@ -46,12 +35,15 @@ for station_id, station_data in latest.items():
     except ValueError:
         continue
 
-    if last_updated >= cutoff_date:
+    # ---------- old_ac.txt logic (no connector filtering) ----------
+    if last_updated < cutoff_60:
+        old_ac.append(station_id)
+
+    # ---------- old.txt logic (T2COMBO + 30 days) ----------
+    if last_updated >= cutoff_30:
         continue
 
-    # --- Check for at least one iec62196T2COMBO connector ---
     has_t2combo = False
-
     for station in station_data.get("stations", []):
         for evse in station.get("evses", []):
             for connector in evse.get("connectors", []):
@@ -66,10 +58,11 @@ for station_id, station_data in latest.items():
     if has_t2combo:
         old.append(station_id)
 
-#print (old)
-
+# ---------- Write outputs ----------
 if old:
-    # Write to file
-    with open("old.txt", "w") as output_file:
-        output_file.writelines(f"{line}\n" for line in old)
+    with open("old.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(old))
 
+if old_ac:
+    with open("old_ac.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(old_ac))
