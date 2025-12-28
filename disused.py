@@ -62,7 +62,10 @@ for station_id, station_data in latest.items():
 if old:
     with open("old.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(old))
+        f.write("\n")
 
 if old_ac:
     with open("old_ac.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(old_ac))
+        f.write("\n")
+
