@@ -22977,3 +22977,386 @@ Modificados:
         }
     }
 }
+2025-12-31 04:38:26
+Adicionados:
+{
+    "MTA-00025": {
+        "name": "Action Moita - Alhos Vedros",
+        "lastUpdated": "2025-12-31T02:59:58.785Z",
+        "city": "Moita",
+        "street": "R. Ferreiros 1",
+        "postcode": "2860-190",
+        "latitude": "38.642323",
+        "longitude": "-8.999447",
+        "latlon": "38.642323 -8.999447",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTA-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTA-00025-01",
+                        "evse_id": "PT*HRZ*E*MTA*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00025-02",
+                        "evse_id": "PT*HRZ*E*MTA*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00025-03",
+                        "evse_id": "PT*HRZ*E*MTA*00025*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "STB-00118": {
+        "name": "Decathlon Setúbal",
+        "lastUpdated": "2025-12-31T02:58:46.211Z",
+        "city": "Setúbal",
+        "street": "Avenida José Saramago n.º 60",
+        "postcode": "2910-729",
+        "latitude": "38.54676",
+        "longitude": "-8.859941",
+        "latlon": "38.54676 -8.859941",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "STB-00118",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "STB-00118-01",
+                        "evse_id": "PT*HRZ*E*STB*00118*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STB-00118-02",
+                        "evse_id": "PT*HRZ*E*STB*00118*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STB-00118-03",
+                        "evse_id": "PT*HRZ*E*STB*00118*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "GDM-00054": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "320.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "320.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00156": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "80000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "80000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LOU-00010": {
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "PT*REP*E16751*1",
+                            "new": "LOU-00010-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E16751*1",
+                            "new": "PT*REP*E*LOU*00010*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "63.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "43000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode4DC",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "PT*REP*E16751*2",
+                            "new": "LOU-00010-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E16751*2",
+                            "new": "PT*REP*E*LOU*00010*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "PT*REP*E16751*3",
+                            "new": "LOU-00010-03"
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E16751*3",
+                            "new": "PT*REP*E*LOU*00010*03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2",
+                                    "new": "chademo"
+                                },
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "500.0"
+                                },
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "125.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "50000.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode4DC"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "added": [
+                        "cafe",
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "LOU-00014": {
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "PT*REP*E17174*1",
+                            "new": "LOU-00014-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E17174*1",
+                            "new": "PT*REP*E*LOU*00014*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "800.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "PT*REP*E17174*2",
+                            "new": "LOU-00014-02"
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E17174*2",
+                            "new": "PT*REP*E*LOU*00014*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "800.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "added": [
+                        "cafe",
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "LSB-00019": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                },
+                                "max_power": {
+                                    "old": "43000.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

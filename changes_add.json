@@ -1,0 +1,134 @@
+{
+    "MTA-00025": {
+        "name": "Action Moita - Alhos Vedros",
+        "lastUpdated": "2025-12-31T02:59:58.785Z",
+        "city": "Moita",
+        "street": "R. Ferreiros 1",
+        "postcode": "2860-190",
+        "latitude": "38.642323",
+        "longitude": "-8.999447",
+        "latlon": "38.642323 -8.999447",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTA-00025",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTA-00025-01",
+                        "evse_id": "PT*HRZ*E*MTA*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00025-02",
+                        "evse_id": "PT*HRZ*E*MTA*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00025-03",
+                        "evse_id": "PT*HRZ*E*MTA*00025*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "STB-00118": {
+        "name": "Decathlon Setúbal",
+        "lastUpdated": "2025-12-31T02:58:46.211Z",
+        "city": "Setúbal",
+        "street": "Avenida José Saramago n.º 60",
+        "postcode": "2910-729",
+        "latitude": "38.54676",
+        "longitude": "-8.859941",
+        "latlon": "38.54676 -8.859941",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "STB-00118",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "STB-00118-01",
+                        "evse_id": "PT*HRZ*E*STB*00118*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STB-00118-02",
+                        "evse_id": "PT*HRZ*E*STB*00118*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STB-00118-03",
+                        "evse_id": "PT*HRZ*E*STB*00118*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
