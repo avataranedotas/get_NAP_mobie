@@ -23478,3 +23478,270 @@ Modificados:
         }
     }
 }
+2026-01-03 04:33:01
+Adicionados:
+{
+    "FIG-00045": {
+        "name": "WOW-FIG-00867",
+        "lastUpdated": "2026-01-03T02:58:34.116Z",
+        "city": "Figueira da Foz",
+        "street": "Rua Manuel Fernandes Tomaz (poste)",
+        "postcode": "3080-211",
+        "latitude": "40.148476",
+        "longitude": "-8.855423",
+        "latlon": "40.148476 -8.855423",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FIG-00045",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FIG-00045-01",
+                        "evse_id": "PT*TRK*E*FIG*00045*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "230.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "LSB-00030": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "43000.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MRV-00002": {
+        "name": {
+            "old": "HOTEL SEVER RIO E RESTAURANTE SEVER",
+            "new": "Hotel Sever Rio e Restaurante Sever"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMRV-00002-1",
+                            "evse_id": "PT*EDP*EMRV*00002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EMRV-00002-2",
+                            "evse_id": "PT*EDP*EMRV*00002*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "restaurant"
+                    ]
+                },
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                }
+            }
+        }
+    },
+    "MTJ-00035": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "140000.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "700.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "80000.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "267.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "140000.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "467.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PTG-90002": {
+        "name": {
+            "old": "",
+            "new": "Rua de Olivença 2"
+        },
+        "street": {
+            "old": "Rua de Olivença",
+            "new": "Rua de Olivença 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "PTG-90002-01",
+                            "new": "PT-EDP-EPTG-90002-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*PTG*90002*01",
+                            "new": "PT*EDP*EPTG*90002*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "PTG-90002-02",
+                            "new": "PT-EDP-EPTG-90002-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*PTG*90002*02",
+                            "new": "PT*EDP*EPTG*90002*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PTG-90002-01",
+                            "evse_id": "PT*EDP*E*PTG*90002*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7200.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PTG-90002-02",
+                            "evse_id": "PT*EDP*E*PTG*90002*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7200.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SXL-00082": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "800000.0",
+                                    "new": "80000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

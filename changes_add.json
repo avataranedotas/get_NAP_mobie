@@ -1,0 +1,40 @@
+{
+    "FIG-00045": {
+        "name": "WOW-FIG-00867",
+        "lastUpdated": "2026-01-03T02:58:34.116Z",
+        "city": "Figueira da Foz",
+        "street": "Rua Manuel Fernandes Tomaz (poste)",
+        "postcode": "3080-211",
+        "latitude": "40.148476",
+        "longitude": "-8.855423",
+        "latlon": "40.148476 -8.855423",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FIG-00045",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FIG-00045-01",
+                        "evse_id": "PT*TRK*E*FIG*00045*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "230.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
