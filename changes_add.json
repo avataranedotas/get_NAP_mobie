@@ -1,0 +1,241 @@
+{
+    "CVL-00031": {
+        "name": "Covilha",
+        "lastUpdated": "2026-01-06T14:28:13.868Z",
+        "city": "Covilhã",
+        "street": "Avenida Infante D. Henrique",
+        "postcode": "6200-506",
+        "latitude": "40.270935",
+        "longitude": "-7.492592",
+        "latlon": "40.270935 -7.492592",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CVL-00031",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CVL-00031-01",
+                        "evse_id": "PT*DTE*E*CVL*00031*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CVL-00031-02",
+                        "evse_id": "PT*DTE*E*CVL*00031*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "950.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-80009": {
+        "name": "",
+        "lastUpdated": "2026-01-07T02:43:08.856Z",
+        "city": "Lisboa",
+        "street": "RUA TRISTÃO VAZ",
+        "postcode": "1400-350",
+        "latitude": "38.7079",
+        "longitude": "-9.206117",
+        "latlon": "38.7079 -9.206117",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-80009",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-80009-01",
+                        "evse_id": "PT*GLP*ELSB*80009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-80009-02",
+                        "evse_id": "PT*GLP*ELSB*80009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-80009-1",
+                        "evse_id": "PT*GLP*E*LSB*80009*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-80009-2",
+                        "evse_id": "PT*GLP*E*LSB*80009*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRT-00333": {
+        "name": "ANTAS II",
+        "lastUpdated": "2026-01-07T02:29:14.431Z",
+        "city": "Porto",
+        "street": "R. Santo António das Antas 36",
+        "postcode": "4200-483",
+        "latitude": "41.16455",
+        "longitude": "-8.58949",
+        "latlon": "41.16455 -8.58949",
+        "opc": "REPS",
+        "opc_name": "REPSOL PORTUGUESA LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRT-00333",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRT-00333-01",
+                        "evse_id": "PT*REP*E*PRT*00333*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRT-00333-02",
+                        "evse_id": "PT*REP*E*PRT*00333*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "400.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VCD-00061": {
+        "name": "",
+        "lastUpdated": "2026-01-06T21:53:34.786Z",
+        "city": "Vila do Conde",
+        "street": "Av. Mouzinho de Albuquerque, s/n, EN13",
+        "postcode": "4480-151",
+        "latitude": "41.34667",
+        "longitude": "-8.738558",
+        "latlon": "41.34667 -8.738558",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VCD-00061",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VCD-00061-01",
+                        "evse_id": "PT*GLP*EVCD*00061*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VCD-00061-02",
+                        "evse_id": "PT*GLP*EVCD*00061*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
