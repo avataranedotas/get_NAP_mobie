@@ -25066,3 +25066,530 @@ Modificados:
         }
     }
 }
+2026-01-08 04:39:55
+Adicionados:
+{
+    "LSB-01128": {
+        "name": "VILA GALÉ Opera",
+        "lastUpdated": "2026-01-07T14:35:07.674Z",
+        "city": "Lisboa",
+        "street": "Travessa do Conde da Ponte 4",
+        "postcode": "1300-141",
+        "latitude": "38.700363",
+        "longitude": "-9.180257",
+        "latlon": "38.700363 -9.180257",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01128",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELSB-01128-1",
+                        "evse_id": "PT*EDP*ELSB*01128*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-01128-2",
+                        "evse_id": "PT*EDP*ELSB*01128*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01129": {
+        "name": "Vila Galé Opera",
+        "lastUpdated": "2026-01-07T14:30:19.156Z",
+        "city": "Lisboa",
+        "street": "Travessa do Conde da Ponte 5",
+        "postcode": "1300-141",
+        "latitude": "38.700363",
+        "longitude": "-9.180257",
+        "latlon": "38.700363 -9.180257",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01129",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELSB-01129-1",
+                        "evse_id": "PT*EDP*ELSB*01129*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-01129-2",
+                        "evse_id": "PT*EDP*ELSB*01129*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VFL-00003": {
+        "name": "",
+        "lastUpdated": "2026-01-08T01:14:22.681Z",
+        "city": "Vila Flor",
+        "street": "Av. Mal. Carmona 59, 5360-360 Vila Flor",
+        "postcode": "5360-360",
+        "latitude": "41.30876",
+        "longitude": "-7.15363",
+        "latlon": "41.30876 -7.15363",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VFL-00003",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFL-00003-01",
+                        "evse_id": "PT*GLP*EVFL*00003*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFL-00003-02",
+                        "evse_id": "PT*GLP*EVFL*00003*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFL-00003-03",
+                        "evse_id": "PT*GLP*EVFL*00003*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "ALR-00004",
+    "AVR-00047",
+    "AVR-00048",
+    "CBR-00084",
+    "ETZ-00027",
+    "FIG-00023",
+    "LLE-00160",
+    "MGR-00014",
+    "SAT-00003",
+    "TCS-00002"
+]
+Modificados:
+{
+    "OER-00275": {
+        "name": {
+            "old": "Via Verde Electric HUB A5 (E/O)",
+            "new": ""
+        }
+    },
+    "OER-00276": {
+        "name": {
+            "old": "Via Verde Electric HUB A5 (E/O)",
+            "new": ""
+        }
+    },
+    "OER-00277": {
+        "name": {
+            "old": "Via Verde Electric HUB A5 (E/O)",
+            "new": ""
+        }
+    },
+    "OER-00278": {
+        "name": {
+            "old": "Via Verde Electric HUB A5 (E/O)",
+            "new": ""
+        }
+    },
+    "SCR-00023": {
+        "longitude": {
+            "old": "-16.8617",
+            "new": "-16.857075"
+        },
+        "latitude": {
+            "old": "32.64616",
+            "new": "32.646122"
+        },
+        "latlon": {
+            "old": "32.64616 -16.8617",
+            "new": "32.646122 -16.857075"
+        }
+    },
+    "SNT-00055": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00055-01",
+                            "new": "PT-EDP-ESNT-00055-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00055*01",
+                            "new": "PT*EDP*ESNT*00055*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00055-02",
+                            "new": "PT-EDP-ESNT-00055-2"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "120600.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00055*02",
+                            "new": "PT*EDP*ESNT*00055*2"
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "SNT-00055-03",
+                            "new": "PT-EDP-ESNT-00055-3"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00055*03",
+                            "new": "PT*EDP*ESNT*00055*3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00055-01",
+                            "evse_id": "PT*EDP*E*SNT*00055*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00055-02",
+                            "evse_id": "PT*EDP*E*SNT*00055*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00055-03",
+                            "evse_id": "PT*EDP*E*SNT*00055*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00079": {
+        "street": {
+            "old": "BK Mem Martins, Rua António Feijó",
+            "new": "Rua António Feijo 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00079-01",
+                            "new": "PT-EDP-ESNT-00079-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00079*01",
+                            "new": "PT*EDP*ESNT*00079*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00079-02",
+                            "new": "PT-EDP-ESNT-00079-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00079*02",
+                            "new": "PT*EDP*ESNT*00079*2"
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "SNT-00079-03",
+                            "new": "PT-EDP-ESNT-00079-3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00079*03",
+                            "new": "PT*EDP*ESNT*00079*3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00079-01",
+                            "evse_id": "PT*EDP*E*SNT*00079*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00079-02",
+                            "evse_id": "PT*EDP*E*SNT*00079*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00079-03",
+                            "evse_id": "PT*EDP*E*SNT*00079*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "BK Mem Martins",
+            "new": "Burger King Mem Martins"
+        }
+    },
+    "SNT-00080": {
+        "street": {
+            "old": "KFC - Mem Martins",
+            "new": "KFC Mem Martins 1"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00080-01",
+                            "new": "PT-EDP-ESNT-00080-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00080*01",
+                            "new": "PT*EDP*ESNT*00080*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00080-02",
+                            "new": "PT-EDP-ESNT-00080-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00080*02",
+                            "new": "PT*EDP*ESNT*00080*2"
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "SNT-00080-03",
+                            "new": "PT-EDP-ESNT-00080-3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00080*03",
+                            "new": "PT*EDP*ESNT*00080*3"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00080-01",
+                            "evse_id": "PT*EDP*E*SNT*00080*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00080-02",
+                            "evse_id": "PT*EDP*E*SNT*00080*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00080-03",
+                            "evse_id": "PT*EDP*E*SNT*00080*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "KFC - Mem Martins",
+            "new": "KFC Mem Martins"
+        }
+    }
+}
