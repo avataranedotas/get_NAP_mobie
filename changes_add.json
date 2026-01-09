@@ -1,0 +1,311 @@
+{
+    "CBR-00084": {
+        "name": "SOURE",
+        "lastUpdated": "2026-01-08T08:20:02.366Z",
+        "city": "Coimbra",
+        "street": "Cruz Nova, Estrada Nacional 342",
+        "postcode": "3130-200",
+        "latitude": "40.063843",
+        "longitude": "-8.618776",
+        "latlon": "40.063843 -8.618776",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CBR-00084",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CBR-00084-01",
+                        "evse_id": "PT*REP*E*CBR*00084*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "11000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTL-00038": {
+        "name": "Intermarché - Ponte de Lima",
+        "lastUpdated": "2026-01-09T02:59:44.891Z",
+        "city": "Ponte de Lima",
+        "street": "R. da Cancinhola 74",
+        "postcode": "4990-348",
+        "latitude": "41.755016",
+        "longitude": "-8.585431",
+        "latlon": "41.755016 -8.585431",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTL-00038",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTL-00038-01",
+                        "evse_id": "PT*HRZ*E*PTL*00038*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00038-02",
+                        "evse_id": "PT*HRZ*E*PTL*00038*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00038-03",
+                        "evse_id": "PT*HRZ*E*PTL*00038*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00076": {
+        "name": "Atlante - Pingo Doce Portimão (Craveiros)",
+        "lastUpdated": "2026-01-08T12:34:23.823Z",
+        "city": "Portimão",
+        "street": "Rua da Esperança",
+        "postcode": "8500-420",
+        "latitude": "37.14684",
+        "longitude": "-8.54953",
+        "latlon": "37.14684 -8.54953",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "PTM-00076",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00076-01",
+                        "evse_id": "PT*ATL*EPTM*00076*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00076-02",
+                        "evse_id": "PT*ATL*EPTM*00076*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00076-03",
+                        "evse_id": "PT*ATL*EPTM*00076*3",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00077": {
+        "name": "Atlante - Pingo Doce Portimão (Craveiros)",
+        "lastUpdated": "2026-01-08T18:27:50.539Z",
+        "city": "Portimão",
+        "street": "Rua da Esperança",
+        "postcode": "8500-420",
+        "latitude": "37.14684",
+        "longitude": "-8.54953",
+        "latlon": "37.14684 -8.54953",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00077",
+                "facilities": [
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00077-01",
+                        "evse_id": "PT*ATL*EPTM*00077*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00077-02",
+                        "evse_id": "PT*ATL*EPTM*00077*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "STB-00066": {
+        "name": "Ginásio Be Fit - Setúbal",
+        "lastUpdated": "2026-01-08T20:30:25.004Z",
+        "city": "Setúbal",
+        "street": "RUA QUINTA DA VARZINHA - TORRES DO CR 1",
+        "postcode": "2900-720",
+        "latitude": "38.54889",
+        "longitude": "-8.884655",
+        "latlon": "38.54889 -8.884655",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "STB-00066",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ESTB-00066-1",
+                        "evse_id": "PT*EDP*ESTB*00066*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ESTB-00066-2",
+                        "evse_id": "PT*EDP*ESTB*00066*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STB-00066-01",
+                        "evse_id": "PT*EDP*E*STB*00066*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STB-00066-02",
+                        "evse_id": "PT*EDP*E*STB*00066*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
