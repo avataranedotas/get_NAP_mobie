@@ -26254,3 +26254,614 @@ Modificados:
         }
     }
 }
+2026-01-10 04:34:06
+Adicionados:
+{
+    "GRD-00036": {
+        "name": "Guarda (Zona Industrial)",
+        "lastUpdated": "2026-01-10T03:00:02.325Z",
+        "city": "Guarda",
+        "street": "Parque Industrial da Guarda",
+        "postcode": "6300-625",
+        "latitude": "40.534645",
+        "longitude": "-7.2432256",
+        "latlon": "40.534645 -7.2432256",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GRD-00036",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GRD-00036-01",
+                        "evse_id": "PT*FCT*E*GRD*00036*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GRD-00036-02",
+                        "evse_id": "PT*FCT*E*GRD*00036*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "100000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GRD-00036-03",
+                        "evse_id": "PT*FCT*E*GRD*00036*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRT-00360": {
+        "name": "CM Porto - R. Leonardo Coimbra",
+        "lastUpdated": "2026-01-10T02:58:40.474Z",
+        "city": "Porto",
+        "street": "R. Leonardo Coimbra 152",
+        "postcode": "4200-009",
+        "latitude": "41.174557",
+        "longitude": "-8.610011",
+        "latlon": "41.174557 -8.610011",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRT-00360",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PRT-00360-01",
+                        "evse_id": "PT*HRZ*E*PRT*00360*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRT-00360-02",
+                        "evse_id": "PT*HRZ*E*PRT*00360*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PRT-00360-03",
+                        "evse_id": "PT*HRZ*E*PRT*00360*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTL-00034": {
+        "name": "Vila Galé - Garagem",
+        "lastUpdated": "2026-01-10T02:59:26.931Z",
+        "city": "Ponte de Lima",
+        "street": "Rua de Corutelo",
+        "postcode": "4990-442",
+        "latitude": "41.652573",
+        "longitude": "-8.6049795",
+        "latlon": "41.652573 -8.6049795",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTL-00034",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTL-00034-01",
+                        "evse_id": "PT*GLD*E*PTL*00034*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00034-02",
+                        "evse_id": "PT*GLD*E*PTL*00034*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTL-00035": {
+        "name": "Vila Galé - Parque de Estacionamento - Posto 1",
+        "lastUpdated": "2026-01-10T02:59:03.994Z",
+        "city": "Ponte de Lima",
+        "street": "Rua de Corutelo",
+        "postcode": "4990-442",
+        "latitude": "41.65224",
+        "longitude": "-8.6052265",
+        "latlon": "41.65224 -8.6052265",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTL-00035",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTL-00035-01",
+                        "evse_id": "PT*GLD*E*PTL*00035*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00035-02",
+                        "evse_id": "PT*GLD*E*PTL*00035*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTL-00036": {
+        "name": "Vila Galé - Parque de Estacionamento - Posto 2",
+        "lastUpdated": "2026-01-10T02:58:17.034Z",
+        "city": "Ponte de Lima",
+        "street": "Rua de Corutelo",
+        "postcode": "4990-442",
+        "latitude": "41.65224",
+        "longitude": "-8.6052265",
+        "latlon": "41.65224 -8.6052265",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTL-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTL-00036-01",
+                        "evse_id": "PT*GLD*E*PTL*00036*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00036-02",
+                        "evse_id": "PT*GLD*E*PTL*00036*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNB-00006": {
+        "name": "",
+        "lastUpdated": "2026-01-10T02:59:30.562Z",
+        "city": "Vila Nova da Barquinha",
+        "street": "RUA VIRGILIO FERREIRA S/N MOITA DO NORTE",
+        "postcode": "2260-521",
+        "latitude": "39.461544",
+        "longitude": "-8.452",
+        "latlon": "39.461544 -8.452",
+        "opc": "REMO",
+        "opc_name": "MOTA-ENGIL REMO CHARGING S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNB-00006",
+                "facilities": [
+                    "foodShopping",
+                    "cafe",
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNB-00006-01",
+                        "evse_id": "PT*REM*E*VNB*00006*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNB-00006-02",
+                        "evse_id": "PT*REM*E*VNB*00006*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNB-00006-03",
+                        "evse_id": "PT*REM*E*VNB*00006*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNB-00006-04",
+                        "evse_id": "PT*REM*E*VNB*00006*04",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "CLD-00009",
+    "CTX-00003",
+    "GDM-00012",
+    "PRT-00068",
+    "SNT-00103",
+    "VFR-00049",
+    "VNG-00125"
+]
+Modificados:
+{
+    "LSB-00609": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MDL-00007": {
+        "name": {
+            "old": "Posto de Abastecimento Mirandela B",
+            "new": "MIRANDELA B"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        }
+    },
+    "SNT-00157": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00157*01",
+                            "new": "PT*EDP*ESNT*00157*1"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00157-01",
+                            "new": "PT-EDP-ESNT-00157-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00157*02",
+                            "new": "PT*EDP*ESNT*00157*2"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00157-02",
+                            "new": "PT-EDP-ESNT-00157-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00157-01",
+                            "evse_id": "PT*EDP*E*SNT*00157*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00157-02",
+                            "evse_id": "PT*EDP*E*SNT*00157*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "foodShopping",
+                        "new": "carPark"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Av. 29 de Agosto e Av. da Aviação Portuguesa",
+            "new": "Av 29 de Agosto e Av da Aviacao Portuguesa 1"
+        }
+    },
+    "VCT-90002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "7400.0"
+                                },
+                                "voltage": {
+                                    "old": "220.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "7400.0"
+                                },
+                                "voltage": {
+                                    "old": "220.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VLG-00034": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "43000.0",
+                                    "new": "22000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                },
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                },
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
