@@ -134,7 +134,7 @@ OPERATORS = {
         "brand": "REMO",
         "brand:wikidata": None,
         "phone": "+351 800 020 940",
-        "email": "renewing.charging@mota-engil.pt",
+        "email": "charging@me-remo.com",
     },
     "MLTR": {
         "operator": "Mobiletric",
