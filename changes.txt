@@ -28189,3 +28189,169 @@ Modificados:
         }
     }
 }
+2026-01-14 04:47:21
+Adicionados:
+{
+    "PLM-00039": {
+        "name": "Pinhal Novo Norte",
+        "lastUpdated": "2026-01-14T03:00:01.931Z",
+        "city": "Palmela",
+        "street": "EN 252. km 6.05",
+        "postcode": "2955-112",
+        "latitude": "38.6364",
+        "longitude": "-8.9146",
+        "latlon": "38.6364 -8.9146",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PLM-00039",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PLM-00039-01",
+                        "evse_id": "PT*FCT*E*PLM*00039*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PLM-00039-02",
+                        "evse_id": "PT*FCT*E*PLM*00039*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PLM-00039-03",
+                        "evse_id": "PT*FCT*E*PLM*00039*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "OAZ-00008"
+]
+Modificados:
+{
+    "CBR-00084": {
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        }
+    },
+    "ELV-00011": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added_items": [
+                        "restaurant"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added_items": [
+                        "restaurant",
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00013": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added_items": [
+                        "cafe",
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00014": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added_items": [
+                        "cafe",
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "ELV-00015": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added_items": [
+                        "cafe",
+                        "foodShopping"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MDL-00007": {
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        }
+    }
+}
