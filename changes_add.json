@@ -1,0 +1,126 @@
+{
+    "CTM-00011": {
+        "name": "ALDI Altura",
+        "lastUpdated": "2026-01-14T17:47:59.907Z",
+        "city": "Castro Marim",
+        "street": "EN 125 1",
+        "postcode": "8950-411",
+        "latitude": "37.181225",
+        "longitude": "-7.497339",
+        "latlon": "37.181225 -7.497339",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CTM-00011",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECTM-00011-1",
+                        "evse_id": "PT*EDP*ECTM*00011*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECTM-00011-2",
+                        "evse_id": "PT*EDP*ECTM*00011*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CTM-00012": {
+        "name": "ALDI Altura",
+        "lastUpdated": "2026-01-14T14:52:12.499Z",
+        "city": "Castro Marim",
+        "street": "EN 125 2",
+        "postcode": "8950-411",
+        "latitude": "37.180622",
+        "longitude": "-7.497339",
+        "latlon": "37.180622 -7.497339",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CTM-00012",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECTM-00012-1",
+                        "evse_id": "PT*EDP*ECTM*00012*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECTM-00012-2",
+                        "evse_id": "PT*EDP*ECTM*00012*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECTM-00012-3",
+                        "evse_id": "PT*EDP*ECTM*00012*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
