@@ -433,5 +433,13 @@ OPERATORS = {
         "phone": "+351 255 810 219;+351 910 370 878",
         "email": "geral@luz-verde.pt",
     },
+    "ENBL": {
+        "operator": "Enable Mobility Solutions",
+        "code3": "ENB",
+        "operator:wikidata": None,
+        "brand": "Enable Mobility",
+        "brand:wikidata": None,
+        "phone": "+351 800 207 020",
+        "email": "support@enable-mobility.com",
+    },
 }
-
