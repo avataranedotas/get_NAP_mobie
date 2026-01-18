@@ -30135,3 +30135,218 @@ Modificados:
         }
     }
 }
+2026-01-18 04:42:02
+Modificados:
+{
+    "BRR-00150": {
+        "name": {
+            "old": "Vila Chã (Lavradio) #1",
+            "new": "Barreiro (Vila Chã) #1"
+        }
+    },
+    "BRR-00151": {
+        "name": {
+            "old": "Vila Chã (Lavradio) #2",
+            "new": "Barreiro (Vila Chã) #2"
+        }
+    },
+    "OER-00237": {
+        "name": {
+            "old": "STAPLES PORTUGAL_Alfragide Carnaxide",
+            "new": "Staples Alfragide Carnaxide"
+        },
+        "latlon": {
+            "old": "38.721447 -9.216042",
+            "new": "38.721447 -9.216041"
+        },
+        "street": {
+            "old": "R. Q.ta do Paizinho 4,",
+            "new": "R Qta do Paizinho 4"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EOER-00237-1",
+                            "evse_id": "PT*EDP*EOER*00237*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EOER-00237-2",
+                            "evse_id": "PT*EDP*EOER*00237*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-9.216042",
+            "new": "-9.216041"
+        }
+    },
+    "SNT-00124": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00124-01",
+                            "new": "PT-EDP-ESNT-00124-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00124*01",
+                            "new": "PT*EDP*ESNT*00124*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00124-02",
+                            "new": "PT-EDP-ESNT-00124-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00124*02",
+                            "new": "PT*EDP*ESNT*00124*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00124-01",
+                            "evse_id": "PT*EDP*E*SNT*00124*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00124-02",
+                            "evse_id": "PT*EDP*E*SNT*00124*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00173": {
+        "name": {
+            "old": "Decathlon Sintra - PCR1",
+            "new": "Decathlon Sintra 2"
+        },
+        "street": {
+            "old": "Decathlon Sintra - Rua da Republica da Coreia",
+            "new": "Rua da Republica da Coreia 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SNT-00173-01",
+                            "new": "PT-EDP-ESNT-00173-1"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00173*01",
+                            "new": "PT*EDP*ESNT*00173*1"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SNT-00173-02",
+                            "new": "PT-EDP-ESNT-00173-2"
+                        },
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00173*02",
+                            "new": "PT*EDP*ESNT*00173*2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00173-01",
+                            "evse_id": "PT*EDP*E*SNT*00173*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00173-02",
+                            "evse_id": "PT*EDP*E*SNT*00173*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "VFR-00090": {
+        "name": {
+            "old": "Guisande",
+            "new": "Sta Maria da Feira (Guisande)"
+        }
+    }
+}
