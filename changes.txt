@@ -31858,3 +31858,979 @@ Modificados:
         }
     }
 }
+2026-01-21 04:45:17
+Adicionados:
+{
+    "BRG-00147": {
+        "name": "BRAGA - SEQUEIRA",
+        "lastUpdated": "2026-01-21T03:00:01.295Z",
+        "city": "Braga",
+        "street": "Avenida De Sequeira, Nº 20",
+        "postcode": "4705-629",
+        "latitude": "41.534138",
+        "longitude": "-8.4612665",
+        "latlon": "41.534138 -8.4612665",
+        "opc": "CEPS",
+        "opc_name": "Cepsa Portuguesa Petroleos",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BRG-00147",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRG-00147-01",
+                        "evse_id": "PT*CPS*E*BRG*00147*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRG-00147-02",
+                        "evse_id": "PT*CPS*E*BRG*00147*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BTL-00015": {
+        "name": "Haven Nature Hotel & Villas - Posto 1",
+        "lastUpdated": "2026-01-20T10:04:30.008Z",
+        "city": "Batalha",
+        "street": "Rua dos Bastos, 2 Casal do Azemel",
+        "postcode": "2440-020",
+        "latitude": "39.65941",
+        "longitude": "-8.83536",
+        "latlon": "39.65941 -8.83536",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BTL-00015",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BTL-00015-01",
+                        "evse_id": "PT*GLD*E*BTL*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BTL-00017": {
+        "name": "Haven Nature Hotel & Villas - Posto 3",
+        "lastUpdated": "2026-01-20T10:13:07.954Z",
+        "city": "Batalha",
+        "street": "Rua dos Bastos, 2 Casal do Azemel",
+        "postcode": "2440-020",
+        "latitude": "39.65941",
+        "longitude": "-8.83536",
+        "latlon": "39.65941 -8.83536",
+        "opc": "GOLD",
+        "opc_name": "Gold Energy",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BTL-00017",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BTL-00017-01",
+                        "evse_id": "PT*GLD*E*BTL*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CLD-00046": {
+        "name": "La Vie Caldas (Wider Property)",
+        "lastUpdated": "2026-01-21T02:58:13.215Z",
+        "city": "Caldas da Rainha",
+        "street": "R. Belchior de Matos 11",
+        "postcode": "2500-324",
+        "latitude": "39.40131",
+        "longitude": "-9.136875",
+        "latlon": "39.40131 -9.136875",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CLD-00046",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CLD-00046-01",
+                        "evse_id": "PT*HRZ*E*CLD*00046*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CLD-00046-02",
+                        "evse_id": "PT*HRZ*E*CLD*00046*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CVL-00055": {
+        "name": "Covilhã",
+        "lastUpdated": "2026-01-21T02:59:38.591Z",
+        "city": "Covilhã",
+        "street": "RUA ANTIGOS COMBATENTES",
+        "postcode": "6200-811",
+        "latitude": "40.200584",
+        "longitude": "-7.543056",
+        "latlon": "40.200584 -7.543056",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CVL-00055",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CVL-00055-01",
+                        "evse_id": "PT*DTE*E*CVL*00055*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CVL-00055-02",
+                        "evse_id": "PT*DTE*E*CVL*00055*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CVL-00055-03",
+                        "evse_id": "PT*DTE*E*CVL*00055*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDL-00064": {
+        "name": "REPSOL Grândola NS",
+        "lastUpdated": "2026-01-20T19:50:31.106Z",
+        "city": "Grândola",
+        "street": "Área de Servico Grândola 2",
+        "postcode": "7570-107",
+        "latitude": "38.167213",
+        "longitude": "-8.492292",
+        "latlon": "38.167213 -8.492292",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDL-00064",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGDL-00064-1",
+                        "evse_id": "PT*EDP*EGDL*00064*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDL-00064-2",
+                        "evse_id": "PT*EDP*EGDL*00064*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01158": {
+        "name": "Moscavide #1",
+        "lastUpdated": "2026-01-21T02:59:10.257Z",
+        "city": "Lisboa",
+        "street": "Praça José Queirós",
+        "postcode": "1800-237",
+        "latitude": "38.773594",
+        "longitude": "-9.105291",
+        "latlon": "38.773594 -9.105291",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01158",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01158-01",
+                        "evse_id": "PT*FCT*E*LSB*01158*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01158-02",
+                        "evse_id": "PT*FCT*E*LSB*01158*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01159": {
+        "name": "Moscavide #2",
+        "lastUpdated": "2026-01-21T02:58:40.719Z",
+        "city": "Lisboa",
+        "street": "Praça José Queirós",
+        "postcode": "1800-237",
+        "latitude": "38.773594",
+        "longitude": "-9.105291",
+        "latlon": "38.773594 -9.105291",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01159",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01159-01",
+                        "evse_id": "PT*FCT*E*LSB*01159*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01159-02",
+                        "evse_id": "PT*FCT*E*LSB*01159*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "LSB-00572",
+    "LSB-00573"
+]
+Modificados:
+{
+    "ACB-00027": {
+        "name": {
+            "old": "Alcobaça (Variante)",
+            "new": "Alcobaça (EN8)"
+        }
+    },
+    "ACB-00033": {
+        "latlon": {
+            "old": "39.5248 -8.9105",
+            "new": "39.524757 -8.910263"
+        },
+        "latitude": {
+            "old": "39.5248",
+            "new": "39.524757"
+        },
+        "longitude": {
+            "old": "-8.9105",
+            "new": "-8.910263"
+        }
+    },
+    "ACB-00034": {
+        "latlon": {
+            "old": "39.5248 -8.9105",
+            "new": "39.524757 -8.910263"
+        },
+        "latitude": {
+            "old": "39.5248",
+            "new": "39.524757"
+        },
+        "longitude": {
+            "old": "-8.9105",
+            "new": "-8.910263"
+        }
+    },
+    "ACB-00046": {
+        "name": {
+            "old": "Nazaré (Pataias) #2",
+            "new": "Alcobaça (Pataias) #2"
+        }
+    },
+    "ACB-00047": {
+        "name": {
+            "old": "Nazaré (Pataias) #3",
+            "new": "Alcobaça (Pataias) #3"
+        }
+    },
+    "ACB-00048": {
+        "name": {
+            "old": "Nazaré (Pataias) #4",
+            "new": "Alcobaça (Pataias) #4"
+        }
+    },
+    "ACH-00019": {
+        "name": {
+            "old": "Alcochete",
+            "new": "Alcochete (Freeport)"
+        }
+    },
+    "AGB-00003": {
+        "name": {
+            "old": "Aguiar da Beira",
+            "new": "Aguiar da Beira (EN229)"
+        }
+    },
+    "AGD-00018": {
+        "name": {
+            "old": "Aguada de Baixo (Oeste)",
+            "new": "Águeda (Aguada de Baixo)"
+        }
+    },
+    "ALD-00008": {
+        "name": {
+            "old": "Almeida (#1)",
+            "new": "A25 Vilar Formoso (Norte) #1"
+        }
+    },
+    "ALD-00009": {
+        "name": {
+            "old": "Almeida (#2)",
+            "new": "A25 Vilar Formoso (Norte) #2"
+        }
+    },
+    "ALD-00010": {
+        "name": {
+            "old": "Almeida (#3)",
+            "new": "A25 Vilar Formoso (Norte) #3"
+        }
+    },
+    "ALD-00011": {
+        "name": {
+            "old": "Almeida (#4)",
+            "new": "A25 Vilar Formoso (Norte) #4"
+        }
+    },
+    "AMT-00028": {
+        "name": {
+            "old": "Amarante (São Gonçalo)",
+            "new": "Amarante (S. Gonçalo)"
+        }
+    },
+    "AVR-00064": {
+        "latlon": {
+            "old": "40.63189 -8.64093",
+            "new": "40.63135 -8.640706"
+        },
+        "latitude": {
+            "old": "40.63189",
+            "new": "40.63135"
+        },
+        "name": {
+            "old": "Aveiro (Este)",
+            "new": "Aveiro (Av. Europa)"
+        },
+        "longitude": {
+            "old": "-8.64093",
+            "new": "-8.640706"
+        }
+    },
+    "BCL-00013": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "name": {
+            "old": "",
+            "new": "BARCELOS II"
+        }
+    },
+    "BCL-00040": {
+        "latlon": {
+            "old": "41.563065 -8.600471",
+            "new": "41.563038 -8.600481"
+        },
+        "latitude": {
+            "old": "41.563065",
+            "new": "41.563038"
+        },
+        "name": {
+            "old": "Lijó (Barcelos) #1",
+            "new": "Barcelos (Lijó) #1"
+        },
+        "longitude": {
+            "old": "-8.600471",
+            "new": "-8.600481"
+        }
+    },
+    "BCL-00041": {
+        "latlon": {
+            "old": "41.563065 -8.600471",
+            "new": "41.563038 -8.600481"
+        },
+        "latitude": {
+            "old": "41.563065",
+            "new": "41.563038"
+        },
+        "name": {
+            "old": "Lijó (Barcelos) #2",
+            "new": "Barcelos (Lijó) #2"
+        },
+        "longitude": {
+            "old": "-8.600471",
+            "new": "-8.600481"
+        }
+    },
+    "BGC-00021": {
+        "latlon": {
+            "old": "41.808098 -6.7928514",
+            "new": "41.80825 -6.7930813"
+        },
+        "latitude": {
+            "old": "41.808098",
+            "new": "41.80825"
+        },
+        "name": {
+            "old": "Bragança (Estrada Vinhais)",
+            "new": "Bragança (EN103)"
+        },
+        "longitude": {
+            "old": "-6.7928514",
+            "new": "-6.7930813"
+        }
+    },
+    "BJA-00031": {
+        "latlon": {
+            "old": "38.019424 -7.8529935",
+            "new": "38.0194 -7.8530107"
+        },
+        "latitude": {
+            "old": "38.019424",
+            "new": "38.0194"
+        },
+        "name": {
+            "old": "Beja - Luzias",
+            "new": "Beja (Luzías)"
+        },
+        "longitude": {
+            "old": "-7.8529935",
+            "new": "-7.8530107"
+        }
+    },
+    "BNV-00012": {
+        "street": {
+            "old": "Av. das Nações Unidas, 9998VE",
+            "new": "Av. das Nações Unidas, 9998VE 1"
+        },
+        "latlon": {
+            "old": "38.92208 -8.88284",
+            "new": "38.916206 -8.865083"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EBNV-00012-1",
+                            "evse_id": "PT*EDP*EBNV*00012*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EBNV-00012-2",
+                            "evse_id": "PT*EDP*EBNV*00012*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        },
+        "latitude": {
+            "old": "38.92208",
+            "new": "38.916206"
+        },
+        "name": {
+            "old": "BURGER KING PORTO ALTO",
+            "new": "Burger King Porto Alto"
+        },
+        "longitude": {
+            "old": "-8.88284",
+            "new": "-8.865083"
+        }
+    },
+    "BNV-00013": {
+        "latlon": {
+            "old": "38.9161 -8.88144",
+            "new": "38.915855 -8.881089"
+        },
+        "latitude": {
+            "old": "38.9161",
+            "new": "38.915855"
+        },
+        "name": {
+            "old": "Porto Alto (Este)",
+            "new": "Benavente (Porto Alto) #1"
+        },
+        "longitude": {
+            "old": "-8.88144",
+            "new": "-8.881089"
+        }
+    },
+    "BNV-00014": {
+        "latlon": {
+            "old": "38.915653 -8.881741",
+            "new": "38.916065 -8.881939"
+        },
+        "latitude": {
+            "old": "38.915653",
+            "new": "38.916065"
+        },
+        "name": {
+            "old": "Porto Alto (Oeste)",
+            "new": "Benavente (Porto Alto) #2"
+        },
+        "longitude": {
+            "old": "-8.881741",
+            "new": "-8.881939"
+        }
+    },
+    "BRR-00150": {
+        "latlon": {
+            "old": "38.64016 -9.047593",
+            "new": "38.640175 -9.047594"
+        },
+        "latitude": {
+            "old": "38.64016",
+            "new": "38.640175"
+        },
+        "longitude": {
+            "old": "-9.047593",
+            "new": "-9.047594"
+        }
+    },
+    "CBR-00121": {
+        "latlon": {
+            "old": "40.20097 -8.43061",
+            "new": "40.201218 -8.430775"
+        },
+        "latitude": {
+            "old": "40.20097",
+            "new": "40.201218"
+        },
+        "name": {
+            "old": "Coimbra (Oeste)",
+            "new": "Coimbra (Av. Inês de Castro)"
+        },
+        "longitude": {
+            "old": "-8.43061",
+            "new": "-8.430775"
+        }
+    },
+    "CDN-00008": {
+        "latlon": {
+            "old": "40.107254 -8.5115385",
+            "new": "40.10727 -8.511538"
+        },
+        "latitude": {
+            "old": "40.107254",
+            "new": "40.10727"
+        },
+        "name": {
+            "old": "Condeixa-a-Nova (São Fipo)",
+            "new": "Condeixa (EN342)"
+        },
+        "longitude": {
+            "old": "-8.5115385",
+            "new": "-8.511538"
+        }
+    },
+    "CDV-00002": {
+        "latlon": {
+            "old": "39.2812 -9.0588",
+            "new": "39.281605 -9.059001"
+        },
+        "latitude": {
+            "old": "39.2812",
+            "new": "39.281605"
+        },
+        "longitude": {
+            "old": "-9.0588",
+            "new": "-9.059001"
+        }
+    },
+    "LMG-00010": {
+        "street": {
+            "old": "Burger King de Lamego - Rua das Amoreiras 1",
+            "new": "Rua das Amoreiras 1"
+        },
+        "latlon": {
+            "old": "41.10039 -7.8190055",
+            "new": "41.10039 -7.819006"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELMG-00010-1",
+                            "evse_id": "PT*EDP*ELMG*00010*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELMG-00010-2",
+                            "evse_id": "PT*EDP*ELMG*00010*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-7.8190055",
+            "new": "-7.819006"
+        }
+    },
+    "MTA-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00187": {
+        "latlon": {
+            "old": "38.771145 -9.346783",
+            "new": "38.771217 -9.346842"
+        },
+        "latitude": {
+            "old": "38.771145",
+            "new": "38.771217"
+        },
+        "longitude": {
+            "old": "-9.346783",
+            "new": "-9.346842"
+        }
+    },
+    "SNT-00188": {
+        "latlon": {
+            "old": "38.771145 -9.346783",
+            "new": "38.77124 -9.34679"
+        },
+        "latitude": {
+            "old": "38.771145",
+            "new": "38.77124"
+        },
+        "longitude": {
+            "old": "-9.346783",
+            "new": "-9.34679"
+        }
+    },
+    "SNT-00189": {
+        "latlon": {
+            "old": "38.771145 -9.346783",
+            "new": "38.77131 -9.346646"
+        },
+        "latitude": {
+            "old": "38.771145",
+            "new": "38.77131"
+        },
+        "longitude": {
+            "old": "-9.346783",
+            "new": "-9.346646"
+        }
+    },
+    "SNT-00190": {
+        "latlon": {
+            "old": "38.771145 -9.346783",
+            "new": "38.77129 -9.346688"
+        },
+        "latitude": {
+            "old": "38.771145",
+            "new": "38.77129"
+        },
+        "longitude": {
+            "old": "-9.346783",
+            "new": "-9.346688"
+        }
+    },
+    "SNT-00191": {
+        "latlon": {
+            "old": "38.771145 -9.346783",
+            "new": "38.771267 -9.346738"
+        },
+        "latitude": {
+            "old": "38.771145",
+            "new": "38.771267"
+        },
+        "longitude": {
+            "old": "-9.346783",
+            "new": "-9.346738"
+        }
+    }
+}
