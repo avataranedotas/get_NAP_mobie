@@ -32834,3 +32834,115 @@ Modificados:
         }
     }
 }
+2026-01-22 04:49:04
+Modificados:
+{
+    "ABF-00065": {
+        "street": {
+            "old": "Sitio Cerro Alagoa, Cerro da Lagoa",
+            "new": "Cerro da Lagoa"
+        },
+        "name": {
+            "old": "",
+            "new": "Luna Miramar Club"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EABF-00065-1",
+                            "evse_id": "PT*EDP*EABF*00065*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EABF-00065-2",
+                            "evse_id": "PT*EDP*EABF*00065*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "hotel",
+                        "new": "carPark"
+                    }
+                }
+            }
+        }
+    },
+    "ABF-00124": {
+        "latlon": {
+            "old": "37.127396 -8.478698",
+            "new": "37.126934 -8.234355"
+        },
+        "longitude": {
+            "old": "-8.478698",
+            "new": "-8.234355"
+        },
+        "latitude": {
+            "old": "37.127396",
+            "new": "37.126934"
+        }
+    },
+    "BRG-00119": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "name": {
+            "old": "Posto de Abastecimento Repsol Ferreiros",
+            "new": "FERREIROS"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "TVR-00002": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    }
+}
