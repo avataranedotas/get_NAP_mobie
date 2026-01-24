@@ -33530,3 +33530,376 @@ Modificados:
         }
     }
 }
+2026-01-24 04:35:37
+Adicionados:
+{
+    "AVR-00098": {
+        "name": "Atlante - Mobie - Parque S. João Aveiro",
+        "lastUpdated": "2026-01-23T13:17:23.057Z",
+        "city": "Aveiro",
+        "street": "Parque dos Remadores Olímpicos",
+        "postcode": "3800-272",
+        "latitude": "40.64357",
+        "longitude": "-8.65825",
+        "latlon": "40.64357 -8.65825",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AVR-00098",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AVR-00098-01",
+                        "evse_id": "PT*ATL*EAVR*00098*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AVR-00098-02",
+                        "evse_id": "PT*ATL*EAVR*00098*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AVR-00098-03",
+                        "evse_id": "PT*ATL*EAVR*00098*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LMG-00021": {
+        "name": "Municipio Lamego-Avenida Padre Alfredo Pinto Teixeira",
+        "lastUpdated": "2026-01-23T09:26:24.000Z",
+        "city": "Lamego",
+        "street": "Avenida Padre Alfredo Pinto Teixeira 1",
+        "postcode": "5100-150",
+        "latitude": "41.100826",
+        "longitude": "-7.81255",
+        "latlon": "41.100826 -7.81255",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LMG-00021",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELMG-00021-1",
+                        "evse_id": "PT*EDP*ELMG*00021*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELMG-00021-2",
+                        "evse_id": "PT*EDP*ELMG*00021*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELMG-00021-3",
+                        "evse_id": "PT*EDP*ELMG*00021*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "AVR-90003",
+    "CLD-00030",
+    "CSC-90001",
+    "FAR-90002",
+    "GRD-00022",
+    "LSB-90045",
+    "LSB-90110"
+]
+Modificados:
+{
+    "AZB-00028": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00029": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00030": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00031": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00032": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00033": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CSC-00519": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "10.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "10.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MTJ-00015": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "MTJ-00016": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "OER-00237": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    }
+}
