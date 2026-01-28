@@ -34643,3 +34643,263 @@ Modificados:
         }
     }
 }
+2026-01-28 04:44:22
+Adicionados:
+{
+    "AMD-00115": {
+        "name": "KWP",
+        "lastUpdated": "2026-01-27T11:25:02.607Z",
+        "city": "Amadora",
+        "street": "Praceta Francisco Grandela, 5",
+        "postcode": "2700-193",
+        "latitude": "38.77077",
+        "longitude": "-9.24521",
+        "latlon": "38.77077 -9.24521",
+        "opc": "MOBA",
+        "opc_name": "MOBI A - Mobilidade e Ambiente, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AMD-00115",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AMD-00115-01",
+                        "evse_id": "PT*MOA*E*AMD*00115*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AMD-00115-02",
+                        "evse_id": "PT*MOA*E*AMD*00115*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "AMD-00116": {
+        "name": "KWP - Garagem Park",
+        "lastUpdated": "2026-01-27T11:30:03.127Z",
+        "city": "Amadora",
+        "street": "Praceta Francisco Grandela, 5 ",
+        "postcode": "2700-652",
+        "latitude": "38.77077",
+        "longitude": "-9.24521",
+        "latlon": "38.77077 -9.24521",
+        "opc": "MOBA",
+        "opc_name": "MOBI A - Mobilidade e Ambiente, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AMD-00116",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AMD-00116-01",
+                        "evse_id": "PT*MOA*E*AMD*00116*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AMD-00116-02",
+                        "evse_id": "PT*MOA*E*AMD*00116*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SSB-00020": {
+        "name": "",
+        "lastUpdated": "2026-01-27T11:51:05.854Z",
+        "city": "Sesimbra",
+        "street": "Urbanização Cova dos Vidros",
+        "postcode": "2975-312",
+        "latitude": "38.56574",
+        "longitude": "-9.037391",
+        "latlon": "38.56574 -9.037391",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SSB-00020",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SSB-00020-01",
+                        "evse_id": "PT*GLP*ESSB*00020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SSB-00020-02",
+                        "evse_id": "PT*GLP*ESSB*00020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SSB-00020-03",
+                        "evse_id": "PT*GLP*ESSB*00020*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "AZB-00007",
+    "AZB-00013",
+    "AZB-00014",
+    "CTB-00017",
+    "ETZ-00005",
+    "ETZ-00012",
+    "LSB-00205",
+    "LSB-00206",
+    "LSB-00332",
+    "LSB-90061",
+    "MLG-00002",
+    "MMN-00001"
+]
+Modificados:
+{
+    "CSC-00129": {
+        "latitude": {
+            "old": "38.710335",
+            "new": "38.71075"
+        },
+        "latlon": {
+            "old": "38.710335 -9.336216",
+            "new": "38.71075 -9.336341"
+        },
+        "longitude": {
+            "old": "-9.336216",
+            "new": "-9.336341"
+        }
+    },
+    "OER-00231": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SXL-00071": {
+        "latitude": {
+            "old": "38.597687",
+            "new": "38.59771"
+        },
+        "latlon": {
+            "old": "38.597687 -9.143662",
+            "new": "38.59771 -9.140978"
+        },
+        "longitude": {
+            "old": "-9.143662",
+            "new": "-9.140978"
+        }
+    }
+}
