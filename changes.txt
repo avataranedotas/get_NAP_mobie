@@ -40740,3 +40740,176 @@ Modificados:
         }
     }
 }
+2026-02-05 05:16:38
+Removidos:
+[
+    "AVR-80001",
+    "CBR-80004",
+    "CSC-80003",
+    "LSB-00975",
+    "LSB-80054",
+    "LSB-80076",
+    "PTM-00052",
+    "TVR-00019",
+    "TVR-00020"
+]
+Modificados:
+{
+    "BCL-00025": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "800.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "100000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "BJA-00014": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "300.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "150000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FAR-00052": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "188.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "800.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "150000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LRA-00135": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "OER-00088": {
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "latitude": {
+            "old": "38.744644",
+            "new": "38.73592"
+        },
+        "longitude": {
+            "old": "-9.304205",
+            "new": "-9.300862"
+        },
+        "latlon": {
+            "old": "38.744644 -9.304205",
+            "new": "38.73592 -9.300862"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "CARPOOL_PARKING"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00088*01",
+                            "new": "PT*MLT*EOER*00088*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "50000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*OER*00088*02",
+                            "new": "PT*MLT*EOER*00088*02"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    }
+}
