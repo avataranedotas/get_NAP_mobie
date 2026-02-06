@@ -59,7 +59,7 @@ OPERATORS = {
         "operator": "Maksu Services",
         "code3": "MAK",
         "operator:wikidata": None,
-        "brand": None,
+        "brand": "Maksu",
         "brand:wikidata": None,
         "phone": None,
         "email": "ev_portugal@maksu.com",
