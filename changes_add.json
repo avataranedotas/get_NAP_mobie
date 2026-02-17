@@ -1,0 +1,54 @@
+{
+    "AMT-00042": {
+        "name": "Atlante - Pingo Doce Amarante",
+        "lastUpdated": "2026-02-16T18:37:01.140Z",
+        "city": "Amarante",
+        "street": "Rua da Boavista de Cima 175",
+        "postcode": "4600-756",
+        "latitude": "41.28717",
+        "longitude": "-8.09548",
+        "latlon": "41.28717 -8.09548",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AMT-00042",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AMT-00042-01",
+                        "evse_id": "PT*ATL*EAMT*00042*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AMT-00042-02",
+                        "evse_id": "PT*ATL*EAMT*00042*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
