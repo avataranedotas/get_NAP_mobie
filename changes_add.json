@@ -1,0 +1,43 @@
+{
+    "CSC-00219": {
+        "name": "Praça do Junqueiro Tomada",
+        "lastUpdated": "2026-02-18T02:59:40.094Z",
+        "city": "Cascais",
+        "street": "PRAÇA DO JUNQUEIRO",
+        "postcode": "2775-597",
+        "latitude": "38.683765",
+        "longitude": "-9.343098",
+        "latlon": "38.683765 -9.343098",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00219",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00219-01",
+                        "evse_id": "PT*GLP*ECSC*00219*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
