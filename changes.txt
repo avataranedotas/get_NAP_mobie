@@ -52584,3 +52584,385 @@ Modificados:
         }
     }
 }
+2026-02-20 05:16:02
+Adicionados:
+{
+    "VNF-00064": {
+        "name": "PRIO Petrolubrinov",
+        "lastUpdated": "2026-02-20T02:59:24.632Z",
+        "city": "Vila Nova de Famalicão",
+        "street": "Av. da Riopele, 4770-405 Pousada de Saramagos",
+        "postcode": "4770-405",
+        "latitude": "41.428085",
+        "longitude": "-8.43048",
+        "latlon": "41.428085 -8.43048",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNF-00064",
+                "facilities": [
+                    "cafe",
+                    "foodShopping",
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNF-00064-01",
+                        "evse_id": "PT*PRI*E*VNF*00064*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNF-00064-02",
+                        "evse_id": "PT*PRI*E*VNF*00064*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "LOU-00014"
+]
+Modificados:
+{
+    "LSB-00862": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "120.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "950.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00059": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Repsol Maia A",
+            "new": "MAIA A"
+        }
+    },
+    "MAI-00082": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "400000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "400000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MRT-00002": {
+        "name": {
+            "old": "Mortágua (Gandarada 150kW)",
+            "new": "Mortágua (Gândara) 150kW"
+        }
+    },
+    "MRT-00003": {
+        "name": {
+            "old": "Mortágua (Gandarada 50kW)",
+            "new": "Mortágua (Gândara) 50kW"
+        }
+    },
+    "PFR-00010": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "PAÇOS DE FERREIRA"
+        }
+    },
+    "PFR-00013": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "Posto de Abastecimento Repsol Paços Ferrira II",
+            "new": "PAÇOS DE FERREIRA II"
+        }
+    },
+    "PLM-00031": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "300.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "200000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PRT-00071": {
+        "longitude": {
+            "old": "-8.576798",
+            "new": "-8.574668"
+        },
+        "latitude": {
+            "old": "41.162724",
+            "new": "41.162987"
+        },
+        "latlon": {
+            "old": "41.162724 -8.576798",
+            "new": "41.162987 -8.574668"
+        }
+    },
+    "SLV-80001": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "TVD-00049": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "250.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "800.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "200000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
