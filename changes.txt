@@ -54010,3 +54010,1692 @@ Modificados:
         }
     }
 }
+2026-02-24 05:21:38
+Adicionados:
+{
+    "ABF-00129": {
+        "name": "Ecovia do Litoral 8-4",
+        "lastUpdated": "2026-02-23T10:52:36.000Z",
+        "city": "Albufeira",
+        "street": "Ecovia do Litoral 8-4 1",
+        "postcode": "8200-111",
+        "latitude": "37.08671",
+        "longitude": "-8.255489",
+        "latlon": "37.08671 -8.255489",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00129",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00129-1",
+                        "evse_id": "PT*EDP*EABF*00129*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00129-2",
+                        "evse_id": "PT*EDP*EABF*00129*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GRD-00057": {
+        "name": "ALDI - GUARDA",
+        "lastUpdated": "2026-02-23T16:44:54.843Z",
+        "city": "Guarda",
+        "street": "R. do Facheiro 5 - 1 5",
+        "postcode": "6300-833",
+        "latitude": "40.554787",
+        "longitude": "-7.247874",
+        "latlon": "40.554787 -7.247874",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GRD-00057",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGRD-00057-1",
+                        "evse_id": "PT*EDP*EGRD*00057*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGRD-00057-2",
+                        "evse_id": "PT*EDP*EGRD*00057*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GRD-00058": {
+        "name": "ALDI - GUARDA",
+        "lastUpdated": "2026-02-23T16:23:05.208Z",
+        "city": "Guarda",
+        "street": "R. do Facheiro 5 - 2 5",
+        "postcode": "6300-833",
+        "latitude": "40.554787",
+        "longitude": "-7.247874",
+        "latlon": "40.554787 -7.247874",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GRD-00058",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGRD-00058-1",
+                        "evse_id": "PT*EDP*EGRD*00058*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00055": {
+        "name": "Odivelas (Famões)  #1",
+        "lastUpdated": "2026-02-24T02:58:35.438Z",
+        "city": "Odivelas",
+        "street": "Rua Major João Luís de Moura - Alto de Famõe",
+        "postcode": "1685-650",
+        "latitude": "38.7859",
+        "longitude": "-9.2083",
+        "latlon": "38.7859 -9.2083",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00055",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00055-01",
+                        "evse_id": "PT*FCT*E*ODV*00055*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00055-02",
+                        "evse_id": "PT*FCT*E*ODV*00055*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00056": {
+        "name": "Odivelas (Famões) #2",
+        "lastUpdated": "2026-02-24T02:59:02.207Z",
+        "city": "Odivelas",
+        "street": "Rua Major João Luís de Moura -Alto de Famões",
+        "postcode": "1685-650",
+        "latitude": "38.7859",
+        "longitude": "-9.2083",
+        "latlon": "38.7859 -9.2083",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00056",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00056-01",
+                        "evse_id": "PT*FCT*E*ODV*00056*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00056-02",
+                        "evse_id": "PT*FCT*E*ODV*00056*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00057": {
+        "name": "Oidvelas (Famões) #3",
+        "lastUpdated": "2026-02-24T02:59:09.657Z",
+        "city": "Odivelas",
+        "street": "Rua Major João Luís de Moura -Alto de Famões",
+        "postcode": "1685-650",
+        "latitude": "38.7859",
+        "longitude": "-9.2083",
+        "latlon": "38.7859 -9.2083",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00057",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00057-01",
+                        "evse_id": "PT*FCT*E*ODV*00057*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00057-02",
+                        "evse_id": "PT*FCT*E*ODV*00057*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVR-00018": {
+        "name": "Vila Gale Tavira",
+        "lastUpdated": "2025-10-23T10:54:56.000Z",
+        "city": "Tavira",
+        "street": "Vila Gale Tavira 1",
+        "postcode": "8800-362",
+        "latitude": "37.12333",
+        "longitude": "-7.645711",
+        "latlon": "37.12333 -7.645711",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVR-00018",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ETVR-00018-1",
+                        "evse_id": "PT*EDP*ETVR*00018*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ETVR-00018-2",
+                        "evse_id": "PT*EDP*ETVR*00018*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVR-00018-01",
+                        "evse_id": "PT*EDP*E*TVR*00018*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVR-00018-02",
+                        "evse_id": "PT*EDP*E*TVR*00018*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "240.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ABF-00009": {
+        "street": {
+            "old": "Vila Gale Cerro Alagoa ",
+            "new": "Vila Gale Cerro Alagoa"
+        },
+        "name": {
+            "old": "Vila Gale Cerro Alagoa ",
+            "new": "Vila Gale Cerro Alagoa"
+        }
+    },
+    "ABF-00055": {
+        "latitude": {
+            "old": "37.127964",
+            "new": "37.128574"
+        },
+        "latlon": {
+            "old": "37.127964 -8.283603",
+            "new": "37.128574 -8.283201"
+        },
+        "longitude": {
+            "old": "-8.283603",
+            "new": "-8.283201"
+        }
+    },
+    "ABF-00068": {
+        "street": {
+            "old": "Apartado 2436  Praia da ",
+            "new": "Apartado 2436  Praia da"
+        }
+    },
+    "ABF-00122": {
+        "name": {
+            "old": "Caminho da Praia da Coelha ",
+            "new": "Caminho da Praia da Coelha"
+        }
+    },
+    "ABF-00123": {
+        "street": {
+            "old": "Beco das Dunas  1",
+            "new": "Beco das Dunas 1"
+        },
+        "name": {
+            "old": "Beco das Dunas ",
+            "new": "Beco das Dunas"
+        }
+    },
+    "ABF-00124": {
+        "name": {
+            "old": "Rua da Estação   ",
+            "new": "Rua da Estação"
+        }
+    },
+    "ABF-00126": {
+        "street": {
+            "old": "Caminho dos Brejos  1",
+            "new": "Caminho dos Brejos 1"
+        },
+        "name": {
+            "old": "Caminho dos Brejos ",
+            "new": "Caminho dos Brejos"
+        }
+    },
+    "ABF-00127": {
+        "street": {
+            "old": "Praceta dos Corais  2",
+            "new": "Praceta dos Corais 2"
+        },
+        "name": {
+            "old": "Praceta dos Corais ",
+            "new": "Praceta dos Corais"
+        }
+    },
+    "ABF-00131": {
+        "street": {
+            "old": "Rua da Boca da Alagoa   1",
+            "new": "Rua da Boca da Alagoa 1"
+        },
+        "name": {
+            "old": "Rua da Boca da Alagoa  ",
+            "new": "Rua da Boca da Alagoa"
+        }
+    },
+    "ABF-00133": {
+        "name": {
+            "old": "Rua do Mercado  ",
+            "new": "Rua do Mercado"
+        }
+    },
+    "ABF-00134": {
+        "street": {
+            "old": "Rua dos Arrifes  1",
+            "new": "Rua dos Arrifes 1"
+        },
+        "name": {
+            "old": "Rua dos Arrifes ",
+            "new": "Rua dos Arrifes"
+        }
+    },
+    "ABF-00135": {
+        "street": {
+            "old": "Rua da Exposição Canina  1",
+            "new": "Rua da Exposição Canina 1"
+        },
+        "name": {
+            "old": "Rua da Exposição Canina ",
+            "new": "Rua da Exposição Canina"
+        }
+    },
+    "ABF-00137": {
+        "street": {
+            "old": "Praceta do Barlavento  1",
+            "new": "Praceta do Barlavento 1"
+        },
+        "name": {
+            "old": "Praceta do Barlavento ",
+            "new": "Praceta do Barlavento"
+        },
+        "postcode": {
+            "old": "8200-424 ",
+            "new": "8200-424"
+        }
+    },
+    "ABF-00138": {
+        "street": {
+            "old": "Rua dos Malmequeres  1",
+            "new": "Rua dos Malmequeres 1"
+        },
+        "name": {
+            "old": "Rua dos Malmequeres  ",
+            "new": "Rua dos Malmequeres"
+        }
+    },
+    "ABF-00141": {
+        "name": {
+            "old": "Avenida das Ilhas  ",
+            "new": "Avenida das Ilhas"
+        }
+    },
+    "ABF-00142": {
+        "name": {
+            "old": "Rua dos Corais ",
+            "new": "Rua dos Corais"
+        }
+    },
+    "ABF-00143": {
+        "name": {
+            "old": "Rua do Oceano ",
+            "new": "Rua do Oceano"
+        }
+    },
+    "ABF-00145": {
+        "name": {
+            "old": "Rua da Armação  ",
+            "new": "Rua da Armação"
+        }
+    },
+    "ABF-00146": {
+        "name": {
+            "old": "Estrada de Ferreiras  ",
+            "new": "Estrada de Ferreiras"
+        }
+    },
+    "ABF-00147": {
+        "name": {
+            "old": "Beco da Felosa  ",
+            "new": "Beco da Felosa"
+        }
+    },
+    "ABF-00150": {
+        "name": {
+            "old": "Rua José Cabrita Santos  ",
+            "new": "Rua José Cabrita Santos"
+        }
+    },
+    "ABF-00151": {
+        "name": {
+            "old": "Praceta do Compasso ",
+            "new": "Praceta do Compasso"
+        }
+    },
+    "ABF-00152": {
+        "name": {
+            "old": "Avenida dos Descobrimentos ",
+            "new": "Avenida dos Descobrimentos"
+        }
+    },
+    "ABF-00172": {
+        "street": {
+            "old": "Estrada do Alfamar  1",
+            "new": "Estrada do Alfamar 1"
+        }
+    },
+    "ADV-90001": {
+        "latitude": {
+            "old": "37.512833",
+            "new": "37.5129"
+        },
+        "latlon": {
+            "old": "37.512833 -8.059581",
+            "new": "37.5129 -8.060078"
+        },
+        "longitude": {
+            "old": "-8.059581",
+            "new": "-8.060078"
+        }
+    },
+    "ALT-00009": {
+        "street": {
+            "old": "Tapada do Arneiro  4",
+            "new": "Tapada do Arneiro 4"
+        }
+    },
+    "AND-00005": {
+        "latitude": {
+            "old": "40.408634",
+            "new": "40.409363"
+        },
+        "latlon": {
+            "old": "40.408634 -8.45508",
+            "new": "40.409363 -8.455421"
+        },
+        "longitude": {
+            "old": "-8.45508",
+            "new": "-8.455421"
+        }
+    },
+    "AVR-00029": {
+        "latitude": {
+            "old": "40.64396",
+            "new": "40.644672"
+        },
+        "latlon": {
+            "old": "40.64396 -8.60657",
+            "new": "40.644672 -8.608196"
+        },
+        "longitude": {
+            "old": "-8.60657",
+            "new": "-8.608196"
+        }
+    },
+    "AVV-00013": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "AVZ-00005": {
+        "street": {
+            "old": " Rua Visconde de Souzel 3250-389  1",
+            "new": "Rua Visconde de Souzel 3250-389 1"
+        },
+        "name": {
+            "old": "Coviran ",
+            "new": "Coviran"
+        }
+    },
+    "BAO-90001": {
+        "latitude": {
+            "old": "41.163956",
+            "new": "41.164276"
+        },
+        "latlon": {
+            "old": "41.163956 -8.035073",
+            "new": "41.164276 -8.035992"
+        },
+        "longitude": {
+            "old": "-8.035073",
+            "new": "-8.035992"
+        }
+    },
+    "BCL-00024": {
+        "latitude": {
+            "old": "41.53074",
+            "new": "41.532368"
+        },
+        "latlon": {
+            "old": "41.53074 -8.621211",
+            "new": "41.532368 -8.622227"
+        },
+        "longitude": {
+            "old": "-8.621211",
+            "new": "-8.622227"
+        }
+    },
+    "BJA-00009": {
+        "latitude": {
+            "old": "38.02169",
+            "new": "38.022457"
+        },
+        "latlon": {
+            "old": "38.02169 -7.848871",
+            "new": "38.022457 -7.8492904"
+        },
+        "longitude": {
+            "old": "-7.848871",
+            "new": "-7.8492904"
+        }
+    },
+    "BJA-00014": {
+        "latitude": {
+            "old": "38.010178",
+            "new": "38.010933"
+        },
+        "latlon": {
+            "old": "38.010178 -7.874108",
+            "new": "38.010933 -7.874525"
+        },
+        "longitude": {
+            "old": "-7.874108",
+            "new": "-7.874525"
+        }
+    },
+    "BJA-90004": {
+        "latitude": {
+            "old": "38.01086",
+            "new": "38.01094"
+        },
+        "latlon": {
+            "old": "38.01086 -7.874533",
+            "new": "38.01094 -7.874778"
+        },
+        "longitude": {
+            "old": "-7.874533",
+            "new": "-7.874778"
+        }
+    },
+    "BMT-90001": {
+        "latitude": {
+            "old": "40.35834",
+            "new": "40.358124"
+        },
+        "latlon": {
+            "old": "40.35834 -7.35237",
+            "new": "40.358124 -7.3525305"
+        },
+        "longitude": {
+            "old": "-7.35237",
+            "new": "-7.3525305"
+        }
+    },
+    "BRG-00071": {
+        "street": {
+            "old": "Burger King Braga Frossos, R. do Feital, 4700",
+            "new": "R. do Feital 1"
+        },
+        "name": {
+            "old": "BK Braga Frossos",
+            "new": "Burger King Braga - Frossos"
+        },
+        "latlon": {
+            "old": "41.560394 -8.446875",
+            "new": "41.560394 -8.446874"
+        },
+        "longitude": {
+            "old": "-8.446875",
+            "new": "-8.446874"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EBRG-00071-1",
+                            "evse_id": "PT*EDP*EBRG*00071*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EBRG-00071-2",
+                            "evse_id": "PT*EDP*EBRG*00071*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "BRG-00084": {
+        "street": {
+            "old": "Largo Carlos Amarante  3",
+            "new": "Largo Carlos Amarante 3"
+        }
+    },
+    "BRG-00086": {
+        "street": {
+            "old": "Rua Américo Barbosa,  Lote X1 ",
+            "new": "Rua Américo Barbosa  Lote X1 1"
+        },
+        "name": {
+            "old": "Burguer King - Braga Norte",
+            "new": "Burger King Braga - Norte"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "publicTransportHub",
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EBRG-00086-1",
+                            "evse_id": "PT*EDP*EBRG*00086*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "300.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EBRG-00086-2",
+                            "evse_id": "PT*EDP*EBRG*00086*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "62500.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "added_items": [
+                        "creditCard"
+                    ]
+                }
+            }
+        }
+    },
+    "BRG-00142": {
+        "street": {
+            "old": "Av. Dom João II  1",
+            "new": "Av. Dom João II 1"
+        }
+    },
+    "BRG-00143": {
+        "street": {
+            "old": "Av. Dom João II  2",
+            "new": "Av. Dom João II 2"
+        }
+    },
+    "BRG-00144": {
+        "street": {
+            "old": "Largo Carlos Amarante  4",
+            "new": "Largo Carlos Amarante 4"
+        }
+    },
+    "BRG-90009": {
+        "latitude": {
+            "old": "41.558117",
+            "new": "41.55783"
+        },
+        "latlon": {
+            "old": "41.558117 -8.398297",
+            "new": "41.55783 -8.398734"
+        },
+        "longitude": {
+            "old": "-8.398297",
+            "new": "-8.398734"
+        }
+    },
+    "CBC-90010": {
+        "latitude": {
+            "old": "41.51476",
+            "new": "41.5148"
+        },
+        "latlon": {
+            "old": "41.51476 -7.990786",
+            "new": "41.5148 -7.9903946"
+        },
+        "longitude": {
+            "old": "-7.990786",
+            "new": "-7.9903946"
+        }
+    },
+    "CBR-00042": {
+        "latitude": {
+            "old": "40.21254",
+            "new": "40.215885"
+        },
+        "latlon": {
+            "old": "40.21254 -8.431984",
+            "new": "40.215885 -8.436408"
+        },
+        "longitude": {
+            "old": "-8.431984",
+            "new": "-8.436408"
+        }
+    },
+    "CBR-00132": {
+        "name": {
+            "old": " Hotel Vila Galé Coimbra - 4",
+            "new": "Hotel Vila Galé Coimbra - 4"
+        }
+    },
+    "CSC-00019": {
+        "latitude": {
+            "old": "38.709415",
+            "new": "38.70967"
+        },
+        "latlon": {
+            "old": "38.709415 -9.330441",
+            "new": "38.70967 -9.3294525"
+        },
+        "longitude": {
+            "old": "-9.330441",
+            "new": "-9.3294525"
+        }
+    },
+    "CSC-00048": {
+        "latitude": {
+            "old": "38.709415",
+            "new": "38.709652"
+        },
+        "latlon": {
+            "old": "38.709415 -9.330441",
+            "new": "38.709652 -9.329486"
+        },
+        "longitude": {
+            "old": "-9.330441",
+            "new": "-9.329486"
+        }
+    },
+    "CSC-00054": {
+        "name": {
+            "old": "Parque de estacionamento SABA Nova SBE ",
+            "new": "Parque de estacionamento SABA Nova SBE"
+        }
+    },
+    "ELV-00016": {
+        "street": {
+            "old": "Avenida do Dia de Portugal  19",
+            "new": "Avenida do Dia de Portugal 19"
+        }
+    },
+    "EVR-00049": {
+        "latitude": {
+            "old": "38.559494",
+            "new": "38.55982"
+        },
+        "latlon": {
+            "old": "38.559494 -7.894698",
+            "new": "38.55982 -7.896755"
+        },
+        "longitude": {
+            "old": "-7.894698",
+            "new": "-7.896755"
+        }
+    },
+    "EVR-00050": {
+        "latitude": {
+            "old": "38.559494",
+            "new": "38.55982"
+        },
+        "latlon": {
+            "old": "38.559494 -7.894698",
+            "new": "38.55982 -7.896755"
+        },
+        "longitude": {
+            "old": "-7.894698",
+            "new": "-7.896755"
+        }
+    },
+    "FAR-00028": {
+        "latitude": {
+            "old": "37.132107",
+            "new": "37.132156"
+        },
+        "latlon": {
+            "old": "37.132107 -8.359627",
+            "new": "37.132156 -8.359313"
+        },
+        "longitude": {
+            "old": "-8.359627",
+            "new": "-8.359313"
+        }
+    },
+    "FAR-00033": {
+        "latitude": {
+            "old": "37.132484",
+            "new": "37.132183"
+        },
+        "latlon": {
+            "old": "37.132484 -8.359267",
+            "new": "37.132183 -8.359314"
+        },
+        "longitude": {
+            "old": "-8.359267",
+            "new": "-8.359314"
+        }
+    },
+    "FAR-00049": {
+        "latitude": {
+            "old": "37.01426",
+            "new": "37.014412"
+        },
+        "latlon": {
+            "old": "37.01426 -7.9276557",
+            "new": "37.014412 -7.9272265"
+        },
+        "longitude": {
+            "old": "-7.9276557",
+            "new": "-7.9272265"
+        }
+    },
+    "FAR-00050": {
+        "latitude": {
+            "old": "37.01405",
+            "new": "37.01415"
+        },
+        "latlon": {
+            "old": "37.01405 -7.926284",
+            "new": "37.01415 -7.9264903"
+        },
+        "longitude": {
+            "old": "-7.926284",
+            "new": "-7.9264903"
+        }
+    },
+    "FAR-00053": {
+        "latitude": {
+            "old": "37.028553",
+            "new": "37.02839"
+        },
+        "latlon": {
+            "old": "37.028553 -7.9284105",
+            "new": "37.02839 -7.9283605"
+        },
+        "longitude": {
+            "old": "-7.9284105",
+            "new": "-7.9283605"
+        }
+    },
+    "FAR-00060": {
+        "latitude": {
+            "old": "37.04525",
+            "new": "37.04506"
+        },
+        "latlon": {
+            "old": "37.04525 -7.967188",
+            "new": "37.04506 -7.967168"
+        },
+        "longitude": {
+            "old": "-7.967188",
+            "new": "-7.967168"
+        }
+    },
+    "FAR-00064": {
+        "latitude": {
+            "old": "37.06092",
+            "new": "37.06088"
+        },
+        "latlon": {
+            "old": "37.06092 -7.967416",
+            "new": "37.06088 -7.96691"
+        },
+        "longitude": {
+            "old": "-7.967416",
+            "new": "-7.96691"
+        }
+    },
+    "FAR-90005": {
+        "latitude": {
+            "old": "37.024757",
+            "new": "37.02464"
+        },
+        "latlon": {
+            "old": "37.024757 -7.930374",
+            "new": "37.02464 -7.930457"
+        },
+        "longitude": {
+            "old": "-7.930374",
+            "new": "-7.930457"
+        }
+    },
+    "GMR-00154": {
+        "street": {
+            "old": "Rua de São Miguel  1",
+            "new": "Rua de São Miguel 1"
+        }
+    },
+    "LGS-00011": {
+        "latitude": {
+            "old": "37.088093",
+            "new": "37.08688"
+        },
+        "latlon": {
+            "old": "37.088093 -8.685497",
+            "new": "37.08688 -8.685479"
+        },
+        "longitude": {
+            "old": "-8.685497",
+            "new": "-8.685479"
+        }
+    },
+    "LLE-00025": {
+        "street": {
+            "old": "Hotel Vila Gale Ampalius ",
+            "new": "Hotel Vila Gale Ampalius"
+        }
+    },
+    "LLE-00069": {
+        "latitude": {
+            "old": "37.09454",
+            "new": "37.09424"
+        },
+        "latlon": {
+            "old": "37.09454 -8.043031",
+            "new": "37.09424 -8.043352"
+        },
+        "longitude": {
+            "old": "-8.043031",
+            "new": "-8.043352"
+        }
+    },
+    "LLE-00087": {
+        "street": {
+            "old": "Quinta do Lago Off Roundabout  1",
+            "new": "Quinta do Lago Off Roundabout 1"
+        }
+    },
+    "LLE-00088": {
+        "street": {
+            "old": "Quinta do Lago Off Roundabout  2",
+            "new": "Quinta do Lago Off Roundabout 2"
+        }
+    },
+    "LLE-00089": {
+        "street": {
+            "old": "Quinta do Lago Off Roundabout  3",
+            "new": "Quinta do Lago Off Roundabout 3"
+        }
+    },
+    "LLE-00149": {
+        "latitude": {
+            "old": "37.07326",
+            "new": "37.073566"
+        },
+        "latlon": {
+            "old": "37.07326 -8.079782",
+            "new": "37.073566 -8.079795"
+        },
+        "longitude": {
+            "old": "-8.079782",
+            "new": "-8.079795"
+        }
+    },
+    "LLE-00150": {
+        "latitude": {
+            "old": "37.07326",
+            "new": "37.073566"
+        },
+        "latlon": {
+            "old": "37.07326 -8.079782",
+            "new": "37.073566 -8.079795"
+        },
+        "longitude": {
+            "old": "-8.079782",
+            "new": "-8.079795"
+        }
+    },
+    "LRA-00071": {
+        "latitude": {
+            "old": "39.765556",
+            "new": "39.76562"
+        },
+        "latlon": {
+            "old": "39.765556 -8.817704",
+            "new": "39.76562 -8.816652"
+        },
+        "longitude": {
+            "old": "-8.817704",
+            "new": "-8.816652"
+        }
+    },
+    "LRA-00074": {
+        "latitude": {
+            "old": "39.76584",
+            "new": "39.76572"
+        },
+        "latlon": {
+            "old": "39.76584 -8.780467",
+            "new": "39.76572 -8.780561"
+        },
+        "longitude": {
+            "old": "-8.780467",
+            "new": "-8.780561"
+        }
+    },
+    "LRA-00079": {
+        "name": {
+            "old": "HUB Leiria PCR 2 ",
+            "new": "HUB Leiria PCR 2"
+        }
+    },
+    "LRS-90004": {
+        "latitude": {
+            "old": "38.900818",
+            "new": "38.90065"
+        },
+        "latlon": {
+            "old": "38.900818 -9.181733",
+            "new": "38.90065 -9.181616"
+        },
+        "longitude": {
+            "old": "-9.181733",
+            "new": "-9.181616"
+        }
+    },
+    "LSB-00851": {
+        "street": {
+            "old": "Rua Manuel Rodrigues da Silva  2",
+            "new": "Rua Manuel Rodrigues da Silva 2"
+        }
+    },
+    "LSB-00852": {
+        "street": {
+            "old": "Rua Manuel Rodrigues da Silva  1",
+            "new": "Rua Manuel Rodrigues da Silva 1"
+        }
+    },
+    "LSB-01054": {
+        "postcode": {
+            "old": " 1500-468 ",
+            "new": "1500-468"
+        }
+    },
+    "MLD-00008": {
+        "latitude": {
+            "old": "40.39398",
+            "new": "40.39307"
+        },
+        "latlon": {
+            "old": "40.39398 -8.450063",
+            "new": "40.39307 -8.450466"
+        },
+        "longitude": {
+            "old": "-8.450063",
+            "new": "-8.450466"
+        }
+    },
+    "MLD-00009": {
+        "latitude": {
+            "old": "40.39398",
+            "new": "40.393116"
+        },
+        "latlon": {
+            "old": "40.39398 -8.450063",
+            "new": "40.393116 -8.450303"
+        },
+        "longitude": {
+            "old": "-8.450063",
+            "new": "-8.450303"
+        }
+    },
+    "MLD-00010": {
+        "latitude": {
+            "old": "40.39398",
+            "new": "40.39304"
+        },
+        "latlon": {
+            "old": "40.39398 -8.450063",
+            "new": "40.39304 -8.450561"
+        },
+        "longitude": {
+            "old": "-8.450063",
+            "new": "-8.450561"
+        }
+    },
+    "MNC-00004": {
+        "latitude": {
+            "old": "42.075745",
+            "new": "42.07482"
+        },
+        "latlon": {
+            "old": "42.075745 -8.494956",
+            "new": "42.07482 -8.495455"
+        },
+        "longitude": {
+            "old": "-8.494956",
+            "new": "-8.495455"
+        }
+    },
+    "MNC-00005": {
+        "latitude": {
+            "old": "42.075745",
+            "new": "42.07489"
+        },
+        "latlon": {
+            "old": "42.075745 -8.494956",
+            "new": "42.07489 -8.495423"
+        },
+        "longitude": {
+            "old": "-8.494956",
+            "new": "-8.495423"
+        }
+    },
+    "MTJ-00010": {
+        "latitude": {
+            "old": "38.701004",
+            "new": "38.701603"
+        },
+        "latlon": {
+            "old": "38.701004 -8.959398",
+            "new": "38.701603 -8.960447"
+        },
+        "longitude": {
+            "old": "-8.959398",
+            "new": "-8.960447"
+        }
+    },
+    "MTJ-00011": {
+        "latitude": {
+            "old": "38.701004",
+            "new": "38.701603"
+        },
+        "latlon": {
+            "old": "38.701004 -8.959398",
+            "new": "38.701603 -8.960447"
+        },
+        "longitude": {
+            "old": "-8.959398",
+            "new": "-8.960447"
+        }
+    },
+    "MTL-00003": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00015": {
+        "street": {
+            "old": "RUA GRUPO DESPORTIVO OS NAZARENOS S-N  1",
+            "new": "RUA GRUPO DESPORTIVO OS NAZARENOS S-N 1"
+        }
+    },
+    "NZR-00018": {
+        "street": {
+            "old": "Avenida INDEPENDENCIA NACIONAL 9930 PC  1",
+            "new": "Avenida INDEPENDENCIA NACIONAL 9930 PC 1"
+        }
+    },
+    "OAZ-00014": {
+        "street": {
+            "old": "R dos Bombeiros Voluntários  2",
+            "new": "R dos Bombeiros Voluntários 2"
+        }
+    },
+    "OER-00127": {
+        "latitude": {
+            "old": "38.70994",
+            "new": "38.70969"
+        },
+        "latlon": {
+            "old": "38.70994 -9.290764",
+            "new": "38.70969 -9.288568"
+        },
+        "longitude": {
+            "old": "-9.290764",
+            "new": "-9.288568"
+        }
+    },
+    "OER-00241": {
+        "latitude": {
+            "old": "38.710533",
+            "new": "38.709877"
+        },
+        "latlon": {
+            "old": "38.710533 -9.227401",
+            "new": "38.709877 -9.228457"
+        },
+        "longitude": {
+            "old": "-9.227401",
+            "new": "-9.228457"
+        }
+    },
+    "OER-00242": {
+        "latitude": {
+            "old": "38.710533",
+            "new": "38.70993"
+        },
+        "latlon": {
+            "old": "38.710533 -9.227401",
+            "new": "38.70993 -9.22847"
+        },
+        "longitude": {
+            "old": "-9.227401",
+            "new": "-9.22847"
+        }
+    },
+    "OLH-00004": {
+        "latitude": {
+            "old": "37.02402",
+            "new": "37.02365"
+        },
+        "latlon": {
+            "old": "37.02402 -7.84734",
+            "new": "37.02365 -7.8474655"
+        },
+        "longitude": {
+            "old": "-7.84734",
+            "new": "-7.8474655"
+        }
+    },
+    "PLM-00056": {
+        "name": {
+            "old": "Avenida Alexandre Herculano ",
+            "new": "Avenida Alexandre Herculano"
+        }
+    },
+    "PLM-00061": {
+        "name": {
+            "old": "Rua Fernando Lopes Graça- Palmela ",
+            "new": "Rua Fernando Lopes Graça- Palmela"
+        }
+    },
+    "PLM-00062": {
+        "name": {
+            "old": "Rua Dom João de Castro- Palmela ",
+            "new": "Rua Dom João de Castro- Palmela"
+        }
+    },
+    "PLM-00067": {
+        "street": {
+            "old": " Rua dos Fundadores do Airense 2",
+            "new": "Rua dos Fundadores do Airense 2"
+        },
+        "name": {
+            "old": " Rua dos Fundadores do Airense- Municipio Palmela",
+            "new": "Rua dos Fundadores do Airense- Municipio Palmela"
+        }
+    },
+    "PTM-00013": {
+        "name": {
+            "old": "Pestana Dom Joao II ",
+            "new": "Pestana Dom Joao II"
+        }
+    },
+    "PTM-00042": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "100000.0"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PVZ-00012": {
+        "name": {
+            "old": "",
+            "new": "PÓVOA DE VARZIM VIA B"
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SNT-00166": {
+        "street": {
+            "old": "R. Elias Garcia  209",
+            "new": "R. Elias Garcia 209"
+        }
+    },
+    "SNT-00167": {
+        "street": {
+            "old": "R Elias Garcia  210",
+            "new": "R Elias Garcia 210"
+        }
+    },
+    "SSB-00020": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "STS-00010": {
+        "name": {
+            "old": "",
+            "new": "VILA DAS AVES A (NEGRELOS A)"
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "TRC-00003": {
+        "street": {
+            "old": "Rua do Martir São Sebastião  6",
+            "new": "Rua do Martir São Sebastião 6"
+        }
+    }
+}
