@@ -39,6 +39,11 @@ jobs:
       run: |
         python last_charging.py
 
+    - name: Novo processamento 2026
+      run: |
+        python dyna1.py
+        
+
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
