@@ -54,6 +54,11 @@ jobs:
         python find_new_disused3.py
         python find_new_disused4.py
 
+    - name: Encontrar tomadas sem uso 2026
+      run: |
+        python disused_dyna1.py
+        python disused_dyna2.py
+
     - name: Conta postos por OPC
       run: |
         python count_opc.py
