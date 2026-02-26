@@ -105,6 +105,6 @@ if __name__ == "__main__":
         tracker_path="charging_tracker.json",
         static_path="LATEST_static.json",
         output_path="disused_dyna_CCS.txt",
-        watchlist_path="watchbusy_dyna_CCS.txt",
+        watchlist_path="watchbusy_dyna.txt",
         ignore_path="ignore_dyna.txt"
     )
