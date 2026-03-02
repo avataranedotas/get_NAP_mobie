@@ -1,0 +1,82 @@
+{
+    "VNG-00090": {
+        "name": "Rua da Praia (Hub VN Gaia) 8",
+        "lastUpdated": "2026-03-02T02:59:13.924Z",
+        "city": "Vila Nova de Gaia",
+        "street": "Rua da Praia São Pedro da Afurada 4",
+        "postcode": "4400-354",
+        "latitude": "41.14311",
+        "longitude": "-8.64778",
+        "latlon": "41.14311 -8.64778",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00090",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVNG-00090-1",
+                        "evse_id": "N§A",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVNG-00090-2",
+                        "evse_id": "N§A",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNG-00090-01",
+                        "evse_id": "PT*EDP*E*VNG*00090*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNG-00090-02",
+                        "evse_id": "PT*EDP*E*VNG*00090*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
