@@ -6620,3 +6620,550 @@ Modificados:
         }
     }
 }
+2026-03-12 05:15:33
+Adicionados:
+{
+    "ALM-90008": {
+        "name": "",
+        "lastUpdated": "2026-03-12T02:49:55.982Z",
+        "city": "Almada",
+        "street": "RUA DOM MANUEL I",
+        "postcode": "2810-259",
+        "latitude": "38.654575",
+        "longitude": "-9.152943",
+        "latlon": "38.654575 -9.152943",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ALM-90008",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALM-90008-01",
+                        "evse_id": "PT*GLP*EALM*90008*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-90008-02",
+                        "evse_id": "PT*GLP*EALM*90008*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BRG-00146": {
+        "name": "Leroy Merlin Braga",
+        "lastUpdated": "2026-03-12T02:59:17.154Z",
+        "city": "Braga",
+        "street": "R. Artur Lobão Paixão",
+        "postcode": "4400-625",
+        "latitude": "41.54638",
+        "longitude": "-8.398511",
+        "latlon": "41.54638 -8.398511",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BRG-00146",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRG-00146-01",
+                        "evse_id": "PT*HLX*E*BRG*00146*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRG-00146-02",
+                        "evse_id": "PT*HLX*E*BRG*00146*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00056": {
+        "name": "Nosso Shopping",
+        "lastUpdated": "2026-03-12T02:58:11.065Z",
+        "city": "Vila Real",
+        "street": "Centro Comercial Nosso Shopping",
+        "postcode": "2790-005",
+        "latitude": "41.2974",
+        "longitude": "-7.735191",
+        "latlon": "41.2974 -7.735191",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00056",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00056-01",
+                        "evse_id": "PT*HRZ*E*VRL*00056*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00056-02",
+                        "evse_id": "PT*HRZ*E*VRL*00056*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00057": {
+        "name": "Nosso Shopping",
+        "lastUpdated": "2026-03-12T02:59:41.011Z",
+        "city": "Vila Real",
+        "street": "Centro Comercial Nosso Shopping",
+        "postcode": "2790-005",
+        "latitude": "41.2974",
+        "longitude": "-7.735191",
+        "latlon": "41.2974 -7.735191",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00057",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00057-01",
+                        "evse_id": "PT*HRZ*E*VRL*00057*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00057-02",
+                        "evse_id": "PT*HRZ*E*VRL*00057*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00058": {
+        "name": "Nosso Shopping",
+        "lastUpdated": "2026-03-12T02:59:08.490Z",
+        "city": "Vila Real",
+        "street": "Centro Comercial Nosso Shopping",
+        "postcode": "2790-005",
+        "latitude": "41.2974",
+        "longitude": "-7.735191",
+        "latlon": "41.2974 -7.735191",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00058",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00058-01",
+                        "evse_id": "PT*HRZ*E*VRL*00058*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00058-02",
+                        "evse_id": "PT*HRZ*E*VRL*00058*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VRL-00059": {
+        "name": "Nosso Shopping (CBRE) - Vila Real",
+        "lastUpdated": "2026-03-12T02:59:41.753Z",
+        "city": "Vila Real",
+        "street": "Centro Comercial Nosso Shopping",
+        "postcode": "2790-005",
+        "latitude": "41.2974",
+        "longitude": "-7.735191",
+        "latlon": "41.2974 -7.735191",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VRL-00059",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRL-00059-01",
+                        "evse_id": "PT*HRZ*E*VRL*00059*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRL-00059-02",
+                        "evse_id": "PT*HRZ*E*VRL*00059*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "GDL-00006",
+    "GDL-00007"
+]
+Modificados:
+{
+    "ACH-00037": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "foodShopping"
+                    ]
+                }
+            }
+        }
+    },
+    "LGS-00003": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LRA-00087": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "LRA-00183": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "950.0",
+                                    "new": "800.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E*LRA*00183*01",
+                            "new": "PT*REP*E17484*1"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "950.0",
+                                    "new": "800.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*REP*E*LRA*00183*02",
+                            "new": "PT*REP*E17484*2"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MRS-00002": {
+        "name": {
+            "old": "",
+            "new": "Pestana Pousada Ria 1"
+        },
+        "street": {
+            "old": "Pestana Pousada da Ria",
+            "new": "Pestana Pousada da Ria 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMRS-00002-1",
+                            "evse_id": "PT*EDP*EMRS*00002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "MRS-00003": {
+        "name": {
+            "old": "",
+            "new": "Pestana Pousada Ria 2"
+        },
+        "street": {
+            "old": "Pestana Pousada da Ria",
+            "new": "Pestana Pousada da Ria 2"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EMRS-00003-1",
+                            "evse_id": "PT*EDP*EMRS*00003*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "PRT-00179": {
+        "latlon": {
+            "old": "41.162285 -8.653864",
+            "new": "41.162285 -8.653863"
+        },
+        "name": {
+            "old": "Burger King Av. Boavista",
+            "new": "Burger King Avenida Boavista"
+        },
+        "street": {
+            "old": "Burger King Av. Boavista - Av. Boavista 2600",
+            "new": "Avenida Boavista 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-EPRT-00179-1",
+                            "evse_id": "PT*EDP*EPRT*00179*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-EPRT-00179-2",
+                            "evse_id": "PT*EDP*EPRT*00179*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "restaurant"
+                    ]
+                }
+            }
+        },
+        "longitude": {
+            "old": "-8.653864",
+            "new": "-8.653863"
+        }
+    }
+}
