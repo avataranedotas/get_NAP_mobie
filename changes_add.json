@@ -1,0 +1,127 @@
+{
+    "EPS-00002": {
+        "name": "ESPOSENDE",
+        "lastUpdated": "2026-03-12T19:59:45.342Z",
+        "city": "Esposende",
+        "street": "Rua Comendador Rodrigo Leite - ZI Gandra",
+        "postcode": "4740-473",
+        "latitude": "41.5301",
+        "longitude": "-8.762908",
+        "latlon": "41.5301 -8.762908",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EPS-00002",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "EPS-00002-01",
+                        "evse_id": "PT*REP*E*EPS*00002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EPS-00002-02",
+                        "evse_id": "PT*REP*E*EPS*00002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EPS-00002-03",
+                        "evse_id": "PT*REP*E*EPS*00002*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SLV-00040": {
+        "name": "Silves - Armação de Pêra",
+        "lastUpdated": "2026-03-13T02:58:09.179Z",
+        "city": "Silves",
+        "street": "E.N.269  Km 1",
+        "postcode": "8365-300",
+        "latitude": "37.11988",
+        "longitude": "-8.350078",
+        "latlon": "37.11988 -8.350078",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SLV-00040",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SLV-00040-01",
+                        "evse_id": "PT*FCT*E*SLV*00040*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SLV-00040-02",
+                        "evse_id": "PT*FCT*E*SLV*00040*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
