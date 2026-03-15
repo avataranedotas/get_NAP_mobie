@@ -1,0 +1,112 @@
+{
+    "VND-00017": {
+        "name": "REPSOL Vendas Novas",
+        "lastUpdated": "2026-03-14T14:41:11.000Z",
+        "city": "Vendas Novas",
+        "street": "Area de Servico Vendas Novas 3",
+        "postcode": "7080-011",
+        "latitude": "38.694496",
+        "longitude": "-8.857",
+        "latlon": "38.694496 -8.857",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VND-00017",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVND-00017-1",
+                        "evse_id": "PT*EDP*EVND*00017*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVND-00017-2",
+                        "evse_id": "PT*EDP*EVND*00017*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VND-00018": {
+        "name": "REPSOL Vendas Novas EO",
+        "lastUpdated": "2026-03-14T14:43:23.000Z",
+        "city": "Vendas Novas",
+        "street": "Área de Servico Vendas Novas 1",
+        "postcode": "7080-000",
+        "latitude": "38.622437",
+        "longitude": "-8.625054",
+        "latlon": "38.622437 -8.625054",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VND-00018",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVND-00018-1",
+                        "evse_id": "PT*EDP*EVND*00018*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVND-00018-2",
+                        "evse_id": "PT*EDP*EVND*00018*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
