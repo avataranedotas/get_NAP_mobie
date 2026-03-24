@@ -1,0 +1,280 @@
+{
+    "LRS-00195": {
+        "name": "Loures - S. João da Talha",
+        "lastUpdated": "2026-03-23T09:45:54.735Z",
+        "city": "Loures",
+        "street": "E.N. 10, km 138.4",
+        "postcode": "2695-715",
+        "latitude": "38.822807",
+        "longitude": "-9.088057",
+        "latlon": "38.822807 -9.088057",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00195",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00195-01",
+                        "evse_id": "PT*FCT*E*LRS*00195*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00195-02",
+                        "evse_id": "PT*FCT*E*LRS*00195*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OER-00281": {
+        "name": "",
+        "lastUpdated": "2026-03-23T12:50:54.708Z",
+        "city": "Oeiras",
+        "street": "RUA JOÃO XXI-ANTIGA R SOARES PASSOS-QUEIJAS",
+        "postcode": "2790-370",
+        "latitude": "38.719",
+        "longitude": "-9.263002",
+        "latlon": "38.719 -9.263002",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OER-00281",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00281-01",
+                        "evse_id": "PT*GLP*EOER*00281*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OER-00281-02",
+                        "evse_id": "PT*GLP*EOER*00281*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TMC-00004": {
+        "name": "Torre_Moncorvo",
+        "lastUpdated": "2026-03-24T03:00:00.148Z",
+        "city": "Torre de Moncorvo",
+        "street": "Rua Tomás Ribeiro ",
+        "postcode": "5160-294",
+        "latitude": "41.174797",
+        "longitude": "-7.052753",
+        "latlon": "41.174797 -7.052753",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TMC-00004",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TMC-00004-01",
+                        "evse_id": "PT*DTE*E*TMC*00004*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TMC-00004-02",
+                        "evse_id": "PT*DTE*E*TMC*00004*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNG-00235": {
+        "name": "Atlantic Park - Carvalhos",
+        "lastUpdated": "2026-03-24T02:58:40.898Z",
+        "city": "Vila Nova de Gaia",
+        "street": "R. Presa Seca 2",
+        "postcode": "4415-307",
+        "latitude": "41.054325",
+        "longitude": "-8.566897",
+        "latlon": "41.054325 -8.566897",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00235",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNG-00235-01",
+                        "evse_id": "PT*HRZ*E*VNG*00235*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNG-00235-02",
+                        "evse_id": "PT*HRZ*E*VNG*00235*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNG-00237": {
+        "name": "AS Repsol VN Gaia SN - 6",
+        "lastUpdated": "2026-03-23T15:02:25.000Z",
+        "city": "Vila Nova de Gaia",
+        "street": "A1, Km 295 6",
+        "postcode": "4430-129",
+        "latitude": "41.10149",
+        "longitude": "-8.59822",
+        "latlon": "41.10149 -8.59822",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00237",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVNG-00237-1",
+                        "evse_id": "PT*EDP*EVNG*00237*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVNG-00237-2",
+                        "evse_id": "PT*EDP*EVNG*00237*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
