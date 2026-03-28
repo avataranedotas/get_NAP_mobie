@@ -102,7 +102,7 @@ def check_disused(tracker_path, static_path, output_path, watchlist_path, ignore
 
 if __name__ == "__main__":
     check_disused(
-        tracker_path="charging_tracker.json",
+        tracker_path="charging_tracker_filtered.json",
         static_path="LATEST_static.json",
         output_path="disused_dyna_CCS.txt",
         watchlist_path="watchbusy_dyna.txt",
