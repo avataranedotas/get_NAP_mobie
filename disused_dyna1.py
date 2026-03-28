@@ -33,7 +33,7 @@ def build_evse_connector_map(static_data):
     return mapping
 
 
-def check_disused(tracker_path, static_path, output_path, watchlist_path, ignore_path, days=25):
+def check_disused(tracker_path, static_path, output_path, watchlist_path, ignore_path, days=30):
     tracker = load_json(tracker_path)
     static_data = load_json(static_path)
 
