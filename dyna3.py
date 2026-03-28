@@ -56,5 +56,5 @@ def update_charging_tracker(input_path, tracker_path):
 if __name__ == "__main__":
     update_charging_tracker(
         input_path="LATEST_dynamic_mapped.json",
-        tracker_path="charging_tracker.json"
+        tracker_path="charging_tracker_filtered.json"
     )
