@@ -102,7 +102,7 @@ def check_disused_t2(tracker_path, static_path, output_path, watchlist_path, ign
 
 if __name__ == "__main__":
     check_disused_t2(
-        tracker_path="charging_tracker.json",
+        tracker_path="charging_tracker_dedup.json",
         static_path="LATEST_static.json",
         output_path="disused_dyna_T2.txt",
         watchlist_path="watchbusy_dyna.txt",
