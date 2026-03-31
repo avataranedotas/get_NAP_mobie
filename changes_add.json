@@ -1,0 +1,481 @@
+{
+    "FND-00033": {
+        "name": "Fundao",
+        "lastUpdated": "2026-03-31T02:58:55.991Z",
+        "city": "Fundão",
+        "street": "Avenida Eugénio de Andrade",
+        "postcode": "6230-291",
+        "latitude": "40.143505",
+        "longitude": "-7.502319",
+        "latlon": "40.143505 -7.502319",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FND-00033",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FND-00033-01",
+                        "evse_id": "PT*DTE*E*FND*00033*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FND-00033-02",
+                        "evse_id": "PT*DTE*E*FND*00033*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FND-00033-03",
+                        "evse_id": "PT*DTE*E*FND*00033*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FND-00034": {
+        "name": "Fundao",
+        "lastUpdated": "2026-03-31T02:58:35.902Z",
+        "city": "Fundão",
+        "street": "Avenida Doutor Alfredo Mendes Gil ",
+        "postcode": "6230-287",
+        "latitude": "40.13915",
+        "longitude": "-7.502525",
+        "latlon": "40.13915 -7.502525",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FND-00034",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FND-00034-01",
+                        "evse_id": "PT*DTE*E*FND*00034*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FND-00034-02",
+                        "evse_id": "PT*DTE*E*FND*00034*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FND-00034-03",
+                        "evse_id": "PT*DTE*E*FND*00034*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDL-00061": {
+        "name": "MOBI E GRANDOLA",
+        "lastUpdated": "2026-03-30T17:19:13.000Z",
+        "city": "Grândola",
+        "street": "Rua Aquilino Ribeiro 5",
+        "postcode": "7570-188",
+        "latitude": "38.176796",
+        "longitude": "-8.571321",
+        "latlon": "38.176796 -8.571321",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDL-00061",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGDL-00061-1",
+                        "evse_id": "PT*EDP*EGDL*00061*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDL-00061-2",
+                        "evse_id": "PT*EDP*EGDL*00061*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDL-00062": {
+        "name": "MOBI E GRANDOLA",
+        "lastUpdated": "2026-03-30T17:19:50.000Z",
+        "city": "Grândola",
+        "street": "Rua Aquilino Ribeiro 9",
+        "postcode": "7570-188",
+        "latitude": "38.176796",
+        "longitude": "-8.571321",
+        "latlon": "38.176796 -8.571321",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDL-00062",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGDL-00062-1",
+                        "evse_id": "PT*EDP*EGDL*00062*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDL-00062-2",
+                        "evse_id": "PT*EDP*EGDL*00062*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LOU-00017": {
+        "name": "Restaurante Machado Lustosa",
+        "lastUpdated": "2026-03-31T02:58:16.136Z",
+        "city": "Lousada",
+        "street": "Rua do Pombal n54",
+        "postcode": "4620-261",
+        "latitude": "41.322735",
+        "longitude": "-8.316036",
+        "latlon": "41.322735 -8.316036",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LOU-00017",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LOU-00017-01",
+                        "evse_id": "PT*HLX*E*LOU*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LOU-00017-02",
+                        "evse_id": "PT*HLX*E*LOU*00017*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MTA-00046": {
+        "name": "WOW-MTA-00750",
+        "lastUpdated": "2026-03-31T02:59:34.421Z",
+        "city": "Moita",
+        "street": "Estrada Esteiro Furado",
+        "postcode": "2860-354",
+        "latitude": "38.66644",
+        "longitude": "-8.986292",
+        "latlon": "38.66644 -8.986292",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MTA-00046",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTA-00046-01",
+                        "evse_id": "PT*TRK*E*MTA*00046*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00046-02",
+                        "evse_id": "PT*TRK*E*MTA*00046*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00080": {
+        "name": "Praça da República",
+        "lastUpdated": "2026-03-31T02:59:58.954Z",
+        "city": "Portimão",
+        "street": "Rua França Borges",
+        "postcode": "8500-674",
+        "latitude": "37.139023",
+        "longitude": "-8.5385685",
+        "latlon": "37.139023 -8.5385685",
+        "opc": "MAKS",
+        "opc_name": "Maksu",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00080",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00080-01",
+                        "evse_id": "PT*MAK*E*PTM*00080*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00081": {
+        "name": "Praça da República",
+        "lastUpdated": "2026-03-31T02:58:13.744Z",
+        "city": "Portimão",
+        "street": "Rua França Borges",
+        "postcode": "8500-674",
+        "latitude": "37.139023",
+        "longitude": "-8.5385685",
+        "latlon": "37.139023 -8.5385685",
+        "opc": "MAKS",
+        "opc_name": "Maksu",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00081",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00081-01",
+                        "evse_id": "PT*MAK*E*PTM*00081*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PTM-00082": {
+        "name": "Praça da República",
+        "lastUpdated": "2026-03-31T02:58:11.358Z",
+        "city": "Portimão",
+        "street": "Rua França Borges",
+        "postcode": "8500-674",
+        "latitude": "37.139023",
+        "longitude": "-8.5385685",
+        "latlon": "37.139023 -8.5385685",
+        "opc": "MAKS",
+        "opc_name": "Maksu",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PTM-00082",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00082-01",
+                        "evse_id": "PT*MAK*E*PTM*00082*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
