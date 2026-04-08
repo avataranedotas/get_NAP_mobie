@@ -442,4 +442,13 @@ OPERATORS = {
         "phone": "+351 800 207 020",
         "email": "support@enable-mobility.com",
     },
+    "CONM": {
+        "operator": "ConectaMais",
+        "code3": "CON",
+        "operator:wikidata": None,
+        "brand": "ConectaMais Energia",
+        "brand:wikidata": None,
+        "phone": "+351 213 933 190",
+        "email": "suporte@conectamaisenergia.com",
+    },
 }
