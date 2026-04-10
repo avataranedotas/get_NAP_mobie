@@ -1,0 +1,128 @@
+{
+    "ALB-00032": {
+        "name": "",
+        "lastUpdated": "2026-04-09T16:06:34.523Z",
+        "city": "Albergaria-a-Velha",
+        "street": "EM566-1 3850-184",
+        "postcode": "3850-184",
+        "latitude": "40.70529",
+        "longitude": "-8.483313",
+        "latlon": "40.70529 -8.483313",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ALB-00032",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALB-00032-01",
+                        "evse_id": "PT*GLP*EALB*00032*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALB-00032-02",
+                        "evse_id": "PT*GLP*EALB*00032*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALB-00032-03",
+                        "evse_id": "PT*GLP*EALB*00032*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00201": {
+        "name": "Atlante - Pingo Doce Jardins de Cristo Rei",
+        "lastUpdated": "2026-04-09T20:40:45.287Z",
+        "city": "Loures",
+        "street": "Avenida Capitão Salgueiro Maia",
+        "postcode": "1885-094",
+        "latitude": "38.7777",
+        "longitude": "-9.109739",
+        "latlon": "38.7777 -9.109739",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LRS-00201",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRS-00201-01",
+                        "evse_id": "PT*ATL*ELRS*00201*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRS-00201-02",
+                        "evse_id": "PT*ATL*ELRS*00201*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
