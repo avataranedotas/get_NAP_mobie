@@ -1,0 +1,171 @@
+{
+    "BCL-00050": {
+        "name": "",
+        "lastUpdated": "2026-04-11T02:59:05.727Z",
+        "city": "Barcelos",
+        "street": "RUA DE VALPACOS N 200",
+        "postcode": "4750-219",
+        "latitude": "41.531902",
+        "longitude": "-8.609072",
+        "latlon": "41.531902 -8.609072",
+        "opc": "REMO",
+        "opc_name": "MOTA-ENGIL REMO CHARGING S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BCL-00050",
+                "facilities": [
+                    "shoppingCentre"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BCL-00050-01",
+                        "evse_id": "PT*REM*E*BCL*00050*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BCL-00050-02",
+                        "evse_id": "PT*REM*E*BCL*00050*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "500.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FIG-00067": {
+        "name": "E.Leclerc Figueira da Foz",
+        "lastUpdated": "2026-04-10T15:42:27.454Z",
+        "city": "Figueira da Foz",
+        "street": "Lugar dos, R. 4 Caminhos",
+        "postcode": "3080-510",
+        "latitude": "40.165344",
+        "longitude": "-8.85158",
+        "latlon": "40.165344 -8.85158",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FIG-00067",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FIG-00067-01",
+                        "evse_id": "PT*HRZ*E*FIG*00067*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FIG-00067-02",
+                        "evse_id": "PT*HRZ*E*FIG*00067*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODV-00059": {
+        "name": "Atlante - Pingo Doce Odivelas - Ramada",
+        "lastUpdated": "2026-04-10T23:13:37.375Z",
+        "city": "Odivelas",
+        "street": "Av. Augusto Hilário 59",
+        "postcode": "2620-528",
+        "latitude": "38.813957",
+        "longitude": "-9.188558",
+        "latlon": "38.813957 -9.188558",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODV-00059",
+                "facilities": [
+                    "restaurant"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00059-01",
+                        "evse_id": "PT*ATL*EODV*00059*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00059-02",
+                        "evse_id": "PT*ATL*EODV*00059*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
