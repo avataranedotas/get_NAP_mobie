@@ -1,0 +1,54 @@
+{
+    "CBR-00154": {
+        "name": "CBR-CCC-01",
+        "lastUpdated": "2026-04-19T02:59:46.120Z",
+        "city": "Coimbra",
+        "street": "R. Dr. Manuel Campos Pinheiro 51",
+        "postcode": "3045-089",
+        "latitude": "40.2088",
+        "longitude": "-8.46926",
+        "latlon": "40.2088 -8.46926",
+        "opc": "EVGR",
+        "opc_name": "Green Evolut, LDA",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "CBR-00154",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CBR-00154-01",
+                        "evse_id": "PT*EGR*E*CBR*00154*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CBR-00154-02",
+                        "evse_id": "PT*EGR*E*CBR*00154*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
