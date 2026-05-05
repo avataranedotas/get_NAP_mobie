@@ -1,0 +1,161 @@
+{
+    "ACH-00042": {
+        "name": "Atlante - Pingo Doce Alcochete",
+        "lastUpdated": "2026-05-05T00:21:26.554Z",
+        "city": "Alcochete",
+        "street": "Avenida Euro 2004",
+        "postcode": "2890-154",
+        "latitude": "38.75172",
+        "longitude": "-8.9451",
+        "latlon": "38.75172 -8.9451",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACH-00042",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACH-00042-01",
+                        "evse_id": "PT*ATL*EACH*00042*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACH-00042-02",
+                        "evse_id": "PT*ATL*EACH*00042*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01325": {
+        "name": "LISBOA BENFICA",
+        "lastUpdated": "2026-05-05T03:00:03.228Z",
+        "city": "Lisboa",
+        "street": "Rua Da Casquilha - Benfica",
+        "postcode": "1500-152",
+        "latitude": "38.748505",
+        "longitude": "-9.207311",
+        "latlon": "38.748505 -9.207311",
+        "opc": "CEPS",
+        "opc_name": "Cepsa Portuguesa Petroleos",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01325",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01325-01",
+                        "evse_id": "PT*CPS*E*LSB*01325*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "375.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MIR-00008": {
+        "name": "Atlante - Pingo Doce Mira",
+        "lastUpdated": "2026-05-04T19:34:35.040Z",
+        "city": "Mira",
+        "street": "R. Teófilo Braga 76",
+        "postcode": "3070-333",
+        "latitude": "40.43538",
+        "longitude": "-8.727703",
+        "latlon": "40.43538 -8.727703",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MIR-00008",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MIR-00008-01",
+                        "evse_id": "PT*ATL*EMIR*00008*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MIR-00008-02",
+                        "evse_id": "PT*ATL*EMIR*00008*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

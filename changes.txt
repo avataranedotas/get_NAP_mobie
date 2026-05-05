@@ -40430,3 +40430,684 @@ Modificados:
         }
     }
 }
+2026-05-05 06:16:31
+Adicionados:
+{
+    "ACH-00042": {
+        "name": "Atlante - Pingo Doce Alcochete",
+        "lastUpdated": "2026-05-05T00:21:26.554Z",
+        "city": "Alcochete",
+        "street": "Avenida Euro 2004",
+        "postcode": "2890-154",
+        "latitude": "38.75172",
+        "longitude": "-8.9451",
+        "latlon": "38.75172 -8.9451",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ACH-00042",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACH-00042-01",
+                        "evse_id": "PT*ATL*EACH*00042*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACH-00042-02",
+                        "evse_id": "PT*ATL*EACH*00042*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01325": {
+        "name": "LISBOA BENFICA",
+        "lastUpdated": "2026-05-05T03:00:03.228Z",
+        "city": "Lisboa",
+        "street": "Rua Da Casquilha - Benfica",
+        "postcode": "1500-152",
+        "latitude": "38.748505",
+        "longitude": "-9.207311",
+        "latlon": "38.748505 -9.207311",
+        "opc": "CEPS",
+        "opc_name": "Cepsa Portuguesa Petroleos",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01325",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01325-01",
+                        "evse_id": "PT*CPS*E*LSB*01325*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "375.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MIR-00008": {
+        "name": "Atlante - Pingo Doce Mira",
+        "lastUpdated": "2026-05-04T19:34:35.040Z",
+        "city": "Mira",
+        "street": "R. Teófilo Braga 76",
+        "postcode": "3070-333",
+        "latitude": "40.43538",
+        "longitude": "-8.727703",
+        "latlon": "40.43538 -8.727703",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MIR-00008",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MIR-00008-01",
+                        "evse_id": "PT*ATL*EMIR*00008*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MIR-00008-02",
+                        "evse_id": "PT*ATL*EMIR*00008*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "LSB-00809",
+    "SNT-00157"
+]
+Modificados:
+{
+    "ABF-00162": {
+        "latlon": {
+            "old": "41.360023 -8.510893",
+            "new": "37.094322 -8.22582"
+        },
+        "longitude": {
+            "old": "-8.510893",
+            "new": "-8.22582"
+        },
+        "latitude": {
+            "old": "41.360023",
+            "new": "37.094322"
+        }
+    },
+    "ALM-00097": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00031": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "BRG-00094": {
+        "latlon": {
+            "old": "41.532097 -8.473964",
+            "new": "41.53163 -8.473836"
+        },
+        "longitude": {
+            "old": "-8.473964",
+            "new": "-8.473836"
+        },
+        "latitude": {
+            "old": "41.532097",
+            "new": "41.53163"
+        }
+    },
+    "BRR-00128": {
+        "name": {
+            "old": "Posto Abatescimento Repsol de Vila Chã",
+            "new": "VILA CHÃ"
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "BRR-00158": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "CCH-00003": {
+        "name": {
+            "old": "",
+            "new": "BISCAINHO A"
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00106": {
+        "latlon": {
+            "old": "41.42297 -8.356182",
+            "new": "41.422245 -8.356393"
+        },
+        "longitude": {
+            "old": "-8.356182",
+            "new": "-8.356393"
+        },
+        "latitude": {
+            "old": "41.42297",
+            "new": "41.422245"
+        }
+    },
+    "GMR-00130": {
+        "latlon": {
+            "old": "41.448162 -8.249358",
+            "new": "41.442524 -8.25066"
+        },
+        "longitude": {
+            "old": "-8.249358",
+            "new": "-8.25066"
+        },
+        "latitude": {
+            "old": "41.448162",
+            "new": "41.442524"
+        }
+    },
+    "GMR-00151": {
+        "latlon": {
+            "old": "41.450356 -8.378581",
+            "new": "41.450386 -8.279062"
+        },
+        "longitude": {
+            "old": "-8.378581",
+            "new": "-8.279062"
+        },
+        "latitude": {
+            "old": "41.450356",
+            "new": "41.450386"
+        }
+    },
+    "LLE-00221": {
+        "latlon": {
+            "old": "37.136505 -8.010986",
+            "new": "37.136936 -8.009217"
+        },
+        "longitude": {
+            "old": "-8.010986",
+            "new": "-8.009217"
+        },
+        "latitude": {
+            "old": "37.136505",
+            "new": "37.136936"
+        }
+    },
+    "MCQ-00003": {
+        "latlon": {
+            "old": "37.01554 -7.930004",
+            "new": "37.312656 -8.556221"
+        },
+        "longitude": {
+            "old": "-7.930004",
+            "new": "-8.556221"
+        },
+        "latitude": {
+            "old": "37.01554",
+            "new": "37.312656"
+        }
+    },
+    "MFR-00004": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MMN-00011": {
+        "latlon": {
+            "old": "37.646427 -8.200054",
+            "new": "38.64639 -8.20057"
+        },
+        "longitude": {
+            "old": "-8.200054",
+            "new": "-8.20057"
+        },
+        "latitude": {
+            "old": "37.646427",
+            "new": "38.64639"
+        }
+    },
+    "MNC-00013": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-CSC-00188": {
+        "opc_name": {
+            "old": "VVTE",
+            "new": "Via Verde Transição Energética, S.A."
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*VIA*E8020",
+                            "new": "PT*VIA*EMOBI-CSC-00188-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*VIA*E4445",
+                            "new": "PT*VIA*EMOBI-CSC-00188-02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-CSC-00189": {
+        "opc_name": {
+            "old": "VVTE",
+            "new": "Via Verde Transição Energética, S.A."
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*VIA*E5988",
+                            "new": "PT*VIA*EMOBI-CSC-00189-01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*VIA*E8497",
+                            "new": "PT*VIA*EMOBI-CSC-00189-02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ORM-00036": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "8000.0",
+                                    "new": "80000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PRT-00222": {
+        "latlon": {
+            "old": "41.144817 -8.627674",
+            "new": "41.144783 -8.625276"
+        },
+        "longitude": {
+            "old": "-8.627674",
+            "new": "-8.625276"
+        },
+        "latitude": {
+            "old": "41.144817",
+            "new": "41.144783"
+        }
+    },
+    "PRT-00223": {
+        "latlon": {
+            "old": "41.144817 -8.627674",
+            "new": "41.144783 -8.625276"
+        },
+        "longitude": {
+            "old": "-8.627674",
+            "new": "-8.625276"
+        },
+        "latitude": {
+            "old": "41.144817",
+            "new": "41.144783"
+        }
+    },
+    "PRT-00224": {
+        "latlon": {
+            "old": "41.144817 -8.627674",
+            "new": "41.144783 -8.625276"
+        },
+        "longitude": {
+            "old": "-8.627674",
+            "new": "-8.625276"
+        },
+        "latitude": {
+            "old": "41.144817",
+            "new": "41.144783"
+        }
+    },
+    "PRT-00364": {
+        "latlon": {
+            "old": "41.162544 -8.65515",
+            "new": "41.159054 -8.635128"
+        },
+        "longitude": {
+            "old": "-8.65515",
+            "new": "-8.635128"
+        },
+        "name": {
+            "old": "Posta Garagem 2",
+            "new": "Posto Garagem 1"
+        },
+        "latitude": {
+            "old": "41.162544",
+            "new": "41.159054"
+        }
+    },
+    "PRT-00365": {
+        "name": {
+            "old": "Posto Garagem 1",
+            "new": "Posto Garagem 2 - Drt"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "added_items": [
+                        "apps"
+                    ]
+                }
+            }
+        }
+    },
+    "RMR-00010": {
+        "latlon": {
+            "old": "39.340473 -8.859694",
+            "new": "39.340664 -8.931009"
+        },
+        "longitude": {
+            "old": "-8.859694",
+            "new": "-8.931009"
+        },
+        "latitude": {
+            "old": "39.340473",
+            "new": "39.340664"
+        }
+    },
+    "SNS-00022": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "SNT-00228": {
+        "latlon": {
+            "old": "38.83946 -9.380054",
+            "new": "38.839474 -9.372449"
+        },
+        "longitude": {
+            "old": "-9.380054",
+            "new": "-9.372449"
+        },
+        "latitude": {
+            "old": "38.83946",
+            "new": "38.839474"
+        }
+    },
+    "VBP-00017": {
+        "latlon": {
+            "old": "38.98935 -9.243118",
+            "new": "37.083748 -8.912582"
+        },
+        "longitude": {
+            "old": "-9.243118",
+            "new": "-8.912582"
+        },
+        "latitude": {
+            "old": "38.98935",
+            "new": "37.083748"
+        }
+    }
+}
