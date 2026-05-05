@@ -293,9 +293,9 @@ OPERATORS = {
         "operator": "Cepsa",
         "code3": "CPS",
         "operator:wikidata": "Q608819",
-        "brand": "Cepsa",
+        "brand": "Moeve",
         "brand:wikidata": "Q608819",
-        "phone": None,
+        "phone": "+351 217 217 855",
         "email": None,
     },
     "BLUE": {
