@@ -41111,3 +41111,484 @@ Modificados:
         }
     }
 }
+2026-05-06 06:29:19
+Adicionados:
+{
+    "CLD-00048": {
+        "name": "La Vie Caldas (Wider Property)",
+        "lastUpdated": "2026-05-06T02:58:42.241Z",
+        "city": "Caldas da Rainha",
+        "street": "R. Belchior de Matos 11",
+        "postcode": "2500-324",
+        "latitude": "39.40131",
+        "longitude": "-9.136875",
+        "latlon": "39.40131 -9.136875",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CLD-00048",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CLD-00048-01",
+                        "evse_id": "PT*HRZ*E*CLD*00048*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CLD-00048-02",
+                        "evse_id": "PT*HRZ*E*CLD*00048*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VVC-00004": {
+        "name": "Intermarché Vila Viçosa",
+        "lastUpdated": "2026-05-05T16:25:08.325Z",
+        "city": "Vila Viçosa",
+        "street": "Lugar Madre de Água, Marco de Borba 1",
+        "postcode": "7160-204",
+        "latitude": "38.78701",
+        "longitude": "-7.426496",
+        "latlon": "38.78701 -7.426496",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VVC-00004",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVVC-00004-1",
+                        "evse_id": "PT*EDP*EVVC*00004*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVVC-00004-2",
+                        "evse_id": "PT*EDP*EVVC*00004*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "PBL-00004",
+    "PBL-00021",
+    "TBC-00003"
+]
+Modificados:
+{
+    "ABF-00162": {
+        "latlon": {
+            "old": "37.094322 -8.22582",
+            "new": "37.094112 -8.225548"
+        },
+        "latitude": {
+            "old": "37.094322",
+            "new": "37.094112"
+        },
+        "longitude": {
+            "old": "-8.22582",
+            "new": "-8.225548"
+        }
+    },
+    "BRG-00139": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CNT-00031": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "GDL-00034": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "CANAL CAVEIRA A 150kW",
+            "new": "CANAL CAVEIRA A"
+        }
+    },
+    "MOBI-LSB-00092": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOBI-LSB-00093": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-LSB-00095": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-LSB-00096": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOBI-LSB-00097": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-LSB-00098": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-LSB-00100": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOBI-LSB-00108": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOBI-LSB-00109": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOBI-LSB-00111": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-LSB-00112": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOBI-LSB-00113": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "PBL-90003": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "RMZ-00009": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00100": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "750.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "name": {
+            "old": "",
+            "new": "MAKRO-GAIA"
+        }
+    },
+    "VNG-00194": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    }
+}
