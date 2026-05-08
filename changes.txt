@@ -43526,3 +43526,975 @@ Modificados:
         }
     }
 }
+2026-05-08 05:57:19
+Adicionados:
+{
+    "FNC-00079": {
+        "name": "",
+        "lastUpdated": "2026-05-07T12:11:25.162Z",
+        "city": "Funchal",
+        "street": "CAMINHO DO POÇO BARRAL Nº 52",
+        "postcode": "9020-407",
+        "latitude": "32.656757",
+        "longitude": "-16.94624",
+        "latlon": "32.656757 -16.94624",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FNC-00079",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FNC-00079-01",
+                        "evse_id": "PT*GLP*EFNC*00079*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FNC-00079-02",
+                        "evse_id": "PT*GLP*EFNC*00079*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FNC-00082": {
+        "name": "",
+        "lastUpdated": "2026-05-07T09:44:25.179Z",
+        "city": "Funchal",
+        "street": "RUA DA RIBEIRA DE JOÃO GOMES",
+        "postcode": "9050-563",
+        "latitude": "32.656197",
+        "longitude": "-16.90047",
+        "latlon": "32.656197 -16.90047",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FNC-00082",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FNC-00082-01",
+                        "evse_id": "PT*GLP*EFNC*00082*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FNC-00082-02",
+                        "evse_id": "PT*GLP*EFNC*00082*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00226": {
+        "name": "AS Repsol - CREL Norte 5",
+        "lastUpdated": "2026-05-07T17:30:16.708Z",
+        "city": "Loures",
+        "street": "A9 km 22.1 sentido Alverca - E. Nacional 5",
+        "postcode": "2660-190",
+        "latitude": "38.859554",
+        "longitude": "-9.161408",
+        "latlon": "38.859554 -9.161408",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00226",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELRS-00226-1",
+                        "evse_id": "PT*EDP*ELRS*00226*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELRS-00226-2",
+                        "evse_id": "PT*EDP*ELRS*00226*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAI-00062": {
+        "name": "Município Maia - PCN1",
+        "lastUpdated": "2026-05-08T02:58:54.499Z",
+        "city": "Maia",
+        "street": "PRC MUNICIPIO",
+        "postcode": "4470-202",
+        "latitude": "41.234028",
+        "longitude": "-8.62247",
+        "latlon": "41.234028 -8.62247",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MAI-00062",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00062-01",
+                        "evse_id": "PT*EDP*E*MAI*00062*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MAI-00062-02",
+                        "evse_id": "PT*EDP*E*MAI*00062*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAI-00102": {
+        "name": "PARK-HOTEL",
+        "lastUpdated": "2026-05-08T02:59:08.571Z",
+        "city": "Maia",
+        "street": "Av. do Aeroporto, 241",
+        "postcode": "4470-558",
+        "latitude": "41.23797",
+        "longitude": "-8.668",
+        "latlon": "41.23797 -8.668",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MAI-00102",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00102-01",
+                        "evse_id": "PT*EVC*E*MAI*00102*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAI-00103": {
+        "name": "Park hotel Maia",
+        "lastUpdated": "2026-05-08T02:58:04.754Z",
+        "city": "Maia",
+        "street": "Av. do Aeroporto, 241",
+        "postcode": "4470-558",
+        "latitude": "41.237976",
+        "longitude": "-8.668",
+        "latlon": "41.237976 -8.668",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MAI-00103",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00103-01",
+                        "evse_id": "PT*EVC*E*MAI*00103*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAI-00104": {
+        "name": "Park hotel Maia",
+        "lastUpdated": "2026-05-08T02:59:38.308Z",
+        "city": "Maia",
+        "street": "Av. do Aeroporto, 241",
+        "postcode": "4470-558",
+        "latitude": "41.237976",
+        "longitude": "-8.668",
+        "latlon": "41.237976 -8.668",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MAI-00104",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00104-01",
+                        "evse_id": "PT*EVC*E*MAI*00104*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAI-00105": {
+        "name": "Park Hotel maia",
+        "lastUpdated": "2026-05-08T02:59:12.602Z",
+        "city": "Maia",
+        "street": "Av. do Aeroporto, 241",
+        "postcode": "4470-558",
+        "latitude": "41.237976",
+        "longitude": "-8.668",
+        "latlon": "41.237976 -8.668",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MAI-00105",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00105-01",
+                        "evse_id": "PT*EVC*E*MAI*00105*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SVC-00006": {
+        "name": "",
+        "lastUpdated": "2026-05-07T12:07:44.065Z",
+        "city": "São Vicente",
+        "street": "E.N. 104 - SÃO VICENTE",
+        "postcode": "9240-225",
+        "latitude": "32.806072",
+        "longitude": "-17.04683",
+        "latlon": "32.806072 -17.04683",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SVC-00006",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SVC-00006-01",
+                        "evse_id": "PT*GLP*ESVC*00006*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SVC-00006-02",
+                        "evse_id": "PT*GLP*ESVC*00006*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VCD-00064": {
+        "name": "Hotel Santana",
+        "lastUpdated": "2026-05-08T02:59:44.151Z",
+        "city": "Vila do Conde",
+        "street": "Rua de Santana 9600",
+        "postcode": "4480-160",
+        "latitude": "41.350437",
+        "longitude": "-8.73624",
+        "latlon": "41.350437 -8.73624",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VCD-00064",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VCD-00064-01",
+                        "evse_id": "PT*HLX*E*VCD*00064*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VCD-00064-02",
+                        "evse_id": "PT*HLX*E*VCD*00064*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNG-00243": {
+        "name": "Park hotel gaia",
+        "lastUpdated": "2026-05-08T02:58:11.994Z",
+        "city": "Vila Nova de Gaia",
+        "street": "Rua de Bélgica, 3172",
+        "postcode": "4400-049",
+        "latitude": "41.126568",
+        "longitude": "-8.635613",
+        "latlon": "41.126568 -8.635613",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00243",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNG-00243-01",
+                        "evse_id": "PT*EVC*E*VNG*00243*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNG-00244": {
+        "name": "park hotel gaia",
+        "lastUpdated": "2026-05-08T02:59:53.083Z",
+        "city": "Vila Nova de Gaia",
+        "street": "Rua de Bélgica, 3172",
+        "postcode": "4400-049",
+        "latitude": "41.126568",
+        "longitude": "-8.635613",
+        "latlon": "41.126568 -8.635613",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00244",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNG-00244-01",
+                        "evse_id": "PT*EVC*E*VNG*00244*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNG-00245": {
+        "name": "park hotel gaia",
+        "lastUpdated": "2026-05-08T02:59:03.131Z",
+        "city": "Vila Nova de Gaia",
+        "street": "Rua de Bélgica, 3172",
+        "postcode": "4400-049",
+        "latitude": "41.126568",
+        "longitude": "-8.635613",
+        "latlon": "41.126568 -8.635613",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00245",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNG-00245-01",
+                        "evse_id": "PT*EVC*E*VNG*00245*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNG-00246": {
+        "name": "park hotel gaia",
+        "lastUpdated": "2026-05-08T03:00:01.374Z",
+        "city": "Vila Nova de Gaia",
+        "street": "Rua de Bélgica, 3172",
+        "postcode": "4400-049",
+        "latitude": "41.126568",
+        "longitude": "-8.635613",
+        "latlon": "41.126568 -8.635613",
+        "opc": "EVCE",
+        "opc_name": "EVCE POWER, LDA. / MOBISMART",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNG-00246",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNG-00246-01",
+                        "evse_id": "PT*EVC*E*VNG*00246*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "440.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "MAI-00065",
+    "MAI-00066",
+    "MAI-00067",
+    "MAI-00068",
+    "VNG-00181",
+    "VNG-00184",
+    "VNG-00185",
+    "VNG-00186"
+]
+Modificados:
+{
+    "ALR-00011": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AMR-90001": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "CSC-00416": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "CSC-00417": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00523": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                },
+                "facilities": {
+                    "removed_items": [
+                        "NATURE",
+                        "SPORT"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LSB-00523-1",
+                            "new": "LSB-00523-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00523*1",
+                            "new": "PT*GLP*ELSB*00523*01"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00523-1",
+                            "evse_id": "PT*GLP*E*LSB*00523*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Avenida  Marechal Gomes da Costa N9",
+            "new": "Avenida Marechal Gomes da Costa N9"
+        }
+    },
+    "LSB-00524": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LSB-00524-1",
+                            "new": "LSB-00524-01"
+                        },
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00524*1",
+                            "new": "PT*GLP*ELSB*00524*01"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00524-1",
+                            "evse_id": "PT*GLP*E*LSB*00524*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "11000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "street": {
+            "old": "Avenida  Marechal Gomes da Costa N9",
+            "new": "Avenida Marechal Gomes da Costa N9"
+        },
+        "postcode": {
+            "old": "1800-256",
+            "new": "1800-255"
+        }
+    },
+    "OER-00254": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "OER-00286": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00286-01",
+                            "new": "PT*VIA*EOER-00286-617"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00286-02",
+                            "new": "PT*VIA*EOER-00286-618"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OER-00287": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00287-01",
+                            "new": "PT*VIA*EOER-00287-619"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00287-03",
+                            "new": "PT*VIA*EOER-00287-625"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OER-00288": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00288-01",
+                            "new": "PT*VIA*EOER-00288-621"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00288-02",
+                            "new": "PT*VIA*EOER-00288-622"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00288-03",
+                            "new": "PT*VIA*EOER-00288-623"
+                        }
+                    },
+                    "3": {
+                        "evse_id": {
+                            "old": "PT*VIA*EOER-00288-04",
+                            "new": "PT*VIA*EOER-00288-624"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PLM-00049": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00019": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "VNG-00194": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    }
+}
