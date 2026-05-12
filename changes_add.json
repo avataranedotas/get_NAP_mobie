@@ -1,0 +1,162 @@
+{
+    "FZZ-00005": {
+        "name": "Apartamentos do Lago - Ferreira do Zêzere",
+        "lastUpdated": "2026-05-12T02:59:35.784Z",
+        "city": "Ferreira do Zêzere",
+        "street": "Aldeamento das Varandas do Lago",
+        "postcode": "2240-322",
+        "latitude": "39.6674",
+        "longitude": "-8.233287",
+        "latlon": "39.6674 -8.233287",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FZZ-00005",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FZZ-00005-01",
+                        "evse_id": "PT*HRZ*E*FZZ*00005*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FZZ-00005-02",
+                        "evse_id": "PT*HRZ*E*FZZ*00005*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00225": {
+        "name": "AS Repsol CREL Loures_Bucelas - 3",
+        "lastUpdated": "2026-05-11T18:15:25.743Z",
+        "city": "Loures",
+        "street": "A9 km 221 Loures-Bucelas - CREL Norte 3",
+        "postcode": "2660-190",
+        "latitude": "38.856224",
+        "longitude": "-9.162103",
+        "latlon": "38.856224 -9.162103",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00225",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELRS-00225-1",
+                        "evse_id": "PT*EDP*ELRS*00225*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELRS-00225-2",
+                        "evse_id": "PT*EDP*ELRS*00225*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OLR-00005": {
+        "name": "Oleiros",
+        "lastUpdated": "2026-05-12T02:59:00.308Z",
+        "city": "Oleiros",
+        "street": "Praça Município 8, 6160-409 Oleiros",
+        "postcode": "6160-409",
+        "latitude": "39.919666",
+        "longitude": "-7.9132996",
+        "latlon": "39.919666 -7.9132996",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OLR-00005",
+                "facilities": [
+                    "carPark",
+                    "cafe"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OLR-00005-01",
+                        "evse_id": "PT*PRI*E*OLR*00005*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OLR-00005-02",
+                        "evse_id": "PT*PRI*E*OLR*00005*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

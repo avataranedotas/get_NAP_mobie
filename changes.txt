@@ -45155,3 +45155,1199 @@ Modificados:
         }
     }
 }
+2026-05-12 06:37:28
+Adicionados:
+{
+    "FZZ-00005": {
+        "name": "Apartamentos do Lago - Ferreira do Zêzere",
+        "lastUpdated": "2026-05-12T02:59:35.784Z",
+        "city": "Ferreira do Zêzere",
+        "street": "Aldeamento das Varandas do Lago",
+        "postcode": "2240-322",
+        "latitude": "39.6674",
+        "longitude": "-8.233287",
+        "latlon": "39.6674 -8.233287",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FZZ-00005",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FZZ-00005-01",
+                        "evse_id": "PT*HRZ*E*FZZ*00005*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FZZ-00005-02",
+                        "evse_id": "PT*HRZ*E*FZZ*00005*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00225": {
+        "name": "AS Repsol CREL Loures_Bucelas - 3",
+        "lastUpdated": "2026-05-11T18:15:25.743Z",
+        "city": "Loures",
+        "street": "A9 km 221 Loures-Bucelas - CREL Norte 3",
+        "postcode": "2660-190",
+        "latitude": "38.856224",
+        "longitude": "-9.162103",
+        "latlon": "38.856224 -9.162103",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00225",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELRS-00225-1",
+                        "evse_id": "PT*EDP*ELRS*00225*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELRS-00225-2",
+                        "evse_id": "PT*EDP*ELRS*00225*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OLR-00005": {
+        "name": "Oleiros",
+        "lastUpdated": "2026-05-12T02:59:00.308Z",
+        "city": "Oleiros",
+        "street": "Praça Município 8, 6160-409 Oleiros",
+        "postcode": "6160-409",
+        "latitude": "39.919666",
+        "longitude": "-7.9132996",
+        "latlon": "39.919666 -7.9132996",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OLR-00005",
+                "facilities": [
+                    "carPark",
+                    "cafe"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OLR-00005-01",
+                        "evse_id": "PT*PRI*E*OLR*00005*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OLR-00005-02",
+                        "evse_id": "PT*PRI*E*OLR*00005*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "GDM-00010"
+]
+Modificados:
+{
+    "ASL-00021": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "BRB-90001": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "BRR-00153": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LLE-00024": {
+        "name": {
+            "old": "",
+            "new": "Vila Galé Ampalius 1"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELLE-00024-1",
+                            "evse_id": "PT*EDP*ELLE*00024*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "7400.0",
+                                    "voltage": "240.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "hotel"
+                    ]
+                }
+            }
+        }
+    },
+    "MGL-00014": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "MGL-00016": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "MGL-00017": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "MOBI-CSC-00188": {
+        "name": {
+            "old": "Brisa HQ Campus - MOBI-CSC-00188",
+            "new": "Brisa HQ Visitantes"
+        }
+    },
+    "MOBI-CSC-00189": {
+        "name": {
+            "old": "Brisa HQ Campus - MOBI-CSC-00189",
+            "new": "Brisa HQ Visitantes"
+        }
+    },
+    "NZR-00039": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00040": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00048": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00049": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00050": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00051": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00052": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "NZR-00053": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00032": {
+        "name": {
+            "old": "Ourém - Fátima #1",
+            "new": "Ourem - Fátima #1"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ORM-00032-01",
+                            "new": "343"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ORM-00032-02",
+                            "new": "344"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ORM-00032-01",
+                            "evse_id": "PT*FCT*E*ORM*00032*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00032-02",
+                            "evse_id": "PT*FCT*E*ORM*00032*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00033": {
+        "name": {
+            "old": "Ourém - Fátima #2",
+            "new": "Ourem - Fátima #2"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "added_items": [
+                        "pinpad"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ORM-00033-01",
+                            "new": "345"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ORM-00033-02",
+                            "new": "346"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ORM-00033-01",
+                            "evse_id": "PT*FCT*E*ORM*00033*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00033-02",
+                            "evse_id": "PT*FCT*E*ORM*00033*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00034": {
+        "name": {
+            "old": "Ourém - Fátima #3",
+            "new": "Ourem - Fátima #3"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "nfc"
+                    },
+                    "5": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ORM-00034-01",
+                            "new": "347"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ORM-00034-02",
+                            "new": "348"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ORM-00034-01",
+                            "evse_id": "PT*FCT*E*ORM*00034*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00034-02",
+                            "evse_id": "PT*FCT*E*ORM*00034*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00035": {
+        "name": {
+            "old": "Ourém - Fátima #4",
+            "new": "Ourem - Fátima #4"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ORM-00035-01",
+                            "new": "349"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ORM-00035-02",
+                            "new": "350"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "ORM-00035-03",
+                            "new": "351"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ORM-00035-01",
+                            "evse_id": "PT*FCT*E*ORM*00035*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00035-02",
+                            "evse_id": "PT*FCT*E*ORM*00035*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00035-03",
+                            "evse_id": "PT*FCT*E*ORM*00035*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00036": {
+        "name": {
+            "old": "Ourém - Fátima #5",
+            "new": "Ourem - Fátima #5"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ORM-00036-01",
+                            "new": "352"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ORM-00036-02",
+                            "new": "353"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "ORM-00036-03",
+                            "new": "354"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ORM-00036-01",
+                            "evse_id": "PT*FCT*E*ORM*00036*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00036-02",
+                            "evse_id": "PT*FCT*E*ORM*00036*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00036-03",
+                            "evse_id": "PT*FCT*E*ORM*00036*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00037": {
+        "name": {
+            "old": "Ourém - Fátima #6",
+            "new": "Ourem - Fátima #6"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ORM-00037-01",
+                            "new": "355"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ORM-00037-02",
+                            "new": "356"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "ORM-00037-03",
+                            "new": "357"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "300000.0",
+                                    "new": "150000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ORM-00037-01",
+                            "evse_id": "PT*FCT*E*ORM*00037*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00037-02",
+                            "evse_id": "PT*FCT*E*ORM*00037*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ORM-00037-03",
+                            "evse_id": "PT*FCT*E*ORM*00037*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "PBL-00037": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "PLM-00014": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "550.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PLM-00047": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "PLM-00048": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    }
+}
