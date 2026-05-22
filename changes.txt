@@ -57622,3 +57622,1851 @@ Modificados:
         }
     }
 }
+2026-05-22 07:44:53
+Adicionados:
+{
+    "AGD-00022": {
+        "name": "Águeda",
+        "lastUpdated": "2026-05-22T02:59:32.520Z",
+        "city": "Águeda",
+        "street": "Rua Cabeço da Igreja",
+        "postcode": "3750-041",
+        "latitude": "40.518353",
+        "longitude": "-8.427547",
+        "latlon": "40.518353 -8.427547",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AGD-00022",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AGD-00022-01",
+                        "evse_id": "PT*DTE*E*AGD*00022*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00022-02",
+                        "evse_id": "PT*DTE*E*AGD*00022*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00022-03",
+                        "evse_id": "PT*DTE*E*AGD*00022*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BRG-00135": {
+        "name": "Braga - Tadim",
+        "lastUpdated": "2026-05-21T19:17:45.553Z",
+        "city": "Braga",
+        "street": "Lugar da Igreja, Tadim",
+        "postcode": "4705-671",
+        "latitude": "41.5077",
+        "longitude": "-8.4886",
+        "latlon": "41.5077 -8.4886",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "BRG-00135",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "555",
+                        "evse_id": "PT*FCT*E*BRG*00135*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "556",
+                        "evse_id": "PT*FCT*E*BRG*00135*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "557",
+                        "evse_id": "PT*FCT*E*BRG*00135*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CTM-00015": {
+        "name": "",
+        "lastUpdated": "2026-05-21T14:50:46.877Z",
+        "city": "Castro Marim",
+        "street": "Eiras da Achada, Quinta do vale Golfe",
+        "postcode": "8950-189",
+        "latitude": "37.247723",
+        "longitude": "-7.450557",
+        "latlon": "37.247723 -7.450557",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CTM-00015",
+                "facilities": [
+                    "hotel"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CTM-00015-01",
+                        "evse_id": "PT*GLP*ECTM*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CTM-00015-02",
+                        "evse_id": "PT*GLP*ECTM*00015*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PBL-00029": {
+        "name": "",
+        "lastUpdated": "2026-05-21T12:13:31.183Z",
+        "city": "Pombal",
+        "street": "(A1) KM 166,7 - LISBOA/PORTO",
+        "postcode": "3100-480",
+        "latitude": "40.011963",
+        "longitude": "-8.599879",
+        "latlon": "40.011963 -8.599879",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PBL-00029",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PBL-00029-01",
+                        "evse_id": "PT*GLP*EPBL*00029*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00029-02",
+                        "evse_id": "PT*GLP*EPBL*00029*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PBL-00030": {
+        "name": "",
+        "lastUpdated": "2026-05-21T14:36:04.053Z",
+        "city": "Pombal",
+        "street": "(A1) KM 166,7 - LISBOA/PORTO",
+        "postcode": "3100-480",
+        "latitude": "40.011963",
+        "longitude": "-8.599879",
+        "latlon": "40.011963 -8.599879",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PBL-00030",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PBL-00030-01",
+                        "evse_id": "PT*GLP*EPBL*00030*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00030-02",
+                        "evse_id": "PT*GLP*EPBL*00030*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PBL-00031": {
+        "name": "",
+        "lastUpdated": "2026-05-21T14:28:58.021Z",
+        "city": "Pombal",
+        "street": "(A1) KM 166,7 - LISBOA/PORTO",
+        "postcode": "3100-480",
+        "latitude": "40.011963",
+        "longitude": "-8.599879",
+        "latlon": "40.011963 -8.599879",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PBL-00031",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PBL-00031-01",
+                        "evse_id": "PT*GLP*EPBL*00031*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00031-02",
+                        "evse_id": "PT*GLP*EPBL*00031*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PBL-00032": {
+        "name": "",
+        "lastUpdated": "2026-05-21T14:29:12.387Z",
+        "city": "Pombal",
+        "street": "(A1) KM 166,7 - LISBOA/PORTO",
+        "postcode": "3100-480",
+        "latitude": "40.011963",
+        "longitude": "-8.599879",
+        "latlon": "40.011963 -8.599879",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PBL-00032",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PBL-00032-01",
+                        "evse_id": "PT*GLP*EPBL*00032*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00032-02",
+                        "evse_id": "PT*GLP*EPBL*00032*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PBL-00033": {
+        "name": "",
+        "lastUpdated": "2026-05-21T12:15:04.066Z",
+        "city": "Pombal",
+        "street": "(A1) KM 166,7 - LISBOA/PORTO",
+        "postcode": "3100-480",
+        "latitude": "40.011963",
+        "longitude": "-8.599879",
+        "latlon": "40.011963 -8.599879",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PBL-00033",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PBL-00033-01",
+                        "evse_id": "PT*GLP*EPBL*00033*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00033-02",
+                        "evse_id": "PT*GLP*EPBL*00033*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PBL-00034": {
+        "name": "",
+        "lastUpdated": "2026-05-21T12:14:43.098Z",
+        "city": "Pombal",
+        "street": "(A1) KM 166,7 - LISBOA/PORTO",
+        "postcode": "3100-480",
+        "latitude": "40.011963",
+        "longitude": "-8.599879",
+        "latlon": "40.011963 -8.599879",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PBL-00034",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PBL-00034-01",
+                        "evse_id": "PT*GLP*EPBL*00034*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00034-02",
+                        "evse_id": "PT*GLP*EPBL*00034*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ACH-00002": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "ACH-00003": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "ACH-00010": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AMD-00111": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AMT-00007": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "AMT-00008": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "AZB-00016": {
+        "opc_name": {
+            "old": "MoonPowerPortugal",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "AZB-00021": {
+        "opc_name": {
+            "old": "MoonPowerPortugal",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "CBR-00053": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "CLD-00012": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CLD-00022": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                }
+            }
+        }
+    },
+    "CTB-00073": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "EVR-00022": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "EVR-00026": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "GDL-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00017-01",
+                            "new": "208"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00017-02",
+                            "new": "209"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00017-03",
+                            "new": "210"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "GDL-00017-01",
+                            "evse_id": "PT*FCT*E*GDL*00017*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GDL-00017-02",
+                            "evse_id": "PT*FCT*E*GDL*00017*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GDL-00017-03",
+                            "evse_id": "PT*FCT*E*GDL*00017*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "GDL-00040": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00040-01",
+                            "new": "211"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00040-02",
+                            "new": "212"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "GDL-00040-01",
+                            "evse_id": "PT*FCT*E*GDL*00040*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GDL-00040-02",
+                            "evse_id": "PT*FCT*E*GDL*00040*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "GDL-00041": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00041-01",
+                            "new": "213"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00041-02",
+                            "new": "214"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "GDL-00041-01",
+                            "evse_id": "PT*FCT*E*GDL*00041*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GDL-00041-02",
+                            "evse_id": "PT*FCT*E*GDL*00041*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "GDL-00042": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "400000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00042-01",
+                            "new": "215"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "400000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00042-02",
+                            "new": "216"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "GDL-00042-01",
+                            "evse_id": "PT*FCT*E*GDL*00042*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "200000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GDL-00042-02",
+                            "evse_id": "PT*FCT*E*GDL*00042*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "200000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "GDL-00043": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "400000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00043-01",
+                            "new": "217"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "400000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "GDL-00043-02",
+                            "new": "218"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "GDL-00043-01",
+                            "evse_id": "PT*FCT*E*GDL*00043*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "200000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GDL-00043-02",
+                            "evse_id": "PT*FCT*E*GDL*00043*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "200000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "GMR-00146": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "LRA-00046": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "LRA-00047": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "LRS-00060": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "LRS-00068": {
+        "street": {
+            "old": "Rua das Giestas - Bobadela",
+            "new": "Rua das Giestas - Bobadela 3"
+        },
+        "name": {
+            "old": "",
+            "new": "Hub Loures - Bobadela 3"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRS-00068-1",
+                            "evse_id": "PT*EDP*ELRS*00068*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELRS-00068-2",
+                            "evse_id": "PT*EDP*ELRS*00068*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00069": {
+        "street": {
+            "old": "Rua das Giestas - Bobadela",
+            "new": "Rua das Giestas - Bobadela 4"
+        },
+        "name": {
+            "old": "",
+            "new": "Hub Loures - Bobadela 4"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRS-00069-1",
+                            "evse_id": "PT*EDP*ELRS*00069*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELRS-00069-2",
+                            "evse_id": "PT*EDP*ELRS*00069*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00070": {
+        "street": {
+            "old": "Rua das Giestas - Bobadela",
+            "new": "Rua das Giestas - Bobadela 5"
+        },
+        "name": {
+            "old": "",
+            "new": "Hub Loures - Bobadela 5"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "carPark"
+                    ]
+                },
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELRS-00070-1",
+                            "evse_id": "PT*EDP*ELRS*00070*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELRS-00070-2",
+                            "evse_id": "PT*EDP*ELRS*00070*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "920.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00144": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LRS-00152": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "LSB-00409": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "LSB-00640": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00703": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "LSB-00704": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "MAI-00072": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00073": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00075": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "MOBI-CTB-00004": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "MOBI-PRT-00089": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "MTS-00048": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "OER-00255": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "ORM-00032": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00033": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00034": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        }
+    },
+    "ORM-00035": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ORM-00036": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ORM-00037": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PNF-00017": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "PNF-00054": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "PRT-00160": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "PRT-00310": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "PTM-00026": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "SEI-00010": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "SEI-00011": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "SNS-00018": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "SNS-00018-01",
+                            "new": "476"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "SNS-00018-02",
+                            "new": "477"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNS-00018-01",
+                            "evse_id": "PT*FCT*E*SNS*00018*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNS-00018-02",
+                            "evse_id": "PT*FCT*E*SNS*00018*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "SNT-00074": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "SNT-00075": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "STC-00007": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "STC-00008": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis",
+            "new": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)"
+        }
+    },
+    "SXL-00073": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "VIZ-00010": {
+        "latitude": {
+            "old": "41.36878",
+            "new": "41.36943"
+        },
+        "latlon": {
+            "old": "41.36878 -8.305644",
+            "new": "41.36943 -8.304678"
+        },
+        "longitude": {
+            "old": "-8.305644",
+            "new": "-8.304678"
+        }
+    },
+    "VNG-00196": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    }
+}
