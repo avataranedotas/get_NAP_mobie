@@ -62945,3 +62945,1693 @@ Modificados:
         }
     }
 }
+2026-05-24 07:20:57
+Modificados:
+{
+    "ALQ-00025": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "117",
+                            "new": "ALQ-00025-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "118",
+                            "new": "ALQ-00025-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "119",
+                            "new": "ALQ-00025-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "ALQ-00025-01",
+                            "new": "117"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "ALQ-00025-02",
+                            "new": "118"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "ALQ-00025-03",
+                            "new": "119"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "BNV-00013": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "145",
+                            "new": "BNV-00013-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "146",
+                            "new": "BNV-00013-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "147",
+                            "new": "BNV-00013-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "BNV-00013-01",
+                            "new": "145"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "BNV-00013-02",
+                            "new": "146"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "BNV-00013-03",
+                            "new": "147"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "BNV-00014": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "148",
+                            "new": "BNV-00014-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "149",
+                            "new": "BNV-00014-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "150",
+                            "new": "BNV-00014-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "BNV-00014-01",
+                            "new": "148"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "BNV-00014-02",
+                            "new": "149"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "BNV-00014-03",
+                            "new": "150"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    }
+                }
+            }
+        }
+    },
+    "CDN-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "3",
+                            "new": "CDN-00008-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "4",
+                            "new": "CDN-00008-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "5",
+                            "new": "CDN-00008-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "CDN-00008-01",
+                            "new": "3"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "CDN-00008-02",
+                            "new": "4"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "CDN-00008-03",
+                            "new": "5"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GDL-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "208",
+                            "new": "GDL-00017-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "209",
+                            "new": "GDL-00017-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "210",
+                            "new": "GDL-00017-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "GDL-00017-01",
+                            "new": "208"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "GDL-00017-02",
+                            "new": "209"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "GDL-00017-03",
+                            "new": "210"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-01124": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "PLM-00039": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "383",
+                            "new": "PLM-00039-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "384",
+                            "new": "PLM-00039-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "385",
+                            "new": "PLM-00039-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "PLM-00039-01",
+                            "new": "383"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "PLM-00039-02",
+                            "new": "384"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "PLM-00039-03",
+                            "new": "385"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    }
+                }
+            }
+        }
+    },
+    "PTL-00022": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "403",
+                            "new": "PTL-00022-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "404",
+                            "new": "PTL-00022-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "405",
+                            "new": "PTL-00022-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "PTL-00022-01",
+                            "new": "403"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "PTL-00022-02",
+                            "new": "404"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "PTL-00022-03",
+                            "new": "405"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "PTL-00023": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "406",
+                            "new": "PTL-00023-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "407",
+                            "new": "PTL-00023-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "408",
+                            "new": "PTL-00023-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "PTL-00023-01",
+                            "new": "406"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "PTL-00023-02",
+                            "new": "407"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "PTL-00023-03",
+                            "new": "408"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "SMG-00013": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "430",
+                            "new": "SMG-00013-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "431",
+                            "new": "SMG-00013-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "432",
+                            "new": "SMG-00013-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "SMG-00013-01",
+                            "new": "430"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "SMG-00013-02",
+                            "new": "431"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "SMG-00013-03",
+                            "new": "432"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    }
+                }
+            }
+        }
+    },
+    "STS-00026": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "445",
+                            "new": "STS-00026-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "130000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "446",
+                            "new": "STS-00026-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "447",
+                            "new": "STS-00026-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "130000.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "STS-00026-01",
+                            "new": "445"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "130000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "STS-00026-02",
+                            "new": "446"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "STS-00026-03",
+                            "new": "447"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "130000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "TMR-00043": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "500",
+                            "new": "TMR-00043-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "501",
+                            "new": "TMR-00043-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "502",
+                            "new": "TMR-00043-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "TMR-00043-01",
+                            "new": "500"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "TMR-00043-02",
+                            "new": "501"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "TMR-00043-03",
+                            "new": "502"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "debitCard"
+                    },
+                    "3": {
+                        "old": "debitCard",
+                        "new": "nfc"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "creditCard"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "debitCard"
+                    }
+                }
+            }
+        }
+    },
+    "TNV-00023": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "505",
+                            "new": "TNV-00023-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "506",
+                            "new": "TNV-00023-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "507",
+                            "new": "TNV-00023-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "TNV-00023-01",
+                            "new": "505"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "TNV-00023-02",
+                            "new": "506"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "TNV-00023-03",
+                            "new": "507"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "TNV-00024": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "508",
+                            "new": "TNV-00024-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "509",
+                            "new": "TNV-00024-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "510",
+                            "new": "TNV-00024-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "TNV-00024-01",
+                            "new": "508"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "TNV-00024-02",
+                            "new": "509"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "TNV-00024-03",
+                            "new": "510"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "VCT-00050": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "522",
+                            "new": "VCT-00050-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "523",
+                            "new": "VCT-00050-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                },
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "524",
+                            "new": "VCT-00050-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "VCT-00050-01",
+                            "new": "522"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "VCT-00050-02",
+                            "new": "523"
+                        },
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "VCT-00050-03",
+                            "new": "524"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    }
+                }
+            }
+        }
+    }
+}
