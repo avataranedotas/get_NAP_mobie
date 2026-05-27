@@ -1494,3 +1494,2743 @@ Modificados:
         }
     }
 }
+2026-05-27 08:04:29
+Adicionados:
+{
+    "ABF-00158": {
+        "name": "Rua do Catavento- Municipio Albufeira",
+        "lastUpdated": "2026-05-26T18:41:24.791Z",
+        "city": "Albufeira",
+        "street": "Rua do Catavento 1",
+        "postcode": "8200-424",
+        "latitude": "37.08336",
+        "longitude": "-8.314205",
+        "latlon": "37.08336 -8.314205",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00158",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00158-1",
+                        "evse_id": "PT*EDP*EABF*00158*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00158-2",
+                        "evse_id": "PT*EDP*EABF*00158*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ALM-00116": {
+        "name": "",
+        "lastUpdated": "2026-05-27T02:59:23.506Z",
+        "city": "Almada",
+        "street": " AVENIDA ANTONIO JOSE GOMES S/N COVA DA PIEDA",
+        "postcode": "2809-014",
+        "latitude": "38.67265",
+        "longitude": "-9.15553",
+        "latlon": "38.67265 -9.15553",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ALM-00116",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALM-00116-01",
+                        "evse_id": "PT*MOT*E*ALM*00116*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-00116-02",
+                        "evse_id": "PT*MOT*E*ALM*00116*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ALM-00151": {
+        "name": "",
+        "lastUpdated": "2026-05-27T02:58:37.125Z",
+        "city": "Almada",
+        "street": "AV. ANTONIO JOSE GOMES S/N COVA DA PIEDADE",
+        "postcode": "2809-014",
+        "latitude": "38.67265",
+        "longitude": "-9.15553",
+        "latlon": "38.67265 -9.15553",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ALM-00151",
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALM-00151-01",
+                        "evse_id": "PT*MOT*E*ALM*00151*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-00151-02",
+                        "evse_id": "PT*MOT*E*ALM*00151*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00221": {
+        "name": "Loures - Santo Antão do Tojal #1",
+        "lastUpdated": "2026-05-26T21:01:00.000Z",
+        "city": "Loures",
+        "street": "Rua Maria Amália Vaz de Carvalho",
+        "postcode": "2660-194",
+        "latitude": "38.8544",
+        "longitude": "-9.146632",
+        "latlon": "38.8544 -9.146632",
+        "opc": "FCTO",
+        "opc_name": "CHARGING TOGETHER, UNIPESSOAL LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00221",
+                "facilities": [
+                    "FUEL_STATION"
+                ],
+                "payment": [
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "584",
+                        "evse_id": "PT*FCT*E238*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "585",
+                        "evse_id": "PT*FCT*E238*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "592",
+                        "evse_id": "PT*FCT*E238*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00222": {
+        "name": "Loures - Santo Antão do Tojal #2",
+        "lastUpdated": "2026-05-26T21:01:00.000Z",
+        "city": "Loures",
+        "street": "Rua Maria Amália Vaz de Carvalho",
+        "postcode": "2660-194",
+        "latitude": "38.8544",
+        "longitude": "-9.146632",
+        "latlon": "38.8544 -9.146632",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00222",
+                "payment": [
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "586",
+                        "evse_id": "PT*FCT*E239*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "587",
+                        "evse_id": "PT*FCT*E239*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00223": {
+        "name": "Loures - Santo Antão do Tojal #3",
+        "lastUpdated": "2026-05-27T02:52:12.414Z",
+        "city": "Loures",
+        "street": "Rua Maria Amália Vaz de Carvalho",
+        "postcode": "2660-194",
+        "latitude": "38.8544",
+        "longitude": "-9.146632",
+        "latlon": "38.8544 -9.146632",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00223",
+                "payment": [
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "588",
+                        "evse_id": "PT*FCT*E240*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "589",
+                        "evse_id": "PT*FCT*E240*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "593",
+                        "evse_id": "PT*FCT*E240*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LRS-00224": {
+        "name": "Loures - Santo Antão do Tojal #4",
+        "lastUpdated": "2026-05-26T21:01:00.000Z",
+        "city": "Loures",
+        "street": "Rua Maria Amália Vaz de Carvalho",
+        "postcode": "2660-194",
+        "latitude": "38.8544",
+        "longitude": "-9.146632",
+        "latlon": "38.8544 -9.146632",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LRS-00224",
+                "payment": [
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "590",
+                        "evse_id": "PT*FCT*E241*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "591",
+                        "evse_id": "PT*FCT*E241*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "594",
+                        "evse_id": "PT*FCT*E241*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVD-00069": {
+        "name": "",
+        "lastUpdated": "2026-05-27T02:58:31.896Z",
+        "city": "Torres Vedras",
+        "street": "Av. Gen. Humberto Delgado",
+        "postcode": "2560-272",
+        "latitude": "39.091053",
+        "longitude": "-9.253288",
+        "latlon": "39.091053 -9.253288",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVD-00069",
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00069-01",
+                        "evse_id": "PT*MOT*E*TVD*00069*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00069-02",
+                        "evse_id": "PT*MOT*E*TVD*00069*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TVD-00074": {
+        "name": "",
+        "lastUpdated": "2026-05-27T02:58:53.267Z",
+        "city": "Torres Vedras",
+        "street": "Rua Creche do Povo",
+        "postcode": "2560-307",
+        "latitude": "39.08304",
+        "longitude": "-9.264221",
+        "latlon": "39.08304 -9.264221",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "TVD-00074",
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00074-01",
+                        "evse_id": "PT*MOT*E*TVD*00074*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00074-02",
+                        "evse_id": "PT*MOT*E*TVD*00074*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VGS-00022": {
+        "name": "Atlante - Pingo doce Vagos",
+        "lastUpdated": "2026-05-26T18:33:43.541Z",
+        "city": "Vagos",
+        "street": "R. dos Bombeiros Voluntários de Vagos",
+        "postcode": "3840-436",
+        "latitude": "40.55228",
+        "longitude": "-8.677539",
+        "latlon": "40.55228 -8.677539",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VGS-00022",
+                "facilities": [
+                    "restaurant",
+                    "cafe",
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VGS-00022-01",
+                        "evse_id": "PT*ATL*EVGS*00022*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VGS-00022-02",
+                        "evse_id": "PT*ATL*EVGS*00022*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "LSB-00030",
+    "LSB-90147"
+]
+Modificados:
+{
+    "AMD-00112": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AZB-00029": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "CBR-00042": {
+        "latlon": {
+            "old": "40.215885 -8.436408",
+            "new": "40.211494 -8.431992"
+        },
+        "longitude": {
+            "old": "-8.436408",
+            "new": "-8.431992"
+        },
+        "latitude": {
+            "old": "40.215885",
+            "new": "40.211494"
+        }
+    },
+    "FND-00028": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LRA-00117": {
+        "street": {
+            "old": "Rua Central nº 676",
+            "new": "Rua Central n 676"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "FUEL_STATION"
+                    },
+                    "removed_items": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LRA-00117-01",
+                            "new": "236"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "LRA-00117-02",
+                            "new": "237"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "LRA-00117-03",
+                            "new": "238"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LRA-00117-01",
+                            "evse_id": "PT*FCT*E*LRA*00117*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRA-00117-02",
+                            "evse_id": "PT*FCT*E*LRA*00117*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRA-00117-03",
+                            "evse_id": "PT*FCT*E*LRA*00117*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "LRA-00127": {
+        "street": {
+            "old": "Rua Central nº41, Santa Catarina da Serra",
+            "new": "Rua Central n41, Santa Catarina da Serra"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "FUEL_STATION",
+                        "new": "carPark"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LRA-00127-01",
+                            "new": "242"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "LRA-00127-02",
+                            "new": "243"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LRA-00127-01",
+                            "evse_id": "PT*FCT*E*LRA*00127*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRA-00127-02",
+                            "evse_id": "PT*FCT*E*LRA*00127*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "LRA-00133": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LRA-00133-01",
+                            "new": "234"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "LRA-00133-02",
+                            "new": "235"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LRA-00133-01",
+                            "evse_id": "PT*FCT*E*LRA*00133*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRA-00133-02",
+                            "evse_id": "PT*FCT*E*LRA*00133*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "LRS-00055": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        }
+    },
+    "LRS-00130": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LRS-00130-01",
+                            "new": "268"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "LRS-00130-02",
+                            "new": "269"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "LRS-00130-03",
+                            "new": "270"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LRS-00130-01",
+                            "evse_id": "PT*FCT*E*LRS*00130*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRS-00130-02",
+                            "evse_id": "PT*FCT*E*LRS*00130*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRS-00130-03",
+                            "evse_id": "PT*FCT*E*LRS*00130*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "nfc",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "creditCard",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "pinpad",
+                        "new": "nfc"
+                    },
+                    "added_items": [
+                        "pinpad"
+                    ]
+                }
+            }
+        },
+        "latlon": {
+            "old": "38.84875 -9.181084",
+            "new": "38.848698 -9.181111"
+        },
+        "longitude": {
+            "old": "-9.181084",
+            "new": "-9.181111"
+        },
+        "latitude": {
+            "old": "38.84875",
+            "new": "38.848698"
+        }
+    },
+    "LRS-00135": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LRS-00136": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LRS-00195": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "LRS-00195-01",
+                            "new": "266"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "LRS-00195-02",
+                            "new": "267"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LRS-00195-01",
+                            "evse_id": "PT*FCT*E*LRS*00195*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "LRS-00195-02",
+                            "evse_id": "PT*FCT*E*LRS*00195*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00713": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00822": {
+        "name": {
+            "old": "Torres Lisboa 1",
+            "new": ""
+        }
+    },
+    "LSB-00823": {
+        "name": {
+            "old": "Torres de Lisboa 2",
+            "new": ""
+        }
+    },
+    "LSB-00824": {
+        "name": {
+            "old": "Paraguai",
+            "new": ""
+        }
+    },
+    "LSB-00825": {
+        "name": {
+            "old": "Telheiras",
+            "new": ""
+        }
+    },
+    "LSB-00826": {
+        "name": {
+            "old": "Telheiras 2",
+            "new": ""
+        }
+    },
+    "LSB-00827": {
+        "name": {
+            "old": "Fernando Namora",
+            "new": ""
+        }
+    },
+    "LSB-00828": {
+        "name": {
+            "old": "Rainha Santa",
+            "new": ""
+        }
+    },
+    "LSB-00829": {
+        "name": {
+            "old": "Lidl Carnide 1",
+            "new": ""
+        }
+    },
+    "LSB-00830": {
+        "name": {
+            "old": "Lidl Carnide 2",
+            "new": ""
+        }
+    },
+    "LSB-00831": {
+        "name": {
+            "old": "Reinaldo dos Santos 1",
+            "new": ""
+        }
+    },
+    "LSB-00832": {
+        "name": {
+            "old": "Reinaldo dos Santos 2",
+            "new": ""
+        }
+    },
+    "LSB-00833": {
+        "name": {
+            "old": "Teteia 1",
+            "new": ""
+        }
+    },
+    "LSB-00834": {
+        "name": {
+            "old": "Teteia 2",
+            "new": ""
+        }
+    },
+    "MAI-00052": {
+        "street": {
+            "old": "Via Doutor Francisco Sá Carneiro",
+            "new": "Via Doutor Francisco SA Carneiro"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00052-01",
+                            "new": "279"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00052-02",
+                            "new": "280"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "MAI-00052-03",
+                            "new": "281"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00052-01",
+                            "evse_id": "PT*FCT*E*MAI*00052*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00052-02",
+                            "evse_id": "PT*FCT*E*MAI*00052*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00052-03",
+                            "evse_id": "PT*FCT*E*MAI*00052*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00078": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00078-01",
+                            "new": "76"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00078-02",
+                            "new": "77"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00078-01",
+                            "evse_id": "PT*FCT*E*MAI*00078*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00078-02",
+                            "evse_id": "PT*FCT*E*MAI*00078*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00079": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00079-01",
+                            "new": "78"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00079-02",
+                            "new": "79"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00079-01",
+                            "evse_id": "PT*FCT*E*MAI*00079*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00079-02",
+                            "evse_id": "PT*FCT*E*MAI*00079*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00080": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00080-01",
+                            "new": "80"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00080-02",
+                            "new": "81"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00080-01",
+                            "evse_id": "PT*FCT*E*MAI*00080*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00080-02",
+                            "evse_id": "PT*FCT*E*MAI*00080*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00081": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "FUEL_STATION",
+                        "new": "carPark"
+                    }
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00081-01",
+                            "new": "82"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00081-02",
+                            "new": "83"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00081-01",
+                            "evse_id": "PT*FCT*E*MAI*00081*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00081-02",
+                            "evse_id": "PT*FCT*E*MAI*00081*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00082": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00082-01",
+                            "new": "84"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00082-02",
+                            "new": "85"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00082-01",
+                            "evse_id": "PT*FCT*E*MAI*00082*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00082-02",
+                            "evse_id": "PT*FCT*E*MAI*00082*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00083": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00083-01",
+                            "new": "86"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00083-02",
+                            "new": "87"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00083-01",
+                            "evse_id": "PT*FCT*E*MAI*00083*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00083-02",
+                            "evse_id": "PT*FCT*E*MAI*00083*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00084": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00084-01",
+                            "new": "88"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00084-02",
+                            "new": "89"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00084-01",
+                            "evse_id": "PT*FCT*E*MAI*00084*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00084-02",
+                            "evse_id": "PT*FCT*E*MAI*00084*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "MAI-00085": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "MAI-00085-01",
+                            "new": "90"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "MAI-00085-02",
+                            "new": "91"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MAI-00085-01",
+                            "evse_id": "PT*FCT*E*MAI*00085*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MAI-00085-02",
+                            "evse_id": "PT*FCT*E*MAI*00085*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "ODV-00055": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ODV-00055-01",
+                            "new": "329"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ODV-00055-02",
+                            "new": "330"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ODV-00055-01",
+                            "evse_id": "PT*FCT*E*ODV*00055*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ODV-00055-02",
+                            "evse_id": "PT*FCT*E*ODV*00055*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "Odivelas - Famões  #1",
+            "new": "Odivelas - Famões #1"
+        }
+    },
+    "ODV-00056": {
+        "street": {
+            "old": "Rua Major João Luís de Moura -Alto de Famões",
+            "new": "Rua Major João Luís de Moura - Alto de Famõe"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ODV-00056-01",
+                            "new": "331"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ODV-00056-02",
+                            "new": "332"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ODV-00056-01",
+                            "evse_id": "PT*FCT*E*ODV*00056*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ODV-00056-02",
+                            "evse_id": "PT*FCT*E*ODV*00056*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "ODV-00057": {
+        "street": {
+            "old": "Rua Major João Luís de Moura -Alto de Famões",
+            "new": "Rua Major João Luís de Moura - Alto de Famõe"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ODV-00057-01",
+                            "new": "333"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ODV-00057-02",
+                            "new": "334"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ODV-00057-01",
+                            "evse_id": "PT*FCT*E*ODV*00057*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ODV-00057-02",
+                            "evse_id": "PT*FCT*E*ODV*00057*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "ODV-00058": {
+        "street": {
+            "old": "Rua Major João Luís de Moura -Alto de Famões",
+            "new": "Rua Major João Luís de Moura - Alto de Famõe"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "ODV-00058-01",
+                            "new": "335"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "ODV-00058-02",
+                            "new": "336"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "ODV-00058-01",
+                            "evse_id": "PT*FCT*E*ODV*00058*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "ODV-00058-02",
+                            "evse_id": "PT*FCT*E*ODV*00058*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "400000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "600.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "nfc"
+                    }
+                }
+            }
+        }
+    },
+    "OER-00222": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "FUEL_STATION"
+                    },
+                    "removed_items": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "OER-00222-01",
+                            "new": "337"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "OER-00222-02",
+                            "new": "338"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "OER-00222-03",
+                            "new": "339"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "OER-00222-01",
+                            "evse_id": "PT*FCT*E*OER*00222*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "OER-00222-02",
+                            "evse_id": "PT*FCT*E*OER*00222*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "OER-00222-03",
+                            "evse_id": "PT*FCT*E*OER*00222*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "PBL-00031": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "PBL-00032": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "PBL-00033": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "PBL-00040": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    }
+}
