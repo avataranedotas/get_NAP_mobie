@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #usar pyhton3.6
 #pip install lxml
 
