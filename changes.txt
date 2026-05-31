@@ -17840,3 +17840,292 @@ Modificados:
         }
     }
 }
+2026-05-31 07:46:30
+Modificados:
+{
+    "MAI-00080": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "80",
+                            "new": "MAI-00080-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "600.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "81",
+                            "new": "MAI-00080-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "600.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "MAI-00080-01",
+                            "new": "80"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "MAI-00080-02",
+                            "new": "81"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "MGR-00020": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "286",
+                            "new": "MGR-00020-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "50.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "287",
+                            "new": "MGR-00020-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "50.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "MGR-00020-01",
+                            "new": "286"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "MGR-00020-02",
+                            "new": "287"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    }
+                }
+            }
+        }
+    },
+    "NZR-00039": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "29",
+                            "new": "NZR-00039-01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "400000.0",
+                                    "new": "140000.0"
+                                },
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "600.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "30",
+                            "new": "NZR-00039-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "400000.0",
+                                    "new": "140000.0"
+                                },
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "600.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "NZR-00039-01",
+                            "new": "29"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "140000.0",
+                                    "new": "400000.0"
+                                },
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "NZR-00039-02",
+                            "new": "30"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "140000.0",
+                                    "new": "400000.0"
+                                },
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "debitCard"
+                    },
+                    "1": {
+                        "old": "creditCard",
+                        "new": "nfc"
+                    },
+                    "2": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "4": {
+                        "old": "debitCard",
+                        "new": "pinpad"
+                    },
+                    "5": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "6": {
+                        "old": "pinpad",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "ODV-00033": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Iberdrola | bp pulse",
+            "new": "CHARGING TOGETHER, UNIPESSOAL LDA"
+        }
+    }
+}
