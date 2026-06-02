@@ -18149,3 +18149,2692 @@ Modificados:
         }
     }
 }
+2026-06-02 07:43:05
+Adicionados:
+{
+    "ABF-00187": {
+        "name": "Hotel Grande Real Santa Eulália - Albufeira",
+        "lastUpdated": "2026-06-02T02:58:21.850Z",
+        "city": "Albufeira",
+        "street": "Praia de Santa Eulália",
+        "postcode": "8200-916",
+        "latitude": "37.089485",
+        "longitude": "-8.212982",
+        "latlon": "37.089485 -8.212982",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ABF-00187",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ABF-00187-01",
+                        "evse_id": "PT*HRZ*E*ABF*00187*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ABF-00187-02",
+                        "evse_id": "PT*HRZ*E*ABF*00187*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00503": {
+        "name": "WOW-CSC-00699",
+        "lastUpdated": "2026-06-01T15:48:32.048Z",
+        "city": "Cascais",
+        "street": "Rua Fernando Namora, 208",
+        "postcode": "2785-679",
+        "latitude": "38.69639",
+        "longitude": "-9.347056",
+        "latlon": "38.69639 -9.347056",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00503",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00503-01",
+                        "evse_id": "PT*TRK*E*CSC*00503*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00503-02",
+                        "evse_id": "PT*TRK*E*CSC*00503*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CSC-00530": {
+        "name": "WOW-CSC-00876",
+        "lastUpdated": "2026-06-01T15:47:36.627Z",
+        "city": "Cascais",
+        "street": "Estr. Rebelva, 3",
+        "postcode": "2785-590",
+        "latitude": "38.700485",
+        "longitude": "-9.340798",
+        "latlon": "38.700485 -9.340798",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CSC-00530",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00530-01",
+                        "evse_id": "PT*TRK*E*CSC*00530*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00530-02",
+                        "evse_id": "PT*TRK*E*CSC*00530*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDM-00070": {
+        "name": "IONITY Gondomar",
+        "lastUpdated": "2026-06-01T23:30:02.499Z",
+        "city": "Gondomar",
+        "street": "Avenida Multiusos 877",
+        "postcode": "4420-303",
+        "latitude": "41.133747",
+        "longitude": "-8.540301",
+        "latlon": "41.133747 -8.540301",
+        "opc": "IONY",
+        "opc_name": "IONITY GmbH",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDM-00070",
+                "payment": [
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "pinpad",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDM-00070-71",
+                        "evse_id": "PT*IOY*E473771",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00070-72",
+                        "evse_id": "PT*IOY*E473772",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00070-73",
+                        "evse_id": "PT*IOY*E473773",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00070-74",
+                        "evse_id": "PT*IOY*E473774",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00070-75",
+                        "evse_id": "PT*IOY*E473775",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDM-00070-76",
+                        "evse_id": "PT*IOY*E473776",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "920.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01204": {
+        "name": "WOW-LSB-00823",
+        "lastUpdated": "2026-06-01T15:44:20.772Z",
+        "city": "Lisboa",
+        "street": "Avenida David Mourão-Ferreira, 61",
+        "postcode": "1750-314",
+        "latitude": "38.77698",
+        "longitude": "-9.15549",
+        "latlon": "38.77698 -9.15549",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01204",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01204-01",
+                        "evse_id": "PT*TRK*E*LSB*01204*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01204-02",
+                        "evse_id": "PT*TRK*E*LSB*01204*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01215": {
+        "name": "WOW-LSB-00862",
+        "lastUpdated": "2026-06-01T15:43:36.530Z",
+        "city": "Lisboa",
+        "street": "Rua Prof. Bento de Jesus Caraça, 52",
+        "postcode": "1600-606",
+        "latitude": "38.76601",
+        "longitude": "-9.17048",
+        "latlon": "38.76601 -9.17048",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01215",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01215-01",
+                        "evse_id": "PT*TRK*E*LSB*01215*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01215-02",
+                        "evse_id": "PT*TRK*E*LSB*01215*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-01218": {
+        "name": "WOW-LSB-00866",
+        "lastUpdated": "2026-06-01T15:42:53.773Z",
+        "city": "Lisboa",
+        "street": "Rua Prof. Francisco Gentil, 20",
+        "postcode": "1600-236",
+        "latitude": "38.76065",
+        "longitude": "-9.16728",
+        "latlon": "38.76065 -9.16728",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-01218",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01218-01",
+                        "evse_id": "PT*TRK*E*LSB*01218*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01218-02",
+                        "evse_id": "PT*TRK*E*LSB*01218*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VNH-00003": {
+        "name": "WOW-VNH-00809",
+        "lastUpdated": "2026-06-01T15:41:57.274Z",
+        "city": "Vinhais",
+        "street": "Rua dos Frades, EN 103, 5320-331 Vinhais",
+        "postcode": "5320-331",
+        "latitude": "41.833862",
+        "longitude": "-7.004278",
+        "latlon": "41.833862 -7.004278",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VNH-00003",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNH-00003-01",
+                        "evse_id": "PT*TRK*E*VNH*00003*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNH-00003-02",
+                        "evse_id": "PT*TRK*E*VNH*00003*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "CSC-00194",
+    "CSC-00195",
+    "CSC-00196",
+    "CSC-00197",
+    "CSC-00198"
+]
+Modificados:
+{
+    "ACH-00003": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "ALM-00017": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "ALM-00101": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "AMD-00061": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AMD-00063": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AMD-00064": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "AMD-00111": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "ASL-00033": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "BRG-00066": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "BRG-00067": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRG-00069": {
+        "hours": {
+            "old": "24/7",
+            "new": "Limited hours"
+        }
+    },
+    "BRG-00157": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "BRG-00158": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "CHT-00001": {
+        "opc_name": {
+            "old": "Galp Gest",
+            "new": "Galpgeste"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CHT*00001*01",
+                            "new": "PT*GLG*ECHT*00001*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CHT*00001*02",
+                            "new": "PT*GLG*ECHT*00001*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*GLG*E*CHT*00001*03",
+                            "new": "PT*GLG*ECHT*00001*03"
+                        }
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Travessas - Ribeira Seca  ",
+            "new": "TRAVESSAS - RIBEIRA SECA"
+        }
+    },
+    "EPS-00036": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "EVR-00045": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "EVR-00045-01",
+                            "new": "195"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "EVR-00045-02",
+                            "new": "196"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "EVR-00045-03",
+                            "new": "197"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "EVR-00045-01",
+                            "evse_id": "PT*FCT*E*EVR*00045*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "EVR-00045-02",
+                            "evse_id": "PT*FCT*E*EVR*00045*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "EVR-00045-03",
+                            "evse_id": "PT*FCT*E*EVR*00045*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "FUEL_STATION"
+                    },
+                    "removed_items": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "FLG-00026": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00147": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00169": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00170": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "GMR-00172": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LRS-00056": {
+        "latlon": {
+            "old": "38.859554 -9.161408",
+            "new": "38.85872 -9.16104"
+        },
+        "latitude": {
+            "old": "38.859554",
+            "new": "38.85872"
+        },
+        "longitude": {
+            "old": "-9.161408",
+            "new": "-9.16104"
+        }
+    },
+    "LRS-00225": {
+        "latlon": {
+            "old": "38.859547 -9.161388",
+            "new": "38.85872 -9.16104"
+        },
+        "latitude": {
+            "old": "38.859547",
+            "new": "38.85872"
+        },
+        "longitude": {
+            "old": "-9.161388",
+            "new": "-9.16104"
+        }
+    },
+    "LRS-00230": {
+        "latlon": {
+            "old": "38.859554 -9.161408",
+            "new": "38.85872 -9.16104"
+        },
+        "latitude": {
+            "old": "38.859554",
+            "new": "38.85872"
+        },
+        "longitude": {
+            "old": "-9.161408",
+            "new": "-9.16104"
+        }
+    },
+    "LRS-00231": {
+        "latlon": {
+            "old": "38.859554 -9.161408",
+            "new": "38.85872 -9.16104"
+        },
+        "latitude": {
+            "old": "38.859554",
+            "new": "38.85872"
+        },
+        "longitude": {
+            "old": "-9.161408",
+            "new": "-9.16104"
+        }
+    },
+    "LSB-00472": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "latlon": {
+            "old": "38.723145 -9.148822",
+            "new": "38.722702 -9.152706"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00472*01",
+                            "new": "PT*GLP*ELSB*00472*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*GLP*E*LSB*00472*02",
+                            "new": "PT*GLP*ELSB*00472*02"
+                        }
+                    }
+                }
+            }
+        },
+        "latitude": {
+            "old": "38.723145",
+            "new": "38.722702"
+        },
+        "longitude": {
+            "old": "-9.148822",
+            "new": "-9.152706"
+        }
+    },
+    "LSB-00488": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-00489": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-01122": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-01321": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-80144": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "LSB-90002": {
+        "name": {
+            "old": "",
+            "new": "Rua Lucília do Carmo"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "added_items": [
+                        {
+                            "evse_code": "PT-EDP-ELSB-90002-1",
+                            "evse_id": "PT*EDP*ELSB*90002*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PT-EDP-ELSB-90002-2",
+                            "evse_id": "PT*EDP*ELSB*90002*2",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "socket",
+                                    "max_power": "3700.0",
+                                    "voltage": "240.0",
+                                    "max_current": "16.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "cafe",
+                        "restaurant",
+                        "NATURE"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Rua Lucília do Carmo",
+            "new": "Rua Lucília do Carmo 1"
+        }
+    },
+    "MAI-00072": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "MOR-00002": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "MOR-00002-01",
+                            "new": "308"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "MOR-00002-02",
+                            "new": "309"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "MOR-00002-03",
+                            "new": "310"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MOR-00002-01",
+                            "evse_id": "PT*FCT*E*MOR*00002*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MOR-00002-02",
+                            "evse_id": "PT*FCT*E*MOR*00002*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MOR-00002-03",
+                            "evse_id": "PT*FCT*E*MOR*00002*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "nfc",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "creditCard",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "debitCard",
+                        "new": "nfc"
+                    }
+                }
+            }
+        },
+        "street": {
+            "old": "Rua 5 de Outubro, nº 2",
+            "new": "Rua 5 de Outubro, n 2"
+        }
+    },
+    "MTJ-90003": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "MTL-00003": {
+        "latlon": {
+            "old": "37.64151 -7.66071",
+            "new": "37.64352 -7.655828"
+        },
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        },
+        "latitude": {
+            "old": "37.64151",
+            "new": "37.64352"
+        },
+        "longitude": {
+            "old": "-7.66071",
+            "new": "-7.655828"
+        }
+    },
+    "MTS-00175": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "MTS-00175-01",
+                            "new": "295"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "MTS-00175-02",
+                            "new": "296"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "MTS-00175-01",
+                            "evse_id": "PT*FCT*E*MTS*00175*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "MTS-00175-02",
+                            "evse_id": "PT*FCT*E*MTS*00175*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "carPark",
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "MTS-00185": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "NZR-00038": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "PBL-00023": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "135000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00023-01",
+                            "new": "24"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00023-02",
+                            "new": "25"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "135000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00023-03",
+                            "new": "26"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PBL-00023-01",
+                            "evse_id": "PT*FCT*E*PBL*00023*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "135000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00023-02",
+                            "evse_id": "PT*FCT*E*PBL*00023*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00023-03",
+                            "evse_id": "PT*FCT*E*PBL*00023*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "135000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "Estrada da Guia 13, lugar de Carnide",
+            "new": "13 Estrada da Guia, lugar de Carnide"
+        }
+    },
+    "PBL-00024": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00024-01",
+                            "new": "389"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00024-02",
+                            "new": "390"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00024-03",
+                            "new": "391"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PBL-00024-01",
+                            "evse_id": "PT*FCT*E*PBL*00024*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00024-02",
+                            "evse_id": "PT*FCT*E*PBL*00024*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00024-03",
+                            "evse_id": "PT*FCT*E*PBL*00024*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "PBL-00025": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00025-01",
+                            "new": "392"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00025-02",
+                            "new": "393"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00025-03",
+                            "new": "394"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PBL-00025-01",
+                            "evse_id": "PT*FCT*E*PBL*00025*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00025-02",
+                            "evse_id": "PT*FCT*E*PBL*00025*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00025-03",
+                            "evse_id": "PT*FCT*E*PBL*00025*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "PBL-00026": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00026-01",
+                            "new": "395"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "PBL-00026-02",
+                            "new": "396"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "PBL-00026-01",
+                            "evse_id": "PT*FCT*E*PBL*00026*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "PBL-00026-02",
+                            "evse_id": "PT*FCT*E*PBL*00026*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "FUEL_STATION",
+                        "new": "carPark"
+                    }
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "PNF-00054": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "PRT-00311": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "PVZ-00046": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "RSD-00003": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        },
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "carPark"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "SNT-00147": {
+        "name": {
+            "old": "PUZZLE DECADE INVESTIMENTOS",
+            "new": "Evolution Padel Academy 2"
+        },
+        "latlon": {
+            "old": "38.84502 -9.320711",
+            "new": "38.84421 -9.320801"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00147*01",
+                            "new": "PT*EDP*ESNT*00147*1"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00147-01",
+                            "new": "PT-EDP-ESNT-00147-1"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*EDP*E*SNT*00147*02",
+                            "new": "PT*EDP*ESNT*00147*2"
+                        },
+                        "evse_code": {
+                            "old": "SNT-00147-02",
+                            "new": "PT-EDP-ESNT-00147-2"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "SNT-00147-01",
+                            "evse_id": "PT*EDP*E*SNT*00147*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "SNT-00147-02",
+                            "evse_id": "PT*EDP*E*SNT*00147*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latitude": {
+            "old": "38.84502",
+            "new": "38.84421"
+        },
+        "street": {
+            "old": "RUA DA CAPELA NOSSA SENHORA DA CONC 5",
+            "new": "RUA DA CAPELA NOSSA SENHORA DA CONC 6"
+        },
+        "longitude": {
+            "old": "-9.320711",
+            "new": "-9.320801"
+        }
+    },
+    "STC-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "STC-00017-01",
+                            "new": "442"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "STC-00017-02",
+                            "new": "443"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "STC-00017-03",
+                            "new": "444"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "STC-00017-01",
+                            "evse_id": "PT*FCT*E*STC*00017*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STC-00017-02",
+                            "evse_id": "PT*FCT*E*STC*00017*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "STC-00017-03",
+                            "evse_id": "PT*FCT*E*STC*00017*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "0": {
+                        "old": "carPark",
+                        "new": "FUEL_STATION"
+                    }
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "SXL-00073": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "TVD-00091": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "TVD-00093": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "VFX-00070": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "VNF-00055": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00173": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00173-01",
+                            "new": "539"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00173-02",
+                            "new": "540"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "300.0"
+                                },
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00173-03",
+                            "new": "541"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VNG-00173-01",
+                            "evse_id": "PT*FCT*E*VNG*00173*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00173-02",
+                            "evse_id": "PT*FCT*E*VNG*00173*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00173-03",
+                            "evse_id": "PT*FCT*E*VNG*00173*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "nfc",
+                        "new": "apps"
+                    },
+                    "2": {
+                        "old": "debitCard",
+                        "new": "rfid"
+                    },
+                    "3": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "4": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "5": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00174": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00174-01",
+                            "new": "542"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00174-02",
+                            "new": "543"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00174-03",
+                            "new": "544"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VNG-00174-01",
+                            "evse_id": "PT*FCT*E*VNG*00174*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00174-02",
+                            "evse_id": "PT*FCT*E*VNG*00174*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00174-03",
+                            "evse_id": "PT*FCT*E*VNG*00174*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "300000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "0": {
+                        "old": "debitCard",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "nfc",
+                        "new": "creditCard"
+                    },
+                    "2": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "4": {
+                        "old": "pinpad",
+                        "new": "debitCard"
+                    },
+                    "5": {
+                        "old": "apps",
+                        "new": "nfc"
+                    },
+                    "6": {
+                        "old": "rfid",
+                        "new": "pinpad"
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00178": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00178-01",
+                            "new": "537"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "VNG-00178-02",
+                            "new": "538"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "VNG-00178-01",
+                            "evse_id": "PT*FCT*E*VNG*00178*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00178-02",
+                            "evse_id": "PT*FCT*E*VNG*00178*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "150.0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "facilities": {
+                    "removed": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid",
+                        "debitCard"
+                    ]
+                }
+            }
+        }
+    },
+    "VPT-00001": {
+        "opc_name": {
+            "old": "Mobiletric, LDA",
+            "new": "Mobiletric"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*VPT*00001*01",
+                            "new": "PT*MLT*EVPT*00001*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*VPT*00001*02",
+                            "new": "PT*MLT*EVPT*00001*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*MLT*E*VPT*00001*03",
+                            "new": "PT*MLT*EVPT*00001*03"
+                        }
+                    }
+                },
+                "facilities": {
+                    "removed_items": [
+                        "FUEL_STATION"
+                    ]
+                }
+            }
+        },
+        "street": {
+            "old": "ER N 1 - 2 Pedras S. Pedro",
+            "new": "ER N 1 - 2 PEDRAS S. PEDRO"
+        }
+    }
+}
