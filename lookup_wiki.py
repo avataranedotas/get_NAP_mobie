@@ -9,6 +9,7 @@ OPERATORS = {
         "brand:wikidata": "Q1341222",
         "phone": "+351 800 222 222",
         "email": None,
+        "website": "https://www.edp.pt/",
     },
     "GLPP": {
         "operator": "Galp Power",
@@ -18,6 +19,7 @@ OPERATORS = {
         "brand:wikidata": "Q135275372",
         "phone": "+351 800 249 249",
         "email": "veiculoeletrico@galp.com",
+        "website": "https://www.galp.com/",
     },
     "HORZ": {
         "operator": "Powerdot",
@@ -27,6 +29,7 @@ OPERATORS = {
         "brand:wikidata": "Q123574541",
         "phone": "+351 800 180 292",
         "email": "ajuda@powerdot.pt",
+        "website": "https://powerdot.eu/",
     },
     "ATLA": {
         "operator": "Atlante",
@@ -36,6 +39,7 @@ OPERATORS = {
         "brand:wikidata": "Q126913632",
         "phone": "+351 800 296 929;+351 234 246 050",
         "email": "support.portugal@atlante.energy",
+        "website": "https://atlante.energy/",
     },
     "TRUE": {
         "operator": "True Kare",
@@ -45,6 +49,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": None,
         "email": "suporte@wowplug.com",
+        "website": "https://www.wowplug.com/",
     },
     "KLCS": {
         "operator": "KLC Serviços",
@@ -54,15 +59,17 @@ OPERATORS = {
         "brand:wikidata": "Q127504745",
         "phone": "+351 800 202 060",
         "email": "apoio.cliente@kmlowcost.com",
+        "website": "https://klc.pt/",
     },
     "MAKS": {
         "operator": "Maksu Services",
         "code3": "MAK",
         "operator:wikidata": None,
-        "brand": "Maksu",
+        "brand": "Telpark",
         "brand:wikidata": None,
         "phone": None,
         "email": "ev_portugal@maksu.com",
+        "website": "https://www.telpark.com/pt/carregamento-eletrico/",
     },
     "IBRD": {
         "operator": "Iberdrola",
@@ -72,6 +79,7 @@ OPERATORS = {
         "brand:wikidata": "Q1437502",
         "phone": "+351 800 607 717",
         "email": "comercial@iberdrola.pt",
+        "website": "https://www.iberdrola.pt/",
     },
     "HELX": {
         "operator": "Helexia II",
@@ -81,6 +89,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 210 181 157",
         "email": "geral.pt@helexia.eu",
+        "website": "https://helexia.pt/",
     },
     "REPS": {
         "operator": "Repsol",
@@ -90,6 +99,7 @@ OPERATORS = {
         "brand:wikidata": "Q174747",
         "phone": "+351 800 226 624",
         "email": "crc.mobilidade.eletrica.pt@repsol.com",
+        "website": "https://www.repsol.pt/",
     },
     "GLPG": {
         "operator": "Galp Geste",
@@ -99,6 +109,7 @@ OPERATORS = {
         "brand:wikidata": "Q135275372",
         "phone": "+351 800 249 249",
         "email": "veiculoeletrico@galp.com",
+        "website": "https://www.galp.com/",
     },
     "PRIO": {
         "operator": "Prio.E",
@@ -108,6 +119,7 @@ OPERATORS = {
         "brand:wikidata": "Q62530421",
         "phone": "+351 800 100 303",
         "email": "electric@prioenergy.com",
+        "website": "https://www.prio.pt/",
     },
     "FCTO": {
         "operator": "Charging Together",
@@ -117,6 +129,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 917 576",
         "email": None,
+        "website": "https://iberdrola-bppulse.es/",
     },
     "MOTA": {
         "operator": "Mota Engil II",
@@ -126,6 +139,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 020 940",
         "email": "renewing.charging@mota-engil.pt",
+        "website": "https://me-remo.com/",
     },
     "REMO": {
         "operator": "REMO",
@@ -135,6 +149,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 020 940",
         "email": "charging@me-remo.com",
+        "website": "https://me-remo.com/",
     },
     "MLTR": {
         "operator": "Mobiletric",
@@ -144,6 +159,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 249 249",
         "email": "veiculoeletrico@galp.com",
+        "website": "https://www.galp.com/",
     },
     "EMEL": {
         "operator": "EMEL",
@@ -153,6 +169,7 @@ OPERATORS = {
         "brand:wikidata": "Q30256831",
         "phone": "+351 800 910 255",
         "email": "opc@emel.pt",
+        "website": "https://www.emel.pt/",
     },
     "ECOI": {
         "operator": "EcoInside",
@@ -162,6 +179,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 22 617 33 43",
         "email": "contact@ecoinside.pt",
+        "website": "https://www.ecoinside.pt/",
     },
     "EVCE": {
         "operator": "EVCE",
@@ -171,6 +189,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 301 303",
         "email": "info@mobismart.pt;info@evce.pt",
+        "website": "https://www.evce.pt/",
     },
     "SEGM": {
         "operator": "SEGMA",
@@ -180,6 +199,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 296 20 22 09",
         "email": "segma@segma.pt",
+        "website": "https://www.segma.pt/",
     },
     "FACT": {
         "operator": "Factor Energia",
@@ -189,6 +209,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 100 013",
         "email": "info@factorenergia.pt",
+        "website": "https://www.factorenergia.pt/",
     },
     "HEXA": {
         "operator": "Hexagonal Ocean",
@@ -198,6 +219,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": None,
         "email": "geral@hexagonalocean.pt",
+        "website": "https://hexagonalocean.pt",
     },
     "DTEI": {
         "operator": "DTE",
@@ -207,6 +229,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 912 872 459",
         "email": "geral@dte.pt",
+        "website": "https://dte.pt/",
     },
     "LOGI": {
         "operator": "Logical Gravity",
@@ -216,6 +239,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 210 939 606;+351 224 801 080",
         "email": "geral@ucharge.pt",
+        "website": "https://ucharge.pt/",
     },
     "PLUG": {
         "operator": "Plug",
@@ -232,8 +256,9 @@ OPERATORS = {
         "operator:wikidata": None,
         "brand": "Moon",
         "brand:wikidata": None,
-        "phone": None,
-        "email": None,
+        "phone": "+351 900 259 259",
+        "email": "info.moon@siva.pt",
+        "website": "https://www.moon-power.pt/",
     },
     "HIGH": {
         "operator": "High Green Power",
@@ -243,6 +268,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": None,
         "email": None,
+        "website": "https://www.highgreenpower.pt/",
     },
     "EVPW": {
         "operator": "EV Power",
@@ -252,6 +278,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 254 565",
         "email": "suporte@evpower.pt",
+        "website": "https://www.evpower.pt/",
     },
     "EMAC": {
         "operator": "Emacom",
@@ -261,6 +288,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 221 187",
         "email": "emacom-me@eem.pt",
+        "website": "http://www.eem.pt",
     },
     "GENJ": {
         "operator": "Generation Journey",
@@ -279,6 +307,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 289 401 080",
         "email": "geral@lcglobal.pt",
+        "website": "https://www.lcglobal.pt/",
     },
     "VEIM": {
         "operator": "Veimonte",
@@ -288,6 +317,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 266 896 443",
         "email": "info@powercharge.pt",
+        "website": "https://powercharge.pt/",
     },
     "CEPS": {
         "operator": "Cepsa",
@@ -297,6 +327,7 @@ OPERATORS = {
         "brand:wikidata": "Q608819",
         "phone": "+351 217 217 855",
         "email": None,
+        "website": "https://pt.moeveglobal.com/",
     },
     "BLUE": {
         "operator": "Bluecharge",
@@ -306,6 +337,7 @@ OPERATORS = {
         "brand:wikidata": "Q113289672",
         "phone": None,
         "email": "geral@bluecharge.pt",
+        "website": "https://www.bluecharge.pt/",
     },
     "IONY": {
         "operator": "IONITY",
@@ -315,6 +347,7 @@ OPERATORS = {
         "brand:wikidata": "Q42717773",
         "phone": "+351 308 803 137",
         "email": None,
+        "website": "https://www.ionity.eu/",
     },
     "GREE": {
         "operator": "GreenCharge",
@@ -324,6 +357,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 210 432",
         "email": None,
+        "website": "https://greencharge.pt/",
     },
     "INTV": {
         "operator": "InstaVolt",
@@ -333,6 +367,7 @@ OPERATORS = {
         "brand:wikidata": "Q111173904",
         "phone": "+351 800 783 433",
         "email": "info@instavolt.pt",
+        "website": "https://instavolt.pt/",
     },
     "ALFA": {
         "operator": "Alfa Energia",
@@ -342,6 +377,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 234 661 194",
         "email": "info@alfaenergia.pt",
+        "website": "https://alfaenergia.pt/",
     },
     "LUSI": {
         "operator": "Luzigás",
@@ -351,6 +387,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 808 203 825",
         "email": "geral@luzigas.pt",
+        "website": "https://www.luzigas.pt/",
     },
     "EVIO": {
         "operator": "Evio",
@@ -360,6 +397,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 308 803 746",
         "email": "evio@go-evio.com",
+        "website": "https://go-evio.com/",
     },
     "PFTW": {
         "operator": "Plug Four The World",
@@ -369,6 +407,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 100 995",
         "email": "support@plug4us.com",
+        "website": None,
     },
     "CAPW": {
         "operator": "CapWatt",
@@ -378,6 +417,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 220 110 055",
         "email": "capwatt@capwatt.com",
+        "website": "https://capwatt.com/",
     },
     "CABL": {
         "operator": "Cable Energia",
@@ -385,8 +425,9 @@ OPERATORS = {
         "operator:wikidata": None,
         "brand": "Shell Recharge",
         "brand:wikidata": "Q105883058",
-        "phone": None,
-        "email": None,
+        "phone": "+34 961 679 024",
+        "email": "recarga@acciona.com",
+        "website": "https://recarga.acciona.com/",
     },
     "ACCI": {
         "operator": "Acciona",
@@ -394,8 +435,9 @@ OPERATORS = {
         "operator:wikidata": "Q339142",
         "brand": "acciona",
         "brand:wikidata": "Q339142",
-        "phone": None,
-        "email": None,
+        "phone": "+34 961 679 024",
+        "email": "recarga@acciona.com",
+        "website": "https://recarga.acciona.com/",
     },
     "AUCH": {
         "operator": "Auchan",
@@ -414,6 +456,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 210 514 956",
         "email": "info@mobel.pt",
+        "website": "https://www.mobel.pt/",
     },
     "VIAV": {
         "operator": "Via Verde",
@@ -421,8 +464,9 @@ OPERATORS = {
         "operator:wikidata": None,
         "brand": "Via Verde Electric",
         "brand:wikidata": None,
-        "phone": None,
+        "phone": "+351 210 730 300",
         "email": None,
+        "website": "https://www.viaverde.pt/",
     },
     "FRTR": {
         "operator": "Frontrow",
@@ -432,6 +476,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 255 810 219;+351 910 370 878",
         "email": "geral@luz-verde.pt",
+        "website": "https://www.luz-verde.pt/",
     },
     "ENBL": {
         "operator": "Enable Mobility Solutions",
@@ -441,6 +486,7 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 800 207 020",
         "email": "support@enable-mobility.com",
+        "website": "https://www.enable-mobility.com/",
     },
     "CONM": {
         "operator": "ConectaMais",
@@ -450,5 +496,6 @@ OPERATORS = {
         "brand:wikidata": None,
         "phone": "+351 213 933 190",
         "email": "suporte@conectamaisenergia.com",
+        "website": "https://conectamaisenergia.com/",
     },
 }
