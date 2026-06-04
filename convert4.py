@@ -35,11 +35,10 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
         "maxstay=unlimited",
         "motorcar=yes",
         f"name={station_id}",
+        f"ref={station_id}",
         "network=Mobi.E",
         "opening_hours=§§§§§",
         "parking:fee=§§§§§",
-        "website=https://www.mobie.pt/",
-        f"ref={station_id}",
         "capacity=§§§§§",
     ]
 
@@ -56,7 +55,9 @@ def station_to_tags(station_id: str, data: Dict) -> List[str]:
         tags.append(f"email={lookup_entry['email']}")
     if lookup_entry.get("phone"):
         tags.append(f"phone={lookup_entry['phone']}")
-
+    if lookup_entry.get("website"):
+        tags.append(f"website={lookup_entry['website']}")
+        
     # Payment (hardcoded for app and membership_card)
     payments = [p.lower() for p in data["stations"][0].get("payment", [])]
     tags += [
