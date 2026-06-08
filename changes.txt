@@ -32120,3 +32120,41 @@ Modificados:
         }
     }
 }
+2026-06-08 08:55:04
+Modificados:
+{
+    "ENT-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100.0",
+                                    "new": "100000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MTL-00003": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "rfid",
+                        "new": "apps"
+                    },
+                    "1": {
+                        "old": "apps",
+                        "new": "rfid"
+                    }
+                }
+            }
+        }
+    }
+}
