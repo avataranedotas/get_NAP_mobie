@@ -46851,3 +46851,282 @@ Modificados:
         }
     }
 }
+2026-06-13 07:47:33
+Modificados:
+{
+    "EVR-00073": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "evses": {
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E*EVR*00073*02",
+                            "new": "PT*FCT*E*EVR*00073*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "50.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "194",
+                            "new": "EVR-00073-01"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*FCT*E*EVR*00073*01",
+                            "new": "PT*FCT*E*EVR*00073*02"
+                        },
+                        "evse_code": {
+                            "old": "EVR-00073-01",
+                            "new": "EVR-00073-02"
+                        }
+                    },
+                    "3": {
+                        "evse_id": {
+                            "old": "PT*FCT*E*EVR*00073*02",
+                            "new": "PT*FCT*E*EVR*00073*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "50.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "EVR-00073-02",
+                            "new": "193"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "194",
+                            "evse_id": "PT*FCT*E*EVR*00073*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "50.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Iberdrola | bp pulse",
+            "new": "CHARGING TOGETHER, UNIPESSOAL LDA"
+        }
+    },
+    "GMR-00134": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "removed_items": [
+                        "debitCard",
+                        "nfc",
+                        "pinpad"
+                    ]
+                },
+                "evses": {
+                    "removed_items": [
+                        {
+                            "evse_code": "GMR-00134-01",
+                            "evse_id": "PT*FCT*E*GMR*00134*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GMR-00134-02",
+                            "evse_id": "PT*FCT*E*GMR*00134*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "GMR-00134-03",
+                            "evse_id": "PT*FCT*E*GMR*00134*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Iberdrola | bp pulse",
+            "new": "CHARGING TOGETHER, UNIPESSOAL LDA"
+        }
+    },
+    "MFR-00049": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "PLM-00051": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                },
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PLM-90001": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "0": {
+                        "old": "apps",
+                        "new": "rfid"
+                    },
+                    "1": {
+                        "old": "rfid",
+                        "new": "apps"
+                    }
+                }
+            }
+        }
+    },
+    "VNG-00173": {
+        "stations": {
+            "0": {
+                "facilities": {
+                    "added": [
+                        "FUEL_STATION"
+                    ]
+                },
+                "payment": {
+                    "removed_items": [
+                        "nfc",
+                        "pinpad",
+                        "debitCard"
+                    ]
+                },
+                "evses": {
+                    "removed_items": [
+                        {
+                            "evse_code": "VNG-00173-01",
+                            "evse_id": "PT*FCT*E*VNG*00173*01",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00173-02",
+                            "evse_id": "PT*FCT*E*VNG*00173*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "80000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        },
+                        {
+                            "evse_code": "VNG-00173-03",
+                            "evse_id": "PT*FCT*E*VNG*00173*03",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "150000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "500.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Iberdrola | bp pulse",
+            "new": "CHARGING TOGETHER, UNIPESSOAL LDA"
+        }
+    }
+}
