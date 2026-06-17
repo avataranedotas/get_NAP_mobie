@@ -1,0 +1,512 @@
+{
+    "AGD-00041": {
+        "name": "Águeda",
+        "lastUpdated": "2026-06-17T02:58:59.777Z",
+        "city": "Águeda",
+        "street": "Rua Bombeiros Voluntários",
+        "postcode": "3750-138",
+        "latitude": "40.57533",
+        "longitude": "-8.445067",
+        "latlon": "40.57533 -8.445067",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "AGD-00041",
+                "facilities": [
+                    "carPark"
+                ],
+                "payment": [
+                    "debitCard",
+                    "nfc",
+                    "creditCard",
+                    "debitCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AGD-00041-01",
+                        "evse_id": "PT*DTE*E*AGD*00041*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00041-02",
+                        "evse_id": "PT*DTE*E*AGD*00041*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CTB-00017": {
+        "name": "CASTELO BRANCO",
+        "lastUpdated": "2026-06-14T18:20:09.029Z",
+        "city": "Castelo Branco",
+        "street": "E.N. 18 (Rua do Terminal) - Cruz de Montalvão",
+        "postcode": "6000-368",
+        "latitude": "39.806026",
+        "longitude": "-7.513062",
+        "latlon": "39.806026 -7.513062",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CTB-00017",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CTB-00017-01",
+                        "evse_id": "PT*REP*E*CTB*00017*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CTB-00017-02",
+                        "evse_id": "PT*REP*E*CTB*00017*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CTB-00017-03",
+                        "evse_id": "PT*REP*E*CTB*00017*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GDL-00065": {
+        "name": "",
+        "lastUpdated": "2026-06-16T15:25:13.097Z",
+        "city": "Grândola",
+        "street": "Estrada Nacional 261, Carvalhal",
+        "postcode": "7570-779",
+        "latitude": "38.30896",
+        "longitude": "-8.66945",
+        "latlon": "38.30896 -8.66945",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GDL-00065",
+                "facilities": [
+                    "foodShopping"
+                ],
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDL-00065-01",
+                        "evse_id": "PT*GLP*EGDL*00065*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00065-02",
+                        "evse_id": "PT*GLP*EGDL*00065*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00065-03",
+                        "evse_id": "PT*GLP*EGDL*00065*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LSB-00408": {
+        "name": "C. ALMOSTER I",
+        "lastUpdated": "2026-02-03T09:49:55.716Z",
+        "city": "Lisboa",
+        "street": "Rua Francisco Gentil Martins",
+        "postcode": "1500-281",
+        "latitude": "38.74058",
+        "longitude": "-9.17534",
+        "latlon": "38.74058 -9.17534",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "LSB-00408",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00408-01",
+                        "evse_id": "PT*REP*E*LSB*00408*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "45000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00408-02",
+                        "evse_id": "PT*REP*E*LSB*00408*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "45000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00408-03",
+                        "evse_id": "PT*REP*E*LSB*00408*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OAZ-00008": {
+        "name": "NOGUEIRA DO CRAVO",
+        "lastUpdated": "2026-06-16T22:33:55.201Z",
+        "city": "Oliveira de Azeméis",
+        "street": "AV DESCOB BRITES, Nogueira do Cravo",
+        "postcode": "3700-766",
+        "latitude": "40.88386",
+        "longitude": "-8.45188",
+        "latlon": "40.88386 -8.45188",
+        "opc": "REPS",
+        "opc_name": "REPSOL PORTUGUESA LDA",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "OAZ-00008",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OAZ-00008-01",
+                        "evse_id": "PT*REP*E*OAZ*00008*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00008-02",
+                        "evse_id": "PT*REP*E*OAZ*00008*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "400.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00008-03",
+                        "evse_id": "PT*REP*E*OAZ*00008*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ODM-00005": {
+        "name": "ODEMIRA",
+        "lastUpdated": "2026-06-16T16:13:04.548Z",
+        "city": "Odemira",
+        "street": "Avenida Poole da Costa, 49",
+        "postcode": "7630-132",
+        "latitude": "37.59878",
+        "longitude": "-8.645581",
+        "latlon": "37.59878 -8.645581",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ODM-00005",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODM-00005-01",
+                        "evse_id": "PT*REP*E*ODM*00005*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODM-00005-02",
+                        "evse_id": "PT*REP*E*ODM*00005*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODM-00005-03",
+                        "evse_id": "PT*REP*E*ODM*00005*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SJM-00008": {
+        "name": "S. JOÃO MADEIRA II",
+        "lastUpdated": "2026-06-16T23:16:00.808Z",
+        "city": "São João da Madeira",
+        "street": "Avenida Doutor Renato Araújo",
+        "postcode": "3700-242",
+        "latitude": "40.89166",
+        "longitude": "-8.493819",
+        "latlon": "40.89166 -8.493819",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "SJM-00008",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SJM-00008-01",
+                        "evse_id": "PT*REP*E*SJM*00008*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SJM-00008-02",
+                        "evse_id": "PT*REP*E*SJM*00008*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SJM-00008-03",
+                        "evse_id": "PT*REP*E*SJM*00008*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VCT-00073": {
+        "name": "ES MEADELA 01",
+        "lastUpdated": "2026-06-16T15:27:14.632Z",
+        "city": "Viana do Castelo",
+        "street": "RUA DAS CARAMONAS S/N VIANA DO CASTELO",
+        "postcode": "4900-663",
+        "latitude": "41.70993",
+        "longitude": "-8.80241",
+        "latlon": "41.70993 -8.80241",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "VCT-00073",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-REP-E18124-1",
+                        "evse_id": "PT*REP*E18124*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-REP-E18124-2",
+                        "evse_id": "PT*REP*E18124*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
