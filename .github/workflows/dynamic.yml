@@ -12,6 +12,14 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v5
+
+# 1. UNCOMPRESS THE FILES AT THE START
+    - name: Uncompress data files
+      run: |
+        # Use -f (force) and -q (quiet). If files don't exist yet (first run), allow it to pass.
+        gzip -dfq *.xml.gz || true
+      shell: bash
+      
     - name: setup python
       uses: actions/setup-python@v6
       with:
@@ -46,7 +54,13 @@ jobs:
         python dyna3.py
         python dyna3b.py
         python dyna4.py
-        
+
+    # 2. COMPRESS THE FILES BEFORE COMMITTING
+    - name: Compress data files
+      run: |
+        # Compress the 4 specific XML files, replacing them with .xml.gz versions
+        gzip -f LATEST_dynamic.xml LATEST_static.xml PREVIOUS_dynamic.xml PREVIOUS_static.xml || true
+      shell: bash
 
     - name: Commit and push if it changed
       run: |-
