@@ -43,7 +43,7 @@ def find_differences(old, new):
 
 # Load dictionaries from JSON files
 def load_dict_from_json(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 # File paths
