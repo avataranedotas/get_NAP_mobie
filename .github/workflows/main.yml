@@ -3,8 +3,8 @@ name: Obter dados estaticos
 on:
   #push:
   workflow_dispatch:
-  #schedule:
-  #  - cron:  '1 4,16 * * *'
+  schedule:
+    - cron:  '1 4,16 * * *'
 
 jobs:
   scheduled:
@@ -13,6 +13,14 @@ jobs:
 
     - name: Check out this repo
       uses: actions/checkout@v4
+
+# 1. UNCOMPRESS THE FILES AT THE START
+    - name: Uncompress data files
+      run: |
+        # Use -f (force) and -q (quiet). If files don't exist yet (first run), allow it to pass.
+        gzip -dfq *.xml.gz || true
+      shell: bash
+      
     - name: setup python
       uses: actions/setup-python@v5
       with:
@@ -68,6 +76,12 @@ jobs:
       run: |
         python power.py
 
+# 2. COMPRESS THE FILES BEFORE COMMITTING
+    - name: Compress data files
+      run: |
+        # Compress the 4 specific XML files, replacing them with .xml.gz versions
+        gzip -f LATEST_dynamic.xml LATEST_static.xml PREVIOUS_dynamic.xml PREVIOUS_static.xml || true
+      shell: bash
     
     - name: Commit and push if it changed
       run: |-
