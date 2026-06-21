@@ -36,6 +36,7 @@ jobs:
     - name: Processa estaticos XML para JSON
       run: |
         python t2.py
+        python clear_removed.py
 
     - name: Compara dados com os anteriores
       run: |
