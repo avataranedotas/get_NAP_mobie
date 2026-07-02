@@ -1,0 +1,161 @@
+{
+    "ATL-TNV-00032": {
+        "name": "Atlante - HUB Videla",
+        "lastUpdated": "2026-07-01T21:57:40.438Z",
+        "city": "Torres Novas",
+        "street": "R. da Estrada Nacional 243",
+        "postcode": "2350-734",
+        "latitude": "39.482952",
+        "longitude": "-8.631918",
+        "latlon": "39.482952 -8.631918",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ATL-TNV-00032",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "website",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TNV-00032-01",
+                        "evse_id": "PT*ATL*ETNV*00032*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TNV-00032-02",
+                        "evse_id": "PT*ATL*ETNV*00032*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-CTB-00079": {
+        "name": "CTB-00079",
+        "lastUpdated": "2026-07-02T02:58:44.687Z",
+        "city": "Castelo Branco",
+        "street": "LARGO DE SANTO ANTÓNIO",
+        "postcode": "6005-015",
+        "latitude": "39.91549",
+        "longitude": "-7.459213",
+        "latlon": "39.91549 -7.459213",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GLP-CTB-00079",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CTB-00079-01",
+                        "evse_id": "PT*GLP*ECTB*00079*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CTB-00079-02",
+                        "evse_id": "PT*GLP*ECTB*00079*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-SRT-00007": {
+        "name": "SRT-00007",
+        "lastUpdated": "2026-07-01T15:57:52.722Z",
+        "city": "Sertã",
+        "street": "Paque Industrial, Lote 15 Ap. 10",
+        "postcode": "6100-711",
+        "latitude": "39.815266",
+        "longitude": "-8.10892",
+        "latlon": "39.815266 -8.10892",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GLP-SRT-00007",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SRT-00007-01",
+                        "evse_id": "PT*GLP*ESRT*00007*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SRT-00007-02",
+                        "evse_id": "PT*GLP*ESRT*00007*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
