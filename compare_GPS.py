@@ -177,7 +177,7 @@ def save_agg_tsv(agg, filename="compare_GPS.tsv"):
             "LON NAP",
             "LAT OSM",
             "LON OSM",
-            "DIST"
+            "DIST (m)"
         ])
 
         # Ordenado da maior para a menor distância
