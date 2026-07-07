@@ -72,6 +72,7 @@ jobs:
     - name: Conta postos por OPC
       run: |
         python count_opc.py
+        python compare_GPS.py
 
     - name: Verifica potencias
       run: |
