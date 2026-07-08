@@ -41,6 +41,23 @@ def find_differences(old, new):
             differences = {"old": old, "new": new}
     return differences
 
+#normalizar os metodos de pagamento para que a ordem seja irrelevante
+def normalize_payment(data):
+    if isinstance(data, dict):
+        normalized = {}
+        for key, value in data.items():
+            if key == "payment" and isinstance(value, list):
+                normalized[key] = sorted(value)
+            else:
+                normalized[key] = normalize_payment(value)
+        return normalized
+
+    elif isinstance(data, list):
+        return [normalize_payment(item) for item in data]
+
+    return data
+
+
 # Load dictionaries from JSON files
 def load_dict_from_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -57,6 +74,12 @@ previous = load_dict_from_json(file2)
 # Remove timestamps from both dictionaries
 latest_no_timestamps = remove_timestamps(latest)
 previous_no_timestamps = remove_timestamps(previous)
+
+#em TESTES, para os metodos de pagamento
+latest_no_timestamps = normalize_payment(latest_no_timestamps)
+previous_no_timestamps = normalize_payment(previous_no_timestamps)
+
+
 
 adicionados = {}
 removidos = {}
