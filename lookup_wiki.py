@@ -498,4 +498,14 @@ OPERATORS = {
         "email": "suporte@conectamaisenergia.com",
         "website": "https://conectamaisenergia.com/",
     },
+    "PQTJ": {
+        "operator": "Parques Tejo",
+        "code3": "PQT",
+        "operator:wikidata": None,
+        "brand": None,
+        "brand:wikidata": None,
+        "phone": "+351 213 933 190",
+        "email": None,
+        "website": None,
+    },
 }
