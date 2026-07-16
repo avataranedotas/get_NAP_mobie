@@ -1,0 +1,710 @@
+{
+    "ATL-ALM-00194": {
+        "name": "Atlante - Pingo Doce Laranjeiro",
+        "lastUpdated": "2026-07-15T23:35:17.064Z",
+        "city": "Almada",
+        "street": "R. Artur Semedo 2",
+        "postcode": "2810-278",
+        "latitude": "38.6483",
+        "longitude": "-9.1537",
+        "latlon": "38.6483 -9.1537",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ATL-ALM-00194",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "website"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALM-00194-01",
+                        "evse_id": "PT*ATL*EALM*00194*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "70000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-00194-02",
+                        "evse_id": "PT*ATL*EALM*00194*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "70000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ATL-TNV-00035": {
+        "name": "Atlante - Pingo Doce Torres Novas - Andrade Corvo",
+        "lastUpdated": "2026-07-15T14:34:50.987Z",
+        "city": "Torres Novas",
+        "street": "Av. Andrade Corvo",
+        "postcode": "2350-163",
+        "latitude": "39.4711",
+        "longitude": "-8.539451",
+        "latlon": "39.4711 -8.539451",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ATL-TNV-00035",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "website"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TNV-00035-01",
+                        "evse_id": "PT*ATL*ETNV*00035*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TNV-00035-02",
+                        "evse_id": "PT*ATL*ETNV*00035*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-ACB-00055": {
+        "name": "Alcobaça - VCI #5",
+        "lastUpdated": "2026-07-15T12:43:13.792Z",
+        "city": "Alcobaça",
+        "street": "N8 Alcobaça",
+        "postcode": "2460-001",
+        "latitude": "39.545452",
+        "longitude": "-8.969396",
+        "latlon": "39.545452 -8.969396",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-ACB-00055",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "577",
+                        "evse_id": "PT*FCT*E*ACB*00055*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "578",
+                        "evse_id": "PT*FCT*E*ACB*00055*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "579",
+                        "evse_id": "PT*FCT*E*ACB*00055*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00162": {
+        "name": "Braga - Nova Arcada #1",
+        "lastUpdated": "2026-07-15T17:56:47.007Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00162",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "656",
+                        "evse_id": "PT*FCT*E270*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "657",
+                        "evse_id": "PT*FCT*E270*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00163": {
+        "name": "Braga - Nova Arcada #2",
+        "lastUpdated": "2026-07-15T17:57:02.934Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00163",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "658",
+                        "evse_id": "PT*FCT*E271*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "659",
+                        "evse_id": "PT*FCT*E271*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00164": {
+        "name": "Braga - Nova Arcada #3",
+        "lastUpdated": "2026-07-15T17:46:07.112Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00164",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "660",
+                        "evse_id": "PT*FCT*E272*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "661",
+                        "evse_id": "PT*FCT*E272*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "1000.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00165": {
+        "name": "Braga - Nova Arcada #4",
+        "lastUpdated": "2026-07-15T17:55:43.449Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00165",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "662",
+                        "evse_id": "PT*FCT*E273*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "663",
+                        "evse_id": "PT*FCT*E273*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00166": {
+        "name": "Braga - Nova Arcada #5",
+        "lastUpdated": "2026-07-15T19:18:08.837Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00166",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "664",
+                        "evse_id": "PT*FCT*E274*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "665",
+                        "evse_id": "PT*FCT*E274*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00167": {
+        "name": "Braga - Nova Arcada #6",
+        "lastUpdated": "2026-07-15T17:55:16.896Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00167",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "666",
+                        "evse_id": "PT*FCT*E275*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "667",
+                        "evse_id": "PT*FCT*E275*2",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "668",
+                        "evse_id": "PT*FCT*E275*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00168": {
+        "name": "Braga - Nova Arcada #7",
+        "lastUpdated": "2026-07-16T02:12:10.089Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00168",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "669",
+                        "evse_id": "PT*FCT*E276*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "670",
+                        "evse_id": "PT*FCT*E276*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-BRG-00169": {
+        "name": "Braga - Nova Arcada #8",
+        "lastUpdated": "2026-07-15T17:55:23.002Z",
+        "city": "Braga",
+        "street": "Avenida de Lamas 100",
+        "postcode": "4700-038",
+        "latitude": "41.57953",
+        "longitude": "-8.430555",
+        "latlon": "41.57953 -8.430555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-BRG-00169",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "671",
+                        "evse_id": "PT*FCT*E277*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "672",
+                        "evse_id": "PT*FCT*E277*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-MGL-00021": {
+        "name": "Mangualde - Centro #2",
+        "lastUpdated": "2026-07-15T12:14:01.000Z",
+        "city": "Mangualde",
+        "street": "Rua Cruz da Mata",
+        "postcode": "3530-114",
+        "latitude": "40.605114",
+        "longitude": "-7.775085",
+        "latlon": "40.605114 -7.775085",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-MGL-00021",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "pinpad",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "284",
+                        "evse_id": "PT*FCT*E*MGL*00021*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "285",
+                        "evse_id": "PT*FCT*E*MGL*00021*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MGL-00021-01",
+                        "evse_id": "PT*FCT*E*MGL*00021*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MGL-00021-02",
+                        "evse_id": "PT*FCT*E*MGL*00021*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
