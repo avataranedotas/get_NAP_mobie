@@ -1,0 +1,56 @@
+{
+    "FCT-ORQ-00009": {
+        "name": "Ourique - Palheiros #1",
+        "lastUpdated": "2026-07-20T02:09:34.448Z",
+        "city": "Ourique",
+        "street": "Campo dos Guerreiros",
+        "postcode": "7670-202",
+        "latitude": "37.60107",
+        "longitude": "-8.250555",
+        "latlon": "37.60107 -8.250555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-ORQ-00009",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "619",
+                        "evse_id": "PT*FCT*E*ORQ*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "620",
+                        "evse_id": "PT*FCT*E*ORQ*00009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
