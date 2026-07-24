@@ -173,11 +173,11 @@ def save_agg_tsv(agg, filename="compare_GPS.tsv"):
         writer.writerow([
             "CPO",
             "REF",
-            "LAT NAP",
-            "LON NAP",
-            "LAT OSM",
-            "LON OSM",
-            "DIST (m)"
+            "LAT_NAP",
+            "LON_NAP",
+            "LAT_OSM",
+            "LON_OSM",
+            "DIST_(m)"
         ])
 
         # Ordenado da maior para a menor distância
