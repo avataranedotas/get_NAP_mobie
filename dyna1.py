@@ -12,16 +12,20 @@ def save_json(data: dict, filepath: str) -> None:
     print(f"Saved: {filepath}")
 
 
-def build_evse_code_to_id_map(static_data: dict) -> dict:
-    """Build a lookup map: evse_code (e.g. AMD-00096-01) -> evse_id (e.g. PT*ATL*EAMD*00096*1)"""
+def build_evse_code_to_id_map(static_data):
     mapping = {}
+
     for station_data in static_data.values():
         for station in station_data.get("stations", []):
+            station_id = station.get("station_id")
+
             for evse in station.get("evses", []):
                 evse_code = evse.get("evse_code")
                 evse_id = evse.get("evse_id")
-                if evse_code and evse_id:
-                    mapping[evse_code] = evse_id
+
+                if station_id and evse_code and evse_id:
+                    mapping[(station_id, evse_code)] = evse_id
+
     return mapping
 
 
@@ -44,8 +48,10 @@ def merge(static_path: str, dynamic_path: str, output_path: str) -> None:
         for station in station_dynamic.get("stations", []):
             new_evses = []
             for evse in station.get("evses", []):
-                evse_code = evse.get("evse_id")  # In dynamic file, this field holds the code
-                proper_evse_id = evse_map.get(evse_code)
+                station_id = station.get("station_id")
+                evse_code = evse.get("evse_id")
+
+                proper_evse_id = evse_map.get((station_id, evse_code))
 
                 if proper_evse_id:
                     new_evses.append({
