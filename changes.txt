@@ -1560,3 +1560,1020 @@ Modificados:
         }
     }
 }
+2026-07-24 06:26:31
+Adicionados:
+{
+    "ATL-VFX-00150": {
+        "name": "Atlante - Pingo Doce Vialonga",
+        "lastUpdated": "2026-07-24T01:58:38.768Z",
+        "city": "Vila Franca de Xira",
+        "street": "Rua Coronel Lobo da Costa",
+        "postcode": "2625-612",
+        "latitude": "38.87039",
+        "longitude": "-9.08572",
+        "latlon": "38.87039 -9.08572",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ATL-VFX-00150",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFX-00150-01",
+                        "evse_id": "PT*ATL*EVFX*00150*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VFX-00150-02",
+                        "evse_id": "PT*ATL*EVFX*00150*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-CTB-00081": {
+        "name": "Castelo Branco - Benquerenças",
+        "lastUpdated": "2026-07-23T16:03:40.801Z",
+        "city": "Castelo Branco",
+        "street": "R. D 83 Castelo Branco",
+        "postcode": "6000-459",
+        "latitude": "39.802338",
+        "longitude": "-7.535808",
+        "latlon": "39.802338 -7.535808",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-CTB-00081",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "629",
+                        "evse_id": "PT*FCT*E*CTB*00081*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "630",
+                        "evse_id": "PT*FCT*E*CTB*00081*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-GMR-00107": {
+        "name": "Supermercados Ribeiros - Pevidém",
+        "lastUpdated": "2026-07-24T02:59:17.113Z",
+        "city": "Guimarães",
+        "street": "Rua da Circunvalação",
+        "postcode": "4835-315",
+        "latitude": "41.430958",
+        "longitude": "-8.346555",
+        "latlon": "41.430958 -8.346555",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "HRZ-GMR-00107",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GMR-00107-01",
+                        "evse_id": "PT*HRZ*E*GMR*00107*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00107-02",
+                        "evse_id": "PT*HRZ*E*GMR*00107*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00107-03",
+                        "evse_id": "PT*HRZ*E*GMR*00107*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "920.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "HRZ-CSC-00071"
+]
+Modificados:
+{
+    "FCT-ALD-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00008-01",
+                            "new": "48"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00008-02",
+                            "new": "49"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00008-03",
+                            "new": "50"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "48",
+                            "new": "ALD-00008-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "49",
+                            "new": "ALD-00008-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "50",
+                            "new": "ALD-00008-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-ALD-00009": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00009-01",
+                            "new": "51"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00009-02",
+                            "new": "52"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00009-03",
+                            "new": "53"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "51",
+                            "new": "ALD-00009-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "52",
+                            "new": "ALD-00009-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "53",
+                            "new": "ALD-00009-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-ALD-00010": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00010-01",
+                            "new": "54"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00010-02",
+                            "new": "55"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00010-03",
+                            "new": "56"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "54",
+                            "new": "ALD-00010-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "55",
+                            "new": "ALD-00010-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "56",
+                            "new": "ALD-00010-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-ALD-00011": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00011-01",
+                            "new": "57"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00011-02",
+                            "new": "58"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "ALD-00011-03",
+                            "new": "59"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "57",
+                            "new": "ALD-00011-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "58",
+                            "new": "ALD-00011-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "59",
+                            "new": "ALD-00011-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-CLD-00033": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "CLD-00033-01",
+                            "new": "167"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "CLD-00033-02",
+                            "new": "168"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "CLD-00033-03",
+                            "new": "169"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "167",
+                            "new": "CLD-00033-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "500.0"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "168",
+                            "new": "CLD-00033-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "169",
+                            "new": "CLD-00033-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-CLD-00045": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "CLD-00045-01",
+                            "new": "164"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "CLD-00045-02",
+                            "new": "165"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "CLD-00045-03",
+                            "new": "166"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "164",
+                            "new": "CLD-00045-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "165",
+                            "new": "CLD-00045-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "166",
+                            "new": "CLD-00045-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-RMR-00013": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "RMR-00013-01",
+                            "new": "45"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "80.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "RMR-00013-02",
+                            "new": "46"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "RMR-00013-03",
+                            "new": "47"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "45",
+                            "new": "RMR-00013-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "1000.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "46",
+                            "new": "RMR-00013-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "47",
+                            "new": "RMR-00013-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-SXL-00082": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "SXL-00082-01",
+                            "new": "460"
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "80.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "SXL-00082-02",
+                            "new": "461"
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "600.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "SXL-00082-03",
+                            "new": "462"
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "600.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "460",
+                            "new": "SXL-00082-01"
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "80.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "461",
+                            "new": "SXL-00082-02"
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "600.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "462",
+                            "new": "SXL-00082-03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "HRZ-MAI-00025": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "187500.0",
+                                    "new": "80000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "187500.0",
+                                    "new": "80000.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "7": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
