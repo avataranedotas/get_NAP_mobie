@@ -4464,3 +4464,249 @@ Modificados:
         }
     }
 }
+2026-07-29 06:31:12
+Adicionados:
+{
+    "KLS-FAR-00100": {
+        "name": "OPC3072 Delaurent - Monte Do Malhao",
+        "lastUpdated": "2026-07-29T02:58:13.501Z",
+        "city": "Faro",
+        "street": " Sítio do Malhão, Castro Marim",
+        "postcode": "8950-191",
+        "latitude": "37.216377",
+        "longitude": "-7.5085745",
+        "latlon": "37.216377 -7.5085745",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "KLS-FAR-00100",
+                "payment": [
+                    "apps",
+                    "pinpad"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FAR-00100-01",
+                        "evse_id": "PT*KLS*E*FAR*00100*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "GLG-SMG-00002",
+    "GLG-SMG-00003",
+    "GLG-SMG-00004",
+    "GLG-SMG-00005"
+]
+Modificados:
+{
+    "CAP-GMR-00072": {
+        "longitude": {
+            "old": "-8.306535",
+            "new": "-8.302935"
+        },
+        "latlon": {
+            "old": "41.440887 -8.306535",
+            "new": "41.44064 -8.302935"
+        },
+        "latitude": {
+            "old": "41.440887",
+            "new": "41.44064"
+        }
+    },
+    "EDP-MAI-00093": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "350000.0",
+                                    "new": "180000.0"
+                                },
+                                "max_current": {
+                                    "old": "500.0",
+                                    "new": "350.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-LSB-90064": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "GLP-VND-90004": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "LOG-VRL-00011": {
+        "longitude": {
+            "old": "-7.51193",
+            "new": "-7.514103"
+        },
+        "latlon": {
+            "old": "41.70474 -7.51193",
+            "new": "41.70282 -7.514103"
+        },
+        "latitude": {
+            "old": "41.70474",
+            "new": "41.70282"
+        }
+    },
+    "MOT-CHV-00028": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "62500.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MOT-CHV-00031": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MOT-CHV-00032": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "100000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REP-LSB-00270": {
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        },
+        "longitude": {
+            "old": "-9.14169",
+            "new": "-9.141016"
+        },
+        "latlon": {
+            "old": "38.763435 -9.14169",
+            "new": "38.763577 -9.141016"
+        },
+        "latitude": {
+            "old": "38.763435",
+            "new": "38.763577"
+        }
+    },
+    "REP-MTJ-00021": {
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        },
+        "longitude": {
+            "old": "-8.966075",
+            "new": "-8.966052"
+        },
+        "latlon": {
+            "old": "38.711773 -8.966075",
+            "new": "38.71236 -8.966052"
+        },
+        "latitude": {
+            "old": "38.711773",
+            "new": "38.71236"
+        }
+    },
+    "REP-TNV-00003": {
+        "longitude": {
+            "old": "-8.623367",
+            "new": "-8.622967"
+        },
+        "latlon": {
+            "old": "39.478542 -8.623367",
+            "new": "39.477657 -8.622967"
+        },
+        "latitude": {
+            "old": "39.478542",
+            "new": "39.477657"
+        }
+    },
+    "VIA-TRF-00026": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "400000.0",
+                                    "new": "62500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

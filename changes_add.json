@@ -1,0 +1,40 @@
+{
+    "KLS-FAR-00100": {
+        "name": "OPC3072 Delaurent - Monte Do Malhao",
+        "lastUpdated": "2026-07-29T02:58:13.501Z",
+        "city": "Faro",
+        "street": " Sítio do Malhão, Castro Marim",
+        "postcode": "8950-191",
+        "latitude": "37.216377",
+        "longitude": "-7.5085745",
+        "latlon": "37.216377 -7.5085745",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "KLS-FAR-00100",
+                "payment": [
+                    "apps",
+                    "pinpad"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FAR-00100-01",
+                        "evse_id": "PT*KLS*E*FAR*00100*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
