@@ -1,0 +1,420 @@
+{
+    "ATL-MTA-00101": {
+        "name": "Atlante - Pingo Doce Moita",
+        "lastUpdated": "2026-07-30T02:37:21.773Z",
+        "city": "Moita",
+        "street": "E.N. 11, Quinta Fonte Da Prata",
+        "postcode": "2860-403",
+        "latitude": "38.649605",
+        "longitude": "-8.998231",
+        "latlon": "38.649605 -8.998231",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ATL-MTA-00101",
+                "payment": [
+                    "rfid",
+                    "creditCard",
+                    "apps",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MTA-00101-01",
+                        "evse_id": "PT*ATL*EMTA*00101*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MTA-00101-02",
+                        "evse_id": "PT*ATL*EMTA*00101*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CGG-VCT-00025": {
+        "name": "VCT-00025",
+        "lastUpdated": "2026-07-28T13:25:02.944Z",
+        "city": "Viana do Castelo",
+        "street": "Escola Superior de Saude (ESS-IPVC)",
+        "postcode": "4900-314",
+        "latitude": "41.69754",
+        "longitude": "-8.836002",
+        "latlon": "41.69754 -8.836002",
+        "opc": "CARG",
+        "opc_name": "Cargga Inteligente",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CGG-VCT-00025",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VCT-00025-01",
+                        "evse_id": "PT*CGG*E*VCT*00025*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VCT-00025-02",
+                        "evse_id": "PT*CGG*E*VCT*00025*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CGG-VCT-00026": {
+        "name": "VCT-00026",
+        "lastUpdated": "2026-07-30T02:50:12.568Z",
+        "city": "Viana do Castelo",
+        "street": "Escola Superior de Educação (ESE-IPVC)",
+        "postcode": "4901-908",
+        "latitude": "41.702656",
+        "longitude": "-8.821213",
+        "latlon": "41.702656 -8.821213",
+        "opc": "CARG",
+        "opc_name": "Cargga Inteligente",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "CGG-VCT-00026",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VCT-00026-01",
+                        "evse_id": "PT*CGG*E*VCT*00026*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VCT-00026-02",
+                        "evse_id": "PT*CGG*E*VCT*00026*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ABF-00169": {
+        "name": "Rua do Município - Municipio Albufeira ES",
+        "lastUpdated": "2026-07-29T15:38:17.000Z",
+        "city": "Albufeira",
+        "street": "Rua do Município ES 5",
+        "postcode": "8200-171",
+        "latitude": "37.09161",
+        "longitude": "-8.239073",
+        "latlon": "37.09161 -8.239073",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00169",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00169-1",
+                        "evse_id": "PT*EDP*EABF*00169*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00169-2",
+                        "evse_id": "PT*EDP*EABF*00169*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ABF-00190": {
+        "name": "CM Albufeira - Estrada dos Salgados 1",
+        "lastUpdated": "2026-07-29T15:40:06.000Z",
+        "city": "Albufeira",
+        "street": "URBANIZACAO SALGADOS VILLAGE 1 GUIA 1",
+        "postcode": "8200-428",
+        "latitude": "37.088375",
+        "longitude": "-8.31902",
+        "latlon": "37.088375 -8.31902",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00190",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00190-1",
+                        "evse_id": "PT*EDP*EABF*00190*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00190-2",
+                        "evse_id": "PT*EDP*EABF*00190*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ABF-00191": {
+        "name": "CM Albufeira - Estrada dos Salgados 2",
+        "lastUpdated": "2026-07-29T15:39:18.000Z",
+        "city": "Albufeira",
+        "street": "URBANIZACAO SALGADOS VILLAGE 2 GUIA 2",
+        "postcode": "8200-428",
+        "latitude": "37.09127",
+        "longitude": "-8.318711",
+        "latlon": "37.09127 -8.318711",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00191",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00191-1",
+                        "evse_id": "PT*EDP*EABF*00191*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00191-2",
+                        "evse_id": "PT*EDP*EABF*00191*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ABF-00192": {
+        "name": "CM Albufeira - Rua Alfontes da Guia",
+        "lastUpdated": "2026-07-29T15:40:49.000Z",
+        "city": "Albufeira",
+        "street": "RUA DA ALFONTES DA GUIA 13",
+        "postcode": "8200-441",
+        "latitude": "37.12708",
+        "longitude": "-8.302097",
+        "latlon": "37.12708 -8.302097",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00192",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00192-1",
+                        "evse_id": "PT*EDP*EABF*00192*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00192-2",
+                        "evse_id": "PT*EDP*EABF*00192*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-PTM-00088": {
+        "name": "PTM-00088",
+        "lastUpdated": "2026-07-30T02:09:59.827Z",
+        "city": "Portimão",
+        "street": "Avenida São João de Deus",
+        "postcode": "8500-649",
+        "latitude": "37.139103",
+        "longitude": "-8.54605",
+        "latlon": "37.139103 -8.54605",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GLP-PTM-00088",
+                "payment": [
+                    "rfid",
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTM-00088-01",
+                        "evse_id": "PT*GLP*EPTM*00088*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTM-00088-02",
+                        "evse_id": "PT*GLP*EPTM*00088*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
