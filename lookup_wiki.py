@@ -1,4 +1,4 @@
-# lookup_wiki.py
+cargaeletrica@moeveglobal.com# lookup_wiki.py
 
 OPERATORS = {
     "EDPC": {
@@ -325,8 +325,8 @@ OPERATORS = {
         "operator:wikidata": "Q608819",
         "brand": "Moeve",
         "brand:wikidata": "Q608819",
-        "phone": "+351 217 217 855",
-        "email": None,
+        "phone": "+351 217 217 855;+351 800 200 990",
+        "email": "cargaeletrica@moeveglobal.com",
         "website": "https://pt.moeveglobal.com/",
     },
     "BLUE": {
