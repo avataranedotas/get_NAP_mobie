@@ -1,4 +1,4 @@
-cargaeletrica@moeveglobal.com# lookup_wiki.py
+# lookup_wiki.py
 
 OPERATORS = {
     "EDPC": {
