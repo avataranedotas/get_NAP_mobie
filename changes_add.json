@@ -1,0 +1,56 @@
+{
+    "ATL-ODV-00061": {
+        "name": "Atlante - Pingo Doce Famões",
+        "lastUpdated": "2026-08-01T02:20:44.766Z",
+        "city": "Odivelas",
+        "street": "Av. Casal do Segolim  32",
+        "postcode": "1685-256",
+        "latitude": "38.79124",
+        "longitude": "-9.2138",
+        "latlon": "38.79124 -9.2138",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "ATL-ODV-00061",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ODV-00061-01",
+                        "evse_id": "PT*ATL*EODV*00061*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ODV-00061-02",
+                        "evse_id": "PT*ATL*EODV*00061*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
