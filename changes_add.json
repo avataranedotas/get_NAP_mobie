@@ -1,0 +1,491 @@
+{
+    "FCT-OVR-00039": {
+        "name": "A29 - AS Ovar - Oeste #3",
+        "lastUpdated": "2026-08-03T18:06:46.283Z",
+        "city": "Ovar",
+        "street": "A29 - Km 26,6",
+        "postcode": "3885-100",
+        "latitude": "40.904926",
+        "longitude": "-8.605265",
+        "latlon": "40.904926 -8.605265",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-OVR-00039",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "website"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "72",
+                        "evse_id": "PT*FCT*E*OVR*00039*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "73",
+                        "evse_id": "PT*FCT*E*OVR*00039*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OVR-00039-01",
+                        "evse_id": "PT*FCT*E*OVR*00039*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OVR-00039-02",
+                        "evse_id": "PT*FCT*E*OVR*00039*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-MGR-00033": {
+        "name": "MGR-00033",
+        "lastUpdated": "2026-08-04T01:41:04.450Z",
+        "city": "Marinha Grande",
+        "street": "Zona Ind Casal da Lebre, R da Bélgica 18",
+        "postcode": "2430-028",
+        "latitude": "39.721046",
+        "longitude": "-8.930603",
+        "latlon": "39.721046 -8.930603",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GLP-MGR-00033",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MGR-00033-01",
+                        "evse_id": "PT*GLP*EMGR*00033*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MGR-00033-02",
+                        "evse_id": "PT*GLP*EMGR*00033*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-MAI-00110": {
+        "name": "Elefante Azul - Maia",
+        "lastUpdated": "2026-08-04T02:59:11.970Z",
+        "city": "Maia",
+        "street": "R. Bernardino Machado 381",
+        "postcode": "4470-000",
+        "latitude": "41.246323",
+        "longitude": "-8.618575",
+        "latlon": "41.246323 -8.618575",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "HRZ-MAI-00110",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00110-01",
+                        "evse_id": "PT*HRZ*E*MAI*00110*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MAI-00110-02",
+                        "evse_id": "PT*HRZ*E*MAI*00110*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MAI-00110-03",
+                        "evse_id": "PT*HRZ*E*MAI*00110*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-MAI-00111": {
+        "name": "Elefante Azul - Maia",
+        "lastUpdated": "2026-08-04T02:58:11.767Z",
+        "city": "Maia",
+        "street": "R. Bernardino Machado 381",
+        "postcode": "4470-000",
+        "latitude": "41.246323",
+        "longitude": "-8.618575",
+        "latlon": "41.246323 -8.618575",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "HRZ-MAI-00111",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MAI-00111-01",
+                        "evse_id": "PT*HRZ*E*MAI*00111*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MAI-00111-02",
+                        "evse_id": "PT*HRZ*E*MAI*00111*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MAI-00111-03",
+                        "evse_id": "PT*HRZ*E*MAI*00111*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-MLD-00052": {
+        "name": "Intermarche Mealhada",
+        "lastUpdated": "2026-08-04T03:00:03.635Z",
+        "city": "Mealhada",
+        "street": "Lugar das Pedrinhas",
+        "postcode": "3050-343",
+        "latitude": "40.370895",
+        "longitude": "-8.453136",
+        "latlon": "40.370895 -8.453136",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "HRZ-MLD-00052",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MLD-00052-01",
+                        "evse_id": "PT*HRZ*E*MLD*00052*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MLD-00052-02",
+                        "evse_id": "PT*HRZ*E*MLD*00052*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MLD-00052-03",
+                        "evse_id": "PT*HRZ*E*MLD*00052*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MLD-00052-04",
+                        "evse_id": "PT*HRZ*E*MLD*00052*04",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MLD-00052-05",
+                        "evse_id": "PT*HRZ*E*MLD*00052*05",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "IBD-BRG-00171": {
+        "name": "Mercadona Lamaçães",
+        "lastUpdated": "2026-08-04T02:58:31.825Z",
+        "city": "Braga",
+        "street": "Avenida Dr. António Palha, 5",
+        "postcode": "4715-213",
+        "latitude": "41.547302",
+        "longitude": "-8.400088",
+        "latlon": "41.547302 -8.400088",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "IBD-BRG-00171",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRG-00171-01",
+                        "evse_id": "PT*IBD*E*BRG*00171*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRG-00171-02",
+                        "evse_id": "PT*IBD*E*BRG*00171*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LUZ-ABF-00194": {
+        "name": "Apolónia Supermercados",
+        "lastUpdated": "2026-08-04T02:58:26.040Z",
+        "city": "Albufeira",
+        "street": "Galé, Sítio Vale do Rabelho Urbanização Set",
+        "postcode": "8200-416",
+        "latitude": "37.08264",
+        "longitude": "-8.312201",
+        "latlon": "37.08264 -8.312201",
+        "opc": "LUSI",
+        "opc_name": "LUSIADAENERGIA, S.A.",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LUZ-ABF-00194",
+                "payment": [
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ABF-00194-01",
+                        "evse_id": "PT*LUZ*E*ABF*00194*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LUZ-LLE-00266": {
+        "name": "Apolónia Supermercados",
+        "lastUpdated": "2026-08-04T02:59:42.441Z",
+        "city": "Loulé",
+        "street": "Av. 5 de Outubro 278, 8135-103 Almancil",
+        "postcode": "8135-103",
+        "latitude": "37.092754",
+        "longitude": "-8.039486",
+        "latlon": "37.092754 -8.039486",
+        "opc": "LUSI",
+        "opc_name": "LUSIADAENERGIA, S.A.",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LUZ-LLE-00266",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LLE-00266-01",
+                        "evse_id": "PT*LUZ*E*LLE*00266*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
