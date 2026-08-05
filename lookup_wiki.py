@@ -508,4 +508,14 @@ OPERATORS = {
         "email": None,
         "website": None,
     },
+    "ELPK": {
+        "operator": "Telpark",
+        "code3": "EPK",
+        "operator:wikidata": "Q124151364",
+        "brand": "Telpark",
+        "brand:wikidata": "Q124151364",
+        "phone": None,
+        "email": None,
+        "website": "https://www.telpark.com/pt/carregamento-eletrico/",
+    },
 }
