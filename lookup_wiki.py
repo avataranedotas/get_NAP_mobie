@@ -508,7 +508,7 @@ OPERATORS = {
         "email": None,
         "website": None,
     },
-    "ELPK": {
+    "EPKS": {
         "operator": "Telpark",
         "code3": "EPK",
         "operator:wikidata": "Q124151364",
