@@ -23392,3 +23392,604 @@ Modificados:
         }
     }
 }
+2026-08-08 04:56:27
+Adicionados:
+{
+    "LUZ-LGA-00049": {
+        "name": "Apolónia Supermercados",
+        "lastUpdated": "2026-08-08T02:58:11.415Z",
+        "city": "Lagoa, Faro",
+        "street": "EN 124 1 Urbanização do Gramital Lote 2",
+        "postcode": "8200-428",
+        "latitude": "37.126087",
+        "longitude": "-8.452843",
+        "latlon": "37.126087 -8.452843",
+        "opc": "LUSI",
+        "opc_name": "LUSIADAENERGIA, S.A.",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LUZ-LGA-00049",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LGA-00049-01",
+                        "evse_id": "PT*LUZ*E*LGA*00049*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRI-BRR-00159": {
+        "name": "PRIO Palhais - Barreiro",
+        "lastUpdated": "2026-08-08T02:59:15.639Z",
+        "city": "Barreiro",
+        "street": "Loteamento Industrial, Quinta Das Rebelas 1",
+        "postcode": "2830-222",
+        "latitude": "38.63381",
+        "longitude": "-9.051504",
+        "latlon": "38.63381 -9.051504",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRI-BRR-00159",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRR-00159-01",
+                        "evse_id": "PT*PRI*E*BRR*00159*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRR-00159-02",
+                        "evse_id": "PT*PRI*E*BRR*00159*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "PRI-BRR-00003"
+]
+Modificados:
+{
+    "EPK-PRT-00372": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "evse_code": {
+                            "old": "3C6D90D1-801C-4160-80BB-B21BB312B560",
+                            "new": "29FA5C24-A4C3-47B8-853D-196766AB06BD"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00263*1",
+                            "new": "PT*EPK*EPRT00268*1"
+                        }
+                    },
+                    "2": {
+                        "evse_code": {
+                            "old": "50D0133E-9133-4B6B-BAA7-A990F3928AED",
+                            "new": "3464669A-1C87-4466-B359-D1C4B2DF1FB3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*ECPSIMEMPARKPT001*1",
+                            "new": "PT*EPK*EPRT00271*1"
+                        }
+                    },
+                    "3": {
+                        "evse_code": {
+                            "old": "69AAED3D-03EE-42FD-B0F5-6103548D392A",
+                            "new": "3C6D90D1-801C-4160-80BB-B21BB312B560"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00275*1",
+                            "new": "PT*EPK*EPRT00263*1"
+                        }
+                    },
+                    "4": {
+                        "evse_code": {
+                            "old": "8C544724-5A35-4AB9-B1BD-0297660B0E12",
+                            "new": "50D0133E-9133-4B6B-BAA7-A990F3928AED"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00264*1",
+                            "new": "PT*EPK*ECPSIMEMPARKPT001*1"
+                        }
+                    },
+                    "5": {
+                        "evse_code": {
+                            "old": "AE7D88E7-EF10-4253-9D54-60E238FC2965",
+                            "new": "554B93E7-9AF7-40F5-9E5C-D017C20BAF78"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00265*1",
+                            "new": "PT*EPK*EPRT00274*1"
+                        }
+                    },
+                    "6": {
+                        "evse_code": {
+                            "old": "F5CCE99A-EA0E-4F58-B1E7-6B43A1A2E4DC",
+                            "new": "64016E5A-2708-4957-AD78-DC4D6EB1E40F"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00272*1",
+                            "new": "PT*EPK*EPRT00278*1"
+                        }
+                    },
+                    "7": {
+                        "evse_code": {
+                            "old": "D11C685B-88C6-452B-9610-4DB4A9D53690",
+                            "new": "69256D8B-312C-48D6-BDC1-1250B1111E05"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00273*1",
+                            "new": "PT*EPK*EPRT00276*1"
+                        }
+                    },
+                    "8": {
+                        "evse_code": {
+                            "old": "554B93E7-9AF7-40F5-9E5C-D017C20BAF78",
+                            "new": "69AAED3D-03EE-42FD-B0F5-6103548D392A"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00274*1",
+                            "new": "PT*EPK*EPRT00275*1"
+                        }
+                    },
+                    "9": {
+                        "evse_code": {
+                            "old": "69256D8B-312C-48D6-BDC1-1250B1111E05",
+                            "new": "7B129B5F-DA2D-4C29-94A3-54FD1B537517"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00276*1",
+                            "new": "PT*EPK*EPRT00266*1"
+                        }
+                    },
+                    "10": {
+                        "evse_code": {
+                            "old": "E706B277-6647-4B9B-9A30-B6B11AA22BE3",
+                            "new": "804F87CF-1C60-482C-83B0-596F92F1423B"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00279*1",
+                            "new": "PT*EPK*EPRT00280*1"
+                        }
+                    },
+                    "11": {
+                        "evse_code": {
+                            "old": "804F87CF-1C60-482C-83B0-596F92F1423B",
+                            "new": "8C544724-5A35-4AB9-B1BD-0297660B0E12"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00280*1",
+                            "new": "PT*EPK*EPRT00264*1"
+                        }
+                    },
+                    "12": {
+                        "evse_code": {
+                            "old": "64016E5A-2708-4957-AD78-DC4D6EB1E40F",
+                            "new": "9C866664-7BCA-4891-A127-32C643FC63EC"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00278*1",
+                            "new": "PT*EPK*EPRT00267*1"
+                        }
+                    },
+                    "13": {
+                        "evse_code": {
+                            "old": "D488992F-5FE0-49E8-80D0-E13594DC650C",
+                            "new": "A395EEED-DDEA-4BD5-A806-4F5E27DB3546"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00281*1",
+                            "new": "PT*EPK*EPRT00269*1"
+                        }
+                    },
+                    "14": {
+                        "evse_code": {
+                            "old": "7B129B5F-DA2D-4C29-94A3-54FD1B537517",
+                            "new": "AE7D88E7-EF10-4253-9D54-60E238FC2965"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00266*1",
+                            "new": "PT*EPK*EPRT00265*1"
+                        }
+                    },
+                    "15": {
+                        "evse_code": {
+                            "old": "9C866664-7BCA-4891-A127-32C643FC63EC",
+                            "new": "D11C685B-88C6-452B-9610-4DB4A9D53690"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00267*1",
+                            "new": "PT*EPK*EPRT00273*1"
+                        }
+                    },
+                    "16": {
+                        "evse_code": {
+                            "old": "A395EEED-DDEA-4BD5-A806-4F5E27DB3546",
+                            "new": "D3D3C60F-EE78-441D-9EF7-2CD5A3CEEA9B"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00269*1",
+                            "new": "PT*EPK*EPRT00270*1"
+                        }
+                    },
+                    "17": {
+                        "evse_code": {
+                            "old": "3464669A-1C87-4466-B359-D1C4B2DF1FB3",
+                            "new": "D488992F-5FE0-49E8-80D0-E13594DC650C"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00271*1",
+                            "new": "PT*EPK*EPRT00281*1"
+                        }
+                    },
+                    "18": {
+                        "evse_code": {
+                            "old": "29FA5C24-A4C3-47B8-853D-196766AB06BD",
+                            "new": "E706B277-6647-4B9B-9A30-B6B11AA22BE3"
+                        },
+                        "evse_id": {
+                            "old": "PT*EPK*EPRT00268*1",
+                            "new": "PT*EPK*EPRT00279*1"
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "F5CCE99A-EA0E-4F58-B1E7-6B43A1A2E4DC",
+                            "evse_id": "PT*EPK*EPRT00272*1",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "GLP-LLE-00238": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-LSB-90151": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "GLP-PCV-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "60000.0"
+                                },
+                                "max_current": {
+                                    "old": "300.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "60000.0"
+                                },
+                                "max_current": {
+                                    "old": "300.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-PNV-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "120000.0"
+                                },
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-STB-90005": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "HRZ-FAR-00079": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "800.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "160000.0"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "200.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MOO-AZB-00016": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)",
+            "new": "MoonPowerPortugal"
+        }
+    },
+    "MOO-AZB-00021": {
+        "opc_name": {
+            "old": "Siva - Sociedade de Importação de Veículos Automóveis / (sub-CEME da Iberdola)",
+            "new": "MoonPowerPortugal"
+        }
+    },
+    "REP-BGC-00007": {
+        "latitude": {
+            "old": "41.7992",
+            "new": "41.79925"
+        },
+        "latlon": {
+            "old": "41.7992 -6.77706",
+            "new": "41.79925 -6.7707877"
+        },
+        "opc_name": {
+            "old": "REPSOL Portuguesa Lda",
+            "new": "REPSOL PORTUGUESA LDA"
+        },
+        "longitude": {
+            "old": "-6.77706",
+            "new": "-6.7707877"
+        }
+    },
+    "REP-LSB-00270": {
+        "latlon": {
+            "old": "38.763577 -9.141016",
+            "new": "38.763577 -9.141017"
+        },
+        "longitude": {
+            "old": "-9.141016",
+            "new": "-9.141017"
+        }
+    },
+    "REP-MTJ-00021": {
+        "latlon": {
+            "old": "38.71236 -8.966052",
+            "new": "38.71236 -8.966053"
+        },
+        "longitude": {
+            "old": "-8.966052",
+            "new": "-8.966053"
+        }
+    },
+    "REP-TNV-00003": {
+        "latlon": {
+            "old": "39.477657 -8.622967",
+            "new": "39.477657 -8.622968"
+        },
+        "longitude": {
+            "old": "-8.622967",
+            "new": "-8.622968"
+        }
+    },
+    "REP-VFR-00085": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "name": {
+            "old": "Posto Abatescimento Repsol Lourosa",
+            "new": "LOUROSA"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

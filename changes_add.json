@@ -1,0 +1,92 @@
+{
+    "LUZ-LGA-00049": {
+        "name": "Apolónia Supermercados",
+        "lastUpdated": "2026-08-08T02:58:11.415Z",
+        "city": "Lagoa, Faro",
+        "street": "EN 124 1 Urbanização do Gramital Lote 2",
+        "postcode": "8200-428",
+        "latitude": "37.126087",
+        "longitude": "-8.452843",
+        "latlon": "37.126087 -8.452843",
+        "opc": "LUSI",
+        "opc_name": "LUSIADAENERGIA, S.A.",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "LUZ-LGA-00049",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LGA-00049-01",
+                        "evse_id": "PT*LUZ*E*LGA*00049*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PRI-BRR-00159": {
+        "name": "PRIO Palhais - Barreiro",
+        "lastUpdated": "2026-08-08T02:59:15.639Z",
+        "city": "Barreiro",
+        "street": "Loteamento Industrial, Quinta Das Rebelas 1",
+        "postcode": "2830-222",
+        "latitude": "38.63381",
+        "longitude": "-9.051504",
+        "latlon": "38.63381 -9.051504",
+        "opc": "PRIO",
+        "opc_name": "Prio.E Mobility Solutions, Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "PRI-BRR-00159",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BRR-00159-01",
+                        "evse_id": "PT*PRI*E*BRR*00159*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BRR-00159-02",
+                        "evse_id": "PT*PRI*E*BRR*00159*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
