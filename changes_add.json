@@ -1,0 +1,342 @@
+{
+    "CME-OER-00300": {
+        "name": "Edifício Ramazzotti",
+        "lastUpdated": "2026-08-11T02:58:54.871Z",
+        "city": "Oeiras",
+        "street": "Avenida do Forte 6",
+        "postcode": "2790-072",
+        "latitude": "38.72158",
+        "longitude": "-9.234022",
+        "latlon": "38.72158 -9.234022",
+        "opc": "CMEL",
+        "opc_name": "CME",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "CME-OER-00300",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00300-01",
+                        "evse_id": "PT*CME*E*OER*00300*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CME-OER-00301": {
+        "name": "Edifício Ramazzotti",
+        "lastUpdated": "2026-08-11T02:58:09.586Z",
+        "city": "Oeiras",
+        "street": "Avenida do Forte 6",
+        "postcode": "2790-072",
+        "latitude": "38.72158",
+        "longitude": "-9.234022",
+        "latlon": "38.72158 -9.234022",
+        "opc": "CMEL",
+        "opc_name": "CME",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "CME-OER-00301",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OER-00301-01",
+                        "evse_id": "PT*CME*E*OER*00301*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-VIS-00133": {
+        "name": "McDonald's - Viseu Norte",
+        "lastUpdated": "2026-08-10T15:44:05.000Z",
+        "city": "Viseu",
+        "street": "Rua das Belgas Longas",
+        "postcode": "3510-233",
+        "latitude": "40.673653",
+        "longitude": "-7.910291",
+        "latlon": "40.673653 -7.910291",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-VIS-00133",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVIS-00133-1",
+                        "evse_id": "PT*EDP*EVIS*00133*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVIS-00133-2",
+                        "evse_id": "PT*EDP*EVIS*00133*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVIS-00133-3",
+                        "evse_id": "PT*EDP*EVIS*00133*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOB-ETZ-00003": {
+        "name": "ETZ-00003",
+        "lastUpdated": "2026-08-10T08:54:03.032Z",
+        "city": "Estremoz",
+        "street": "A6 km 23 (Sentido Este/Oeste)",
+        "postcode": "7100-000",
+        "latitude": "38.800537",
+        "longitude": "-7.660719",
+        "latlon": "38.800537 -7.660719",
+        "opc": "MOBI",
+        "opc_name": "MOBIE",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MOB-ETZ-00003",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ETZ-00003-01",
+                        "evse_id": "PT*MOB*E*ETZ*00003*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ETZ-00003-02",
+                        "evse_id": "PT*MOB*E*ETZ*00003*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ETZ-00003-03",
+                        "evse_id": "PT*MOB*E*ETZ*00003*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "REP-SSB-00036": {
+        "name": "ES MAÇÃ 02",
+        "lastUpdated": "2026-08-10T13:17:17.000Z",
+        "city": "Sesimbra",
+        "street": "EN 379 KM 13, 830D, 2970-000 Sesimbra",
+        "postcode": " 2970-000",
+        "latitude": "38.47319",
+        "longitude": "-9.083131",
+        "latlon": "38.47319 -9.083131",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "REP-SSB-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-REP-E18122-1",
+                        "evse_id": "PT*REP*E18122*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-REP-E18122-2",
+                        "evse_id": "PT*REP*E18122*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-REP-E18123-1",
+                        "evse_id": "PT*REP*E18123*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-REP-E18123-2",
+                        "evse_id": "PT*REP*E18123*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "REP-SSB-00037": {
+        "name": "ES MAÇÃ 01",
+        "lastUpdated": "2026-08-10T13:53:58.000Z",
+        "city": "Sesimbra",
+        "street": "EN 379 KM 13, 830D, 2970-000 Sesimbra",
+        "postcode": " 2970-000",
+        "latitude": "38.47319",
+        "longitude": "-9.083131",
+        "latlon": "38.47319 -9.083131",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "REP-SSB-00037",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-REP-E18122-1",
+                        "evse_id": "PT*REP*E18122*1",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-REP-E18122-2",
+                        "evse_id": "PT*REP*E18122*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "800.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
