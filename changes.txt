@@ -24843,3 +24843,1649 @@ Modificados:
         }
     }
 }
+2026-08-13 05:40:03
+Adicionados:
+{
+    "EDP-VIS-00135": {
+        "name": "ALDI - VISEU - REPESES - 2",
+        "lastUpdated": "2026-08-12T14:36:53.000Z",
+        "city": "Viseu",
+        "street": "Rua do Vale",
+        "postcode": "3500-730",
+        "latitude": "40.63481",
+        "longitude": "-7.929416",
+        "latlon": "40.63481 -7.929416",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-VIS-00135",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVIS-00135-1",
+                        "evse_id": "PT*EDP*EVIS*00135*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-ACB-00048": {
+        "name": "Alcobaça - Pataias - Estr. Nazare #3",
+        "lastUpdated": "2026-08-12T19:45:03.677Z",
+        "city": "Alcobaça",
+        "street": "E. N. 242 - Km 29.25",
+        "postcode": "2445-252",
+        "latitude": "39.63904",
+        "longitude": "-9.041936",
+        "latlon": "39.63904 -9.041936",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-ACB-00048",
+                "payment": [
+                    "apps",
+                    "pinpad",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "111",
+                        "evse_id": "PT*FCT*E*ACB*00048*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "112",
+                        "evse_id": "PT*FCT*E*ACB*00048*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "113",
+                        "evse_id": "PT*FCT*E*ACB*00048*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00048-01",
+                        "evse_id": "PT*FCT*E*ACB*00048*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00048-02",
+                        "evse_id": "PT*FCT*E*ACB*00048*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACB-00048-03",
+                        "evse_id": "PT*FCT*E*ACB*00048*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-ACB-00052": {
+        "name": "Alcobaça - VCI #2",
+        "lastUpdated": "2026-08-12T20:51:59.742Z",
+        "city": "Alcobaça",
+        "street": "N8 Alcobaça",
+        "postcode": "2460-001",
+        "latitude": "39.545452",
+        "longitude": "-8.969396",
+        "latlon": "39.545452 -8.969396",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-ACB-00052",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "571",
+                        "evse_id": "PT*FCT*E*ACB*00052*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "572",
+                        "evse_id": "PT*FCT*E*ACB*00052*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "583",
+                        "evse_id": "PT*FCT*E*ACB*00052*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-CDV-00002": {
+        "name": "Cadaval - Palhoca",
+        "lastUpdated": "2026-08-12T19:27:41.262Z",
+        "city": "Cadaval",
+        "street": "EN 366, KM 0,5 Palhoça",
+        "postcode": "2550-306",
+        "latitude": "39.28155",
+        "longitude": "-9.058986",
+        "latlon": "39.28155 -9.058986",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-CDV-00002",
+                "payment": [
+                    "apps",
+                    "pinpad",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "154",
+                        "evse_id": "PT*FCT*E*CDV*00002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "155",
+                        "evse_id": "PT*FCT*E*CDV*00002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "156",
+                        "evse_id": "PT*FCT*E*CDV*00002*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CDV-00002-01",
+                        "evse_id": "PT*FCT*E*CDV*00002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CDV-00002-02",
+                        "evse_id": "PT*FCT*E*CDV*00002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CDV-00002-03",
+                        "evse_id": "PT*FCT*E*CDV*00002*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-GDL-00041": {
+        "name": "Grândola - Estrada Alcácer - Este #2",
+        "lastUpdated": "2026-08-12T10:42:05.000Z",
+        "city": "Grândola",
+        "street": "E.N. 120",
+        "postcode": "7570-124",
+        "latitude": "38.216434",
+        "longitude": "-8.558089",
+        "latlon": "38.216434 -8.558089",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-GDL-00041",
+                "payment": [
+                    "apps",
+                    "website",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "213",
+                        "evse_id": "PT*FCT*E*GDL*00041*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "214",
+                        "evse_id": "PT*FCT*E*GDL*00041*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00041-01",
+                        "evse_id": "PT*FCT*E*GDL*00041*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00041-02",
+                        "evse_id": "PT*FCT*E*GDL*00041*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00215": {
+        "name": "Leiria - Azóia #2",
+        "lastUpdated": "2026-08-12T16:33:01.000Z",
+        "city": "Leiria",
+        "street": "Cruz de S. Tom, Estr. da Maceira 1076",
+        "postcode": "2400-823",
+        "latitude": "39.714603",
+        "longitude": "-8.83184",
+        "latlon": "39.714603 -8.83184",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00215",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "687",
+                        "evse_id": "PT*FCT*E285*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "688",
+                        "evse_id": "PT*FCT*E285*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00216": {
+        "name": "Leiria - Azóia #3",
+        "lastUpdated": "2026-08-12T16:33:01.000Z",
+        "city": "Leiria",
+        "street": "Cruz de S. Tom, Estr. da Maceira 1076",
+        "postcode": "2400-823",
+        "latitude": "39.714603",
+        "longitude": "-8.83184",
+        "latlon": "39.714603 -8.83184",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00216",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "691",
+                        "evse_id": "PT*FCT*E287*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "692",
+                        "evse_id": "PT*FCT*E287*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00217": {
+        "name": "Leiria - Azóia #4",
+        "lastUpdated": "2026-08-12T16:33:01.000Z",
+        "city": "Leiria",
+        "street": "Cruz de S. Tom, Estr. da Maceira 1076",
+        "postcode": "2400-823",
+        "latitude": "39.714603",
+        "longitude": "-8.83184",
+        "latlon": "39.714603 -8.83184",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00217",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "693",
+                        "evse_id": "PT*FCT*E288*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "694",
+                        "evse_id": "PT*FCT*E288*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00218": {
+        "name": "Leiria - Azóia #5",
+        "lastUpdated": "2026-08-12T16:33:01.000Z",
+        "city": "Leiria",
+        "street": "Cruz de S. Tom, Estr. da Maceira 1076",
+        "postcode": "2400-823",
+        "latitude": "39.714603",
+        "longitude": "-8.83184",
+        "latlon": "39.714603 -8.83184",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00218",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "695",
+                        "evse_id": "PT*FCT*E289*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "696",
+                        "evse_id": "PT*FCT*E289*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00219": {
+        "name": "Leiria - Azóia #6",
+        "lastUpdated": "2026-08-12T16:33:01.000Z",
+        "city": "Leiria",
+        "street": "Cruz de S. Tom, Estr. da Maceira 1076",
+        "postcode": "2400-823",
+        "latitude": "39.714603",
+        "longitude": "-8.83184",
+        "latlon": "39.714603 -8.83184",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00219",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "689",
+                        "evse_id": "PT*FCT*E286*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "690",
+                        "evse_id": "PT*FCT*E286*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00222": {
+        "name": "Leiria - Marrazes #3",
+        "lastUpdated": "2026-08-12T16:31:05.000Z",
+        "city": "Leiria",
+        "street": "Rua Manuel Simões Maia-Estrada Estação Leiria",
+        "postcode": "2415-766",
+        "latitude": "39.754517",
+        "longitude": "-8.812863",
+        "latlon": "39.754517 -8.812863",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00222",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "737",
+                        "evse_id": "PT*FCT*E308*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "738",
+                        "evse_id": "PT*FCT*E308*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00223": {
+        "name": "Leiria - Marrazes #4",
+        "lastUpdated": "2026-08-12T16:31:05.000Z",
+        "city": "Leiria",
+        "street": "Rua Manuel Simões Maia-Estrada Estação Leiria",
+        "postcode": "2415-766",
+        "latitude": "39.754517",
+        "longitude": "-8.812863",
+        "latlon": "39.754517 -8.812863",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00223",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "739",
+                        "evse_id": "PT*FCT*E309*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "740",
+                        "evse_id": "PT*FCT*E309*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-ORQ-00009": {
+        "name": "Ourique - Palheiros #1",
+        "lastUpdated": "2026-08-12T19:00:12.204Z",
+        "city": "Ourique",
+        "street": "Campo dos Guerreiros",
+        "postcode": "7670-202",
+        "latitude": "37.60107",
+        "longitude": "-8.250555",
+        "latlon": "37.60107 -8.250555",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-ORQ-00009",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "619",
+                        "evse_id": "PT*FCT*E*ORQ*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "620",
+                        "evse_id": "PT*FCT*E*ORQ*00009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-PBL-00023": {
+        "name": "Pombal - Carnide",
+        "lastUpdated": "2026-08-12T21:09:32.267Z",
+        "city": "Pombal",
+        "street": "13 Estrada da Guia, lugar de Carnide",
+        "postcode": "3105-038",
+        "latitude": "39.887924",
+        "longitude": "-8.75846",
+        "latlon": "39.887924 -8.75846",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-PBL-00023",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "24",
+                        "evse_id": "PT*FCT*E*PBL*00023*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "25",
+                        "evse_id": "PT*FCT*E*PBL*00023*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "26",
+                        "evse_id": "PT*FCT*E*PBL*00023*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00023-01",
+                        "evse_id": "PT*FCT*E*PBL*00023*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "135000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00023-02",
+                        "evse_id": "PT*FCT*E*PBL*00023*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PBL-00023-03",
+                        "evse_id": "PT*FCT*E*PBL*00023*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "135000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-PFR-00020": {
+        "name": "Paços de Ferreira - Meixomil #2",
+        "lastUpdated": "2026-08-12T17:31:13.516Z",
+        "city": "Paços de Ferreira",
+        "street": "Rua do Marco EN209 Paços de Ferreira",
+        "postcode": "4595-225",
+        "latitude": "41.28281",
+        "longitude": "-8.387195",
+        "latlon": "41.28281 -8.387195",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-PFR-00020",
+                "payment": [
+                    "apps",
+                    "pinpad",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "372",
+                        "evse_id": "PT*FCT*E*PFR*00020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "373",
+                        "evse_id": "PT*FCT*E*PFR*00020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "374",
+                        "evse_id": "PT*FCT*E*PFR*00020*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PFR-00020-01",
+                        "evse_id": "PT*FCT*E*PFR*00020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PFR-00020-02",
+                        "evse_id": "PT*FCT*E*PFR*00020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PFR-00020-03",
+                        "evse_id": "PT*FCT*E*PFR*00020*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-PTL-00022": {
+        "name": "Ponte de Lima - Arcozelo #1",
+        "lastUpdated": "2026-08-12T21:13:25.818Z",
+        "city": "Ponte de Lima",
+        "street": "Estrada Nacional 306 Km 20.8 Lugar Faldejães",
+        "postcode": "4990-240",
+        "latitude": "41.782803",
+        "longitude": "-8.58666",
+        "latlon": "41.782803 -8.58666",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-PTL-00022",
+                "payment": [
+                    "apps",
+                    "pinpad",
+                    "website",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "403",
+                        "evse_id": "PT*FCT*E*PTL*00022*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "404",
+                        "evse_id": "PT*FCT*E*PTL*00022*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "405",
+                        "evse_id": "PT*FCT*E*PTL*00022*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00022-01",
+                        "evse_id": "PT*FCT*E*PTL*00022*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00022-02",
+                        "evse_id": "PT*FCT*E*PTL*00022*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00022-03",
+                        "evse_id": "PT*FCT*E*PTL*00022*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-VVR-00007": {
+        "name": "Vila Velha de Ródão -  Z. Industrial",
+        "lastUpdated": "2026-08-12T17:15:36.986Z",
+        "city": "Vila Velha de Ródão",
+        "street": "Estrada Nacional 18",
+        "postcode": "6030-223",
+        "latitude": "39.656776",
+        "longitude": "-7.6608977",
+        "latlon": "39.656776 -7.6608977",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "FCT-VVR-00007",
+                "payment": [
+                    "apps",
+                    "pinpad",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "527",
+                        "evse_id": "PT*FCT*E*VVR*00007*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "528",
+                        "evse_id": "PT*FCT*E*VVR*00007*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "1000.0",
+                                "max_current": "80.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "529",
+                        "evse_id": "PT*FCT*E*VVR*00007*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VVR-00007-01",
+                        "evse_id": "PT*FCT*E*VVR*00007*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VVR-00007-02",
+                        "evse_id": "PT*FCT*E*VVR*00007*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "80000.0",
+                                "voltage": "400.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VVR-00007-03",
+                        "evse_id": "PT*FCT*E*VVR*00007*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-MIR-00009": {
+        "name": "LIDL Mira",
+        "lastUpdated": "2026-08-12T18:45:44.197Z",
+        "city": "Mira",
+        "street": "R. Dr. António José de Almeida",
+        "postcode": "3070-399",
+        "latitude": "40.431187",
+        "longitude": "-8.72988",
+        "latlon": "40.431187 -8.72988",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GLP-MIR-00009",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MIR-00009-01",
+                        "evse_id": "PT*GLP*EMIR*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MIR-00009-02",
+                        "evse_id": "PT*GLP*EMIR*00009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MIR-00009-03",
+                        "evse_id": "PT*GLP*EMIR*00009*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "FCT-ACB-00053",
+    "FCT-ACB-00056",
+    "FCT-BCL-00040",
+    "FCT-BRG-00162",
+    "FCT-BRG-00166",
+    "FCT-CSC-00185",
+    "FCT-ENT-00010",
+    "FCT-EVR-00072",
+    "FCT-EVR-00073",
+    "FCT-FAR-00074",
+    "FCT-FLG-00017",
+    "FCT-IDN-00005",
+    "FCT-LRA-00117",
+    "FCT-LRA-00133",
+    "FCT-MFR-00041",
+    "FCT-MGD-00004",
+    "FCT-MGL-00020",
+    "FCT-MRT-00002",
+    "FCT-MRT-00003",
+    "FCT-ORQ-00010",
+    "FCT-OVR-00022",
+    "FCT-PBL-00026",
+    "FCT-PLM-00041",
+    "FCT-PMS-00013",
+    "FCT-PTL-00023",
+    "FCT-TRF-00020",
+    "FCT-TVD-00046",
+    "FCT-VIZ-00014"
+]
+Modificados:
+{
+    "ATL-VNG-00136": {
+        "latlon": {
+            "old": "41.089115 -8.628258",
+            "new": "41.088997 -8.628815"
+        },
+        "latitude": {
+            "old": "41.089115",
+            "new": "41.088997"
+        },
+        "longitude": {
+            "old": "-8.628258",
+            "new": "-8.628815"
+        }
+    },
+    "ATL-VNG-00140": {
+        "latlon": {
+            "old": "41.04595 -8.568624",
+            "new": "41.04579 -8.568127"
+        },
+        "latitude": {
+            "old": "41.04595",
+            "new": "41.04579"
+        },
+        "longitude": {
+            "old": "-8.568624",
+            "new": "-8.568127"
+        }
+    },
+    "ATL-VNG-00143": {
+        "latlon": {
+            "old": "41.137127 -8.630688",
+            "new": "41.137684 -8.630173"
+        },
+        "latitude": {
+            "old": "41.137127",
+            "new": "41.137684"
+        },
+        "longitude": {
+            "old": "-8.630688",
+            "new": "-8.630173"
+        }
+    },
+    "EDP-LRS-00225": {
+        "street": {
+            "old": "A9 km 221 Loures-Bucelas - CREL Norte 3",
+            "new": "A9 km 221 Bucelas - Loures - CREL Norte 3"
+        },
+        "latlon": {
+            "old": "38.85872 -9.16104",
+            "new": "38.85939 -9.16134"
+        },
+        "latitude": {
+            "old": "38.85872",
+            "new": "38.85939"
+        },
+        "longitude": {
+            "old": "-9.16104",
+            "new": "-9.16134"
+        }
+    },
+    "EDP-LRS-00226": {
+        "latlon": {
+            "old": "38.859554 -9.161408",
+            "new": "38.85891 -9.160822"
+        },
+        "latitude": {
+            "old": "38.859554",
+            "new": "38.85891"
+        },
+        "longitude": {
+            "old": "-9.161408",
+            "new": "-9.160822"
+        }
+    },
+    "EDP-LRS-00228": {
+        "latlon": {
+            "old": "38.859547 -9.161388",
+            "new": "38.858868 -9.160761"
+        },
+        "latitude": {
+            "old": "38.859547",
+            "new": "38.858868"
+        },
+        "longitude": {
+            "old": "-9.161388",
+            "new": "-9.160761"
+        },
+        "name": {
+            "old": "AS Repsol CREL Bucelas_Loures - 4",
+            "new": "AS Repsol CREL Loures_Bucelas - 4"
+        }
+    },
+    "EDP-LRS-00229": {
+        "latlon": {
+            "old": "38.859547 -9.161388",
+            "new": "38.858925 -9.160865"
+        },
+        "latitude": {
+            "old": "38.859547",
+            "new": "38.858925"
+        },
+        "longitude": {
+            "old": "-9.161388",
+            "new": "-9.160865"
+        },
+        "name": {
+            "old": "AS Repsol CREL Bucelas_Loures - 5",
+            "new": "AS Repsol CREL Loures_Bucelas - 5"
+        }
+    },
+    "EDP-LRS-00230": {
+        "street": {
+            "old": "A9 km 22.1 sentido Alverca - E. Nacional 6",
+            "new": "A9 km 22.1 sentido Cascais - E. Nacional 6"
+        },
+        "latlon": {
+            "old": "38.85872 -9.16104",
+            "new": "38.85936 -9.161294"
+        },
+        "latitude": {
+            "old": "38.85872",
+            "new": "38.85936"
+        },
+        "longitude": {
+            "old": "-9.16104",
+            "new": "-9.161294"
+        },
+        "name": {
+            "old": "AS Repsol - CREL Norte 6",
+            "new": "AS Repsol - Bucelas - Loures CREL Norte 6"
+        }
+    },
+    "EDP-LRS-00231": {
+        "street": {
+            "old": "A9 km 22.1 sentido Alverca - E. Nacional 7",
+            "new": "A9 km 22.1 sentido Cascais - E. Nacional 7"
+        },
+        "latlon": {
+            "old": "38.85872 -9.16104",
+            "new": "38.85946 -9.161187"
+        },
+        "latitude": {
+            "old": "38.85872",
+            "new": "38.85946"
+        },
+        "longitude": {
+            "old": "-9.16104",
+            "new": "-9.161187"
+        },
+        "name": {
+            "old": "AS Repsol - CREL Norte 7",
+            "new": "AS Repsol - Bucelas - Loures -CREL Norte 7"
+        }
+    },
+    "FCT-ACB-00027": {
+        "opc_name": {
+            "old": "CHARGING TOGETHER, UNIPESSOAL LDA",
+            "new": "Iberdrola | bp pulse"
+        }
+    },
+    "GLG-PLM-00016": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "chademo"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLG-PLM-00018": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "chademo"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-LRS-00077": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
