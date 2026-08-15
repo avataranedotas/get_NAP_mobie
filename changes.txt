@@ -31605,3 +31605,402 @@ Modificados:
         }
     }
 }
+2026-08-15 04:30:13
+Adicionados:
+{
+    "DTE-AGD-00023": {
+        "name": "Águeda",
+        "lastUpdated": "2026-08-15T02:59:30.813Z",
+        "city": "Águeda",
+        "street": "Rua Comandante Pinho e Freitas",
+        "postcode": "3750-127",
+        "latitude": "40.574783",
+        "longitude": "-8.443288",
+        "latlon": "40.574783 -8.443288",
+        "opc": "DTEI",
+        "opc_name": "DTE, Instalacoes Especiais",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "DTE-AGD-00023",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AGD-00023-01",
+                        "evse_id": "PT*DTE*E*AGD*00023*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00023-02",
+                        "evse_id": "PT*DTE*E*AGD*00023*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AGD-00023-03",
+                        "evse_id": "PT*DTE*E*AGD*00023*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-LSB-01116": {
+        "name": "Rua João Frederico Ludovice Ramal BTE",
+        "lastUpdated": "2026-08-14T18:10:12.255Z",
+        "city": "Lisboa",
+        "street": "Rua João Frederico Ludovice Ramal 5",
+        "postcode": "1500-354",
+        "latitude": "38.75018",
+        "longitude": "-9.206331",
+        "latlon": "38.75018 -9.206331",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-LSB-01116",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELSB-01116-1",
+                        "evse_id": "PT*EDP*ELSB*01116*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-01116-2",
+                        "evse_id": "PT*EDP*ELSB*01116*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-LSB-01117": {
+        "name": "Rua João Frederico Ludovice Ramal BTE",
+        "lastUpdated": "2026-08-14T16:25:08.851Z",
+        "city": "Lisboa",
+        "street": "Rua João Frederico Ludovice 6",
+        "postcode": "1500-354",
+        "latitude": "38.75018",
+        "longitude": "-9.206331",
+        "latlon": "38.75018 -9.206331",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-LSB-01117",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELSB-01117-1",
+                        "evse_id": "PT*EDP*ELSB*01117*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELSB-01117-2",
+                        "evse_id": "PT*EDP*ELSB*01117*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EML-LSB-01446": {
+        "name": "Avenida Guerra Junqueiro",
+        "lastUpdated": "2026-08-15T02:58:22.806Z",
+        "city": "Lisboa",
+        "street": "Avenida Guerra Junqueiro, 9658",
+        "postcode": "1000-167",
+        "latitude": "38.739643",
+        "longitude": "-9.136452",
+        "latlon": "38.739643 -9.136452",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "hours": "Limited hours",
+        "stations": [
+            {
+                "station_id": "EML-LSB-01446",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01446-01",
+                        "evse_id": "PT*EML*E*LSB*01446*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01446-02",
+                        "evse_id": "PT*EML*E*LSB*01446*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-GMR-00165": {
+        "name": "Decathlon - Guimarães",
+        "lastUpdated": "2026-08-15T02:58:10.287Z",
+        "city": "Guimarães",
+        "street": "R. Capitao Salgueiro Maia",
+        "postcode": "4835-604",
+        "latitude": "41.439396",
+        "longitude": "-8.334029",
+        "latlon": "41.439396 -8.334029",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "HRZ-GMR-00165",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GMR-00165-01",
+                        "evse_id": "PT*HRZ*E*GMR*00165*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00165-02",
+                        "evse_id": "PT*HRZ*E*GMR*00165*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00165-03",
+                        "evse_id": "PT*HRZ*E*GMR*00165*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GMR-00165-04",
+                        "evse_id": "PT*HRZ*E*GMR*00165*04",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MLT-LSB-00201": {
+        "name": "LSB-00201",
+        "lastUpdated": "2026-08-14T11:09:34.263Z",
+        "city": "Lisboa",
+        "street": "RUA JOÃO DE OLIVEIRA MIGUÉNS 3B",
+        "postcode": "1300-255",
+        "latitude": "38.70522",
+        "longitude": "-9.174446",
+        "latlon": "38.70522 -9.174446",
+        "opc": "MLTR",
+        "opc_name": "Mobiletric",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MLT-LSB-00201",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00201-01",
+                        "evse_id": "PT*MLT*ELSB*00201*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00201-02",
+                        "evse_id": "PT*MLT*ELSB*00201*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00201-03",
+                        "evse_id": "PT*MLT*ELSB*00201*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "EVI-SNT-00153",
+    "MOB-ETZ-00003"
+]
+Modificados:
+{
+    "GLP-CBR-00149": {
+        "postcode": {
+            "old": "4485-629",
+            "new": "3000-125"
+        },
+        "street": {
+            "old": "Av. Primeiro de Maio 801, 4485-629 Fajozes",
+            "new": "RIBEIRA DE COSELHAS - EIRAS"
+        }
+    },
+    "GLP-LSB-90004": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    }
+}
