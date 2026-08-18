@@ -32022,3 +32022,553 @@ Modificados:
         }
     }
 }
+2026-08-18 04:35:12
+Adicionados:
+{
+    "EVI-SNT-00153": {
+        "name": "Intermarché Massamá",
+        "lastUpdated": "2026-08-18T02:59:35.399Z",
+        "city": "Sintra",
+        "street": "Avenida Salgueiro Maia, Lote 189",
+        "postcode": "2605-229",
+        "latitude": "38.76803",
+        "longitude": "-9.278754",
+        "latlon": "38.76803 -9.278754",
+        "opc": "EVIO",
+        "opc_name": "EVIO - Electrical Mobility",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EVI-SNT-00153",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SNT-00153-01",
+                        "evse_id": "PT*EVI*E*SNT*00153*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "480.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SNT-00153-02",
+                        "evse_id": "PT*EVI*E*SNT*00153*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "480.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-MOBI-MTS-00009": {
+        "name": "MOBI-MTS-00009",
+        "lastUpdated": "2026-08-17T22:06:07.527Z",
+        "city": "Matosinhos",
+        "street": "AV. D. AFONSO HENRIQUES, 354, MATOSINHOS",
+        "postcode": "4450-009",
+        "latitude": "41.185783",
+        "longitude": "-8.685205",
+        "latlon": "41.185783 -8.685205",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "GLP-MOBI-MTS-00009",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MOBI-MTS-00009-01",
+                        "evse_id": "PT*GLP*EMOBI*MTS*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MOBI-MTS-00009-02",
+                        "evse_id": "PT*GLP*EMOBI*MTS*00009*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-EVR-00065": {
+        "name": "EVR-00065",
+        "lastUpdated": "2026-08-18T02:58:22.078Z",
+        "city": "Évora",
+        "street": "Herdade Barba Rala, R. Luís A. Fonseca, nº 2 ",
+        "postcode": "7005-841",
+        "latitude": "38.549",
+        "longitude": "-7.906",
+        "latlon": "38.549 -7.906",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MOT-EVR-00065",
+                "payment": [
+                    "apps",
+                    "pinpad",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "EVR-00065-01",
+                        "evse_id": "PT*MOT*E*EVR*00065*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EVR-00065-02",
+                        "evse_id": "PT*MOT*E*EVR*00065*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-EVR-00066": {
+        "name": "EVR-00066",
+        "lastUpdated": "2026-08-18T02:58:55.832Z",
+        "city": "Évora",
+        "street": "Herdade Barba Rala, R. Luís A. Fonseca, nº 2",
+        "postcode": "7005-841",
+        "latitude": "38.549",
+        "longitude": "-7.906",
+        "latlon": "38.549 -7.906",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "MOT-EVR-00066",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "nfc",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "EVR-00066-01",
+                        "evse_id": "PT*MOT*E*EVR*00066*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EVR-00066-02",
+                        "evse_id": "PT*MOT*E*EVR*00066*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "EDP-ABF-00154",
+    "EDP-ABT-00006",
+    "EDP-ACH-00018",
+    "EDP-AGD-00009",
+    "EDP-ALM-00167",
+    "EDP-ALM-00172",
+    "EDP-AVR-90003",
+    "EDP-AVV-00009",
+    "EDP-BJA-00026",
+    "EDP-BRB-00004",
+    "EDP-BRG-00094",
+    "EDP-CBR-00120",
+    "EDP-CNT-00010",
+    "EDP-CPV-00003",
+    "EDP-CSC-00099",
+    "EDP-CSC-00127",
+    "EDP-CSC-00216",
+    "EDP-CSC-00217",
+    "EDP-ENT-00005",
+    "EDP-ESP-00006",
+    "EDP-ETR-00011",
+    "EDP-FAF-00018",
+    "EDP-LGS-00036",
+    "EDP-LLE-00180",
+    "EDP-LMG-00020",
+    "EDP-LRS-00061",
+    "EDP-LRS-00131",
+    "EDP-LSB-00716",
+    "EDP-LSB-01034",
+    "EDP-MFR-00020",
+    "EDP-MFR-00022",
+    "EDP-MTA-00020",
+    "EDP-NZR-00019",
+    "EDP-OAZ-00025",
+    "EDP-ODM-00013",
+    "EDP-PLM-00059",
+    "EDP-PMS-00007",
+    "EDP-PNF-00015",
+    "EDP-PRT-00078",
+    "EDP-PTG-00014",
+    "EDP-PTG-00016",
+    "EDP-PTM-00060",
+    "EDP-RMR-00003",
+    "EDP-RMR-00010",
+    "EDP-RSD-00002",
+    "EDP-SJM-00010",
+    "EDP-SNT-00141",
+    "EDP-SNT-00169",
+    "EDP-SRP-00002",
+    "EDP-TMR-00010",
+    "EDP-TRF-00011",
+    "EDP-VCD-00026",
+    "EDP-VCD-00027",
+    "EDP-VCT-00028",
+    "EDP-VFX-00022",
+    "EDP-VND-00010",
+    "EDP-VND-00016",
+    "EDP-VNG-00161",
+    "EDP-VRL-00025",
+    "EVI-FAR-00072"
+]
+Modificados:
+{
+    "EDP-LSB-01117": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "1": {
+                        "old": "rfid",
+                        "new": "creditCard"
+                    },
+                    "added_items": [
+                        "rfid"
+                    ]
+                },
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "120000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "Rua João Frederico Ludovice Ramal BTE",
+            "new": "Rua João Frederico Ludovice"
+        }
+    },
+    "FCT-LRA-00215": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E285*1",
+                            "new": "PT*FCT*E*LRA*00215*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E285*2",
+                            "new": "PT*FCT*E*LRA*00215*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRA-00216": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E287*1",
+                            "new": "PT*FCT*E*LRA*00216*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E287*2",
+                            "new": "PT*FCT*E*LRA*00216*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRA-00217": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E288*1",
+                            "new": "PT*FCT*E*LRA*00217*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E288*2",
+                            "new": "PT*FCT*E*LRA*00217*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRA-00218": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E289*1",
+                            "new": "PT*FCT*E*LRA*00218*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E289*2",
+                            "new": "PT*FCT*E*LRA*00218*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRA-00219": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E286*1",
+                            "new": "PT*FCT*E*LRA*00219*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E286*2",
+                            "new": "PT*FCT*E*LRA*00219*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-OVR-00028": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E295*1",
+                            "new": "PT*FCT*E*OVR*00028*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E295*2",
+                            "new": "PT*FCT*E*OVR*00028*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-OVR-00029": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E296*1",
+                            "new": "PT*FCT*E*OVR*00029*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E296*2",
+                            "new": "PT*FCT*E*OVR*00029*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-OVR-00030": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E294*1",
+                            "new": "PT*FCT*E*OVR*00030*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E294*2",
+                            "new": "PT*FCT*E*OVR*00030*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*FCT*E294*3",
+                            "new": "PT*FCT*E*OVR*00030*03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-OVR-00031": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E297*1",
+                            "new": "PT*FCT*E*OVR*00031*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E297*2",
+                            "new": "PT*FCT*E*OVR*00031*02"
+                        }
+                    },
+                    "2": {
+                        "evse_id": {
+                            "old": "PT*FCT*E297*3",
+                            "new": "PT*FCT*E*OVR*00031*03"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-BRB-90001": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "HRZ-GMR-00165": {
+        "longitude": {
+            "old": "-8.334029",
+            "new": "-8.335989"
+        },
+        "latlon": {
+            "old": "41.439396 -8.334029",
+            "new": "41.438747 -8.335989"
+        },
+        "latitude": {
+            "old": "41.439396",
+            "new": "41.438747"
+        }
+    },
+    "HRZ-OER-00061": {
+        "opc_name": {
+            "old": "Horizondistance, Unipessoal Lda",
+            "new": "Powerdot, S.A"
+        }
+    },
+    "HRZ-OER-00063": {
+        "opc_name": {
+            "old": "Horizondistance, Unipessoal Lda",
+            "new": "Powerdot, S.A"
+        }
+    }
+}
