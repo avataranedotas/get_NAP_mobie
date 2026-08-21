@@ -39965,3 +39965,476 @@ Modificados:
         }
     }
 }
+2026-08-21 04:37:39
+Adicionados:
+{
+    "EDP-ABF-00195": {
+        "name": "Aldi Ferreiras - 4",
+        "lastUpdated": "2026-08-20T14:02:02.000Z",
+        "city": "Albufeira",
+        "street": "Av. 12 de Julho",
+        "postcode": "8200-559",
+        "latitude": "37.125683",
+        "longitude": "-8.237065",
+        "latlon": "37.125683 -8.237065",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00195",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00196-1",
+                        "evse_id": "PT*EDP*EABF*00196*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00196-2",
+                        "evse_id": "PT*EDP*EABF*00196*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ABF-00196": {
+        "name": "Aldi Ferreiras - 3",
+        "lastUpdated": "2026-08-20T14:04:40.000Z",
+        "city": "Albufeira",
+        "street": "Av. 12 de Julho",
+        "postcode": "8200-559",
+        "latitude": "37.125736",
+        "longitude": "-8.237108",
+        "latlon": "37.125736 -8.237108",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00196",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00195-1",
+                        "evse_id": "PT*EDP*EABF*00195*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00195-2",
+                        "evse_id": "PT*EDP*EABF*00195*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ATL-ALM-00091": {
+        "longitude": {
+            "old": "-9.19389",
+            "new": "-9.19493"
+        },
+        "latlon": {
+            "old": "38.6188 -9.19389",
+            "new": "38.619 -9.19493"
+        },
+        "latitude": {
+            "old": "38.6188",
+            "new": "38.619"
+        }
+    },
+    "ATL-ALM-00092": {
+        "longitude": {
+            "old": "-9.19389",
+            "new": "-9.19493"
+        },
+        "latlon": {
+            "old": "38.6188 -9.19389",
+            "new": "38.619 -9.19493"
+        },
+        "latitude": {
+            "old": "38.6188",
+            "new": "38.619"
+        }
+    },
+    "ATL-CCH-00004": {
+        "longitude": {
+            "old": "-8.532973",
+            "new": "-8.53336"
+        },
+        "latlon": {
+            "old": "38.966717 -8.532973",
+            "new": "38.965 -8.53336"
+        },
+        "latitude": {
+            "old": "38.966717",
+            "new": "38.965"
+        }
+    },
+    "ATL-SXL-00051": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_code": {
+                            "old": "SXL-00051-01",
+                            "new": "SXL-00051-02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "60000.0"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*ATL*ESXL*00051*1",
+                            "new": "PT*ATL*ESXL*00051*2"
+                        }
+                    },
+                    "1": {
+                        "evse_code": {
+                            "old": "SXL-00051-02",
+                            "new": "SXL-00051-03"
+                        },
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "iec62196T2COMBO",
+                                    "new": "iec62196T2"
+                                },
+                                "max_current": {
+                                    "old": "150.0",
+                                    "new": "32.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "22000.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode4DC",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        },
+                        "evse_id": {
+                            "old": "PT*ATL*ESXL*00051*2",
+                            "new": "PT*ATL*ESXL*00051*3"
+                        }
+                    },
+                    "removed_items": [
+                        {
+                            "evse_code": "SXL-00051-03",
+                            "evse_id": "PT*ATL*ESXL*00051*3",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "230.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "ATL-VNG-00193": {
+        "longitude": {
+            "old": "-8.630688",
+            "new": "-8.63021"
+        },
+        "latlon": {
+            "old": "41.137127 -8.630688",
+            "new": "41.1377 -8.63021"
+        },
+        "latitude": {
+            "old": "41.137127",
+            "new": "41.1377"
+        }
+    },
+    "EPK-PRT-00372": {
+        "street": {
+            "old": "Rua Homem Pedro de Melo  S/N",
+            "new": "Rua Pedro Homem de Melo  S/N"
+        }
+    },
+    "FCT-AGB-00003": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "165.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "165000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "165.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "165000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRS-00241": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E298*1",
+                            "new": "PT*FCT*E*LRS*00241*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E298*2",
+                            "new": "PT*FCT*E*LRS*00241*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRS-00242": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E300*1",
+                            "new": "PT*FCT*E*LRS*00242*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E300*2",
+                            "new": "PT*FCT*E*LRS*00242*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRS-00243": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E299*1",
+                            "new": "PT*FCT*E*LRS*00243*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E299*2",
+                            "new": "PT*FCT*E*LRS*00243*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-LRS-00244": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E301*1",
+                            "new": "PT*FCT*E*LRS*00244*01"
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E301*2",
+                            "new": "PT*FCT*E*LRS*00244*02"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-MGL-00021": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "150.0"
+                                },
+                                "max_power": {
+                                    "old": "200000.0",
+                                    "new": "150000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-SCD-00012": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REP-STR-00025": {
+        "name": {
+            "old": "STR-00025",
+            "new": "SANTARÉM"
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
