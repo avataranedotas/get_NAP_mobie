@@ -82,9 +82,12 @@ def load_osm():
         if not ref:
             continue
 
+        location = tags.get("location", "surface")
+
         osm[ref] = (
             float(element["lat"]),
-            float(element["lon"])
+            float(element["lon"]),
+            location
         )
 
     return osm
@@ -103,7 +106,7 @@ def build_agg(nap, osm):
 
     agg = {}
 
-    for ref, (osm_lat, osm_lon) in osm.items():
+    for ref, (osm_lat, osm_lon, location) in osm.items():
 
         if ref not in nap:
             continue
@@ -116,7 +119,8 @@ def build_agg(nap, osm):
             nap_lon,
             osm_lat,
             osm_lon,
-            distance_m(nap_lat, nap_lon, osm_lat, osm_lon)
+            distance_m(nap_lat, nap_lon, osm_lat, osm_lon),
+            location
         )
 
     return agg
@@ -125,7 +129,15 @@ def print_agg(agg):
 
     print(f"===== AGG ({len(agg)} entries) =====")
 
-    for ref, (prefix, nap_lat, nap_lon, osm_lat, osm_lon, distance) in sorted(
+    for ref, (
+        prefix,
+        nap_lat,
+        nap_lon,
+        osm_lat,
+        osm_lon,
+        distance,
+        location
+    ) in sorted(
         agg.items(),
         key=lambda item: item[1][5],
         reverse=True
@@ -134,7 +146,8 @@ def print_agg(agg):
             f"{prefix:3} {ref:15} "
             f"NAP=({nap_lat:.7f}, {nap_lon:.7f}) "
             f"OSM=({osm_lat:.7f}, {osm_lon:.7f}) "
-            f"{distance:7.2f} m"
+            f"{distance:7.2f} m "
+            f"LOCATION={location}"
         )
 
     print()
@@ -173,15 +186,24 @@ def save_agg_tsv(agg, filename="compare_GPS.tsv"):
         writer.writerow([
             "CPO",
             "REF",
-            "LAT_NAP",
-            "LON_NAP",
-            "LAT_OSM",
-            "LON_OSM",
-            "DIST_(m)"
+            "LAT NAP",
+            "LON NAP",
+            "LAT OSM",
+            "LON OSM",
+            "DIST (m)",
+            "LOCATION"
         ])
 
         # Ordenado da maior para a menor distância
-        for ref, (prefix, nap_lat, nap_lon, osm_lat, osm_lon, distance) in sorted(
+        for ref, (
+            prefix,
+            nap_lat,
+            nap_lon,
+            osm_lat,
+            osm_lon,
+            distance,
+            location
+        ) in sorted(
             agg.items(),
             key=lambda item: item[1][5],
             reverse=True
@@ -193,7 +215,8 @@ def save_agg_tsv(agg, filename="compare_GPS.tsv"):
                 f"{nap_lon:.7f}",
                 f"{osm_lat:.7f}",
                 f"{osm_lon:.7f}",
-                f"{distance:.2f}"
+                f"{distance:.2f}",
+                location
             ])
 
     print(f"Written {len(agg)} entries to {filename}")
