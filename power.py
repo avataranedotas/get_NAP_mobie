@@ -22,7 +22,7 @@ with open('power_table.csv', 'w', newline='', encoding='utf-8') as csvfile, \
     
     # Write header
     tsb_writer.writerow([
-        'Station ID', 'OPC', 'EVSE ID', 'Connector Type', 'Charging Mode',
+        'Plug ID', 'OPC', 'EVSE ID', 'Connector Type', 'Charging Mode',
         'Voltage (V)', 'Max Current (A)', 'Calculated Power (W)', 'Claimed Power (W)', 'Power Difference (W)'
     ])
 
