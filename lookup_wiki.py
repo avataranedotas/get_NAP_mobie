@@ -522,7 +522,7 @@ OPERATORS = {
         "operator": "Parinox Energia",
         "code3": "PAR",
         "operator:wikidata": None,
-        "brand": None,
+        "brand": "Parinox Energia",
         "brand:wikidata": None,
         "phone": "+351 932 574 180",
         "email": "energia@parinox.pt",
