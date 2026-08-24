@@ -518,4 +518,14 @@ OPERATORS = {
         "email": None,
         "website": "https://www.telpark.com/pt/carregamento-eletrico/",
     },
+        "PARI": {
+        "operator": "Parinox Energia",
+        "code3": "PAR",
+        "operator:wikidata": None,
+        "brand": None,
+        "brand:wikidata": None,
+        "phone": "+351 932 574 180",
+        "email": "energia@parinox.pt",
+        "website": "https://parinoxenergia.pt/",
+    },
 }
