@@ -1,0 +1,108 @@
+{
+    "EDP-CBR-00158": {
+        "name": "COMPLEXO DESPORTIVO SUPERA - COIMBRA - 1",
+        "lastUpdated": "2026-08-24T08:49:40.000Z",
+        "city": "Coimbra",
+        "street": "Av. Mendes Silva 391",
+        "postcode": "3030-193",
+        "latitude": "40.193535",
+        "longitude": "-8.414435",
+        "latlon": "40.193535 -8.414435",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-CBR-00158",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECBR-00158-1",
+                        "evse_id": "PT*EDP*ECBR*00158*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-VCD-00083": {
+        "name": "CM Vila do Conde - Touguinha",
+        "lastUpdated": "2026-08-24T16:43:34.182Z",
+        "city": "Vila do Conde",
+        "street": "Rua Nossa Senhora de Fátima 1",
+        "postcode": "4480-511",
+        "latitude": "41.373127",
+        "longitude": "-8.715446",
+        "latlon": "41.373127 -8.715446",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "hours": "24/7",
+        "stations": [
+            {
+                "station_id": "EDP-VCD-00083",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVCD-00083-1",
+                        "evse_id": "PT*EDP*EVCD*00083*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVCD-00083-2",
+                        "evse_id": "PT*EDP*EVCD*00083*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
