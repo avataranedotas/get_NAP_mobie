@@ -78,12 +78,12 @@ for site in energy_infrastructure_sites:
     opc_nome = site.xpath('.//ns4:operator/ns4:name/ns:values/ns:value[@lang="pt-pt"]/text()', namespaces=namespace)
     opc_nome_texto = str(opc_nome[0]) if opc_nome else "N§A"    
 
-    # Verificar se está aberto 24h
-    horas = site.find('ns4:operatingHours[@xsi:type="ns4:OpenAllHours"]',namespaces=namespace)
-    if horas is None:
-        horas_texto = "Limited hours"
-    else:
-        horas_texto = "24/7"
+    # Verificar se está aberto 24h - DESACTIVADO PORQUE ESTÁ SEMPRE A MUDAR E NÃO TEM INFO VERDADEIRA
+    #horas = site.find('ns4:operatingHours[@xsi:type="ns4:OpenAllHours"]',namespaces=namespace)
+    #if horas is None:
+    #    horas_texto = "Limited hours"
+    #else:
+    #    horas_texto = "24/7"
     
     # Buscar as estações associadas a esse site
     stations = site.xpath('.//ns6:energyInfrastructureStation', namespaces=namespace)
@@ -194,7 +194,7 @@ for site in energy_infrastructure_sites:
         'latlon' : latlon_texto,
         'opc': opc_texto,
         'opc_name': opc_nome_texto,
-        'hours' : horas_texto,
+        #'hours' : horas_texto,
         'stations': station_data
     }
     
