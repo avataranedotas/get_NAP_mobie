@@ -10721,3 +10721,434 @@ Modificados:
         }
     }
 }
+2026-09-04 05:44:10
+Adicionados:
+{
+    "EDP-GMR-00173": {
+        "name": "CM Guimarães",
+        "lastUpdated": "2026-09-03T13:26:00.000Z",
+        "city": "Guimarães",
+        "street": "Rua Val de Donas 3",
+        "postcode": "4800-160",
+        "latitude": "41.44438",
+        "longitude": "-8.294299",
+        "latlon": "41.44438 -8.294299",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-GMR-00173",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGMR-00173-1",
+                        "evse_id": "PT*EDP*EGMR*00173*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGMR-00173-2",
+                        "evse_id": "PT*EDP*EGMR*00173*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00220": {
+        "name": "Leiria - Marrazes #1",
+        "lastUpdated": "2026-09-04T00:02:01.000Z",
+        "city": "Leiria",
+        "street": "Rua Manuel Simões Maia-Estrada Estação Leiria",
+        "postcode": "2415-766",
+        "latitude": "39.754517",
+        "longitude": "-8.812863",
+        "latlon": "39.754517 -8.812863",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00220",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "733",
+                        "evse_id": "PT*FCT*E*LRA*00220*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "734",
+                        "evse_id": "PT*FCT*E*LRA*00220*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-LRA-00221": {
+        "name": "Leiria - Marrazes #2",
+        "lastUpdated": "2026-09-04T00:02:01.000Z",
+        "city": "Leiria",
+        "street": "Rua Manuel Simões Maia-Estrada Estação Leiria",
+        "postcode": "2415-766",
+        "latitude": "39.754517",
+        "longitude": "-8.812863",
+        "latlon": "39.754517 -8.812863",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "stations": [
+            {
+                "station_id": "FCT-LRA-00221",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "735",
+                        "evse_id": "PT*FCT*E*LRA*00221*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "736",
+                        "evse_id": "PT*FCT*E*LRA*00221*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-LLE-00235": {
+        "name": "LIDL Boliqueime",
+        "lastUpdated": "2026-09-04T02:13:02.968Z",
+        "city": "Loulé",
+        "street": "Av. Prof. Doutor Aníbal António Cavaco Silva",
+        "postcode": "8100-070",
+        "latitude": "37.129444",
+        "longitude": "-8.151225",
+        "latlon": "37.129444 -8.151225",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-LLE-00235",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LLE-00235-01",
+                        "evse_id": "PT*GLP*ELLE*00235*01",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LLE-00235-02",
+                        "evse_id": "PT*GLP*ELLE*00235*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LLE-00235-03",
+                        "evse_id": "PT*GLP*ELLE*00235*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "EDP-GMR-00151": {
+        "longitude": {
+            "old": "-8.279062",
+            "new": "-8.378581"
+        },
+        "latlon": {
+            "old": "41.450386 -8.279062",
+            "new": "41.450356 -8.378581"
+        },
+        "latitude": {
+            "old": "41.450386",
+            "new": "41.450356"
+        },
+        "name": {
+            "old": "CM Guimarães - 1",
+            "new": "CM Guimarães"
+        }
+    },
+    "EDP-GMR-00152": {
+        "name": {
+            "old": "CM Guimarães - 2",
+            "new": "CM Guimarães"
+        }
+    },
+    "EDP-SNT-00141": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FCT-CDN-00008": {
+        "longitude": {
+            "old": "-8.511538",
+            "new": "-8.5115385"
+        },
+        "latlon": {
+            "old": "40.10727 -8.511538",
+            "new": "40.10726 -8.5115385"
+        },
+        "latitude": {
+            "old": "40.10727",
+            "new": "40.10726"
+        }
+    },
+    "FCT-LRA-00223": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "evse_id": {
+                            "old": "PT*FCT*E309*1",
+                            "new": "PT*FCT*E*LRA*00223*01"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "evse_id": {
+                            "old": "PT*FCT*E309*2",
+                            "new": "PT*FCT*E*LRA*00223*02"
+                        },
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "400.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-MSF-90001": {
+        "opc_name": {
+            "old": "Galp Power OPC",
+            "new": "Galp Power"
+        }
+    },
+    "REP-BTL-00004": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "999990.0"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "999990.0"
+                                },
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "43000.0",
+                                    "new": "999990.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "BTL-00004",
+            "new": "S. JORGE BATALHA A"
+        }
+    },
+    "REP-SRT-00003": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "old": "SRT-00003",
+            "new": "CUMEADA-SERTÃ"
+        }
+    }
+}
