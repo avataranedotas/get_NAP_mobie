@@ -1,0 +1,273 @@
+{
+    "BBG-CBRPUB1": {
+        "name": "CBR-PUB-1",
+        "lastUpdated": "2026-09-08T09:52:27.352Z",
+        "city": "Coimbra",
+        "street": "Rua Bernardo de Albuquerque 167",
+        "postcode": "3000-073",
+        "latitude": "40.216904",
+        "longitude": "-8.407325",
+        "latlon": "40.216904 -8.407325",
+        "opc": "BBGE",
+        "opc_name": "Morenergy",
+        "stations": [
+            {
+                "station_id": "BBG-CBRPUB1",
+                "payment": [
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CBRPUB11",
+                        "evse_id": "PT*BBG*ECBRPUB00101",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EPK-LSB-01456": {
+        "name": "Telpark - Maria Cristina",
+        "lastUpdated": "2026-09-08T16:29:28.503Z",
+        "city": "Lisboa",
+        "street": "Rua de Sebastião da Pedreira 55-A",
+        "postcode": "1050-206",
+        "latitude": "38.73056",
+        "longitude": "-9.149897",
+        "latlon": "38.73056 -9.149897",
+        "opc": "EPKS",
+        "opc_name": "Telpark",
+        "stations": [
+            {
+                "station_id": "EPK-LSB-01456",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "1E67BD51-9F31-4F89-A350-FD990F3E01BB",
+                        "evse_id": "PT*EPK*ELMCF001*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "172000.0",
+                                "voltage": "400.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "A69487F9-4606-4582-8B92-004926D71AB6",
+                        "evse_id": "PT*EPK*ELMCF001*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "172000.0",
+                                "voltage": "400.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-SPS-00019": {
+        "name": "Agrupamento de Escolas de Santa Cruz da Trapa",
+        "lastUpdated": "2026-09-09T02:58:20.859Z",
+        "city": "São Pedro do Sul",
+        "street": "AVENIDA SAO MAMEDE DE BARROS, 9143",
+        "postcode": "3660-255",
+        "latitude": "40.767",
+        "longitude": "-8.14713",
+        "latlon": "40.767 -8.14713",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-SPS-00019",
+                "payment": [
+                    "pinpad",
+                    "apps",
+                    "debitCard",
+                    "nfc",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SPS-00019-01",
+                        "evse_id": "PT*HLX*E*SPS*00019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SPS-00019-02",
+                        "evse_id": "PT*HLX*E*SPS*00019*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "IBD-BGC-00029": {
+        "name": "Hotel Ibis Bragança",
+        "lastUpdated": "2026-09-09T02:38:38.776Z",
+        "city": "Bragança",
+        "street": "Rt. Lavrador Transmontano, Av. Forças Armadas",
+        "postcode": "5300-420",
+        "latitude": "41.81673",
+        "longitude": "-6.7558656",
+        "latlon": "41.81673 -6.7558656",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "stations": [
+            {
+                "station_id": "IBD-BGC-00029",
+                "payment": [
+                    "pinpad",
+                    "apps",
+                    "debitCard",
+                    "nfc",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BGC-00029-01",
+                        "evse_id": "PT*IBD*E*BGC*00029*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BGC-00029-02",
+                        "evse_id": "PT*IBD*E*BGC*00029*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "500.0",
+                                "max_current": "150.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAK-LSB-01338": {
+        "name": "Praça de Londres",
+        "lastUpdated": "2026-09-08T17:40:03.834Z",
+        "city": "Lisboa",
+        "street": "Praça de Londres",
+        "postcode": "1000-189",
+        "latitude": "38.739956",
+        "longitude": "-9.137624",
+        "latlon": "38.739956 -9.137624",
+        "opc": "MAKS",
+        "opc_name": "Maksu",
+        "stations": [
+            {
+                "station_id": "MAK-LSB-01338",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01338-01",
+                        "evse_id": "PT*MAK*E*LSB*01338*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MAK-LSB-01339": {
+        "name": "Praça Londres",
+        "lastUpdated": "2026-09-08T17:40:03.487Z",
+        "city": "Lisboa",
+        "street": "Praça de Londres",
+        "postcode": "1000-189",
+        "latitude": "38.739956",
+        "longitude": "-9.137624",
+        "latlon": "38.739956 -9.137624",
+        "opc": "MAKS",
+        "opc_name": "Maksu",
+        "stations": [
+            {
+                "station_id": "MAK-LSB-01339",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01339-01",
+                        "evse_id": "PT*MAK*E*LSB*01339*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
