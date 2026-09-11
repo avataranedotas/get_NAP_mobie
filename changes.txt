@@ -16843,3 +16843,663 @@ Modificados:
         }
     }
 }
+2026-09-11 05:48:04
+Adicionados:
+{
+    "ATL-TNV-00033": {
+        "name": "Atlante - HUB Videla",
+        "lastUpdated": "2026-09-10T16:04:25.480Z",
+        "city": "Torres Novas",
+        "street": "R. da Estrada Nacional 243",
+        "postcode": "2350-734",
+        "latitude": "39.482952",
+        "longitude": "-8.631918",
+        "latlon": "39.482952 -8.631918",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "stations": [
+            {
+                "station_id": "ATL-TNV-00033",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "website",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TNV-00033-01",
+                        "evse_id": "PT*ATL*ETNV*00033*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TNV-00033-02",
+                        "evse_id": "PT*ATL*ETNV*00033*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIA-OER-00285": {
+        "name": "OER-00285 | AS Oeiras Lsb/Csc",
+        "lastUpdated": "2026-09-11T00:33:38.773Z",
+        "city": "Oeiras",
+        "street": "Área de Serviço Oeiras, A5, km 9",
+        "postcode": "2870-000",
+        "latitude": "38.714592",
+        "longitude": "-9.286102",
+        "latlon": "38.714592 -9.286102",
+        "opc": "VIAV",
+        "opc_name": "Via Verde Transição Energética, S.A.",
+        "stations": [
+            {
+                "station_id": "VIA-OER-00285",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "615",
+                        "evse_id": "PT*VIA*EOER-00285-615",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "616",
+                        "evse_id": "PT*VIA*EOER-00285-616",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIA-OER-00286": {
+        "name": "OER-00286 | AS Oeiras Lsb/Csc",
+        "lastUpdated": "2026-09-11T01:21:50.600Z",
+        "city": "Oeiras",
+        "street": "Área de Serviço Oeiras, A5, km 9",
+        "postcode": "2870-000",
+        "latitude": "38.714592",
+        "longitude": "-9.286102",
+        "latlon": "38.714592 -9.286102",
+        "opc": "VIAV",
+        "opc_name": "Via Verde Transição Energética, S.A.",
+        "stations": [
+            {
+                "station_id": "VIA-OER-00286",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "617",
+                        "evse_id": "PT*VIA*EOER-00286-617",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "618",
+                        "evse_id": "PT*VIA*EOER-00286-618",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIA-OER-00287": {
+        "name": "OER-00287 | AS Oeiras Lsb/Csc",
+        "lastUpdated": "2026-09-11T02:58:17.504Z",
+        "city": "Oeiras",
+        "street": "Área de Serviço Oeiras, A5, km 9",
+        "postcode": "2870-000",
+        "latitude": "38.714592",
+        "longitude": "-9.286102",
+        "latlon": "38.714592 -9.286102",
+        "opc": "VIAV",
+        "opc_name": "Via Verde Transição Energética, S.A.",
+        "stations": [
+            {
+                "station_id": "VIA-OER-00287",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "619",
+                        "evse_id": "PT*VIA*EOER-00287-619",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "620",
+                        "evse_id": "PT*VIA*EOER-00287-620",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "625",
+                        "evse_id": "PT*VIA*EOER-00287-625",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "62500.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "VIA-OER-00288": {
+        "name": "OER-00288 | AS Oeiras Lsb/Csc",
+        "lastUpdated": "2026-09-10T22:40:34.101Z",
+        "city": "Oeiras",
+        "street": "Área de Serviço Oeiras, A5, km 9",
+        "postcode": "2870-000",
+        "latitude": "38.714592",
+        "longitude": "-9.286102",
+        "latlon": "38.714592 -9.286102",
+        "opc": "VIAV",
+        "opc_name": "Via Verde Transição Energética, S.A.",
+        "stations": [
+            {
+                "station_id": "VIA-OER-00288",
+                "payment": [
+                    "apps",
+                    "website",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "621",
+                        "evse_id": "PT*VIA*EOER-00288-621",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "622",
+                        "evse_id": "PT*VIA*EOER-00288-622",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "623",
+                        "evse_id": "PT*VIA*EOER-00288-623",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "624",
+                        "evse_id": "PT*VIA*EOER-00288-624",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "ATL-TNV-00031": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ATL-TNV-00032": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "150000.0",
+                                    "new": "300000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-BRR-00017": {
+        "name": {
+            "old": "McDonald's Barreiro 1",
+            "new": "McDonald's Barreiro BRR-00017"
+        }
+    },
+    "EDP-MTJ-00105": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "200.0",
+                                    "new": "300.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EPK-LSB-01456": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "400.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "400.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-VNT-90001": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "HRZ-CSC-00134": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "125.0",
+                                    "new": "250.0"
+                                },
+                                "connector_type": {
+                                    "old": "chademo",
+                                    "new": "iec62196T2COMBO"
+                                },
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "1000.0"
+                                },
+                                "max_power": {
+                                    "old": "50000.0",
+                                    "new": "100000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MOT-TVD-00083": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "375.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "375.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REP-ABF-00035": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "name": {
+            "old": "ABF-00035",
+            "new": "ALBUFEIRA II"
+        }
+    },
+    "REP-ALM-00042": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "name": {
+            "old": "ALM-00042",
+            "new": "COVA PIEDADE"
+        }
+    },
+    "REP-ARC-00010": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "125.0"
+                                },
+                                "voltage": {
+                                    "old": "800.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "50000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REP-BGC-00007": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "latlon": {
+            "old": "41.79925 -6.7707877",
+            "new": "41.7992 -6.77706"
+        },
+        "longitude": {
+            "old": "-6.7707877",
+            "new": "-6.77706"
+        },
+        "latitude": {
+            "old": "41.79925",
+            "new": "41.7992"
+        }
+    },
+    "REP-MTJ-00127": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "250.0",
+                                    "new": "125.0"
+                                },
+                                "voltage": {
+                                    "old": "800.0",
+                                    "new": "400.0"
+                                },
+                                "max_power": {
+                                    "old": "60000.0",
+                                    "new": "50000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
