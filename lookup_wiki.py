@@ -528,4 +528,14 @@ OPERATORS = {
         "email": "energia@parinox.pt",
         "website": "https://parinoxenergia.pt/",
     },
+        "BBGE": {
+        "operator": "Morenergy",
+        "code3": "BBG",
+        "operator:wikidata": None,
+        "brand": None,
+        "brand:wikidata": None,
+        "phone": "+351 239 810 309",
+        "email": "morenergy@morenergy.pt",
+        "website": "https://morenergy.pt/",
+    },
 }
