@@ -518,7 +518,7 @@ OPERATORS = {
         "email": None,
         "website": "https://www.telpark.com/pt/carregamento-eletrico/",
     },
-        "PARI": {
+    "PARI": {
         "operator": "Parinox Energia",
         "code3": "PAR",
         "operator:wikidata": None,
@@ -528,7 +528,7 @@ OPERATORS = {
         "email": "energia@parinox.pt",
         "website": "https://parinoxenergia.pt/",
     },
-        "BBGE": {
+    "BBGE": {
         "operator": "Morenergy",
         "code3": "BBG",
         "operator:wikidata": None,
