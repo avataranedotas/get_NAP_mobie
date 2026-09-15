@@ -17888,3 +17888,5359 @@ Modificados:
         }
     }
 }
+2026-09-15 06:02:15
+Adicionados:
+{
+    "EDP-VFX-00139": {
+        "name": "ALDI Quinta da Piedade",
+        "lastUpdated": "2026-09-14T16:40:08.001Z",
+        "city": "Vila Franca de Xira",
+        "street": "Avenida Dom Vicente Afonso Valente 26 1",
+        "postcode": "2625-214",
+        "latitude": "38.863865",
+        "longitude": "-9.065385",
+        "latlon": "38.863865 -9.065385",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-VFX-00139",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVFX-00139-1",
+                        "evse_id": "PT*EDP*EVFX*00139*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVFX-00139-2",
+                        "evse_id": "PT*EDP*EVFX*00139*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-VFX-00140": {
+        "name": "ALDI Quinta da Piedade",
+        "lastUpdated": "2026-09-14T18:34:03.000Z",
+        "city": "Vila Franca de Xira",
+        "street": "Avenida Dom Vicente Afonso Valente 26 2",
+        "postcode": "2625-214",
+        "latitude": "38.86371",
+        "longitude": "-9.065348",
+        "latlon": "38.86371 -9.065348",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-VFX-00140",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EVFX-00140-1",
+                        "evse_id": "PT*EDP*EVFX*00140*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVFX-00140-2",
+                        "evse_id": "PT*EDP*EVFX*00140*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EVFX-00140-3",
+                        "evse_id": "PT*EDP*EVFX*00140*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-VFX-00151": {
+        "name": "A01 - Nó 3A - Plataforma Logística Lisboa Norte #13",
+        "lastUpdated": "2026-09-14T15:37:11.217Z",
+        "city": "Vila Franca de Xira",
+        "street": "Avenida do Emaús nº 5",
+        "postcode": "2600-729",
+        "latitude": "38.986004",
+        "longitude": "-8.967168",
+        "latlon": "38.986004 -8.967168",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "stations": [
+            {
+                "station_id": "FCT-VFX-00151",
+                "payment": [
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "774",
+                        "evse_id": "PT*FCT*E327*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "600000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "775",
+                        "evse_id": "PT*FCT*E327*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "600000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-PTG-00036": {
+        "name": "E.Leclerc - Portalegre",
+        "lastUpdated": "2026-09-15T02:58:10.669Z",
+        "city": "Portalegre",
+        "street": "Lugar do Gaveto, Rua do Joinal",
+        "postcode": "7300-526",
+        "latitude": "39.278294",
+        "longitude": "-7.432645",
+        "latlon": "39.278294 -7.432645",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "stations": [
+            {
+                "station_id": "HRZ-PTG-00036",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTG-00036-01",
+                        "evse_id": "PT*HRZ*E*PTG*00036*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTG-00036-02",
+                        "evse_id": "PT*HRZ*E*PTG*00036*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTG-00036-03",
+                        "evse_id": "PT*HRZ*E*PTG*00036*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTG-00036-04",
+                        "evse_id": "PT*HRZ*E*PTG*00036*04",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "KLS-SRP-00009": {
+        "name": "OPC3070 Bento Gemas ",
+        "lastUpdated": "2026-09-15T02:59:28.403Z",
+        "city": "Serpa",
+        "street": "R. do Parque de Campismo",
+        "postcode": "7830-303",
+        "latitude": "37.941395",
+        "longitude": "-7.604636",
+        "latlon": "37.941395 -7.604636",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "stations": [
+            {
+                "station_id": "KLS-SRP-00009",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SRP-00009-01",
+                        "evse_id": "PT*KLS*E*SRP*00009*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "KLS-SRP-00010": {
+        "name": "OPC3070 Bento Gemas ",
+        "lastUpdated": "2026-09-15T02:58:32.853Z",
+        "city": "Serpa",
+        "street": "R. do Parque de Campismo",
+        "postcode": "7830-303",
+        "latitude": "37.941395",
+        "longitude": "-7.604636",
+        "latlon": "37.941395 -7.604636",
+        "opc": "KLCS",
+        "opc_name": "Kilometer Low Cost II Serviços, SA",
+        "stations": [
+            {
+                "station_id": "KLS-SRP-00010",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SRP-00010-01",
+                        "evse_id": "PT*KLS*E*SRP*00010*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-CBC-00021": {
+        "name": "xxx",
+        "lastUpdated": "2026-09-15T02:59:10.576Z",
+        "city": "Cabeceiras de Basto",
+        "street": "R. Viscondessa do peso da Regua97 Arco Baulhe",
+        "postcode": "4860-082",
+        "latitude": "41.479416",
+        "longitude": "-7.954476",
+        "latlon": "41.479416 -7.954476",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "stations": [
+            {
+                "station_id": "MOT-CBC-00021",
+                "payment": [
+                    "pinpad",
+                    "nfc",
+                    "apps",
+                    "creditCard",
+                    "rfid",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CBC-00021-01",
+                        "evse_id": "PT*MOT*E*CBC*00021*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "400.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CBC-00021-02",
+                        "evse_id": "PT*MOT*E*CBC*00021*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "180000.0",
+                                "voltage": "400.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "EDP-ABF-00068": {
+        "longitude": {
+            "old": "-8.291377",
+            "new": "-8.315163"
+        },
+        "latitude": {
+            "old": "37.079556",
+            "new": "37.084583"
+        },
+        "latlon": {
+            "old": "37.079556 -8.291377",
+            "new": "37.084583 -8.315163"
+        }
+    },
+    "EDP-ABF-00071": {
+        "longitude": {
+            "old": "-8.224785",
+            "new": "-8.225006"
+        },
+        "latitude": {
+            "old": "37.089504",
+            "new": "37.09004"
+        },
+        "latlon": {
+            "old": "37.089504 -8.224785",
+            "new": "37.09004 -8.225006"
+        }
+    },
+    "EDP-ABF-00074": {
+        "longitude": {
+            "old": "-8.22838",
+            "new": "-8.228617"
+        },
+        "latitude": {
+            "old": "37.10035",
+            "new": "37.100933"
+        },
+        "latlon": {
+            "old": "37.10035 -8.22838",
+            "new": "37.100933 -8.228617"
+        }
+    },
+    "EDP-ABF-00075": {
+        "longitude": {
+            "old": "-8.22838",
+            "new": "-8.22866"
+        },
+        "latitude": {
+            "old": "37.10035",
+            "new": "37.100937"
+        },
+        "latlon": {
+            "old": "37.10035 -8.22838",
+            "new": "37.100937 -8.22866"
+        }
+    },
+    "EDP-ABF-00124": {
+        "longitude": {
+            "old": "-8.234355",
+            "new": "-8.234396"
+        },
+        "latitude": {
+            "old": "37.126934",
+            "new": "37.12741"
+        },
+        "latlon": {
+            "old": "37.126934 -8.234355",
+            "new": "37.12741 -8.234396"
+        }
+    },
+    "EDP-ABF-00127": {
+        "longitude": {
+            "old": "-8.281736",
+            "new": "-8.282502"
+        },
+        "latitude": {
+            "old": "37.078945",
+            "new": "37.078373"
+        },
+        "latlon": {
+            "old": "37.078945 -8.281736",
+            "new": "37.078373 -8.282502"
+        }
+    },
+    "EDP-ABF-00153": {
+        "longitude": {
+            "old": "-8.24337",
+            "new": "-8.239081"
+        },
+        "latitude": {
+            "old": "37.090675",
+            "new": "37.091602"
+        },
+        "latlon": {
+            "old": "37.090675 -8.24337",
+            "new": "37.091602 -8.239081"
+        }
+    },
+    "EDP-ABT-00033": {
+        "longitude": {
+            "old": "-8.195149",
+            "new": "-8.195416"
+        },
+        "latitude": {
+            "old": "39.472248",
+            "new": "39.472656"
+        },
+        "latlon": {
+            "old": "39.472248 -8.195149",
+            "new": "39.472656 -8.195416"
+        }
+    },
+    "EDP-ACB-00008": {
+        "longitude": {
+            "old": "-9.032169",
+            "new": "-9.038445"
+        },
+        "latitude": {
+            "old": "39.54278",
+            "new": "39.54608"
+        },
+        "latlon": {
+            "old": "39.54278 -9.032169",
+            "new": "39.54608 -9.038445"
+        }
+    },
+    "EDP-ACB-00026": {
+        "longitude": {
+            "old": "-8.969139",
+            "new": "-8.969886"
+        },
+        "latitude": {
+            "old": "39.544445",
+            "new": "39.545082"
+        },
+        "latlon": {
+            "old": "39.544445 -8.969139",
+            "new": "39.545082 -8.969886"
+        }
+    },
+    "EDP-ACH-00040": {
+        "longitude": {
+            "old": "-8.96071",
+            "new": "-8.961185"
+        },
+        "latitude": {
+            "old": "38.75073",
+            "new": "38.750366"
+        },
+        "latlon": {
+            "old": "38.75073 -8.96071",
+            "new": "38.750366 -8.961185"
+        }
+    },
+    "EDP-ACH-00041": {
+        "longitude": {
+            "old": "-8.960697",
+            "new": "-8.961129"
+        },
+        "latitude": {
+            "old": "38.75073",
+            "new": "38.750374"
+        },
+        "latlon": {
+            "old": "38.75073 -8.960697",
+            "new": "38.750374 -8.961129"
+        }
+    },
+    "EDP-AFE-00002": {
+        "longitude": {
+            "old": "-6.962444",
+            "new": "-6.961381"
+        },
+        "latitude": {
+            "old": "41.34163",
+            "new": "41.341183"
+        },
+        "latlon": {
+            "old": "41.34163 -6.962444",
+            "new": "41.341183 -6.961381"
+        }
+    },
+    "EDP-ALM-00034": {
+        "longitude": {
+            "old": "-9.162964",
+            "new": "-9.16331"
+        },
+        "latitude": {
+            "old": "38.662807",
+            "new": "38.66243"
+        },
+        "latlon": {
+            "old": "38.662807 -9.162964",
+            "new": "38.66243 -9.16331"
+        }
+    },
+    "EDP-ALM-00072": {
+        "longitude": {
+            "old": "-9.145129",
+            "new": "-9.144243"
+        },
+        "latitude": {
+            "old": "38.63441",
+            "new": "38.634388"
+        },
+        "latlon": {
+            "old": "38.63441 -9.145129",
+            "new": "38.634388 -9.144243"
+        }
+    },
+    "EDP-ALQ-00019": {
+        "longitude": {
+            "old": "-9.148693",
+            "new": "-9.119812"
+        },
+        "latitude": {
+            "old": "39.108036",
+            "new": "39.097523"
+        },
+        "latlon": {
+            "old": "39.108036 -9.148693",
+            "new": "39.097523 -9.119812"
+        }
+    },
+    "EDP-ALT-00002": {
+        "longitude": {
+            "old": "-7.686202",
+            "new": "-7.686778"
+        },
+        "latitude": {
+            "old": "39.222023",
+            "new": "39.222317"
+        },
+        "latlon": {
+            "old": "39.222023 -7.686202",
+            "new": "39.222317 -7.686778"
+        }
+    },
+    "EDP-ALT-00003": {
+        "longitude": {
+            "old": "-7.686202",
+            "new": "-7.686798"
+        },
+        "latitude": {
+            "old": "39.222225",
+            "new": "39.2223"
+        },
+        "latlon": {
+            "old": "39.222225 -7.686202",
+            "new": "39.2223 -7.686798"
+        }
+    },
+    "EDP-ALT-00006": {
+        "longitude": {
+            "old": "-7.66227",
+            "new": "-7.666665"
+        },
+        "latitude": {
+            "old": "39.20208",
+            "new": "39.196873"
+        },
+        "latlon": {
+            "old": "39.20208 -7.66227",
+            "new": "39.196873 -7.666665"
+        }
+    },
+    "EDP-ALT-00008": {
+        "longitude": {
+            "old": "-7.687151",
+            "new": "-7.68685"
+        },
+        "latitude": {
+            "old": "39.224155",
+            "new": "39.22226"
+        },
+        "latlon": {
+            "old": "39.224155 -7.687151",
+            "new": "39.22226 -7.68685"
+        }
+    },
+    "EDP-ALT-00009": {
+        "longitude": {
+            "old": "-7.687151",
+            "new": "-7.68689"
+        },
+        "latitude": {
+            "old": "39.224155",
+            "new": "39.22223"
+        },
+        "latlon": {
+            "old": "39.224155 -7.687151",
+            "new": "39.22223 -7.68689"
+        }
+    },
+    "EDP-AMM-00002": {
+        "longitude": {
+            "old": "-7.64456",
+            "new": "-7.647776"
+        },
+        "latitude": {
+            "old": "41.153763",
+            "new": "41.154297"
+        },
+        "latlon": {
+            "old": "41.153763 -7.64456",
+            "new": "41.154297 -7.647776"
+        }
+    },
+    "EDP-AMM-00003": {
+        "longitude": {
+            "old": "-7.64456",
+            "new": "-7.647752"
+        },
+        "latitude": {
+            "old": "41.15361",
+            "new": "41.154312"
+        },
+        "latlon": {
+            "old": "41.15361 -7.64456",
+            "new": "41.154312 -7.647752"
+        }
+    },
+    "EDP-AMR-00002": {
+        "longitude": {
+            "old": "-8.27058",
+            "new": "-8.270905"
+        },
+        "latitude": {
+            "old": "41.65929",
+            "new": "41.658882"
+        },
+        "latlon": {
+            "old": "41.65929 -8.27058",
+            "new": "41.658882 -8.270905"
+        }
+    },
+    "EDP-AMT-00012": {
+        "longitude": {
+            "old": "-8.071729",
+            "new": "-8.073542"
+        },
+        "latitude": {
+            "old": "41.266026",
+            "new": "41.26755"
+        },
+        "latlon": {
+            "old": "41.266026 -8.071729",
+            "new": "41.26755 -8.073542"
+        }
+    },
+    "EDP-ARL-00002": {
+        "longitude": {
+            "old": "-7.988788",
+            "new": "-7.989383"
+        },
+        "latitude": {
+            "old": "38.73182",
+            "new": "38.73171"
+        },
+        "latlon": {
+            "old": "38.73182 -7.988788",
+            "new": "38.73171 -7.989383"
+        }
+    },
+    "EDP-ARL-00003": {
+        "longitude": {
+            "old": "-7.988788",
+            "new": "-7.989415"
+        },
+        "latitude": {
+            "old": "38.73197",
+            "new": "38.7317"
+        },
+        "latlon": {
+            "old": "38.73197 -7.988788",
+            "new": "38.7317 -7.989415"
+        }
+    },
+    "EDP-ASL-00005": {
+        "longitude": {
+            "old": "-8.513938",
+            "new": "-8.513399"
+        },
+        "latitude": {
+            "old": "38.372753",
+            "new": "38.37258"
+        },
+        "latlon": {
+            "old": "38.372753 -8.513938",
+            "new": "38.37258 -8.513399"
+        }
+    },
+    "EDP-ASL-00006": {
+        "longitude": {
+            "old": "-8.511098",
+            "new": "-8.513426"
+        },
+        "latitude": {
+            "old": "38.372356",
+            "new": "38.37258"
+        },
+        "latlon": {
+            "old": "38.372356 -8.511098",
+            "new": "38.37258 -8.513426"
+        }
+    },
+    "EDP-ASL-00018": {
+        "longitude": {
+            "old": "-8.512222",
+            "new": "-8.513037"
+        },
+        "latitude": {
+            "old": "38.38028",
+            "new": "38.38044"
+        },
+        "latlon": {
+            "old": "38.38028 -8.512222",
+            "new": "38.38044 -8.513037"
+        }
+    },
+    "EDP-ASL-00036": {
+        "longitude": {
+            "old": "-8.51217",
+            "new": "-8.513036"
+        },
+        "latitude": {
+            "old": "38.38047",
+            "new": "38.38049"
+        },
+        "latlon": {
+            "old": "38.38047 -8.51217",
+            "new": "38.38049 -8.513036"
+        }
+    },
+    "EDP-AVR-00065": {
+        "longitude": {
+            "old": "-8.60941",
+            "new": "-8.599148"
+        },
+        "latitude": {
+            "old": "40.6295",
+            "new": "40.646355"
+        },
+        "latlon": {
+            "old": "40.6295 -8.60941",
+            "new": "40.646355 -8.599148"
+        }
+    },
+    "EDP-AVZ-00005": {
+        "longitude": {
+            "old": "-8.365958",
+            "new": "-8.358571"
+        },
+        "latitude": {
+            "old": "39.810795",
+            "new": "39.805424"
+        },
+        "latlon": {
+            "old": "39.810795 -8.365958",
+            "new": "39.805424 -8.358571"
+        }
+    },
+    "EDP-AZB-00019": {
+        "longitude": {
+            "old": "-8.87724",
+            "new": "-8.877319"
+        },
+        "latitude": {
+            "old": "39.06629",
+            "new": "39.065834"
+        },
+        "latlon": {
+            "old": "39.06629 -8.87724",
+            "new": "39.065834 -8.877319"
+        }
+    },
+    "EDP-BAO-00004": {
+        "longitude": {
+            "old": "-8.094499",
+            "new": "-8.095164"
+        },
+        "latitude": {
+            "old": "41.10302",
+            "new": "41.103195"
+        },
+        "latlon": {
+            "old": "41.10302 -8.094499",
+            "new": "41.103195 -8.095164"
+        }
+    },
+    "EDP-BAO-00005": {
+        "longitude": {
+            "old": "-8.006274",
+            "new": "-8.006644"
+        },
+        "latitude": {
+            "old": "41.10997",
+            "new": "41.11064"
+        },
+        "latlon": {
+            "old": "41.10997 -8.006274",
+            "new": "41.11064 -8.006644"
+        }
+    },
+    "EDP-BCL-00018": {
+        "longitude": {
+            "old": "-8.62049",
+            "new": "-8.619732"
+        },
+        "latitude": {
+            "old": "41.538902",
+            "new": "41.538746"
+        },
+        "latlon": {
+            "old": "41.538902 -8.62049",
+            "new": "41.538746 -8.619732"
+        }
+    },
+    "EDP-BGC-00010": {
+        "longitude": {
+            "old": "-6.773953",
+            "new": "-6.774547"
+        },
+        "latitude": {
+            "old": "41.788147",
+            "new": "41.78766"
+        },
+        "latlon": {
+            "old": "41.788147 -6.773953",
+            "new": "41.78766 -6.774547"
+        }
+    },
+    "EDP-BGC-00011": {
+        "longitude": {
+            "old": "-6.741991",
+            "new": "-6.741109"
+        },
+        "latitude": {
+            "old": "41.812325",
+            "new": "41.812565"
+        },
+        "latlon": {
+            "old": "41.812325 -6.741991",
+            "new": "41.812565 -6.741109"
+        }
+    },
+    "EDP-BGC-00024": {
+        "longitude": {
+            "old": "-6.74086",
+            "new": "-6.740931"
+        },
+        "latitude": {
+            "old": "41.812878",
+            "new": "41.812046"
+        },
+        "latlon": {
+            "old": "41.812878 -6.74086",
+            "new": "41.812046 -6.740931"
+        }
+    },
+    "EDP-BGC-00025": {
+        "longitude": {
+            "old": "-6.74086",
+            "new": "-6.740884"
+        },
+        "latitude": {
+            "old": "41.812878",
+            "new": "41.812073"
+        },
+        "latlon": {
+            "old": "41.812878 -6.74086",
+            "new": "41.812073 -6.740884"
+        }
+    },
+    "EDP-BJA-00010": {
+        "longitude": {
+            "old": "-7.89539",
+            "new": "-7.860029"
+        },
+        "latitude": {
+            "old": "38.165867",
+            "new": "38.012978"
+        },
+        "latlon": {
+            "old": "38.165867 -7.89539",
+            "new": "38.012978 -7.860029"
+        }
+    },
+    "EDP-BJA-00011": {
+        "longitude": {
+            "old": "-7.860734",
+            "new": "-7.860043"
+        },
+        "latitude": {
+            "old": "38.012753",
+            "new": "38.012997"
+        },
+        "latlon": {
+            "old": "38.012753 -7.860734",
+            "new": "38.012997 -7.860043"
+        }
+    },
+    "EDP-BJA-00023": {
+        "longitude": {
+            "old": "-8.04983",
+            "new": "-8.049378"
+        },
+        "latitude": {
+            "old": "37.895164",
+            "new": "37.894875"
+        },
+        "latlon": {
+            "old": "37.895164 -8.04983",
+            "new": "37.894875 -8.049378"
+        }
+    },
+    "EDP-BJA-00024": {
+        "longitude": {
+            "old": "-8.049832",
+            "new": "-8.049319"
+        },
+        "latitude": {
+            "old": "37.895164",
+            "new": "37.894875"
+        },
+        "latlon": {
+            "old": "37.895164 -8.049832",
+            "new": "37.894875 -8.049319"
+        }
+    },
+    "EDP-BJA-00025": {
+        "longitude": {
+            "old": "-8.02053",
+            "new": "-8.021124"
+        },
+        "latitude": {
+            "old": "37.88915",
+            "new": "37.88898"
+        },
+        "latlon": {
+            "old": "37.88915 -8.02053",
+            "new": "37.88898 -8.021124"
+        }
+    },
+    "EDP-BJA-00063": {
+        "longitude": {
+            "old": "-8.037916",
+            "new": "-8.038048"
+        },
+        "latitude": {
+            "old": "37.889175",
+            "new": "37.884525"
+        },
+        "latlon": {
+            "old": "37.889175 -8.037916",
+            "new": "37.884525 -8.038048"
+        }
+    },
+    "EDP-BNV-00012": {
+        "longitude": {
+            "old": "-8.865083",
+            "new": "-8.882829"
+        },
+        "latitude": {
+            "old": "38.916206",
+            "new": "38.922077"
+        },
+        "latlon": {
+            "old": "38.916206 -8.865083",
+            "new": "38.922077 -8.882829"
+        }
+    },
+    "EDP-BRG-00036": {
+        "longitude": {
+            "old": "-8.423693",
+            "new": "-8.423916"
+        },
+        "latitude": {
+            "old": "41.548923",
+            "new": "41.547905"
+        },
+        "latlon": {
+            "old": "41.548923 -8.423693",
+            "new": "41.547905 -8.423916"
+        }
+    },
+    "EDP-BRG-00037": {
+        "longitude": {
+            "old": "-8.423706",
+            "new": "-8.423909"
+        },
+        "latitude": {
+            "old": "41.548943",
+            "new": "41.547886"
+        },
+        "latlon": {
+            "old": "41.548943 -8.423706",
+            "new": "41.547886 -8.423909"
+        }
+    },
+    "EDP-BRG-00084": {
+        "longitude": {
+            "old": "-8.423726",
+            "new": "-8.423895"
+        },
+        "latitude": {
+            "old": "41.548977",
+            "new": "41.547855"
+        },
+        "latlon": {
+            "old": "41.548977 -8.423726",
+            "new": "41.547855 -8.423895"
+        }
+    },
+    "EDP-BRR-00016": {
+        "longitude": {
+            "old": "-9.059676",
+            "new": "-9.060347"
+        },
+        "latitude": {
+            "old": "38.64245",
+            "new": "38.64232"
+        },
+        "latlon": {
+            "old": "38.64245 -9.059676",
+            "new": "38.64232 -9.060347"
+        }
+    },
+    "EDP-BRR-00026": {
+        "longitude": {
+            "old": "-9.050638",
+            "new": "-9.042843"
+        },
+        "latitude": {
+            "old": "38.66152",
+            "new": "38.58145"
+        },
+        "latlon": {
+            "old": "38.66152 -9.050638",
+            "new": "38.58145 -9.042843"
+        }
+    },
+    "EDP-BRR-90002": {
+        "longitude": {
+            "old": "-9.067505",
+            "new": "-9.066736"
+        },
+        "latitude": {
+            "old": "38.65706",
+            "new": "38.657364"
+        },
+        "latlon": {
+            "old": "38.65706 -9.067505",
+            "new": "38.657364 -9.066736"
+        }
+    },
+    "EDP-CBR-00034": {
+        "longitude": {
+            "old": "-8.43593",
+            "new": "-8.436262"
+        },
+        "latitude": {
+            "old": "40.214115",
+            "new": "40.213512"
+        },
+        "latlon": {
+            "old": "40.214115 -8.43593",
+            "new": "40.213512 -8.436262"
+        }
+    },
+    "EDP-CBR-00035": {
+        "longitude": {
+            "old": "-8.43593",
+            "new": "-8.436245"
+        },
+        "latitude": {
+            "old": "40.214268",
+            "new": "40.213493"
+        },
+        "latlon": {
+            "old": "40.214268 -8.43593",
+            "new": "40.213493 -8.436245"
+        }
+    },
+    "EDP-CBR-00038": {
+        "longitude": {
+            "old": "-8.445664",
+            "new": "-8.44502"
+        },
+        "latitude": {
+            "old": "40.19678",
+            "new": "40.196815"
+        },
+        "latlon": {
+            "old": "40.19678 -8.445664",
+            "new": "40.196815 -8.44502"
+        }
+    },
+    "EDP-CBR-00070": {
+        "longitude": {
+            "old": "-8.424163",
+            "new": "-8.423503"
+        },
+        "latitude": {
+            "old": "40.22437",
+            "new": "40.22475"
+        },
+        "latlon": {
+            "old": "40.22437 -8.424163",
+            "new": "40.22475 -8.423503"
+        }
+    },
+    "EDP-CBR-00082": {
+        "longitude": {
+            "old": "-8.435952",
+            "new": "-8.436289"
+        },
+        "latitude": {
+            "old": "40.21435",
+            "new": "40.21354"
+        },
+        "latlon": {
+            "old": "40.21435 -8.435952",
+            "new": "40.21354 -8.436289"
+        }
+    },
+    "EDP-CBR-00119": {
+        "longitude": {
+            "old": "-8.443011",
+            "new": "-8.443875"
+        },
+        "latitude": {
+            "old": "40.20997",
+            "new": "40.209488"
+        },
+        "latlon": {
+            "old": "40.20997 -8.443011",
+            "new": "40.209488 -8.443875"
+        }
+    },
+    "EDP-CBR-00120": {
+        "longitude": {
+            "old": "-8.44301",
+            "new": "-8.443829"
+        },
+        "latitude": {
+            "old": "40.20996",
+            "new": "40.209515"
+        },
+        "latlon": {
+            "old": "40.20996 -8.44301",
+            "new": "40.209515 -8.443829"
+        }
+    },
+    "EDP-CBR-00122": {
+        "longitude": {
+            "old": "-8.44301",
+            "new": "-8.443784"
+        },
+        "latitude": {
+            "old": "40.20996",
+            "new": "40.20954"
+        },
+        "latlon": {
+            "old": "40.20996 -8.44301",
+            "new": "40.20954 -8.443784"
+        }
+    },
+    "EDP-CBR-00152": {
+        "longitude": {
+            "old": "-8.428603",
+            "new": "-8.427997"
+        },
+        "latitude": {
+            "old": "40.254593",
+            "new": "40.254845"
+        },
+        "latlon": {
+            "old": "40.254593 -8.428603",
+            "new": "40.254845 -8.427997"
+        }
+    },
+    "EDP-CBR-90009": {
+        "longitude": {
+            "old": "-8.407297",
+            "new": "-8.404884"
+        },
+        "latitude": {
+            "old": "40.218155",
+            "new": "40.217464"
+        },
+        "latlon": {
+            "old": "40.218155 -8.407297",
+            "new": "40.217464 -8.404884"
+        }
+    },
+    "EDP-CBT-00003": {
+        "longitude": {
+            "old": "-8.029",
+            "new": "-8.030057"
+        },
+        "latitude": {
+            "old": "41.45956",
+            "new": "41.458668"
+        },
+        "latlon": {
+            "old": "41.45956 -8.029",
+            "new": "41.458668 -8.030057"
+        }
+    },
+    "EDP-CBT-00004": {
+        "longitude": {
+            "old": "-7.9999",
+            "new": "-8.000624"
+        },
+        "latitude": {
+            "old": "41.38819",
+            "new": "41.38716"
+        },
+        "latlon": {
+            "old": "41.38819 -7.9999",
+            "new": "41.38716 -8.000624"
+        }
+    },
+    "EDP-CHV-00025": {
+        "longitude": {
+            "old": "-7.45981",
+            "new": "-7.470734"
+        },
+        "latitude": {
+            "old": "41.759384",
+            "new": "41.738647"
+        },
+        "latlon": {
+            "old": "41.759384 -7.45981",
+            "new": "41.738647 -7.470734"
+        }
+    },
+    "EDP-CLB-00008": {
+        "longitude": {
+            "old": "-7.388062",
+            "new": "-7.387178"
+        },
+        "latitude": {
+            "old": "40.64372",
+            "new": "40.643753"
+        },
+        "latlon": {
+            "old": "40.64372 -7.388062",
+            "new": "40.643753 -7.387178"
+        }
+    },
+    "EDP-CMR-00002": {
+        "longitude": {
+            "old": "-7.071592",
+            "new": "-7.073782"
+        },
+        "latitude": {
+            "old": "39.009995",
+            "new": "39.01616"
+        },
+        "latlon": {
+            "old": "39.009995 -7.071592",
+            "new": "39.01616 -7.073782"
+        }
+    },
+    "EDP-CNT-00007": {
+        "longitude": {
+            "old": "-8.493646",
+            "new": "-8.493878"
+        },
+        "latitude": {
+            "old": "40.33243",
+            "new": "40.331776"
+        },
+        "latlon": {
+            "old": "40.33243 -8.493646",
+            "new": "40.331776 -8.493878"
+        }
+    },
+    "EDP-CNT-00012": {
+        "longitude": {
+            "old": "-8.751865",
+            "new": "-8.75102"
+        },
+        "latitude": {
+            "old": "40.3166",
+            "new": "40.319862"
+        },
+        "latlon": {
+            "old": "40.3166 -8.751865",
+            "new": "40.319862 -8.75102"
+        }
+    },
+    "EDP-CNT-00015": {
+        "longitude": {
+            "old": "-8.58927",
+            "new": "-8.58886"
+        },
+        "latitude": {
+            "old": "40.35598",
+            "new": "40.355583"
+        },
+        "latlon": {
+            "old": "40.35598 -8.58927",
+            "new": "40.355583 -8.58886"
+        }
+    },
+    "EDP-CRT-00002": {
+        "longitude": {
+            "old": "-7.648145",
+            "new": "-7.648084"
+        },
+        "latitude": {
+            "old": "39.30667",
+            "new": "39.30731"
+        },
+        "latlon": {
+            "old": "39.30667 -7.648145",
+            "new": "39.30731 -7.648084"
+        }
+    },
+    "EDP-CRT-00003": {
+        "longitude": {
+            "old": "-7.648145",
+            "new": "-7.648084"
+        },
+        "latitude": {
+            "old": "39.30667",
+            "new": "39.30733"
+        },
+        "latlon": {
+            "old": "39.30667 -7.648145",
+            "new": "39.30733 -7.648084"
+        }
+    },
+    "EDP-CRZ-00002": {
+        "longitude": {
+            "old": "-7.306276",
+            "new": "-7.305667"
+        },
+        "latitude": {
+            "old": "41.24606",
+            "new": "41.245735"
+        },
+        "latlon": {
+            "old": "41.24606 -7.306276",
+            "new": "41.245735 -7.305667"
+        }
+    },
+    "EDP-CRZ-00003": {
+        "longitude": {
+            "old": "-7.306276",
+            "new": "-7.305717"
+        },
+        "latitude": {
+            "old": "41.24606",
+            "new": "41.245758"
+        },
+        "latlon": {
+            "old": "41.24606 -7.306276",
+            "new": "41.245758 -7.305717"
+        }
+    },
+    "EDP-CSC-00040": {
+        "longitude": {
+            "old": "-9.39673",
+            "new": "-9.396701"
+        },
+        "latitude": {
+            "old": "38.703415",
+            "new": "38.704044"
+        },
+        "latlon": {
+            "old": "38.703415 -9.39673",
+            "new": "38.704044 -9.396701"
+        }
+    },
+    "EDP-CSC-00041": {
+        "longitude": {
+            "old": "-9.39673",
+            "new": "-9.396673"
+        },
+        "latitude": {
+            "old": "38.703415",
+            "new": "38.70404"
+        },
+        "latlon": {
+            "old": "38.703415 -9.39673",
+            "new": "38.70404 -9.396673"
+        }
+    },
+    "EDP-CSC-00049": {
+        "longitude": {
+            "old": "-9.32752",
+            "new": "-9.326911"
+        },
+        "latitude": {
+            "old": "38.67834",
+            "new": "38.679306"
+        },
+        "latlon": {
+            "old": "38.67834 -9.32752",
+            "new": "38.679306 -9.326911"
+        }
+    },
+    "EDP-CSC-00050": {
+        "longitude": {
+            "old": "-9.325461",
+            "new": "-9.326884"
+        },
+        "latitude": {
+            "old": "38.680485",
+            "new": "38.679314"
+        },
+        "latlon": {
+            "old": "38.680485 -9.325461",
+            "new": "38.679314 -9.326884"
+        }
+    },
+    "EDP-CSC-00051": {
+        "longitude": {
+            "old": "-9.328103",
+            "new": "-9.326843"
+        },
+        "latitude": {
+            "old": "38.68991",
+            "new": "38.679325"
+        },
+        "latlon": {
+            "old": "38.68991 -9.328103",
+            "new": "38.679325 -9.326843"
+        }
+    },
+    "EDP-CSC-00052": {
+        "longitude": {
+            "old": "-9.325461",
+            "new": "-9.326789"
+        },
+        "latitude": {
+            "old": "38.680485",
+            "new": "38.67934"
+        },
+        "latlon": {
+            "old": "38.680485 -9.325461",
+            "new": "38.67934 -9.326789"
+        }
+    },
+    "EDP-CSC-00053": {
+        "longitude": {
+            "old": "-9.328103",
+            "new": "-9.326735"
+        },
+        "latitude": {
+            "old": "38.68991",
+            "new": "38.679356"
+        },
+        "latlon": {
+            "old": "38.68991 -9.328103",
+            "new": "38.679356 -9.326735"
+        }
+    },
+    "EDP-CSC-00054": {
+        "longitude": {
+            "old": "-9.328103",
+            "new": "-9.326681"
+        },
+        "latitude": {
+            "old": "38.68991",
+            "new": "38.67937"
+        },
+        "latlon": {
+            "old": "38.68991 -9.328103",
+            "new": "38.67937 -9.326681"
+        }
+    },
+    "EDP-CSC-00094": {
+        "longitude": {
+            "old": "-9.45681",
+            "new": "-9.457241"
+        },
+        "latitude": {
+            "old": "38.70771",
+            "new": "38.70725"
+        },
+        "latlon": {
+            "old": "38.70771 -9.45681",
+            "new": "38.70725 -9.457241"
+        }
+    },
+    "EDP-CSC-00095": {
+        "longitude": {
+            "old": "-9.45681",
+            "new": "-9.45725"
+        },
+        "latitude": {
+            "old": "38.70771",
+            "new": "38.707268"
+        },
+        "latlon": {
+            "old": "38.70771 -9.45681",
+            "new": "38.707268 -9.45725"
+        }
+    },
+    "EDP-CSC-00098": {
+        "longitude": {
+            "old": "-9.393637",
+            "new": "-9.456363"
+        },
+        "latitude": {
+            "old": "38.70443",
+            "new": "38.707825"
+        },
+        "latlon": {
+            "old": "38.70443 -9.393637",
+            "new": "38.707825 -9.456363"
+        }
+    },
+    "EDP-CSC-00099": {
+        "longitude": {
+            "old": "-9.335796",
+            "new": "-9.336572"
+        },
+        "latitude": {
+            "old": "38.72531",
+            "new": "38.72475"
+        },
+        "latlon": {
+            "old": "38.72531 -9.335796",
+            "new": "38.72475 -9.336572"
+        }
+    },
+    "EDP-CSC-00143": {
+        "longitude": {
+            "old": "-9.428021",
+            "new": "-9.419432"
+        },
+        "latitude": {
+            "old": "38.715595",
+            "new": "38.691742"
+        },
+        "latlon": {
+            "old": "38.715595 -9.428021",
+            "new": "38.691742 -9.419432"
+        }
+    },
+    "EDP-CSC-00144": {
+        "longitude": {
+            "old": "-9.428036",
+            "new": "-9.419388"
+        },
+        "latitude": {
+            "old": "38.716156",
+            "new": "38.69171"
+        },
+        "latlon": {
+            "old": "38.716156 -9.428036",
+            "new": "38.69171 -9.419388"
+        }
+    },
+    "EDP-CSC-00145": {
+        "longitude": {
+            "old": "-9.427977",
+            "new": "-9.419258"
+        },
+        "latitude": {
+            "old": "38.71601",
+            "new": "38.691612"
+        },
+        "latlon": {
+            "old": "38.71601 -9.427977",
+            "new": "38.691612 -9.419258"
+        }
+    },
+    "EDP-CSC-00190": {
+        "longitude": {
+            "old": "-9.383528",
+            "new": "-9.383367"
+        },
+        "latitude": {
+            "old": "38.737083",
+            "new": "38.737633"
+        },
+        "latlon": {
+            "old": "38.737083 -9.383528",
+            "new": "38.737633 -9.383367"
+        }
+    },
+    "EDP-CSC-00192": {
+        "longitude": {
+            "old": "-9.393538",
+            "new": "-9.403484"
+        },
+        "latitude": {
+            "old": "38.74317",
+            "new": "38.73811"
+        },
+        "latlon": {
+            "old": "38.74317 -9.393538",
+            "new": "38.73811 -9.403484"
+        }
+    },
+    "EDP-CSC-00200": {
+        "longitude": {
+            "old": "-9.45718",
+            "new": "-9.457896"
+        },
+        "latitude": {
+            "old": "38.701843",
+            "new": "38.701633"
+        },
+        "latlon": {
+            "old": "38.701843 -9.45718",
+            "new": "38.701633 -9.457896"
+        }
+    },
+    "EDP-CSC-00201": {
+        "longitude": {
+            "old": "-9.45718",
+            "new": "-9.457915"
+        },
+        "latitude": {
+            "old": "38.701843",
+            "new": "38.70168"
+        },
+        "latlon": {
+            "old": "38.701843 -9.45718",
+            "new": "38.70168 -9.457915"
+        }
+    },
+    "EDP-CSC-00210": {
+        "longitude": {
+            "old": "-9.442813",
+            "new": "-9.442638"
+        },
+        "latitude": {
+            "old": "38.72459",
+            "new": "38.725098"
+        },
+        "latlon": {
+            "old": "38.72459 -9.442813",
+            "new": "38.725098 -9.442638"
+        }
+    },
+    "EDP-CSC-00217": {
+        "longitude": {
+            "old": "-9.3257",
+            "new": "-9.326284"
+        },
+        "latitude": {
+            "old": "38.6873",
+            "new": "38.687466"
+        },
+        "latlon": {
+            "old": "38.6873 -9.3257",
+            "new": "38.687466 -9.326284"
+        }
+    },
+    "EDP-CSC-00298": {
+        "longitude": {
+            "old": "-9.325967",
+            "new": "-9.326626"
+        },
+        "latitude": {
+            "old": "38.679607",
+            "new": "38.679386"
+        },
+        "latlon": {
+            "old": "38.679607 -9.325967",
+            "new": "38.679386 -9.326626"
+        }
+    },
+    "EDP-CSC-00299": {
+        "longitude": {
+            "old": "-9.325967",
+            "new": "-9.326568"
+        },
+        "latitude": {
+            "old": "38.679607",
+            "new": "38.6794"
+        },
+        "latlon": {
+            "old": "38.679607 -9.325967",
+            "new": "38.6794 -9.326568"
+        }
+    },
+    "EDP-CSC-80004": {
+        "longitude": {
+            "old": "-9.398214",
+            "new": "-9.398841"
+        },
+        "latitude": {
+            "old": "38.703667",
+            "new": "38.703747"
+        },
+        "latlon": {
+            "old": "38.703667 -9.398214",
+            "new": "38.703747 -9.398841"
+        }
+    },
+    "EDP-EPS-00006": {
+        "longitude": {
+            "old": "-8.785227",
+            "new": "-8.785922"
+        },
+        "latitude": {
+            "old": "41.517296",
+            "new": "41.516605"
+        },
+        "latlon": {
+            "old": "41.517296 -8.785227",
+            "new": "41.516605 -8.785922"
+        }
+    },
+    "EDP-EPS-00007": {
+        "longitude": {
+            "old": "-8.785227",
+            "new": "-8.785981"
+        },
+        "latitude": {
+            "old": "41.517296",
+            "new": "41.5166"
+        },
+        "latlon": {
+            "old": "41.517296 -8.785227",
+            "new": "41.5166 -8.785981"
+        }
+    },
+    "EDP-ETR-00020": {
+        "longitude": {
+            "old": "-8.536943",
+            "new": "-8.536434"
+        },
+        "latitude": {
+            "old": "40.755768",
+            "new": "40.755245"
+        },
+        "latlon": {
+            "old": "40.755768 -8.536943",
+            "new": "40.755245 -8.536434"
+        }
+    },
+    "EDP-ETR-00021": {
+        "longitude": {
+            "old": "-8.536943",
+            "new": "-8.536409"
+        },
+        "latitude": {
+            "old": "40.755768",
+            "new": "40.755207"
+        },
+        "latlon": {
+            "old": "40.755768 -8.536943",
+            "new": "40.755207 -8.536409"
+        }
+    },
+    "EDP-EVR-00027": {
+        "longitude": {
+            "old": "-7.915043",
+            "new": "-7.914779"
+        },
+        "latitude": {
+            "old": "38.55447",
+            "new": "38.55391"
+        },
+        "latlon": {
+            "old": "38.55447 -7.915043",
+            "new": "38.55391 -7.914779"
+        }
+    },
+    "EDP-EVR-00032": {
+        "longitude": {
+            "old": "-7.915577",
+            "new": "-7.915178"
+        },
+        "latitude": {
+            "old": "38.567158",
+            "new": "38.566822"
+        },
+        "latlon": {
+            "old": "38.567158 -7.915577",
+            "new": "38.566822 -7.915178"
+        }
+    },
+    "EDP-EVR-00042": {
+        "longitude": {
+            "old": "-7.91366",
+            "new": "-7.913027"
+        },
+        "latitude": {
+            "old": "38.57523",
+            "new": "38.5758"
+        },
+        "latlon": {
+            "old": "38.57523 -7.91366",
+            "new": "38.5758 -7.913027"
+        }
+    },
+    "EDP-EVR-00043": {
+        "longitude": {
+            "old": "-7.913409",
+            "new": "-7.913162"
+        },
+        "latitude": {
+            "old": "38.56935",
+            "new": "38.568924"
+        },
+        "latlon": {
+            "old": "38.56935 -7.913409",
+            "new": "38.568924 -7.913162"
+        }
+    },
+    "EDP-EVR-00075": {
+        "longitude": {
+            "old": "-7.910011",
+            "new": "-7.91047"
+        },
+        "latitude": {
+            "old": "38.55499",
+            "new": "38.553818"
+        },
+        "latlon": {
+            "old": "38.55499 -7.910011",
+            "new": "38.553818 -7.91047"
+        }
+    },
+    "EDP-FAF-00009": {
+        "longitude": {
+            "old": "-8.170663",
+            "new": "-8.171542"
+        },
+        "latitude": {
+            "old": "41.44923",
+            "new": "41.447197"
+        },
+        "latlon": {
+            "old": "41.44923 -8.170663",
+            "new": "41.447197 -8.171542"
+        }
+    },
+    "EDP-FAF-00012": {
+        "longitude": {
+            "old": "-8.166558",
+            "new": "-8.169255"
+        },
+        "latitude": {
+            "old": "41.45135",
+            "new": "41.449566"
+        },
+        "latlon": {
+            "old": "41.45135 -8.166558",
+            "new": "41.449566 -8.169255"
+        }
+    },
+    "EDP-FAF-00017": {
+        "longitude": {
+            "old": "-8.170772",
+            "new": "-8.171439"
+        },
+        "latitude": {
+            "old": "41.44808",
+            "new": "41.44805"
+        },
+        "latlon": {
+            "old": "41.44808 -8.170772",
+            "new": "41.44805 -8.171439"
+        }
+    },
+    "EDP-FAF-00018": {
+        "longitude": {
+            "old": "-8.170772",
+            "new": "-8.171437"
+        },
+        "latitude": {
+            "old": "41.44808",
+            "new": "41.44801"
+        },
+        "latlon": {
+            "old": "41.44808 -8.170772",
+            "new": "41.44801 -8.171437"
+        }
+    },
+    "EDP-FAR-00009": {
+        "longitude": {
+            "old": "-7.929511",
+            "new": "-7.930064"
+        },
+        "latitude": {
+            "old": "37.01683",
+            "new": "37.016712"
+        },
+        "latlon": {
+            "old": "37.01683 -7.929511",
+            "new": "37.016712 -7.930064"
+        }
+    },
+    "EDP-FAR-00022": {
+        "longitude": {
+            "old": "-7.895323",
+            "new": "-7.89649"
+        },
+        "latitude": {
+            "old": "37.096836",
+            "new": "37.09722"
+        },
+        "latlon": {
+            "old": "37.096836 -7.895323",
+            "new": "37.09722 -7.89649"
+        }
+    },
+    "EDP-FAR-00023": {
+        "longitude": {
+            "old": "-7.896686",
+            "new": "-7.896463"
+        },
+        "latitude": {
+            "old": "37.09561",
+            "new": "37.097214"
+        },
+        "latlon": {
+            "old": "37.09561 -7.896686",
+            "new": "37.097214 -7.896463"
+        }
+    },
+    "EDP-FLG-00006": {
+        "longitude": {
+            "old": "-8.204673",
+            "new": "-8.204681"
+        },
+        "latitude": {
+            "old": "41.173412",
+            "new": "41.358986"
+        },
+        "latlon": {
+            "old": "41.173412 -8.204673",
+            "new": "41.358986 -8.204681"
+        }
+    },
+    "EDP-FLG-00011": {
+        "longitude": {
+            "old": "-8.20334",
+            "new": "-8.202072"
+        },
+        "latitude": {
+            "old": "41.370045",
+            "new": "41.370403"
+        },
+        "latlon": {
+            "old": "41.370045 -8.20334",
+            "new": "41.370403 -8.202072"
+        }
+    },
+    "EDP-FLG-00012": {
+        "longitude": {
+            "old": "-8.20334",
+            "new": "-8.202124"
+        },
+        "latitude": {
+            "old": "41.370045",
+            "new": "41.370422"
+        },
+        "latlon": {
+            "old": "41.370045 -8.20334",
+            "new": "41.370422 -8.202124"
+        }
+    },
+    "EDP-FND-00023": {
+        "longitude": {
+            "old": "-7.499102",
+            "new": "-7.497223"
+        },
+        "latitude": {
+            "old": "40.148872",
+            "new": "40.156483"
+        },
+        "latlon": {
+            "old": "40.148872 -7.499102",
+            "new": "40.156483 -7.497223"
+        }
+    },
+    "EDP-GDL-00008": {
+        "longitude": {
+            "old": "-8.492748",
+            "new": "-8.492163"
+        },
+        "latitude": {
+            "old": "38.16702",
+            "new": "38.16718"
+        },
+        "latlon": {
+            "old": "38.16702 -8.492748",
+            "new": "38.16718 -8.492163"
+        }
+    },
+    "EDP-GDL-00011": {
+        "longitude": {
+            "old": "-8.55517",
+            "new": "-8.868813"
+        },
+        "latitude": {
+            "old": "38.227215",
+            "new": "38.463715"
+        },
+        "latlon": {
+            "old": "38.227215 -8.55517",
+            "new": "38.463715 -8.868813"
+        }
+    },
+    "EDP-GDL-00012": {
+        "longitude": {
+            "old": "-8.55517",
+            "new": "-8.868775"
+        },
+        "latitude": {
+            "old": "38.227215",
+            "new": "38.46376"
+        },
+        "latlon": {
+            "old": "38.227215 -8.55517",
+            "new": "38.46376 -8.868775"
+        }
+    },
+    "EDP-GDL-00020": {
+        "longitude": {
+            "old": "-8.78508",
+            "new": "-8.877295"
+        },
+        "latitude": {
+            "old": "39.06894",
+            "new": "38.466496"
+        },
+        "latlon": {
+            "old": "39.06894 -8.78508",
+            "new": "38.466496 -8.877295"
+        }
+    },
+    "EDP-GDL-00028": {
+        "longitude": {
+            "old": "-8.492512",
+            "new": "-8.492054"
+        },
+        "latitude": {
+            "old": "38.167423",
+            "new": "38.167084"
+        },
+        "latlon": {
+            "old": "38.167423 -8.492512",
+            "new": "38.167084 -8.492054"
+        }
+    },
+    "EDP-GDL-00029": {
+        "longitude": {
+            "old": "-8.490285",
+            "new": "-8.491189"
+        },
+        "latitude": {
+            "old": "38.167484",
+            "new": "38.16754"
+        },
+        "latlon": {
+            "old": "38.167484 -8.490285",
+            "new": "38.16754 -8.491189"
+        }
+    },
+    "EDP-GDL-00030": {
+        "longitude": {
+            "old": "-8.490285",
+            "new": "-8.491241"
+        },
+        "latitude": {
+            "old": "38.167484",
+            "new": "38.167587"
+        },
+        "latlon": {
+            "old": "38.167484 -8.490285",
+            "new": "38.167587 -8.491241"
+        }
+    },
+    "EDP-GDL-00044": {
+        "longitude": {
+            "old": "-8.565657",
+            "new": "-8.566693"
+        },
+        "latitude": {
+            "old": "38.189007",
+            "new": "38.189144"
+        },
+        "latlon": {
+            "old": "38.189007 -8.565657",
+            "new": "38.189144 -8.566693"
+        }
+    },
+    "EDP-GDL-00060": {
+        "longitude": {
+            "old": "-8.565676",
+            "new": "-8.566636"
+        },
+        "latitude": {
+            "old": "38.189022",
+            "new": "38.189137"
+        },
+        "latlon": {
+            "old": "38.189022 -8.565676",
+            "new": "38.189137 -8.566636"
+        }
+    },
+    "EDP-GDL-00066": {
+        "longitude": {
+            "old": "-8.492221",
+            "new": "-8.491447"
+        },
+        "latitude": {
+            "old": "38.167183",
+            "new": "38.167767"
+        },
+        "latlon": {
+            "old": "38.167183 -8.492221",
+            "new": "38.167767 -8.491447"
+        }
+    },
+    "EDP-GDL-00070": {
+        "longitude": {
+            "old": "-8.492381",
+            "new": "-8.491851"
+        },
+        "latitude": {
+            "old": "38.16727",
+            "new": "38.16691"
+        },
+        "latlon": {
+            "old": "38.16727 -8.492381",
+            "new": "38.16691 -8.491851"
+        }
+    },
+    "EDP-GDM-00007": {
+        "longitude": {
+            "old": "-8.572814",
+            "new": "-8.573595"
+        },
+        "latitude": {
+            "old": "41.14125",
+            "new": "41.141903"
+        },
+        "latlon": {
+            "old": "41.14125 -8.572814",
+            "new": "41.141903 -8.573595"
+        }
+    },
+    "EDP-GDM-00033": {
+        "longitude": {
+            "old": "-8.50732",
+            "new": "-8.509229"
+        },
+        "latitude": {
+            "old": "41.11359",
+            "new": "41.117153"
+        },
+        "latlon": {
+            "old": "41.11359 -8.50732",
+            "new": "41.117153 -8.509229"
+        }
+    },
+    "EDP-GDM-00052": {
+        "longitude": {
+            "old": "-8.533957",
+            "new": "-8.534116"
+        },
+        "latitude": {
+            "old": "41.135193",
+            "new": "41.13455"
+        },
+        "latlon": {
+            "old": "41.135193 -8.533957",
+            "new": "41.13455 -8.534116"
+        }
+    },
+    "EDP-GMR-00127": {
+        "longitude": {
+            "old": "-8.29682",
+            "new": "-8.296584"
+        },
+        "latitude": {
+            "old": "41.43669",
+            "new": "41.43609"
+        },
+        "latlon": {
+            "old": "41.43669 -8.29682",
+            "new": "41.43609 -8.296584"
+        }
+    },
+    "EDP-GMR-00128": {
+        "longitude": {
+            "old": "-8.29682",
+            "new": "-8.29664"
+        },
+        "latitude": {
+            "old": "41.43669",
+            "new": "41.4361"
+        },
+        "latlon": {
+            "old": "41.43669 -8.29682",
+            "new": "41.4361 -8.29664"
+        }
+    },
+    "EDP-GMR-00129": {
+        "longitude": {
+            "old": "-8.29611",
+            "new": "-8.296381"
+        },
+        "latitude": {
+            "old": "41.43659",
+            "new": "41.435966"
+        },
+        "latlon": {
+            "old": "41.43659 -8.29611",
+            "new": "41.435966 -8.296381"
+        }
+    },
+    "EDP-GMR-00136": {
+        "longitude": {
+            "old": "-8.310166",
+            "new": "-8.310697"
+        },
+        "latitude": {
+            "old": "41.4373",
+            "new": "41.43758"
+        },
+        "latlon": {
+            "old": "41.4373 -8.310166",
+            "new": "41.43758 -8.310697"
+        }
+    },
+    "EDP-GMR-00141": {
+        "longitude": {
+            "old": "-8.295251",
+            "new": "-8.29468"
+        },
+        "latitude": {
+            "old": "41.45042",
+            "new": "41.449997"
+        },
+        "latlon": {
+            "old": "41.45042 -8.295251",
+            "new": "41.449997 -8.29468"
+        }
+    },
+    "EDP-GMR-00155": {
+        "longitude": {
+            "old": "-8.311815",
+            "new": "-8.313613"
+        },
+        "latitude": {
+            "old": "41.437412",
+            "new": "41.436768"
+        },
+        "latlon": {
+            "old": "41.437412 -8.311815",
+            "new": "41.436768 -8.313613"
+        }
+    },
+    "EDP-GRD-00046": {
+        "longitude": {
+            "old": "-7.263535",
+            "new": "-7.26424"
+        },
+        "latitude": {
+            "old": "40.53512",
+            "new": "40.535088"
+        },
+        "latlon": {
+            "old": "40.53512 -7.263535",
+            "new": "40.535088 -7.26424"
+        }
+    },
+    "EDP-GVA-00003": {
+        "longitude": {
+            "old": "-7.592334",
+            "new": "-7.59211"
+        },
+        "latitude": {
+            "old": "40.496235",
+            "new": "40.49563"
+        },
+        "latlon": {
+            "old": "40.496235 -7.592334",
+            "new": "40.49563 -7.59211"
+        }
+    },
+    "EDP-GVA-00004": {
+        "longitude": {
+            "old": "-7.592334",
+            "new": "-7.592054"
+        },
+        "latitude": {
+            "old": "40.496235",
+            "new": "40.495625"
+        },
+        "latlon": {
+            "old": "40.496235 -7.592334",
+            "new": "40.495625 -7.592054"
+        }
+    },
+    "EDP-LGA-00018": {
+        "longitude": {
+            "old": "-8.462376",
+            "new": "-8.477107"
+        },
+        "latitude": {
+            "old": "37.106724",
+            "new": "37.104572"
+        },
+        "latlon": {
+            "old": "37.106724 -8.462376",
+            "new": "37.104572 -8.477107"
+        }
+    },
+    "EDP-LGA-00019": {
+        "longitude": {
+            "old": "-8.40093",
+            "new": "-8.401706"
+        },
+        "latitude": {
+            "old": "37.09346",
+            "new": "37.0932"
+        },
+        "latlon": {
+            "old": "37.09346 -8.40093",
+            "new": "37.0932 -8.401706"
+        }
+    },
+    "EDP-LGA-00020": {
+        "longitude": {
+            "old": "-8.40093",
+            "new": "-8.401699"
+        },
+        "latitude": {
+            "old": "37.09346",
+            "new": "37.093155"
+        },
+        "latlon": {
+            "old": "37.09346 -8.40093",
+            "new": "37.093155 -8.401699"
+        }
+    },
+    "EDP-LGA-00025": {
+        "longitude": {
+            "old": "-8.484668",
+            "new": "-8.520922"
+        },
+        "latitude": {
+            "old": "37.144924",
+            "new": "37.136414"
+        },
+        "latlon": {
+            "old": "37.144924 -8.484668",
+            "new": "37.136414 -8.520922"
+        }
+    },
+    "EDP-LGA-00033": {
+        "longitude": {
+            "old": "-8.521818",
+            "new": "-8.51951"
+        },
+        "latitude": {
+            "old": "37.136295",
+            "new": "37.137447"
+        },
+        "latlon": {
+            "old": "37.136295 -8.521818",
+            "new": "37.137447 -8.51951"
+        }
+    },
+    "EDP-LGA-00039": {
+        "longitude": {
+            "old": "-8.52048",
+            "new": "-8.520411"
+        },
+        "latitude": {
+            "old": "37.136295",
+            "new": "37.13789"
+        },
+        "latlon": {
+            "old": "37.136295 -8.52048",
+            "new": "37.13789 -8.520411"
+        }
+    },
+    "EDP-LGS-00024": {
+        "longitude": {
+            "old": "-8.66222",
+            "new": "-8.66177"
+        },
+        "latitude": {
+            "old": "37.11292",
+            "new": "37.113285"
+        },
+        "latlon": {
+            "old": "37.11292 -8.66222",
+            "new": "37.113285 -8.66177"
+        }
+    },
+    "EDP-LGS-00025": {
+        "longitude": {
+            "old": "-8.66222",
+            "new": "-8.661812"
+        },
+        "latitude": {
+            "old": "37.112926",
+            "new": "37.113316"
+        },
+        "latlon": {
+            "old": "37.112926 -8.66222",
+            "new": "37.113316 -8.661812"
+        }
+    },
+    "EDP-LGS-00035": {
+        "longitude": {
+            "old": "-8.705542",
+            "new": "-8.706712"
+        },
+        "latitude": {
+            "old": "37.10189",
+            "new": "37.10312"
+        },
+        "latlon": {
+            "old": "37.10189 -8.705542",
+            "new": "37.10312 -8.706712"
+        }
+    },
+    "EDP-LLE-00025": {
+        "longitude": {
+            "old": "-8.049193",
+            "new": "-8.117602"
+        },
+        "latitude": {
+            "old": "37.076794",
+            "new": "37.07364"
+        },
+        "latlon": {
+            "old": "37.076794 -8.049193",
+            "new": "37.07364 -8.117602"
+        }
+    },
+    "EDP-LLE-00026": {
+        "longitude": {
+            "old": "-8.11757",
+            "new": "-8.117305"
+        },
+        "latitude": {
+            "old": "37.076702",
+            "new": "37.07595"
+        },
+        "latlon": {
+            "old": "37.076702 -8.11757",
+            "new": "37.07595 -8.117305"
+        }
+    },
+    "EDP-LLE-00027": {
+        "longitude": {
+            "old": "-7.646161",
+            "new": "-8.117288"
+        },
+        "latitude": {
+            "old": "37.123093",
+            "new": "37.07597"
+        },
+        "latlon": {
+            "old": "37.123093 -7.646161",
+            "new": "37.07597 -8.117288"
+        }
+    },
+    "EDP-LLE-00051": {
+        "longitude": {
+            "old": "-8.021242",
+            "new": "-8.012296"
+        },
+        "latitude": {
+            "old": "37.031044",
+            "new": "37.043743"
+        },
+        "latlon": {
+            "old": "37.031044 -8.021242",
+            "new": "37.043743 -8.012296"
+        }
+    },
+    "EDP-LLE-00141": {
+        "longitude": {
+            "old": "-8.041392",
+            "new": "-8.056997"
+        },
+        "latitude": {
+            "old": "37.04428",
+            "new": "37.046005"
+        },
+        "latlon": {
+            "old": "37.04428 -8.041392",
+            "new": "37.046005 -8.056997"
+        }
+    },
+    "EDP-LLE-00154": {
+        "longitude": {
+            "old": "-8.114214",
+            "new": "-8.114057"
+        },
+        "latitude": {
+            "old": "37.07293",
+            "new": "37.073368"
+        },
+        "latlon": {
+            "old": "37.07293 -8.114214",
+            "new": "37.073368 -8.114057"
+        }
+    },
+    "EDP-LLE-00180": {
+        "longitude": {
+            "old": "-8.124241",
+            "new": "-8.123992"
+        },
+        "latitude": {
+            "old": "37.260277",
+            "new": "37.259697"
+        },
+        "latlon": {
+            "old": "37.260277 -8.124241",
+            "new": "37.259697 -8.123992"
+        }
+    },
+    "EDP-LLE-00213": {
+        "longitude": {
+            "old": "-8.107196",
+            "new": "-8.10705"
+        },
+        "latitude": {
+            "old": "37.08205",
+            "new": "37.080956"
+        },
+        "latlon": {
+            "old": "37.08205 -8.107196",
+            "new": "37.080956 -8.10705"
+        }
+    },
+    "EDP-LLE-00214": {
+        "longitude": {
+            "old": "-8.107196",
+            "new": "-8.107008"
+        },
+        "latitude": {
+            "old": "37.08205",
+            "new": "37.081276"
+        },
+        "latlon": {
+            "old": "37.08205 -8.107196",
+            "new": "37.081276 -8.107008"
+        }
+    },
+    "EDP-LMG-00010": {
+        "longitude": {
+            "old": "-7.819006",
+            "new": "-7.818582"
+        },
+        "latitude": {
+            "old": "41.10039",
+            "new": "41.099567"
+        },
+        "latlon": {
+            "old": "41.10039 -7.819006",
+            "new": "41.099567 -7.818582"
+        }
+    },
+    "EDP-LMG-00021": {
+        "longitude": {
+            "old": "-7.81255",
+            "new": "-7.810058"
+        },
+        "latitude": {
+            "old": "41.100826",
+            "new": "41.100803"
+        },
+        "latlon": {
+            "old": "41.100826 -7.81255",
+            "new": "41.100803 -7.810058"
+        }
+    },
+    "EDP-LNH-00015": {
+        "longitude": {
+            "old": "-9.312929",
+            "new": "-9.31221"
+        },
+        "latitude": {
+            "old": "39.246716",
+            "new": "39.247265"
+        },
+        "latlon": {
+            "old": "39.246716 -9.312929",
+            "new": "39.247265 -9.31221"
+        }
+    },
+    "EDP-LRA-00146": {
+        "longitude": {
+            "old": "-8.8366",
+            "new": "-8.837209"
+        },
+        "latitude": {
+            "old": "39.8873",
+            "new": "39.887753"
+        },
+        "latlon": {
+            "old": "39.8873 -8.8366",
+            "new": "39.887753 -8.837209"
+        }
+    },
+    "EDP-LRS-00050": {
+        "longitude": {
+            "old": "-9.159197",
+            "new": "-9.158665"
+        },
+        "latitude": {
+            "old": "38.815258",
+            "new": "38.81548"
+        },
+        "latlon": {
+            "old": "38.815258 -9.159197",
+            "new": "38.81548 -9.158665"
+        }
+    },
+    "EDP-LRS-00067": {
+        "longitude": {
+            "old": "-9.099557",
+            "new": "-9.100294"
+        },
+        "latitude": {
+            "old": "38.804897",
+            "new": "38.80589"
+        },
+        "latlon": {
+            "old": "38.804897 -9.099557",
+            "new": "38.80589 -9.100294"
+        }
+    },
+    "EDP-LRS-00068": {
+        "longitude": {
+            "old": "-9.099537",
+            "new": "-9.100224"
+        },
+        "latitude": {
+            "old": "38.804794",
+            "new": "38.805874"
+        },
+        "latlon": {
+            "old": "38.804794 -9.099537",
+            "new": "38.805874 -9.100224"
+        }
+    },
+    "EDP-LRS-00069": {
+        "longitude": {
+            "old": "-9.099507",
+            "new": "-9.100153"
+        },
+        "latitude": {
+            "old": "38.804695",
+            "new": "38.805855"
+        },
+        "latlon": {
+            "old": "38.804695 -9.099507",
+            "new": "38.805855 -9.100153"
+        }
+    },
+    "EDP-LRS-00070": {
+        "longitude": {
+            "old": "-9.099447",
+            "new": "-9.100086"
+        },
+        "latitude": {
+            "old": "38.804596",
+            "new": "38.80583"
+        },
+        "latlon": {
+            "old": "38.804596 -9.099447",
+            "new": "38.80583 -9.100086"
+        }
+    },
+    "EDP-LRS-00071": {
+        "longitude": {
+            "old": "-9.099558",
+            "new": "-9.100017"
+        },
+        "latitude": {
+            "old": "38.80466",
+            "new": "38.805798"
+        },
+        "latlon": {
+            "old": "38.80466 -9.099558",
+            "new": "38.805798 -9.100017"
+        }
+    },
+    "EDP-LRS-00072": {
+        "longitude": {
+            "old": "-9.099447",
+            "new": "-9.09996"
+        },
+        "latitude": {
+            "old": "38.804596",
+            "new": "38.805767"
+        },
+        "latlon": {
+            "old": "38.804596 -9.099447",
+            "new": "38.805767 -9.09996"
+        }
+    },
+    "EDP-LRS-00073": {
+        "longitude": {
+            "old": "-9.099447",
+            "new": "-9.09989"
+        },
+        "latitude": {
+            "old": "38.804596",
+            "new": "38.805717"
+        },
+        "latlon": {
+            "old": "38.804596 -9.099447",
+            "new": "38.805717 -9.09989"
+        }
+    },
+    "EDP-LRS-00074": {
+        "longitude": {
+            "old": "-9.099447",
+            "new": "-9.099847"
+        },
+        "latitude": {
+            "old": "38.804596",
+            "new": "38.805687"
+        },
+        "latlon": {
+            "old": "38.804596 -9.099447",
+            "new": "38.805687 -9.099847"
+        }
+    },
+    "EDP-LRS-00075": {
+        "longitude": {
+            "old": "-9.099447",
+            "new": "-9.099796"
+        },
+        "latitude": {
+            "old": "38.804596",
+            "new": "38.805653"
+        },
+        "latlon": {
+            "old": "38.804596 -9.099447",
+            "new": "38.805653 -9.099796"
+        }
+    },
+    "EDP-LRS-00123": {
+        "longitude": {
+            "old": "-9.106824",
+            "new": "-9.166026"
+        },
+        "latitude": {
+            "old": "38.83743",
+            "new": "38.84433"
+        },
+        "latlon": {
+            "old": "38.83743 -9.106824",
+            "new": "38.84433 -9.166026"
+        }
+    },
+    "EDP-LRS-00131": {
+        "longitude": {
+            "old": "-9.104111",
+            "new": "-9.103492"
+        },
+        "latitude": {
+            "old": "38.79453",
+            "new": "38.79489"
+        },
+        "latlon": {
+            "old": "38.79453 -9.104111",
+            "new": "38.79489 -9.103492"
+        }
+    },
+    "EDP-LRS-00228": {
+        "longitude": {
+            "old": "-9.160761",
+            "new": "-9.161031"
+        },
+        "latitude": {
+            "old": "38.858868",
+            "new": "38.85868"
+        },
+        "latlon": {
+            "old": "38.858868 -9.160761",
+            "new": "38.85868 -9.161031"
+        }
+    },
+    "EDP-LRS-00230": {
+        "longitude": {
+            "old": "-9.161294",
+            "new": "-9.161406"
+        },
+        "latitude": {
+            "old": "38.85936",
+            "new": "38.85959"
+        },
+        "latlon": {
+            "old": "38.85936 -9.161294",
+            "new": "38.85959 -9.161406"
+        }
+    },
+    "EDP-LRS-80008": {
+        "longitude": {
+            "old": "-9.166387",
+            "new": "-9.167126"
+        },
+        "latitude": {
+            "old": "38.828552",
+            "new": "38.82902"
+        },
+        "latlon": {
+            "old": "38.828552 -9.166387",
+            "new": "38.82902 -9.167126"
+        }
+    },
+    "EDP-LSB-00106": {
+        "longitude": {
+            "old": "-9.157279",
+            "new": "-9.156204"
+        },
+        "latitude": {
+            "old": "38.730267",
+            "new": "38.730366"
+        },
+        "latlon": {
+            "old": "38.730267 -9.157279",
+            "new": "38.730366 -9.156204"
+        }
+    },
+    "EDP-LSB-00159": {
+        "longitude": {
+            "old": "-9.15155",
+            "new": "-9.150919"
+        },
+        "latitude": {
+            "old": "38.722942",
+            "new": "38.723015"
+        },
+        "latlon": {
+            "old": "38.722942 -9.15155",
+            "new": "38.723015 -9.150919"
+        }
+    },
+    "EDP-LSB-00160": {
+        "longitude": {
+            "old": "-9.15155",
+            "new": "-9.150936"
+        },
+        "latitude": {
+            "old": "38.722942",
+            "new": "38.723034"
+        },
+        "latlon": {
+            "old": "38.722942 -9.15155",
+            "new": "38.723034 -9.150936"
+        }
+    },
+    "EDP-LSB-00314": {
+        "longitude": {
+            "old": "-9.16085",
+            "new": "-9.161886"
+        },
+        "latitude": {
+            "old": "38.76249",
+            "new": "38.762016"
+        },
+        "latlon": {
+            "old": "38.76249 -9.16085",
+            "new": "38.762016 -9.161886"
+        }
+    },
+    "EDP-LSB-00315": {
+        "longitude": {
+            "old": "-9.16085",
+            "new": "-9.161895"
+        },
+        "latitude": {
+            "old": "38.76249",
+            "new": "38.762028"
+        },
+        "latlon": {
+            "old": "38.76249 -9.16085",
+            "new": "38.762028 -9.161895"
+        }
+    },
+    "EDP-LSB-00316": {
+        "longitude": {
+            "old": "-9.16085",
+            "new": "-9.161622"
+        },
+        "latitude": {
+            "old": "38.76249",
+            "new": "38.762093"
+        },
+        "latlon": {
+            "old": "38.76249 -9.16085",
+            "new": "38.762093 -9.161622"
+        }
+    },
+    "EDP-LSB-00317": {
+        "longitude": {
+            "old": "-9.16085",
+            "new": "-9.161671"
+        },
+        "latitude": {
+            "old": "38.76249",
+            "new": "38.76207"
+        },
+        "latlon": {
+            "old": "38.76249 -9.16085",
+            "new": "38.76207 -9.161671"
+        }
+    },
+    "EDP-LSB-00578": {
+        "longitude": {
+            "old": "-9.098776",
+            "new": "-9.092539"
+        },
+        "latitude": {
+            "old": "38.770435",
+            "new": "38.76963"
+        },
+        "latlon": {
+            "old": "38.770435 -9.098776",
+            "new": "38.76963 -9.092539"
+        }
+    },
+    "EDP-LSB-00579": {
+        "longitude": {
+            "old": "-9.098776",
+            "new": "-9.092536"
+        },
+        "latitude": {
+            "old": "38.770435",
+            "new": "38.769676"
+        },
+        "latlon": {
+            "old": "38.770435 -9.098776",
+            "new": "38.769676 -9.092536"
+        }
+    },
+    "EDP-LSB-00793": {
+        "longitude": {
+            "old": "-9.152547",
+            "new": "-9.1616"
+        },
+        "latitude": {
+            "old": "38.753765",
+            "new": "38.757652"
+        },
+        "latlon": {
+            "old": "38.753765 -9.152547",
+            "new": "38.757652 -9.1616"
+        }
+    },
+    "EDP-LSB-00800": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.188553"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.75471"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.75471 -9.188553"
+        }
+    },
+    "EDP-LSB-00801": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.188556"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.75471"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.75471 -9.188556"
+        }
+    },
+    "EDP-LSB-00802": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.188596"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.75466"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.75466 -9.188596"
+        }
+    },
+    "EDP-LSB-00803": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.1886"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.75466"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.75466 -9.1886"
+        }
+    },
+    "EDP-LSB-00804": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.188639"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.754612"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.754612 -9.188639"
+        }
+    },
+    "EDP-LSB-00806": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.188682"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.754562"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.754562 -9.188682"
+        }
+    },
+    "EDP-LSB-00807": {
+        "longitude": {
+            "old": "-9.190028",
+            "new": "-9.188686"
+        },
+        "latitude": {
+            "old": "38.754696",
+            "new": "38.754566"
+        },
+        "latlon": {
+            "old": "38.754696 -9.190028",
+            "new": "38.754566 -9.188686"
+        }
+    },
+    "EDP-LSB-00835": {
+        "longitude": {
+            "old": "-9.157327",
+            "new": "-9.156235"
+        },
+        "latitude": {
+            "old": "38.73058",
+            "new": "38.730404"
+        },
+        "latlon": {
+            "old": "38.73058 -9.157327",
+            "new": "38.730404 -9.156235"
+        }
+    },
+    "EDP-LSB-00876": {
+        "longitude": {
+            "old": "-9.154526",
+            "new": "-9.153772"
+        },
+        "latitude": {
+            "old": "38.712406",
+            "new": "38.713547"
+        },
+        "latlon": {
+            "old": "38.712406 -9.154526",
+            "new": "38.713547 -9.153772"
+        }
+    },
+    "EDP-LSB-00941": {
+        "longitude": {
+            "old": "-9.158496",
+            "new": "-9.158048"
+        },
+        "latitude": {
+            "old": "38.759377",
+            "new": "38.759712"
+        },
+        "latlon": {
+            "old": "38.759377 -9.158496",
+            "new": "38.759712 -9.158048"
+        }
+    },
+    "EDP-LSB-00942": {
+        "longitude": {
+            "old": "-9.158496",
+            "new": "-9.157996"
+        },
+        "latitude": {
+            "old": "38.759377",
+            "new": "38.75973"
+        },
+        "latlon": {
+            "old": "38.759377 -9.158496",
+            "new": "38.75973 -9.157996"
+        }
+    },
+    "EDP-LSB-00943": {
+        "longitude": {
+            "old": "-9.158496",
+            "new": "-9.157943"
+        },
+        "latitude": {
+            "old": "38.759377",
+            "new": "38.759747"
+        },
+        "latlon": {
+            "old": "38.759377 -9.158496",
+            "new": "38.759747 -9.157943"
+        }
+    },
+    "EDP-MAI-00007": {
+        "longitude": {
+            "old": "-8.623227",
+            "new": "-8.622178"
+        },
+        "latitude": {
+            "old": "41.233948",
+            "new": "41.234047"
+        },
+        "latlon": {
+            "old": "41.233948 -8.623227",
+            "new": "41.234047 -8.622178"
+        }
+    },
+    "EDP-MAI-00008": {
+        "longitude": {
+            "old": "-8.623227",
+            "new": "-8.622264"
+        },
+        "latitude": {
+            "old": "41.233948",
+            "new": "41.23404"
+        },
+        "latlon": {
+            "old": "41.233948 -8.623227",
+            "new": "41.23404 -8.622264"
+        }
+    },
+    "EDP-MAI-00009": {
+        "longitude": {
+            "old": "-8.623227",
+            "new": "-8.622352"
+        },
+        "latitude": {
+            "old": "41.233948",
+            "new": "41.234035"
+        },
+        "latlon": {
+            "old": "41.233948 -8.623227",
+            "new": "41.234035 -8.622352"
+        }
+    },
+    "EDP-MAI-00010": {
+        "longitude": {
+            "old": "-8.623227",
+            "new": "-8.62228"
+        },
+        "latitude": {
+            "old": "41.233948",
+            "new": "41.23418"
+        },
+        "latlon": {
+            "old": "41.233948 -8.623227",
+            "new": "41.23418 -8.62228"
+        }
+    },
+    "EDP-MAI-00021": {
+        "longitude": {
+            "old": "-8.623227",
+            "new": "-8.622194"
+        },
+        "latitude": {
+            "old": "41.233948",
+            "new": "41.234188"
+        },
+        "latlon": {
+            "old": "41.233948 -8.623227",
+            "new": "41.234188 -8.622194"
+        }
+    },
+    "EDP-MAI-00028": {
+        "longitude": {
+            "old": "-8.617881",
+            "new": "-8.618479"
+        },
+        "latitude": {
+            "old": "41.226578",
+            "new": "41.22618"
+        },
+        "latlon": {
+            "old": "41.226578 -8.617881",
+            "new": "41.22618 -8.618479"
+        }
+    },
+    "EDP-MAI-00054": {
+        "longitude": {
+            "old": "-8.664635",
+            "new": "-8.665085"
+        },
+        "latitude": {
+            "old": "41.24631",
+            "new": "41.246937"
+        },
+        "latlon": {
+            "old": "41.24631 -8.664635",
+            "new": "41.246937 -8.665085"
+        }
+    },
+    "EDP-MCN-00004": {
+        "longitude": {
+            "old": "-8.09336",
+            "new": "-8.151953"
+        },
+        "latitude": {
+            "old": "41.15918",
+            "new": "41.17829"
+        },
+        "latlon": {
+            "old": "41.15918 -8.09336",
+            "new": "41.17829 -8.151953"
+        }
+    },
+    "EDP-MCN-00015": {
+        "longitude": {
+            "old": "-8.150694",
+            "new": "-8.150011"
+        },
+        "latitude": {
+            "old": "41.177166",
+            "new": "41.176716"
+        },
+        "latlon": {
+            "old": "41.177166 -8.150694",
+            "new": "41.176716 -8.150011"
+        }
+    },
+    "EDP-MCV-00003": {
+        "longitude": {
+            "old": "-8.334921",
+            "new": "-8.335613"
+        },
+        "latitude": {
+            "old": "40.08387",
+            "new": "40.083817"
+        },
+        "latlon": {
+            "old": "40.08387 -8.334921",
+            "new": "40.083817 -8.335613"
+        }
+    },
+    "EDP-MCV-00004": {
+        "longitude": {
+            "old": "-8.334921",
+            "new": "-8.335619"
+        },
+        "latitude": {
+            "old": "40.08387",
+            "new": "40.083862"
+        },
+        "latlon": {
+            "old": "40.08387 -8.334921",
+            "new": "40.083862 -8.335619"
+        }
+    },
+    "EDP-MDL-00006": {
+        "longitude": {
+            "old": "-7.182237",
+            "new": "-7.182601"
+        },
+        "latitude": {
+            "old": "41.485508",
+            "new": "41.48762"
+        },
+        "latlon": {
+            "old": "41.485508 -7.182237",
+            "new": "41.48762 -7.182601"
+        }
+    },
+    "EDP-MED-00002": {
+        "longitude": {
+            "old": "-7.261825",
+            "new": "-7.261177"
+        },
+        "latitude": {
+            "old": "40.957882",
+            "new": "40.957886"
+        },
+        "latlon": {
+            "old": "40.957882 -7.261825",
+            "new": "40.957886 -7.261177"
+        }
+    },
+    "EDP-MFR-00020": {
+        "longitude": {
+            "old": "-9.243383",
+            "new": "-9.250397"
+        },
+        "latitude": {
+            "old": "38.928772",
+            "new": "38.941086"
+        },
+        "latlon": {
+            "old": "38.928772 -9.243383",
+            "new": "38.941086 -9.250397"
+        }
+    },
+    "EDP-MGL-00009": {
+        "longitude": {
+            "old": "-7.762942",
+            "new": "-7.763361"
+        },
+        "latitude": {
+            "old": "40.60808",
+            "new": "40.607185"
+        },
+        "latlon": {
+            "old": "40.60808 -7.762942",
+            "new": "40.607185 -7.763361"
+        }
+    },
+    "EDP-MOBI-ACH-00001": {
+        "longitude": {
+            "old": "-8.995358",
+            "new": "-8.847809"
+        },
+        "latitude": {
+            "old": "38.72315",
+            "new": "38.72938"
+        },
+        "latlon": {
+            "old": "38.72315 -8.995358",
+            "new": "38.72938 -8.847809"
+        }
+    },
+    "EDP-MOBI-ACH-00002": {
+        "longitude": {
+            "old": "-7.933169",
+            "new": "-8.847757"
+        },
+        "latitude": {
+            "old": "39.763268",
+            "new": "38.729404"
+        },
+        "latlon": {
+            "old": "39.763268 -7.933169",
+            "new": "38.729404 -8.847757"
+        }
+    },
+    "EDP-MOBI-SXL-00001": {
+        "longitude": {
+            "old": "-9.091768",
+            "new": "-9.091529"
+        },
+        "latitude": {
+            "old": "38.642097",
+            "new": "38.64027"
+        },
+        "latlon": {
+            "old": "38.642097 -9.091768",
+            "new": "38.64027 -9.091529"
+        }
+    },
+    "EDP-MOBI-SXL-00007": {
+        "longitude": {
+            "old": "-9.089411",
+            "new": "-9.090666"
+        },
+        "latitude": {
+            "old": "38.64361",
+            "new": "38.640785"
+        },
+        "latlon": {
+            "old": "38.64361 -9.089411",
+            "new": "38.640785 -9.090666"
+        }
+    },
+    "EDP-MOBI-SXL-00008": {
+        "longitude": {
+            "old": "-9.097234",
+            "new": "-9.091996"
+        },
+        "latitude": {
+            "old": "38.643326",
+            "new": "38.640705"
+        },
+        "latlon": {
+            "old": "38.643326 -9.097234",
+            "new": "38.640705 -9.091996"
+        }
+    },
+    "EDP-MOBI-SXL-00009": {
+        "longitude": {
+            "old": "-9.097234",
+            "new": "-9.091884"
+        },
+        "latitude": {
+            "old": "38.641144",
+            "new": "38.639603"
+        },
+        "latlon": {
+            "old": "38.641144 -9.097234",
+            "new": "38.639603 -9.091884"
+        }
+    },
+    "EDP-MRS-00002": {
+        "longitude": {
+            "old": "-8.699041",
+            "new": "-8.699141"
+        },
+        "latitude": {
+            "old": "40.719284",
+            "new": "40.718838"
+        },
+        "latlon": {
+            "old": "40.719284 -8.699041",
+            "new": "40.718838 -8.699141"
+        }
+    },
+    "EDP-MTA-00012": {
+        "longitude": {
+            "old": "-9.010836",
+            "new": "-9.01289"
+        },
+        "latitude": {
+            "old": "38.65724",
+            "new": "38.65355"
+        },
+        "latlon": {
+            "old": "38.65724 -9.010836",
+            "new": "38.65355 -9.01289"
+        }
+    },
+    "EDP-MTA-00016": {
+        "longitude": {
+            "old": "-8.9996",
+            "new": "-8.999171"
+        },
+        "latitude": {
+            "old": "38.6492",
+            "new": "38.650017"
+        },
+        "latlon": {
+            "old": "38.6492 -8.9996",
+            "new": "38.650017 -8.999171"
+        }
+    },
+    "EDP-MTG-00005": {
+        "longitude": {
+            "old": "-7.5354",
+            "new": "-7.536169"
+        },
+        "latitude": {
+            "old": "40.40329",
+            "new": "40.40296"
+        },
+        "latlon": {
+            "old": "40.40329 -7.5354",
+            "new": "40.40296 -7.536169"
+        }
+    },
+    "EDP-MTG-00006": {
+        "longitude": {
+            "old": "-7.5354",
+            "new": "-7.536246"
+        },
+        "latitude": {
+            "old": "40.40329",
+            "new": "40.402946"
+        },
+        "latlon": {
+            "old": "40.40329 -7.5354",
+            "new": "40.402946 -7.536246"
+        }
+    },
+    "EDP-MTJ-00102": {
+        "longitude": {
+            "old": "-8.958056",
+            "new": "-8.957255"
+        },
+        "latitude": {
+            "old": "38.706944",
+            "new": "38.707466"
+        },
+        "latlon": {
+            "old": "38.706944 -8.958056",
+            "new": "38.707466 -8.957255"
+        }
+    },
+    "EDP-MTJ-00103": {
+        "longitude": {
+            "old": "-8.950622",
+            "new": "-8.945625"
+        },
+        "latitude": {
+            "old": "38.6948",
+            "new": "38.689022"
+        },
+        "latlon": {
+            "old": "38.6948 -8.950622",
+            "new": "38.689022 -8.945625"
+        }
+    },
+    "EDP-MTJ-00105": {
+        "longitude": {
+            "old": "-8.946885",
+            "new": "-8.946615"
+        },
+        "latitude": {
+            "old": "38.70212",
+            "new": "38.70283"
+        },
+        "latlon": {
+            "old": "38.70212 -8.946885",
+            "new": "38.70283 -8.946615"
+        }
+    },
+    "EDP-MTJ-00106": {
+        "longitude": {
+            "old": "-8.950622",
+            "new": "-8.946556"
+        },
+        "latitude": {
+            "old": "38.6948",
+            "new": "38.70284"
+        },
+        "latlon": {
+            "old": "38.6948 -8.950622",
+            "new": "38.70284 -8.946556"
+        }
+    },
+    "EDP-MTS-00043": {
+        "longitude": {
+            "old": "-8.705532",
+            "new": "-8.705535"
+        },
+        "latitude": {
+            "old": "41.19308",
+            "new": "41.192596"
+        },
+        "latlon": {
+            "old": "41.19308 -8.705532",
+            "new": "41.192596 -8.705535"
+        }
+    },
+    "EDP-MTS-00168": {
+        "longitude": {
+            "old": "-8.59922",
+            "new": "-8.59945"
+        },
+        "latitude": {
+            "old": "41.18995",
+            "new": "41.190426"
+        },
+        "latlon": {
+            "old": "41.18995 -8.59922",
+            "new": "41.190426 -8.59945"
+        }
+    },
+    "EDP-MTS-00169": {
+        "longitude": {
+            "old": "-8.59922",
+            "new": "-8.599425"
+        },
+        "latitude": {
+            "old": "41.189957",
+            "new": "41.190388"
+        },
+        "latlon": {
+            "old": "41.189957 -8.59922",
+            "new": "41.190388 -8.599425"
+        }
+    },
+    "EDP-MTS-00200": {
+        "longitude": {
+            "old": "-8.630581",
+            "new": "-8.633502"
+        },
+        "latitude": {
+            "old": "41.20573",
+            "new": "41.20499"
+        },
+        "latlon": {
+            "old": "41.20573 -8.630581",
+            "new": "41.20499 -8.633502"
+        }
+    },
+    "EDP-NLS-00009": {
+        "longitude": {
+            "old": "-7.861531",
+            "new": "-7.848752"
+        },
+        "latitude": {
+            "old": "40.52116",
+            "new": "40.53249"
+        },
+        "latlon": {
+            "old": "40.52116 -7.861531",
+            "new": "40.53249 -7.848752"
+        }
+    },
+    "EDP-NLS-00010": {
+        "longitude": {
+            "old": "-7.861531",
+            "new": "-7.848758"
+        },
+        "latitude": {
+            "old": "40.52116",
+            "new": "40.532448"
+        },
+        "latlon": {
+            "old": "40.52116 -7.861531",
+            "new": "40.532448 -7.848758"
+        }
+    },
+    "EDP-NZR-00015": {
+        "longitude": {
+            "old": "-9.069662",
+            "new": "-9.069067"
+        },
+        "latlon": {
+            "old": "39.597187 -9.069662",
+            "new": "39.597187 -9.069067"
+        }
+    },
+    "EDP-ODM-00012": {
+        "longitude": {
+            "old": "-8.666015",
+            "new": "-8.736024"
+        },
+        "latitude": {
+            "old": "37.583332",
+            "new": "37.5426"
+        },
+        "latlon": {
+            "old": "37.583332 -8.666015",
+            "new": "37.5426 -8.736024"
+        }
+    },
+    "EDP-ODV-00005": {
+        "longitude": {
+            "old": "-9.222738",
+            "new": "-9.216305"
+        },
+        "latitude": {
+            "old": "38.814827",
+            "new": "38.791664"
+        },
+        "latlon": {
+            "old": "38.814827 -9.222738",
+            "new": "38.791664 -9.216305"
+        }
+    },
+    "EDP-OER-00030": {
+        "longitude": {
+            "old": "-9.274513",
+            "new": "-9.292257"
+        },
+        "latitude": {
+            "old": "38.70786",
+            "new": "38.70922"
+        },
+        "latlon": {
+            "old": "38.70786 -9.274513",
+            "new": "38.70922 -9.292257"
+        }
+    },
+    "EDP-OER-00175": {
+        "longitude": {
+            "old": "-9.289881",
+            "new": "-9.290017"
+        },
+        "latitude": {
+            "old": "38.69588",
+            "new": "38.6965"
+        },
+        "latlon": {
+            "old": "38.69588 -9.289881",
+            "new": "38.6965 -9.290017"
+        }
+    },
+    "EDP-OHP-00010": {
+        "longitude": {
+            "old": "-7.88449",
+            "new": "-7.853347"
+        },
+        "latitude": {
+            "old": "40.425854",
+            "new": "40.4483"
+        },
+        "latlon": {
+            "old": "40.425854 -7.88449",
+            "new": "40.4483 -7.853347"
+        }
+    },
+    "EDP-OVR-00021": {
+        "longitude": {
+            "old": "-8.610141",
+            "new": "-8.611825"
+        },
+        "latitude": {
+            "old": "40.869946",
+            "new": "40.865673"
+        },
+        "latlon": {
+            "old": "40.869946 -8.610141",
+            "new": "40.865673 -8.611825"
+        }
+    },
+    "EDP-PLM-00040": {
+        "longitude": {
+            "old": "-8.940062",
+            "new": "-9.014622"
+        },
+        "latitude": {
+            "old": "38.56306",
+            "new": "38.577183"
+        },
+        "latlon": {
+            "old": "38.56306 -8.940062",
+            "new": "38.577183 -9.014622"
+        }
+    },
+    "EDP-PLM-00074": {
+        "longitude": {
+            "old": "-8.916128",
+            "new": "-8.916891"
+        },
+        "latitude": {
+            "old": "38.61896",
+            "new": "38.61887"
+        },
+        "latlon": {
+            "old": "38.61896 -8.916128",
+            "new": "38.61887 -8.916891"
+        }
+    },
+    "EDP-PLM-00075": {
+        "longitude": {
+            "old": "-8.916128",
+            "new": "-8.916882"
+        },
+        "latitude": {
+            "old": "38.61896",
+            "new": "38.618916"
+        },
+        "latlon": {
+            "old": "38.61896 -8.916128",
+            "new": "38.618916 -8.916882"
+        }
+    },
+    "EDP-PNF-00021": {
+        "longitude": {
+            "old": "-8.30143",
+            "new": "-8.302345"
+        },
+        "latitude": {
+            "old": "41.19432",
+            "new": "41.19423"
+        },
+        "latlon": {
+            "old": "41.19432 -8.30143",
+            "new": "41.19423 -8.302345"
+        }
+    },
+    "EDP-PNH-90001": {
+        "longitude": {
+            "old": "-7.060583",
+            "new": "-7.0606"
+        },
+        "latitude": {
+            "old": "40.77772",
+            "new": "40.77492"
+        },
+        "latlon": {
+            "old": "40.77772 -7.060583",
+            "new": "40.77492 -7.0606"
+        }
+    },
+    "EDP-PRT-00041": {
+        "longitude": {
+            "old": "-8.630389",
+            "new": "-8.630232"
+        },
+        "latitude": {
+            "old": "41.159187",
+            "new": "41.15873"
+        },
+        "latlon": {
+            "old": "41.159187 -8.630389",
+            "new": "41.15873 -8.630232"
+        }
+    },
+    "EDP-PRT-00042": {
+        "longitude": {
+            "old": "-8.630389",
+            "new": "-8.630264"
+        },
+        "latitude": {
+            "old": "41.159187",
+            "new": "41.158695"
+        },
+        "latlon": {
+            "old": "41.159187 -8.630389",
+            "new": "41.158695 -8.630264"
+        }
+    },
+    "EDP-PRT-00189": {
+        "longitude": {
+            "old": "-8.64566",
+            "new": "-8.645523"
+        },
+        "latitude": {
+            "old": "41.17493",
+            "new": "41.175434"
+        },
+        "latlon": {
+            "old": "41.17493 -8.64566",
+            "new": "41.175434 -8.645523"
+        }
+    },
+    "EDP-PRT-00190": {
+        "longitude": {
+            "old": "-8.64566",
+            "new": "-8.645543"
+        },
+        "latitude": {
+            "old": "41.17493",
+            "new": "41.17545"
+        },
+        "latlon": {
+            "old": "41.17493 -8.64566",
+            "new": "41.17545 -8.645543"
+        }
+    },
+    "EDP-PRT-00191": {
+        "longitude": {
+            "old": "-8.64566",
+            "new": "-8.645564"
+        },
+        "latitude": {
+            "old": "41.17493",
+            "new": "41.175465"
+        },
+        "latlon": {
+            "old": "41.17493 -8.64566",
+            "new": "41.175465 -8.645564"
+        }
+    },
+    "EDP-PRT-00192": {
+        "longitude": {
+            "old": "-8.64566",
+            "new": "-8.645584"
+        },
+        "latitude": {
+            "old": "41.17493",
+            "new": "41.17548"
+        },
+        "latlon": {
+            "old": "41.17493 -8.64566",
+            "new": "41.17548 -8.645584"
+        }
+    },
+    "EDP-PRT-00197": {
+        "longitude": {
+            "old": "-8.59931",
+            "new": "-8.599199"
+        },
+        "latitude": {
+            "old": "41.15225",
+            "new": "41.15094"
+        },
+        "latlon": {
+            "old": "41.15225 -8.59931",
+            "new": "41.15094 -8.599199"
+        }
+    },
+    "EDP-PRT-00253": {
+        "longitude": {
+            "old": "-8.571082",
+            "new": "-8.571737"
+        },
+        "latitude": {
+            "old": "41.169895",
+            "new": "41.170094"
+        },
+        "latlon": {
+            "old": "41.169895 -8.571082",
+            "new": "41.170094 -8.571737"
+        }
+    },
+    "EDP-PRT-00319": {
+        "longitude": {
+            "old": "-8.630389",
+            "new": "-8.630331"
+        },
+        "latitude": {
+            "old": "41.159187",
+            "new": "41.158623"
+        },
+        "latlon": {
+            "old": "41.159187 -8.630389",
+            "new": "41.158623 -8.630331"
+        }
+    },
+    "EDP-PRT-00320": {
+        "longitude": {
+            "old": "-8.630389",
+            "new": "-8.630334"
+        },
+        "latitude": {
+            "old": "41.159187",
+            "new": "41.15862"
+        },
+        "latlon": {
+            "old": "41.159187 -8.630389",
+            "new": "41.15862 -8.630334"
+        }
+    },
+    "EDP-PTG-00014": {
+        "longitude": {
+            "old": "-7.430792",
+            "new": "-7.430425"
+        },
+        "latitude": {
+            "old": "39.283978",
+            "new": "39.2818"
+        },
+        "latlon": {
+            "old": "39.283978 -7.430792",
+            "new": "39.2818 -7.430425"
+        }
+    },
+    "EDP-PTM-00004": {
+        "longitude": {
+            "old": "-8.548604",
+            "new": "-8.578104"
+        },
+        "latitude": {
+            "old": "37.13919",
+            "new": "37.125076"
+        },
+        "latlon": {
+            "old": "37.13919 -8.548604",
+            "new": "37.125076 -8.578104"
+        }
+    },
+    "EDP-PTM-00005": {
+        "longitude": {
+            "old": "-8.580439",
+            "new": "-8.578083"
+        },
+        "latitude": {
+            "old": "37.13028",
+            "new": "37.12506"
+        },
+        "latlon": {
+            "old": "37.13028 -8.580439",
+            "new": "37.12506 -8.578083"
+        }
+    },
+    "EDP-PTM-00006": {
+        "longitude": {
+            "old": "-8.580439",
+            "new": "-8.578062"
+        },
+        "latitude": {
+            "old": "37.13028",
+            "new": "37.125046"
+        },
+        "latlon": {
+            "old": "37.13028 -8.580439",
+            "new": "37.125046 -8.578062"
+        }
+    },
+    "EDP-PTM-00007": {
+        "longitude": {
+            "old": "-8.554631",
+            "new": "-8.578041"
+        },
+        "latitude": {
+            "old": "37.136696",
+            "new": "37.12503"
+        },
+        "latlon": {
+            "old": "37.136696 -8.554631",
+            "new": "37.12503 -8.578041"
+        }
+    },
+    "EDP-PTM-00011": {
+        "longitude": {
+            "old": "-8.560409",
+            "new": "-8.589916"
+        },
+        "latitude": {
+            "old": "37.13653",
+            "new": "37.123615"
+        },
+        "latlon": {
+            "old": "37.13653 -8.560409",
+            "new": "37.123615 -8.589916"
+        }
+    },
+    "EDP-PTM-00012": {
+        "longitude": {
+            "old": "-8.571046",
+            "new": "-8.587317"
+        },
+        "name": {
+            "old": "Pestana Dom Joao II ",
+            "new": "Pestana Dom Joao II"
+        },
+        "latitude": {
+            "old": "37.13439",
+            "new": "37.122852"
+        },
+        "latlon": {
+            "old": "37.13439 -8.571046",
+            "new": "37.122852 -8.587317"
+        }
+    },
+    "EDP-PTM-00013": {
+        "longitude": {
+            "old": "-8.584264",
+            "new": "-8.587338"
+        },
+        "latitude": {
+            "old": "37.147537",
+            "new": "37.12287"
+        },
+        "latlon": {
+            "old": "37.147537 -8.584264",
+            "new": "37.12287 -8.587338"
+        }
+    },
+    "EDP-PTM-00015": {
+        "longitude": {
+            "old": "-8.541908",
+            "new": "-8.583943"
+        },
+        "name": {
+            "old": "Pestana Alvor Park ",
+            "new": "Pestana Alvor Park"
+        },
+        "latitude": {
+            "old": "37.132133",
+            "new": "37.1269"
+        },
+        "latlon": {
+            "old": "37.132133 -8.541908",
+            "new": "37.1269 -8.583943"
+        }
+    },
+    "EDP-PTM-00016": {
+        "longitude": {
+            "old": "-8.62665",
+            "new": "-8.579704"
+        },
+        "latitude": {
+            "old": "37.242393",
+            "new": "37.123394"
+        },
+        "latlon": {
+            "old": "37.242393 -8.62665",
+            "new": "37.123394 -8.579704"
+        }
+    },
+    "EDP-PTM-00017": {
+        "longitude": {
+            "old": "-8.62665",
+            "new": "-8.579731"
+        },
+        "latitude": {
+            "old": "37.242393",
+            "new": "37.1234"
+        },
+        "latlon": {
+            "old": "37.242393 -8.62665",
+            "new": "37.1234 -8.579731"
+        }
+    },
+    "EDP-PTM-00049": {
+        "longitude": {
+            "old": "-8.53664",
+            "new": "-8.537193"
+        },
+        "latitude": {
+            "old": "37.1195",
+            "new": "37.11966"
+        },
+        "latlon": {
+            "old": "37.1195 -8.53664",
+            "new": "37.11966 -8.537193"
+        }
+    },
+    "EDP-PTM-00060": {
+        "longitude": {
+            "old": "-8.545631",
+            "new": "-8.544404"
+        },
+        "latitude": {
+            "old": "37.11935",
+            "new": "37.120274"
+        },
+        "latlon": {
+            "old": "37.11935 -8.545631",
+            "new": "37.120274 -8.544404"
+        }
+    },
+    "EDP-PTM-00061": {
+        "longitude": {
+            "old": "-8.536049",
+            "new": "-8.535825"
+        },
+        "latitude": {
+            "old": "37.119053",
+            "new": "37.119476"
+        },
+        "latlon": {
+            "old": "37.119053 -8.536049",
+            "new": "37.119476 -8.535825"
+        }
+    },
+    "EDP-PTM-00062": {
+        "longitude": {
+            "old": "-8.536049",
+            "new": "-8.535771"
+        },
+        "latitude": {
+            "old": "37.119053",
+            "new": "37.11947"
+        },
+        "latlon": {
+            "old": "37.119053 -8.536049",
+            "new": "37.11947 -8.535771"
+        }
+    },
+    "EDP-PVZ-00005": {
+        "longitude": {
+            "old": "-8.768052",
+            "new": "-8.761492"
+        },
+        "latitude": {
+            "old": "41.380146",
+            "new": "41.38214"
+        },
+        "latlon": {
+            "old": "41.380146 -8.768052",
+            "new": "41.38214 -8.761492"
+        }
+    },
+    "EDP-PVZ-00006": {
+        "longitude": {
+            "old": "-8.768052",
+            "new": "-8.76152"
+        },
+        "latitude": {
+            "old": "41.380146",
+            "new": "41.38218"
+        },
+        "latlon": {
+            "old": "41.380146 -8.768052",
+            "new": "41.38218 -8.76152"
+        }
+    },
+    "EDP-PVZ-00027": {
+        "longitude": {
+            "old": "-8.766474",
+            "new": "-8.765161"
+        },
+        "latitude": {
+            "old": "41.378082",
+            "new": "41.377995"
+        },
+        "latlon": {
+            "old": "41.378082 -8.766474",
+            "new": "41.377995 -8.765161"
+        }
+    },
+    "EDP-PVZ-00028": {
+        "longitude": {
+            "old": "-8.766474",
+            "new": "-8.765109"
+        },
+        "latitude": {
+            "old": "41.378082",
+            "new": "41.377975"
+        },
+        "latlon": {
+            "old": "41.378082 -8.766474",
+            "new": "41.377975 -8.765109"
+        }
+    },
+    "EDP-RMR-00003": {
+        "longitude": {
+            "old": "-8.932106",
+            "new": "-8.931633"
+        },
+        "latitude": {
+            "old": "39.343132",
+            "new": "39.342766"
+        },
+        "latlon": {
+            "old": "39.343132 -8.932106",
+            "new": "39.342766 -8.931633"
+        }
+    },
+    "EDP-SBA-00008": {
+        "longitude": {
+            "old": "-7.907392",
+            "new": "-7.893242"
+        },
+        "latitude": {
+            "old": "37.17803",
+            "new": "37.14994"
+        },
+        "latlon": {
+            "old": "37.17803 -7.907392",
+            "new": "37.14994 -7.893242"
+        }
+    },
+    "EDP-SBA-00009": {
+        "longitude": {
+            "old": "-7.893125",
+            "new": "-7.893252"
+        },
+        "latitude": {
+            "old": "37.147804",
+            "new": "37.149986"
+        },
+        "latlon": {
+            "old": "37.147804 -7.893125",
+            "new": "37.149986 -7.893252"
+        }
+    },
+    "EDP-SEI-00006": {
+        "longitude": {
+            "old": "-7.704537",
+            "new": "-7.705627"
+        },
+        "latitude": {
+            "old": "40.41852",
+            "new": "40.41813"
+        },
+        "latlon": {
+            "old": "40.41852 -7.704537",
+            "new": "40.41813 -7.705627"
+        }
+    },
+    "EDP-SEI-00007": {
+        "longitude": {
+            "old": "-7.704537",
+            "new": "-7.705664"
+        },
+        "latitude": {
+            "old": "40.41852",
+            "new": "40.418095"
+        },
+        "latlon": {
+            "old": "40.41852 -7.704537",
+            "new": "40.418095 -7.705664"
+        }
+    },
+    "EDP-SJM-00009": {
+        "longitude": {
+            "old": "-8.491004",
+            "new": "-8.490798"
+        },
+        "latitude": {
+            "old": "40.88865",
+            "new": "40.888096"
+        },
+        "latlon": {
+            "old": "40.88865 -8.491004",
+            "new": "40.888096 -8.490798"
+        }
+    },
+    "EDP-SJP-00003": {
+        "longitude": {
+            "old": "-7.423602",
+            "new": "-7.417162"
+        },
+        "latitude": {
+            "old": "41.15171",
+            "new": "41.151012"
+        },
+        "latlon": {
+            "old": "41.15171 -7.423602",
+            "new": "41.151012 -7.417162"
+        }
+    },
+    "EDP-SLV-00015": {
+        "longitude": {
+            "old": "-8.336704",
+            "new": "-8.352873"
+        },
+        "latitude": {
+            "old": "37.157238",
+            "new": "37.109146"
+        },
+        "latlon": {
+            "old": "37.157238 -8.336704",
+            "new": "37.109146 -8.352873"
+        }
+    },
+    "EDP-SNS-00008": {
+        "longitude": {
+            "old": "-8.868964",
+            "new": "-8.85726"
+        },
+        "latitude": {
+            "old": "37.961533",
+            "new": "37.96578"
+        },
+        "latlon": {
+            "old": "37.961533 -8.868964",
+            "new": "37.96578 -8.85726"
+        }
+    },
+    "EDP-SNT-00017": {
+        "longitude": {
+            "old": "-9.400764",
+            "new": "-9.404184"
+        },
+        "latitude": {
+            "old": "38.829082",
+            "new": "38.830482"
+        },
+        "latlon": {
+            "old": "38.829082 -9.400764",
+            "new": "38.830482 -9.404184"
+        }
+    },
+    "EDP-SNT-00018": {
+        "longitude": {
+            "old": "-9.400764",
+            "new": "-9.404201"
+        },
+        "latitude": {
+            "old": "38.829082",
+            "new": "38.8305"
+        },
+        "latlon": {
+            "old": "38.829082 -9.400764",
+            "new": "38.8305 -9.404201"
+        }
+    },
+    "EDP-SNT-00116": {
+        "longitude": {
+            "old": "-9.297455",
+            "new": "-9.296995"
+        },
+        "latitude": {
+            "old": "38.76553",
+            "new": "38.764507"
+        },
+        "latlon": {
+            "old": "38.76553 -9.297455",
+            "new": "38.764507 -9.296995"
+        }
+    },
+    "EDP-SNT-00146": {
+        "longitude": {
+            "old": "-9.322009",
+            "new": "-9.320744"
+        },
+        "latitude": {
+            "old": "38.844658",
+            "new": "38.845055"
+        },
+        "latlon": {
+            "old": "38.844658 -9.322009",
+            "new": "38.845055 -9.320744"
+        }
+    },
+    "EDP-SNT-00147": {
+        "longitude": {
+            "old": "-9.320801",
+            "new": "-9.320693"
+        },
+        "latitude": {
+            "old": "38.84421",
+            "new": "38.845074"
+        },
+        "latlon": {
+            "old": "38.84421 -9.320801",
+            "new": "38.845074 -9.320693"
+        }
+    },
+    "EDP-SNT-00167": {
+        "longitude": {
+            "old": "-9.309488",
+            "new": "-9.336811"
+        },
+        "latitude": {
+            "old": "38.76873",
+            "new": "38.777042"
+        },
+        "latlon": {
+            "old": "38.76873 -9.309488",
+            "new": "38.777042 -9.336811"
+        }
+    },
+    "EDP-SNT-00171": {
+        "longitude": {
+            "old": "-9.357698",
+            "new": "-9.35554"
+        },
+        "latitude": {
+            "old": "38.784058",
+            "new": "38.781933"
+        },
+        "latlon": {
+            "old": "38.784058 -9.357698",
+            "new": "38.781933 -9.35554"
+        }
+    },
+    "EDP-SNT-00172": {
+        "longitude": {
+            "old": "-9.357698",
+            "new": "-9.355554"
+        },
+        "latitude": {
+            "old": "38.784058",
+            "new": "38.78189"
+        },
+        "latlon": {
+            "old": "38.784058 -9.357698",
+            "new": "38.78189 -9.355554"
+        }
+    },
+    "EDP-SNT-00173": {
+        "longitude": {
+            "old": "-9.357543",
+            "new": "-9.355513"
+        },
+        "latitude": {
+            "old": "38.782127",
+            "new": "38.78202"
+        },
+        "latlon": {
+            "old": "38.782127 -9.357543",
+            "new": "38.78202 -9.355513"
+        }
+    },
+    "EDP-SNT-00174": {
+        "longitude": {
+            "old": "-9.357543",
+            "new": "-9.355527"
+        },
+        "latitude": {
+            "old": "38.782127",
+            "new": "38.78198"
+        },
+        "latlon": {
+            "old": "38.782127 -9.357543",
+            "new": "38.78198 -9.355527"
+        }
+    },
+    "EDP-SNT-00229": {
+        "longitude": {
+            "old": "-9.380054",
+            "new": "-9.372474"
+        },
+        "latitude": {
+            "old": "38.80539",
+            "new": "38.839478"
+        },
+        "latlon": {
+            "old": "38.80539 -9.380054",
+            "new": "38.839478 -9.372474"
+        }
+    },
+    "EDP-SNT-00231": {
+        "longitude": {
+            "old": "-9.311779",
+            "new": "-9.305241"
+        },
+        "latitude": {
+            "old": "38.751534",
+            "new": "38.751198"
+        },
+        "latlon": {
+            "old": "38.751534 -9.311779",
+            "new": "38.751198 -9.305241"
+        }
+    },
+    "EDP-STB-00065": {
+        "longitude": {
+            "old": "-8.8578",
+            "new": "-8.857131"
+        },
+        "latitude": {
+            "old": "38.5381",
+            "new": "38.538216"
+        },
+        "latlon": {
+            "old": "38.5381 -8.8578",
+            "new": "38.538216 -8.857131"
+        }
+    },
+    "EDP-STB-00075": {
+        "longitude": {
+            "old": "-8.8578",
+            "new": "-8.857114"
+        },
+        "latitude": {
+            "old": "38.5381",
+            "new": "38.53826"
+        },
+        "latlon": {
+            "old": "38.5381 -8.8578",
+            "new": "38.53826 -8.857114"
+        }
+    },
+    "EDP-STR-00060": {
+        "longitude": {
+            "old": "-8.699275",
+            "new": "-8.697395"
+        },
+        "latitude": {
+            "old": "39.240246",
+            "new": "39.238472"
+        },
+        "latlon": {
+            "old": "39.240246 -8.699275",
+            "new": "39.238472 -8.697395"
+        }
+    },
+    "EDP-SXL-00037": {
+        "longitude": {
+            "old": "-9.150997",
+            "new": "-9.150643"
+        },
+        "latitude": {
+            "old": "38.63937",
+            "new": "38.638683"
+        },
+        "latlon": {
+            "old": "38.63937 -9.150997",
+            "new": "38.638683 -9.150643"
+        }
+    },
+    "EDP-TMR-00032": {
+        "longitude": {
+            "old": "-8.395426",
+            "new": "-8.394804"
+        },
+        "latitude": {
+            "old": "39.609543",
+            "new": "39.610687"
+        },
+        "latlon": {
+            "old": "39.609543 -8.395426",
+            "new": "39.610687 -8.394804"
+        }
+    },
+    "EDP-TND-00015": {
+        "longitude": {
+            "old": "-8.084861",
+            "new": "-8.082215"
+        },
+        "latitude": {
+            "old": "40.50751",
+            "new": "40.519264"
+        },
+        "latlon": {
+            "old": "40.50751 -8.084861",
+            "new": "40.519264 -8.082215"
+        }
+    },
+    "EDP-TND-00016": {
+        "longitude": {
+            "old": "-8.084861",
+            "new": "-8.082213"
+        },
+        "latitude": {
+            "old": "40.50751",
+            "new": "40.519222"
+        },
+        "latlon": {
+            "old": "40.50751 -8.084861",
+            "new": "40.519222 -8.082213"
+        }
+    },
+    "EDP-TNV-00011": {
+        "longitude": {
+            "old": "-8.540323",
+            "new": "-8.539726"
+        },
+        "latitude": {
+            "old": "39.470562",
+            "new": "39.470276"
+        },
+        "latlon": {
+            "old": "39.470562 -8.540323",
+            "new": "39.470276 -8.539726"
+        }
+    },
+    "EDP-TNV-00014": {
+        "longitude": {
+            "old": "-8.5366",
+            "new": "-8.535616"
+        },
+        "latitude": {
+            "old": "39.468212",
+            "new": "39.46719"
+        },
+        "latlon": {
+            "old": "39.468212 -8.5366",
+            "new": "39.46719 -8.535616"
+        }
+    },
+    "EDP-TNV-00015": {
+        "longitude": {
+            "old": "-8.5366",
+            "new": "-8.535673"
+        },
+        "latitude": {
+            "old": "39.468212",
+            "new": "39.467194"
+        },
+        "latlon": {
+            "old": "39.468212 -8.5366",
+            "new": "39.467194 -8.535673"
+        }
+    },
+    "EDP-TNV-00021": {
+        "longitude": {
+            "old": "-8.532164",
+            "new": "-8.532073"
+        },
+        "latitude": {
+            "old": "39.464344",
+            "new": "39.466694"
+        },
+        "latlon": {
+            "old": "39.464344 -8.532164",
+            "new": "39.466694 -8.532073"
+        }
+    },
+    "EDP-TVD-00013": {
+        "longitude": {
+            "old": "-9.365542",
+            "new": "-9.365922"
+        },
+        "latitude": {
+            "old": "39.10737",
+            "new": "39.10691"
+        },
+        "latlon": {
+            "old": "39.10737 -9.365542",
+            "new": "39.10691 -9.365922"
+        }
+    },
+    "EDP-VBP-00004": {
+        "longitude": {
+            "old": "-8.933475",
+            "new": "-8.933458"
+        },
+        "latitude": {
+            "old": "37.006153",
+            "new": "37.00568"
+        },
+        "latlon": {
+            "old": "37.006153 -8.933475",
+            "new": "37.00568 -8.933458"
+        }
+    },
+    "EDP-VBP-00005": {
+        "longitude": {
+            "old": "-8.933475",
+            "new": "-8.933478"
+        },
+        "latitude": {
+            "old": "37.006153",
+            "new": "37.005695"
+        },
+        "latlon": {
+            "old": "37.006153 -8.933475",
+            "new": "37.005695 -8.933478"
+        }
+    },
+    "EDP-VCD-00028": {
+        "longitude": {
+            "old": "-8.746102",
+            "new": "-8.746229"
+        },
+        "latitude": {
+            "old": "41.358837",
+            "new": "41.354553"
+        },
+        "latlon": {
+            "old": "41.358837 -8.746102",
+            "new": "41.354553 -8.746229"
+        }
+    },
+    "EDP-VCD-00034": {
+        "longitude": {
+            "old": "-8.739169",
+            "new": "-8.739486"
+        },
+        "latitude": {
+            "old": "41.358963",
+            "new": "41.359505"
+        },
+        "latlon": {
+            "old": "41.358963 -8.739169",
+            "new": "41.359505 -8.739486"
+        }
+    },
+    "EDP-VCD-00035": {
+        "longitude": {
+            "old": "-8.739169",
+            "new": "-8.739454"
+        },
+        "latitude": {
+            "old": "41.358963",
+            "new": "41.359467"
+        },
+        "latlon": {
+            "old": "41.358963 -8.739169",
+            "new": "41.359467 -8.739454"
+        }
+    },
+    "EDP-VCD-00036": {
+        "longitude": {
+            "old": "-8.739169",
+            "new": "-8.739423"
+        },
+        "latitude": {
+            "old": "41.358963",
+            "new": "41.359425"
+        },
+        "latlon": {
+            "old": "41.358963 -8.739169",
+            "new": "41.359425 -8.739423"
+        }
+    },
+    "EDP-VCD-00066": {
+        "longitude": {
+            "old": "-8.67208",
+            "new": "-8.672007"
+        },
+        "latitude": {
+            "old": "41.278385",
+            "new": "41.278866"
+        },
+        "latlon": {
+            "old": "41.278385 -8.67208",
+            "new": "41.278866 -8.672007"
+        }
+    },
+    "EDP-VFR-00016": {
+        "longitude": {
+            "old": "-8.559784",
+            "new": "-8.560068"
+        },
+        "latitude": {
+            "old": "40.92614",
+            "new": "40.925632"
+        },
+        "latlon": {
+            "old": "40.92614 -8.559784",
+            "new": "40.925632 -8.560068"
+        }
+    },
+    "EDP-VFX-00026": {
+        "longitude": {
+            "old": "-8.984152",
+            "new": "-8.983743"
+        },
+        "latitude": {
+            "old": "38.963867",
+            "new": "38.963497"
+        },
+        "latlon": {
+            "old": "38.963867 -8.984152",
+            "new": "38.963497 -8.983743"
+        }
+    },
+    "EDP-VFX-00039": {
+        "longitude": {
+            "old": "-9.073545",
+            "new": "-9.072912"
+        },
+        "latitude": {
+            "old": "38.85926",
+            "new": "38.86416"
+        },
+        "latlon": {
+            "old": "38.85926 -9.073545",
+            "new": "38.86416 -9.072912"
+        }
+    },
+    "EDP-VFX-00040": {
+        "longitude": {
+            "old": "-9.078532",
+            "new": "-8.98029"
+        },
+        "latitude": {
+            "old": "38.95406",
+            "new": "38.974094"
+        },
+        "latlon": {
+            "old": "38.95406 -9.078532",
+            "new": "38.974094 -8.98029"
+        }
+    },
+    "EDP-VIS-00004": {
+        "longitude": {
+            "old": "-7.912396",
+            "new": "-7.91175"
+        },
+        "latitude": {
+            "old": "40.654617",
+            "new": "40.65398"
+        },
+        "latlon": {
+            "old": "40.654617 -7.912396",
+            "new": "40.65398 -7.91175"
+        }
+    },
+    "EDP-VIS-00005": {
+        "longitude": {
+            "old": "-7.912396",
+            "new": "-7.911779"
+        },
+        "latitude": {
+            "old": "40.654617",
+            "new": "40.653984"
+        },
+        "latlon": {
+            "old": "40.654617 -7.912396",
+            "new": "40.653984 -7.911779"
+        }
+    },
+    "EDP-VIS-00082": {
+        "longitude": {
+            "old": "-7.913505",
+            "new": "-7.91317"
+        },
+        "latitude": {
+            "old": "40.65671",
+            "new": "40.65585"
+        },
+        "latlon": {
+            "old": "40.65671 -7.913505",
+            "new": "40.65585 -7.91317"
+        }
+    },
+    "EDP-VIS-00108": {
+        "longitude": {
+            "old": "-7.916146",
+            "new": "-7.916182"
+        },
+        "latitude": {
+            "old": "40.65849",
+            "new": "40.658516"
+        },
+        "latlon": {
+            "old": "40.65849 -7.916146",
+            "new": "40.658516 -7.916182"
+        }
+    },
+    "EDP-VIS-00109": {
+        "longitude": {
+            "old": "-7.916168",
+            "new": "-7.91621"
+        },
+        "latitude": {
+            "old": "40.65898",
+            "new": "40.658478"
+        },
+        "latlon": {
+            "old": "40.65898 -7.916168",
+            "new": "40.658478 -7.91621"
+        }
+    },
+    "EDP-VIS-00111": {
+        "longitude": {
+            "old": "-7.913171",
+            "new": "-7.912119"
+        },
+        "latitude": {
+            "old": "40.655132",
+            "new": "40.655125"
+        },
+        "latlon": {
+            "old": "40.655132 -7.913171",
+            "new": "40.655125 -7.912119"
+        }
+    },
+    "EDP-VLN-00004": {
+        "longitude": {
+            "old": "-8.64827",
+            "new": "-8.64876"
+        },
+        "latitude": {
+            "old": "42.02345",
+            "new": "42.023716"
+        },
+        "latlon": {
+            "old": "42.02345 -8.64827",
+            "new": "42.023716 -8.64876"
+        }
+    },
+    "EDP-VLP-00005": {
+        "longitude": {
+            "old": "-7.308304",
+            "new": "-7.310402"
+        },
+        "latitude": {
+            "old": "41.610294",
+            "new": "41.609203"
+        },
+        "latlon": {
+            "old": "41.610294 -7.308304",
+            "new": "41.609203 -7.310402"
+        }
+    },
+    "EDP-VLP-00006": {
+        "longitude": {
+            "old": "-7.309128",
+            "new": "-7.310351"
+        },
+        "latitude": {
+            "old": "41.60965",
+            "new": "41.609222"
+        },
+        "latlon": {
+            "old": "41.60965 -7.309128",
+            "new": "41.609222 -7.310351"
+        }
+    },
+    "EDP-VNC-00006": {
+        "longitude": {
+            "old": "-8.739298",
+            "new": "-8.738811"
+        },
+        "latitude": {
+            "old": "41.9424",
+            "new": "41.941547"
+        },
+        "latlon": {
+            "old": "41.9424 -8.739298",
+            "new": "41.941547 -8.738811"
+        }
+    },
+    "EDP-VND-00009": {
+        "longitude": {
+            "old": "-8.580319",
+            "new": "-8.580493"
+        },
+        "latitude": {
+            "old": "38.619778",
+            "new": "38.62064"
+        },
+        "latlon": {
+            "old": "38.619778 -8.580319",
+            "new": "38.62064 -8.580493"
+        }
+    },
+    "EDP-VND-00016": {
+        "longitude": {
+            "old": "-8.857",
+            "new": "-8.580465"
+        },
+        "latitude": {
+            "old": "38.694496",
+            "new": "38.620647"
+        },
+        "latlon": {
+            "old": "38.694496 -8.857",
+            "new": "38.620647 -8.580465"
+        }
+    },
+    "EDP-VND-00017": {
+        "longitude": {
+            "old": "-8.857",
+            "new": "-8.580367"
+        },
+        "latitude": {
+            "old": "38.694496",
+            "new": "38.62067"
+        },
+        "latlon": {
+            "old": "38.694496 -8.857",
+            "new": "38.62067 -8.580367"
+        }
+    },
+    "EDP-VND-00018": {
+        "longitude": {
+            "old": "-8.625054",
+            "new": "-8.578151"
+        },
+        "latitude": {
+            "old": "38.622437",
+            "new": "38.622433"
+        },
+        "latlon": {
+            "old": "38.622437 -8.625054",
+            "new": "38.622433 -8.578151"
+        }
+    },
+    "EDP-VNG-00073": {
+        "longitude": {
+            "old": "-8.56635",
+            "new": "-8.598779"
+        },
+        "latitude": {
+            "old": "41.106285",
+            "new": "41.10096"
+        },
+        "latlon": {
+            "old": "41.106285 -8.56635",
+            "new": "41.10096 -8.598779"
+        }
+    },
+    "EDP-VNG-00231": {
+        "longitude": {
+            "old": "-8.589233",
+            "new": "-8.589782"
+        },
+        "latitude": {
+            "old": "41.10225",
+            "new": "41.102005"
+        },
+        "latlon": {
+            "old": "41.10225 -8.589233",
+            "new": "41.102005 -8.589782"
+        }
+    },
+    "EDP-VPA-00004": {
+        "longitude": {
+            "old": "-7.641569",
+            "new": "-7.661086"
+        },
+        "latitude": {
+            "old": "41.50687",
+            "new": "41.5064"
+        },
+        "latlon": {
+            "old": "41.50687 -7.641569",
+            "new": "41.5064 -7.661086"
+        }
+    },
+    "EDP-VRS-00016": {
+        "longitude": {
+            "old": "-7.420096",
+            "new": "-7.42011"
+        },
+        "latitude": {
+            "old": "37.19201",
+            "new": "37.190037"
+        },
+        "latlon": {
+            "old": "37.19201 -7.420096",
+            "new": "37.190037 -7.42011"
+        }
+    },
+    "EDP-VVR-90001": {
+        "longitude": {
+            "old": "-7.674563",
+            "new": "-7.676251"
+        },
+        "latitude": {
+            "old": "39.655457",
+            "new": "39.65764"
+        },
+        "latlon": {
+            "old": "39.655457 -7.674563",
+            "new": "39.65764 -7.676251"
+        }
+    },
+    "EDP-VZL-00004": {
+        "longitude": {
+            "old": "-8.2179",
+            "new": "-8.218066"
+        },
+        "latitude": {
+            "old": "40.67305",
+            "new": "40.672585"
+        },
+        "latlon": {
+            "old": "40.67305 -8.2179",
+            "new": "40.672585 -8.218066"
+        }
+    },
+    "FCT-LRS-00195": {
+        "name": {
+            "old": "Loures - S. João da Talha",
+            "new": "Loures - S. João da Talha - EN10"
+        }
+    },
+    "HLX-OAZ-00016": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "1": {
+                        "old": "creditCard",
+                        "new": "rfid"
+                    },
+                    "removed_items": [
+                        "debitCard",
+                        "nfc",
+                        "pinpad",
+                        "rfid"
+                    ]
+                }
+            }
+        }
+    },
+    "MAK-LSB-00232": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00232-02",
+                            "evse_id": "PT*MAK*E*LSB*00232*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "MAK-LSB-00233": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "socket",
+                                    "new": "cableMode3"
+                                }
+                            }
+                        }
+                    },
+                    "added_items": [
+                        {
+                            "evse_code": "LSB-00233-02",
+                            "evse_id": "PT*MAK*E*LSB*00233*02",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "REP-GRD-00012": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        },
+        "name": {
+            "old": "GRD-00012",
+            "new": "GUARDA SUL ROTUNDA"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REP-MLD-00047": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        }
+    },
+    "TSL-b798e614-a4b7-45ba-9a5f-8b1dfbc009b4": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "14": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "250000.0",
+                                    "voltage": "470.0",
+                                    "max_current": "1000.0"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
