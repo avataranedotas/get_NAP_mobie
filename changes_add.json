@@ -1,0 +1,55 @@
+{
+    "ATL-SSB-00040": {
+        "name": "Atlante - Pingo Doce Sesimbra - Castelo",
+        "lastUpdated": "2026-09-17T18:21:39.633Z",
+        "city": "Sesimbra",
+        "street": "Estrada Nacional nº 379, Sampaio - Castelo",
+        "postcode": "2970-649",
+        "latitude": "38.464546",
+        "longitude": "-9.097312",
+        "latlon": "38.464546 -9.097312",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "stations": [
+            {
+                "station_id": "ATL-SSB-00040",
+                "payment": [
+                    "apps",
+                    "debitCard",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SSB-00040-01",
+                        "evse_id": "PT*ATL*ESSB*00040*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SSB-00040-02",
+                        "evse_id": "PT*ATL*ESSB*00040*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
