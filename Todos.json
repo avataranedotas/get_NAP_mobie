@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-19T05:16:05Z",
-    "timestamp_areas_base": "2026-09-17T17:29:53Z",
+    "timestamp_osm_base": "2026-09-19T16:12:45Z",
+    "timestamp_areas_base": "2026-09-18T11:19:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -57491,11 +57491,11 @@
     "brand:wikidata": "Q2995683",
     "capacity": "1",
     "charge_point:output": "50 kW",
+    "disused:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
-    "man_made": "charge_point",
     "manufacturer": "Efacec",
     "model": "QC45",
     "motorcar": "yes",
@@ -68302,7 +68302,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "start_date": "2021-08-03",
     "website": "https://www.mobie.pt"
   }
@@ -118952,7 +118952,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -223494,8 +223494,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -249205,11 +249205,11 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "model": "HYC_50",
     "motorcar": "yes",
@@ -249247,11 +249247,11 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "level": "-1",
     "location": "underground",
+    "man_made": "charge_point",
     "manufacturer": "Alpitronic",
     "model": "HYC_50",
     "motorcar": "yes",
@@ -252216,8 +252216,8 @@
 {
   "type": "node",
   "id": 12650759695,
-  "lat": 38.7267057,
-  "lon": -9.1621281,
+  "lat": 38.7267049,
+  "lon": -9.1621043,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -252254,8 +252254,8 @@
 {
   "type": "node",
   "id": 12650759696,
-  "lat": 38.7267079,
-  "lon": -9.1621559,
+  "lat": 38.7267071,
+  "lon": -9.1621321,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -252292,8 +252292,8 @@
 {
   "type": "node",
   "id": 12650759697,
-  "lat": 38.7267096,
-  "lon": -9.1621834,
+  "lat": 38.7267088,
+  "lon": -9.1621596,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -252330,15 +252330,15 @@
 {
   "type": "node",
   "id": 12650759698,
-  "lat": 38.7267116,
-  "lon": -9.1622110,
+  "lat": 38.7267108,
+  "lon": -9.1621909,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Maksu",
-    "capacity": "1",
+    "capacity": "2",
     "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "layer": "-1",
@@ -252357,8 +252357,8 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 910 124",
     "ref": "LSB-00750",
-    "ref:EU:EVSE": "PT*MAK*E*LSB*00750*01",
-    "socket:type2_cable": "1",
+    "ref:EU:EVSE": "PT*MAK*E*LSB*00750*01;PT*MAK*E*LSB*00750*02",
+    "socket:type2_cable": "2",
     "socket:type2_cable:current": "32",
     "socket:type2_cable:output": "22 kW",
     "socket:type2_cable:voltage": "400",
@@ -263675,9 +263675,9 @@
     "brand:wikidata": "Q123574541",
     "capacity": "2",
     "charge_point:output": "200 kW",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -349217,8 +349217,8 @@
 {
   "type": "node",
   "id": 13352191280,
-  "lat": 39.4107692,
-  "lon": -8.9628055,
+  "lat": 39.4107617,
+  "lon": -8.9627881,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -349227,9 +349227,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
-    "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -349243,7 +349243,7 @@
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
@@ -349259,8 +349259,8 @@
 {
   "type": "node",
   "id": 13352191281,
-  "lat": 39.4107682,
-  "lon": -8.9628340,
+  "lat": 39.4107607,
+  "lon": -8.9628166,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -349285,7 +349285,7 @@
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
@@ -349301,8 +349301,8 @@
 {
   "type": "node",
   "id": 13352191282,
-  "lat": 39.4107672,
-  "lon": -8.9628627,
+  "lat": 39.4107597,
+  "lon": -8.9628453,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -349327,7 +349327,7 @@
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
@@ -393337,9 +393337,9 @@
     "brand:wikidata": "Q174747",
     "capacity": "1",
     "charge_point:output": "160 kW",
+    "disused:man_made": "charge_point",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -395818,11 +395818,13 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "50 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_50",
     "motorcar": "yes",
     "name": "Continente Modelo Malveira",
     "network": "Continente Plug&Charge",
@@ -395858,11 +395860,13 @@
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "charge_point:output": "120 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC120",
     "motorcar": "yes",
     "name": "Continente Modelo Malveira",
     "network": "Continente Plug&Charge",
@@ -419560,10 +419564,10 @@
     "phone": "+351 800 202 060",
     "ref": "CPV-00007",
     "ref:EU:EVSE": "PT*KLS*E*CPV*00007*01",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400"
+    "socket:type2_cable": "1",
+    "socket:type2_cable:current": "32",
+    "socket:type2_cable:output": "22 kW",
+    "socket:type2_cable:voltage": "400"
   }
 },
 {
@@ -426565,7 +426569,7 @@
     "access": "yes",
     "amenity": "charging_station",
     "brand": "Maksu",
-    "capacity": "6",
+    "capacity": "7",
     "email": "ev_portugal@maksu.com",
     "fee": "yes",
     "layer": "-1",
@@ -495060,8 +495064,8 @@
 {
   "type": "node",
   "id": 12650759700,
-  "lat": 38.7266564,
-  "lon": -9.1621161
+  "lat": 38.7266556,
+  "lon": -9.1620923
 },
 {
   "type": "node",
@@ -495078,8 +495082,8 @@
 {
   "type": "node",
   "id": 12650777603,
-  "lat": 38.7267077,
-  "lon": -9.1621105
+  "lat": 38.7267069,
+  "lon": -9.1620867
 },
 {
   "type": "node",
@@ -505056,26 +505060,26 @@
 {
   "type": "node",
   "id": 13352191278,
-  "lat": 39.4107690,
-  "lon": -8.9628772
+  "lat": 39.4107615,
+  "lon": -8.9628598
 },
 {
   "type": "node",
   "id": 13352191279,
-  "lat": 39.4107728,
-  "lon": -8.9627909
+  "lat": 39.4107653,
+  "lon": -8.9627735
 },
 {
   "type": "node",
   "id": 13352191284,
-  "lat": 39.4107218,
-  "lon": -8.9627872
+  "lat": 39.4107143,
+  "lon": -8.9627698
 },
 {
   "type": "node",
   "id": 13352191290,
-  "lat": 39.4107180,
-  "lon": -8.9628734
+  "lat": 39.4107105,
+  "lon": -8.9628560
 },
 {
   "type": "node",
