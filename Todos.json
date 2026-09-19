@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-18T16:51:21Z",
-    "timestamp_areas_base": "2026-09-17T20:28:05Z",
+    "timestamp_osm_base": "2026-09-19T05:16:05Z",
+    "timestamp_areas_base": "2026-09-17T17:29:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5962,13 +5962,14 @@
 {
   "type": "node",
   "id": 4942633433,
-  "lat": 41.7011913,
-  "lon": -8.8222948,
+  "lat": 41.7011823,
+  "lon": -8.8223230,
   "tags": {
     "access": "yes",
     "addr:city": "Viana do Castelo",
     "addr:postcode": "4900-451",
     "addr:street": "Avenida Capitão Gaspar de Castro",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -5977,9 +5978,10 @@
     "capacity": "2",
     "charging_station:output": "93 kW",
     "description": "PCR com carregamento simultâneo AC e DC",
-    "disused:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC50",
     "motorcar": "yes",
     "name": "VCT-00011",
     "network": "Mobi.E",
@@ -74536,8 +74538,8 @@
     "capacity": "1",
     "charge_point:output": "160 kW",
     "check_date": "2026-07-28",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "manufacturer": "Efacec",
     "maxstay": "unlimited",
     "model": "HV160",
@@ -98020,8 +98022,8 @@
 {
   "type": "node",
   "id": 9847828034,
-  "lat": 41.7008250,
-  "lon": -8.8231440,
+  "lat": 41.7005146,
+  "lon": -8.8235839,
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
@@ -98034,7 +98036,9 @@
     "charging_station:output": "52 kW",
     "email": "crc.mobilidade.eletrica.pt@repsol.com",
     "fee": "yes",
+    "manufacturer": "Volt-E",
     "maxstay": "unlimited",
+    "model": "ST30STAT",
     "motorcar": "yes",
     "name": "VCT-00027",
     "network": "Mobi.E",
@@ -100848,7 +100852,6 @@
   "lon": -8.9181585,
   "tags": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -100856,6 +100859,7 @@
     "brand:wikidata": "Q151954",
     "capacity": "2",
     "charging_station:output": "72 kW",
+    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -112624,8 +112628,8 @@
 {
   "type": "node",
   "id": 10215514767,
-  "lat": 41.2088834,
-  "lon": -8.6875431,
+  "lat": 41.2090610,
+  "lon": -8.6875592,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -112664,8 +112668,8 @@
 {
   "type": "node",
   "id": 10215514768,
-  "lat": 41.2088827,
-  "lon": -8.6877737,
+  "lat": 41.2090603,
+  "lon": -8.6877898,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -206704,8 +206708,8 @@
 {
   "type": "node",
   "id": 12431828963,
-  "lat": 41.2088826,
-  "lon": -8.6878314,
+  "lat": 41.2090602,
+  "lon": -8.6878475,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -227852,8 +227856,8 @@
 {
   "type": "node",
   "id": 12521460059,
-  "lat": 41.2088833,
-  "lon": -8.6876008,
+  "lat": 41.2090609,
+  "lon": -8.6876169,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -227892,8 +227896,8 @@
 {
   "type": "node",
   "id": 12521460060,
-  "lat": 41.2088839,
-  "lon": -8.6873989,
+  "lat": 41.2090615,
+  "lon": -8.6874150,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -227932,8 +227936,8 @@
 {
   "type": "node",
   "id": 12521460061,
-  "lat": 41.2088837,
-  "lon": -8.6874572,
+  "lat": 41.2090613,
+  "lon": -8.6874733,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -227972,8 +227976,8 @@
 {
   "type": "node",
   "id": 12521460062,
-  "lat": 41.2088831,
-  "lon": -8.6876583,
+  "lat": 41.2090607,
+  "lon": -8.6876744,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -228012,8 +228016,8 @@
 {
   "type": "node",
   "id": 12521460063,
-  "lat": 41.2088829,
-  "lon": -8.6877160,
+  "lat": 41.2090605,
+  "lon": -8.6877321,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -281577,7 +281581,6 @@
   "lon": -8.4147253,
   "tags": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -281585,6 +281588,7 @@
     "brand:wikidata": "Q137294295",
     "capacity": "2",
     "charging_station:output": "93 kW",
+    "disused:amenity": "charging_station",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -402259,13 +402263,13 @@
   "lon": -9.1451390,
   "tags": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
     "charging_station:output": "200 kW",
+    "disused:amenity": "charging_station",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "manufacturer": "Alpitronic",
@@ -403865,7 +403869,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 222 222",
-    "ref": "CSC-?????",
+    "ref": "CSC-00196",
+    "ref:EU:EVSE": "PT*EDP*ECSC*00196*1;PT*EDP*ECSC*00196*2",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -416050,8 +416055,8 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "1",
-    "construction:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "i-charging",
     "maxstay": "unlimited",
     "model": "blueberry CLUSTER",
@@ -419639,6 +419644,166 @@
     "socket:type2_combo:output": "50 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://atlante.energy/"
+  }
+},
+{
+  "type": "node",
+  "id": 14192359604,
+  "lat": 41.2088914,
+  "lon": -8.6877137,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "600 kW",
+    "construction:man_made": "charge_point",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Nova V4",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-23:00",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "MTS-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "600 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14192359606,
+  "lat": 41.2088941,
+  "lon": -8.6876363,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "600 kW",
+    "construction:man_made": "charge_point",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Nova V4",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-23:00",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "MTS-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "600 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14192359607,
+  "lat": 41.2089044,
+  "lon": -8.6876363,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "600 kW",
+    "construction:man_made": "charge_point",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Nova V4",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-23:00",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "MTS-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "600 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14192359608,
+  "lat": 41.2089055,
+  "lon": -8.6877141,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "2",
+    "charge_point:output": "600 kW",
+    "construction:man_made": "charge_point",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "manufacturer": "Starcharge",
+    "maxstay": "unlimited",
+    "model": "Nova V4",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-23:00",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "MTS-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "600",
+    "socket:type2_combo:output": "600 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://www.mobie.pt/"
   }
 },
 {
@@ -475234,14 +475399,14 @@
     "fee": "yes",
     "maxstay": "unlimited",
     "motorcar": "yes",
-    "name": "CSC-00197/198/574",
+    "name": "CSC-00196…198/574",
     "network": "Mobi.E",
     "opening_hours": "24/7",
     "operator": "EDP",
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
-    "ref": "CSC-00197;CSC-00198;CSC-00574",
+    "ref": "CSC-00196;CSC-00197;CSC-00198;CSC-00574",
     "website": "https://www.edp.pt/"
   }
 },
@@ -478195,6 +478360,39 @@
     "parking:fee": "no",
     "phone": "+351 800 100 303",
     "ref": "MGL-?????"
+  }
+},
+{
+  "type": "way",
+  "id": 1560229020,
+  "nodes": [
+    14192359603,
+    14192359605,
+    14192359609,
+    14192359602,
+    14192359603
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Atlante",
+    "brand:wikidata": "Q126913632",
+    "capacity": "8",
+    "charging_station:output": "720 kW",
+    "email": "support.portugal@atlante.energy",
+    "fee": "yes",
+    "indoor": "yes",
+    "location": "underground",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "MTS-?????",
+    "network": "Mobi.E",
+    "opening_hours": "07:00-23:00",
+    "operator": "Atlante",
+    "operator:wikidata": "Q126913632",
+    "parking:fee": "no",
+    "phone": "+351 800 296 929;+351 234 246 050",
+    "ref": "MTS-?????"
   }
 },
 {
@@ -519108,26 +519306,26 @@
 {
   "type": "node",
   "id": 12521460055,
-  "lat": 41.2088865,
-  "lon": -8.6878609
+  "lat": 41.2090641,
+  "lon": -8.6878770
 },
 {
   "type": "node",
   "id": 12521460056,
-  "lat": 41.2088316,
-  "lon": -8.6878606
+  "lat": 41.2090092,
+  "lon": -8.6878767
 },
 {
   "type": "node",
   "id": 12521460057,
-  "lat": 41.2088884,
-  "lon": -8.6873696
+  "lat": 41.2090660,
+  "lon": -8.6873857
 },
 {
   "type": "node",
   "id": 12521460058,
-  "lat": 41.2088334,
-  "lon": -8.6873692
+  "lat": 41.2090110,
+  "lon": -8.6873853
 },
 {
   "type": "node",
@@ -519266,6 +519464,30 @@
   "id": 13978710485,
   "lat": 41.2082676,
   "lon": -8.6885245
+},
+{
+  "type": "node",
+  "id": 14192359602,
+  "lat": 41.2088548,
+  "lon": -8.6875901
+},
+{
+  "type": "node",
+  "id": 14192359603,
+  "lat": 41.2089465,
+  "lon": -8.6875906
+},
+{
+  "type": "node",
+  "id": 14192359605,
+  "lat": 41.2089460,
+  "lon": -8.6877453
+},
+{
+  "type": "node",
+  "id": 14192359609,
+  "lat": 41.2088543,
+  "lon": -8.6877448
 },
 {
   "type": "node",
