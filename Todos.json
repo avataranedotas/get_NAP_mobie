@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-19T16:12:45Z",
-    "timestamp_areas_base": "2026-09-18T11:19:50Z",
+    "timestamp_osm_base": "2026-09-20T05:33:30Z",
+    "timestamp_areas_base": "2026-09-19T10:28:36Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -192915,8 +192915,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -223377,8 +223377,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -223416,8 +223416,8 @@
     "brand": "Powerdot",
     "capacity": "1",
     "charge_point:output": "300 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -266826,8 +266826,8 @@
 {
   "type": "node",
   "id": 12716642585,
-  "lat": 41.2791508,
-  "lon": -7.7118039,
+  "lat": 41.2791750,
+  "lon": -7.7117848,
   "tags": {
     "access": "private",
     "capacity": "1",
@@ -266840,8 +266840,8 @@
 {
   "type": "node",
   "id": 12716642586,
-  "lat": 41.2791531,
-  "lon": -7.7118316,
+  "lat": 41.2791773,
+  "lon": -7.7118125,
   "tags": {
     "access": "private",
     "capacity": "1",
@@ -266854,8 +266854,8 @@
 {
   "type": "node",
   "id": 12716642587,
-  "lat": 41.2791483,
-  "lon": -7.7117751,
+  "lat": 41.2791725,
+  "lon": -7.7117560,
   "tags": {
     "access": "private",
     "capacity": "1",
@@ -349269,9 +349269,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "1",
-    "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -349311,9 +349311,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
-    "construction:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "Kempower",
     "maxstay": "unlimited",
     "model": "Satellite",
@@ -361913,6 +361913,7 @@
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
+    "bicycle": "no",
     "brand": "wowplug",
     "capacity": "2",
     "email": "suporte@wowplug.com",
@@ -419808,6 +419809,39 @@
     "socket:type2_combo:output": "600 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14197444533,
+  "lat": 37.1884469,
+  "lon": -7.4442008,
+  "tags": {
+    "access": "customers",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "fixme": "Verificar se o aceso é público ou só para clientes e quais as características do posto",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VRS-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Electric",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "ref": "VRS-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "125",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -529288,26 +529322,26 @@
 {
   "type": "node",
   "id": 13703764868,
-  "lat": 41.2791514,
-  "lon": -7.7118463
+  "lat": 41.2791756,
+  "lon": -7.7118272
 },
 {
   "type": "node",
   "id": 13703764869,
-  "lat": 41.2791427,
-  "lon": -7.7117607
+  "lat": 41.2791669,
+  "lon": -7.7117416
 },
 {
   "type": "node",
   "id": 13703764873,
-  "lat": 41.2792011,
-  "lon": -7.7118374
+  "lat": 41.2792253,
+  "lon": -7.7118183
 },
 {
   "type": "node",
   "id": 13703764876,
-  "lat": 41.2791924,
-  "lon": -7.7117518
+  "lat": 41.2792166,
+  "lon": -7.7117327
 },
 {
   "type": "node",
