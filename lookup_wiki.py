@@ -538,4 +538,14 @@ OPERATORS = {
         "email": "morenergy@morenergy.pt",
         "website": "https://morenergy.pt/",
     },
+    "NRGS": {
+        "operator": "NRG",
+        "code3": "NRG",
+        "operator:wikidata": None,
+        "brand": "sunpoint",
+        "brand:wikidata": None,
+        "phone": "+351 239 700 750",
+        "email":  "info@sunenergy.pt",
+        "website":  "https://sunenergy.pt/",
+    },
 }
