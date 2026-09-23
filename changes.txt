@@ -1,3 +1,5 @@
+2026-09-23 05:48:35
+Adicionados:
 {
     "ATL-CSC-00572": {
         "name": "Atlante - Pingo Doce Arneiro",
@@ -1160,5 +1162,454 @@
                 ]
             }
         ]
+    }
+}
+Modificados:
+{
+    "EDP-BGC-00014": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-CPV-00003": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "120000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-LSB-00265": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-LSB-00317": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-NZR-00015": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-OBD-00006": {
+        "longitude": {
+            "old": "-9.143773",
+            "new": "-9.144281"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "latlon": {
+            "old": "39.37954 -9.143773",
+            "new": "39.37913 -9.144281"
+        },
+        "latitude": {
+            "old": "39.37954",
+            "new": "39.37913"
+        }
+    },
+    "EDP-OER-00136": {
+        "longitude": {
+            "old": "-9.295106",
+            "new": "-9.294561"
+        },
+        "latlon": {
+            "old": "38.705406 -9.295106",
+            "new": "38.70469 -9.294561"
+        },
+        "latitude": {
+            "old": "38.705406",
+            "new": "38.70469"
+        }
+    },
+    "EDP-PRT-00078": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "50000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode2AC1p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "43000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "63.0"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-VFX-00022": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2COMBO",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "90000.0",
+                                    "voltage": "1000.0",
+                                    "max_current": "200.0"
+                                }
+                            ]
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "chademo",
+                                    "charging_mode": "mode4DC",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "60000.0",
+                                    "voltage": "500.0",
+                                    "max_current": "125.0"
+                                }
+                            ]
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "added_items": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "socket",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-MTS-00211": {
+        "name": {
+            "old": "Posto 1",
+            "new": "Posto 2 - Lugar Meio "
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode2AC1p"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "7400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-MTS-00212": {
+        "name": {
+            "old": "Posto 3 - certo",
+            "new": "Posto 3 - Lugar Direito "
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode2AC1p"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "7400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-MTS-00213": {
+        "name": {
+            "old": "Posto 2",
+            "new": "Posto 1 - Lugar Esquerdo "
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "7400.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-LRS-90023": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "GLP-RPN-90001": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "MOT-CBC-00021": {
+        "name": {
+            "old": "xxx",
+            "new": "CBC-00021"
+        }
+    },
+    "TSL-fe9fc57f-14eb-42a4-aa2e-14e270053cab": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "12": {
+                        "evse_code": {
+                            "old": "44893023-5056-490f-afa2-85c52f1cfea7",
+                            "new": "18eaaee1-8266-4f2d-bda7-4dc3c29702c9"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98U4",
+                            "new": "PT*TSL*EIT98VY"
+                        }
+                    },
+                    "13": {
+                        "evse_code": {
+                            "old": "18eaaee1-8266-4f2d-bda7-4dc3c29702c9",
+                            "new": "d46bda3e-736d-404b-bcfd-b5cf9796fef1"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98VY",
+                            "new": "PT*TSL*EIT98XS"
+                        }
+                    },
+                    "14": {
+                        "evse_code": {
+                            "old": "d46bda3e-736d-404b-bcfd-b5cf9796fef1",
+                            "new": "0af37b73-21fc-41fe-8dd4-e22cd35e9d90"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98XS",
+                            "new": "PT*TSL*EIT98UH"
+                        }
+                    },
+                    "15": {
+                        "evse_code": {
+                            "old": "0af37b73-21fc-41fe-8dd4-e22cd35e9d90",
+                            "new": "52107563-759b-458f-87be-8d7dab485cd3"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98UH",
+                            "new": "PT*TSL*EIT98XB"
+                        }
+                    },
+                    "16": {
+                        "evse_code": {
+                            "old": "52107563-759b-458f-87be-8d7dab485cd3",
+                            "new": "ec451669-291f-4044-979c-feebf054ea2e"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98XB",
+                            "new": "PT*TSL*EIT98V7"
+                        }
+                    },
+                    "17": {
+                        "evse_code": {
+                            "old": "ec451669-291f-4044-979c-feebf054ea2e",
+                            "new": "2d2bd791-d8b7-4d2d-978f-d0e0ae479c71"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98V7",
+                            "new": "PT*TSL*EIT98UZ"
+                        }
+                    },
+                    "18": {
+                        "evse_code": {
+                            "old": "2d2bd791-d8b7-4d2d-978f-d0e0ae479c71",
+                            "new": "7d581b9e-4a32-40fd-a4cc-e5a14c63ccfa"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98UZ",
+                            "new": "PT*TSL*EIT98UP"
+                        }
+                    },
+                    "19": {
+                        "evse_code": {
+                            "old": "7d581b9e-4a32-40fd-a4cc-e5a14c63ccfa",
+                            "new": "e131023a-f209-4f45-a291-6673023c28b1"
+                        },
+                        "evse_id": {
+                            "old": "PT*TSL*EIT98UP",
+                            "new": "PT*TSL*EQXB0IN"
+                        }
+                    }
+                }
+            }
+        }
     }
 }
