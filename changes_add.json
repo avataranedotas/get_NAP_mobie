@@ -1,0 +1,628 @@
+{
+    "GLP-BJA-90002": {
+        "name": "BJA-90002",
+        "lastUpdated": "2026-09-23T14:44:44.077Z",
+        "city": "Beja",
+        "street": "Avenida Miguel Fernandes",
+        "postcode": "7800-396",
+        "latitude": "38.01501",
+        "longitude": "-7.86685",
+        "latlon": "38.01501 -7.86685",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-BJA-90002",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "BJA-90002-01",
+                        "evse_id": "PT*GLP*EBJA*90002*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "BJA-90002-02",
+                        "evse_id": "PT*GLP*EBJA*90002*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "3700.0",
+                                "voltage": "240.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-LSB-01156": {
+        "name": "Hub Airfut - Prior Velho",
+        "lastUpdated": "2026-09-24T02:58:07.809Z",
+        "city": "Lisboa",
+        "street": "R. 25 de Abril 10 ",
+        "postcode": "2685-368",
+        "latitude": "38.788578",
+        "longitude": "-9.127488",
+        "latlon": "38.788578 -9.127488",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "stations": [
+            {
+                "station_id": "HRZ-LSB-01156",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01156-01",
+                        "evse_id": "PT*HRZ*E*LSB*01156*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01156-02",
+                        "evse_id": "PT*HRZ*E*LSB*01156*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01156-03",
+                        "evse_id": "PT*HRZ*E*LSB*01156*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "920.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-SAT-00006": {
+        "name": "Intermarche Satão",
+        "lastUpdated": "2026-09-24T02:59:51.162Z",
+        "city": "Sátão",
+        "street": "R. Cidade de Lescar",
+        "postcode": "3560-196",
+        "latitude": "40.744667",
+        "longitude": "-7.736383",
+        "latlon": "40.744667 -7.736383",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "stations": [
+            {
+                "station_id": "HRZ-SAT-00006",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SAT-00006-01",
+                        "evse_id": "PT*HRZ*E*SAT*00006*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SAT-00006-02",
+                        "evse_id": "PT*HRZ*E*SAT*00006*02",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-SAT-00007": {
+        "name": "Intermarche Satão",
+        "lastUpdated": "2026-09-24T02:58:33.273Z",
+        "city": "Sátão",
+        "street": "R. Cidade de Lescar",
+        "postcode": "3560-196",
+        "latitude": "40.744667",
+        "longitude": "-7.736383",
+        "latlon": "40.744667 -7.736383",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "stations": [
+            {
+                "station_id": "HRZ-SAT-00007",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SAT-00007-01",
+                        "evse_id": "PT*HRZ*E*SAT*00007*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SAT-00007-02",
+                        "evse_id": "PT*HRZ*E*SAT*00007*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "KLS-LSB-01460": {
+        "name": "BNP Paribas ECHO",
+        "lastUpdated": "2026-09-23T09:24:00.000Z",
+        "city": "Lisboa",
+        "street": "Torre Ocidente, Rua Galileu Galilei",
+        "postcode": "1500-392",
+        "latitude": "38.753696",
+        "longitude": "-9.188788",
+        "latlon": "38.753696 -9.188788",
+        "opc": "KLCS",
+        "opc_name": "KLC",
+        "stations": [
+            {
+                "station_id": "KLS-LSB-01460",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "331",
+                        "evse_id": "PT*KLS*E281*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "11.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "KLS-LSB-01461": {
+        "name": "BNP Paribas ECHO",
+        "lastUpdated": "2026-09-23T16:01:00.000Z",
+        "city": "Lisboa",
+        "street": "Torre Ocidente, Rua Galileu Galilei",
+        "postcode": "1500-392",
+        "latitude": "38.753696",
+        "longitude": "-9.188788",
+        "latlon": "38.753696 -9.188788",
+        "opc": "KLCS",
+        "opc_name": "KLC",
+        "stations": [
+            {
+                "station_id": "KLS-LSB-01461",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "331",
+                        "evse_id": "PT*KLS*E281*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "11.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "332",
+                        "evse_id": "PT*KLS*E282*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "11.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "REP-VGS-00023": {
+        "name": "ES A17 VAGOS B",
+        "lastUpdated": "2026-09-24T02:59:42.645Z",
+        "city": "Vagos",
+        "street": "A17-NO DA PONTE VAGOS-NASCENTE, 3840-553 V...",
+        "postcode": "3840-553",
+        "latitude": "40.50783",
+        "longitude": "-8.666933",
+        "latlon": "40.50783 -8.666933",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "stations": [
+            {
+                "station_id": "REP-VGS-00023",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VGS-00023-01",
+                        "evse_id": "PT*REP*E18458*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VGS-00023-02",
+                        "evse_id": "PT*REP*E18458*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VGS-00023-03",
+                        "evse_id": "PT*REP*E18458*3",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TRK-CSC-00525": {
+        "name": "WOW-CSC-00871",
+        "lastUpdated": "2026-09-23T15:29:26.762Z",
+        "city": "Cascais",
+        "street": "R. dos Ciprestes, 48",
+        "postcode": "2765-623",
+        "latitude": "38.716526",
+        "longitude": "-9.386192",
+        "latlon": "38.716526 -9.386192",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "stations": [
+            {
+                "station_id": "TRK-CSC-00525",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CSC-00525-01",
+                        "evse_id": "PT*TRK*E*CSC*00525*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CSC-00525-02",
+                        "evse_id": "PT*TRK*E*CSC*00525*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TRK-LSB-00972": {
+        "name": "WOW-LSB-00592",
+        "lastUpdated": "2026-09-23T15:31:44.711Z",
+        "city": "Lisboa",
+        "street": "Rua Sousa Viterbo, 31",
+        "postcode": "1900-424",
+        "latitude": "38.72671",
+        "longitude": "-9.120871",
+        "latlon": "38.72671 -9.120871",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "stations": [
+            {
+                "station_id": "TRK-LSB-00972",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-00972-01",
+                        "evse_id": "PT*TRK*E*LSB*00972*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-00972-02",
+                        "evse_id": "PT*TRK*E*LSB*00972*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TRK-LSB-01395": {
+        "name": "WOW-LSB-00936",
+        "lastUpdated": "2026-09-23T15:32:13.948Z",
+        "city": "Lisboa",
+        "street": "Rua Manuel Teixeira Gomes, 60",
+        "postcode": "1950-189",
+        "latitude": "38.75209",
+        "longitude": "-9.11191",
+        "latlon": "38.75209 -9.11191",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "stations": [
+            {
+                "station_id": "TRK-LSB-01395",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01395-01",
+                        "evse_id": "PT*TRK*E*LSB*01395*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01395-02",
+                        "evse_id": "PT*TRK*E*LSB*01395*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TRK-LSB-01413": {
+        "name": "WOW-LSB-00938",
+        "lastUpdated": "2026-09-23T15:36:16.811Z",
+        "city": "Lisboa",
+        "street": "Circular Sul do Bairro da Encarnação",
+        "postcode": "1800-135",
+        "latitude": "38.7713",
+        "longitude": "-9.11243",
+        "latlon": "38.7713 -9.11243",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "stations": [
+            {
+                "station_id": "TRK-LSB-01413",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01413-01",
+                        "evse_id": "PT*TRK*E*LSB*01413*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01413-02",
+                        "evse_id": "PT*TRK*E*LSB*01413*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TRK-LSB-01417": {
+        "name": "WOW-LSB-00942",
+        "lastUpdated": "2026-09-23T15:36:52.020Z",
+        "city": "Lisboa",
+        "street": "Rua Cidade Vila Cabral",
+        "postcode": "1800-131",
+        "latitude": "38.76646",
+        "longitude": "-9.12194",
+        "latlon": "38.76646 -9.12194",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "stations": [
+            {
+                "station_id": "TRK-LSB-01417",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01417-01",
+                        "evse_id": "PT*TRK*E*LSB*01417*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01417-02",
+                        "evse_id": "PT*TRK*E*LSB*01417*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
