@@ -53,7 +53,7 @@ with open('power_table.csv', 'w', newline='', encoding='utf-8') as csvfile, \
 
                     # Apply filter
                     write_row = False
-                    if charging_mode in ("mode3AC3p", "mode2AC1p") and power_diff < -200:
+                    if charging_mode in ("mode3AC3p", "mode2AC1p") and power_diff <= -200:
                         write_row = True
                     elif charging_mode == "mode4DC" and power_diff < -2000:
                         write_row = True
