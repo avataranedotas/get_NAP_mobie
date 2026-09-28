@@ -177,7 +177,7 @@ OPERATORS = {
         "operator:wikidata": None,
         "brand": "ecoinside",
         "brand:wikidata": None,
-        "phone": "+351 22 617 33 43",
+        "phone": "+351 800 100 544",
         "email": "contact@ecoinside.pt",
         "website": "https://www.ecoinside.pt/",
     },
