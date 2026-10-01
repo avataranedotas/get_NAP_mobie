@@ -1,0 +1,216 @@
+{
+    "FCT-LSB-01464": {
+        "name": "Lisboa - Parque das Nações",
+        "lastUpdated": "2026-09-30T17:24:08.000Z",
+        "city": "Lisboa",
+        "street": "Av. Boa Esperança 6 Lisboa, Lisboa",
+        "postcode": "1990-094",
+        "latitude": "38.775345",
+        "longitude": "-9.095744",
+        "latlon": "38.775345 -9.095744",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "stations": [
+            {
+                "station_id": "FCT-LSB-01464",
+                "payment": [
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "789",
+                        "evse_id": "PT*FCT*E334*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "790",
+                        "evse_id": "PT*FCT*E334*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-STR-00079": {
+        "name": "Intermarché Alcanede",
+        "lastUpdated": "2026-10-01T02:59:45.192Z",
+        "city": "Santarém",
+        "street": "R. da Feira de Alcanede",
+        "postcode": "2025-057",
+        "latitude": "39.420692",
+        "longitude": "-8.825561",
+        "latlon": "39.420692 -8.825561",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-STR-00079",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "STR-00079-01",
+                        "evse_id": "PT*HLX*E*STR*00079*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STR-00079-02",
+                        "evse_id": "PT*HLX*E*STR*00079*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-MFR-00067": {
+        "name": "MFR-00067",
+        "lastUpdated": "2026-10-01T02:59:13.252Z",
+        "city": "Mafra",
+        "street": " EM 549, Quinta de Santa Bárbara",
+        "postcode": "2640-486",
+        "latitude": "38.942554",
+        "longitude": "-9.342195",
+        "latlon": "38.942554 -9.342195",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "stations": [
+            {
+                "station_id": "MOT-MFR-00067",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "MFR-00067-01",
+                        "evse_id": "PT*MOT*E*MFR*00067*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "MFR-00067-02",
+                        "evse_id": "PT*MOT*E*MFR*00067*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "REP-FIG-00072": {
+        "name": "ES MARINHA ONDAS B",
+        "lastUpdated": "2026-09-30T13:06:50.491Z",
+        "city": "Figueira da Foz",
+        "street": "VARIANTE E.N 109, 3090-810 M.nha das Ondas...",
+        "postcode": "3090-810",
+        "latitude": "40.029823",
+        "longitude": "-8.834322",
+        "latlon": "40.029823 -8.834322",
+        "opc": "REPS",
+        "opc_name": "REPSOL Portuguesa Lda",
+        "stations": [
+            {
+                "station_id": "REP-FIG-00072",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FIG-00072-01",
+                        "evse_id": "PT*REP*E18181*1",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "400.0",
+                                "max_current": "120.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FIG-00072-02",
+                        "evse_id": "PT*REP*E18181*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "400.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
