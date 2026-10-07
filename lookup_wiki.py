@@ -554,7 +554,7 @@ OPERATORS = {
         "operator:wikidata": None,
         "brand": "Continente Plug&Charge",
         "brand:wikidata": None,
-        "phone": "+351 210 19 19 19",
+        "phone": "+351 210 19 19 19;+351 218 247 247",
         "email": None,
         "website":  "https://plugcharge.continente.pt/",
     },
