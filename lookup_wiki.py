@@ -548,4 +548,14 @@ OPERATORS = {
         "email":  "info@sunenergy.pt",
         "website":  "https://sunenergy.pt/",
     },
+    "CONT": {
+        "operator": "Continente",
+        "code3": "CNT",
+        "operator:wikidata": None,
+        "brand": "Continente Plug&Charge",
+        "brand:wikidata": None,
+        "phone": "+351 210 19 19 19",
+        "email": None,
+        "website":  "https://plugcharge.continente.pt/",
+    },
 }
