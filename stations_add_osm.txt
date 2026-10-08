@@ -38236,3 +38236,70 @@ socket:type2_combo=2
 
 # Generated on 2026-10-07 15:29:14
 
+# Generated on 2026-10-08 07:14:36
+
+LOCAL=39.45774 -8.66754
+access=yes
+amenity=charging_station
+authentication:membership_card=yes
+authentication:none=no
+fee=yes
+maxstay=unlimited
+motorcar=yes
+name=ECI-ACN-00013
+ref=ECI-ACN-00013
+network=Mobi.E
+opening_hours=§§§§§
+parking:fee=§§§§§
+capacity=§§§§§
+brand=ecoinside
+operator=EcoInside
+email=contact@ecoinside.pt
+phone=+351 800 100 544
+website=https://www.ecoinside.pt/
+payment:app=yes
+payment:cards=no
+payment:cash=no
+payment:membership_card=yes
+ref:EU:EVSE=PT*ECI*E*ACN*00013*01;PT*ECI*E*ACN*00013*02;PT*ECI*E*ACN*00013*03
+socket:type2_combo:current=250
+socket:type2_combo:output=60 kW
+socket:type2_combo:voltage=1000
+socket:type2_combo=2
+socket:type2:current=32
+socket:type2:output=22 kW
+socket:type2:voltage=400
+socket:type2=1
+
+WARNING EDP-LMG-00030/PT*EDP*ELMG*00030*1: socket:type2 reports 22.0kW at 230V (expected ~400V for >7.6kW).
+WARNING EDP-LMG-00030/PT*EDP*ELMG*00030*2: socket:type2 reports 22.0kW at 230V (expected ~400V for >7.6kW).
+LOCAL=41.06125 -7.7921
+access=yes
+amenity=charging_station
+authentication:membership_card=yes
+authentication:none=no
+fee=yes
+maxstay=unlimited
+motorcar=yes
+name=EDP-LMG-00030
+ref=EDP-LMG-00030
+network=Mobi.E
+opening_hours=§§§§§
+parking:fee=§§§§§
+capacity=§§§§§
+brand=edp Charge
+brand:wikidata=Q1341222
+operator=EDP
+operator:wikidata=Q1341222
+phone=+351 800 222 222
+website=https://www.edp.pt/
+payment:app=yes
+payment:cards=yes
+payment:cash=no
+payment:membership_card=yes
+ref:EU:EVSE=PT*EDP*ELMG*00030*1;PT*EDP*ELMG*00030*2
+socket:type2:current=32
+socket:type2:output=22 kW
+socket:type2:voltage=230
+socket:type2=2
+

@@ -36508,3 +36508,1754 @@ Modificados:
         }
     }
 }
+2026-10-08 07:14:35
+Adicionados:
+{
+    "ECI-ACN-00013": {
+        "name": "Alcanena - Rua 25 de Abril",
+        "lastUpdated": "2026-10-08T02:58:23.305Z",
+        "city": "Alcanena",
+        "street": "Rua de 25 de Abril, 9966 VE",
+        "postcode": "2380-042",
+        "latitude": "39.45774",
+        "longitude": "-8.66754",
+        "latlon": "39.45774 -8.66754",
+        "opc": "ECOI",
+        "opc_name": "Ecoinside - Soluções em Ecoeficiência e Sustentabilidade Lda",
+        "stations": [
+            {
+                "station_id": "ECI-ACN-00013",
+                "payment": [
+                    "apps",
+                    "website",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACN-00013-01",
+                        "evse_id": "PT*ECI*E*ACN*00013*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "920.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACN-00013-02",
+                        "evse_id": "PT*ECI*E*ACN*00013*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACN-00013-03",
+                        "evse_id": "PT*ECI*E*ACN*00013*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "920.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-LMG-00030": {
+        "name": "CASA DO POVO DE BRITIANDE",
+        "lastUpdated": "2026-10-07T23:46:36.249Z",
+        "city": "Lamego",
+        "street": "RUA DO RIBEIRO S.N.",
+        "postcode": "5100-344",
+        "latitude": "41.06125",
+        "longitude": "-7.7921",
+        "latlon": "41.06125 -7.7921",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-LMG-00030",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELMG-00030-1",
+                        "evse_id": "PT*EDP*ELMG*00030*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELMG-00030-2",
+                        "evse_id": "PT*EDP*ELMG*00030*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "CNT-0294PL0001",
+    "MAK-LSB-00156",
+    "MAK-LSB-00157",
+    "MAK-LSB-00158",
+    "MAK-LSB-00161",
+    "MAK-LSB-00162",
+    "MAK-LSB-00164",
+    "MAK-LSB-00165",
+    "MAK-LSB-00166",
+    "MAK-LSB-00167",
+    "MAK-LSB-00168",
+    "MAK-LSB-00170",
+    "MAK-LSB-00171",
+    "MAK-LSB-00172",
+    "MAK-LSB-00173",
+    "MAK-LSB-00245",
+    "MAK-LSB-00246",
+    "MAK-LSB-00247",
+    "MAK-LSB-00311",
+    "MAK-LSB-00312",
+    "MAK-LSB-00313",
+    "MAK-LSB-00426",
+    "MAK-LSB-00427",
+    "MAK-LSB-00428",
+    "MAK-LSB-00429",
+    "MAK-LSB-00729",
+    "MAK-LSB-00730",
+    "MAK-LSB-00731",
+    "MAK-LSB-00732",
+    "MAK-LSB-00733",
+    "MAK-LSB-00734",
+    "MAK-LSB-00735",
+    "MAK-LSB-00736",
+    "MAK-LSB-00737",
+    "MAK-LSB-00738",
+    "MAK-LSB-00739",
+    "MAK-LSB-00746",
+    "MAK-LSB-00747",
+    "MAK-LSB-00772",
+    "MAK-LSB-00773",
+    "MAK-LSB-00774",
+    "MAK-LSB-01150",
+    "MAK-LSB-01151",
+    "MAK-LSB-01152",
+    "MAK-LSB-01153",
+    "MAK-LSB-01154",
+    "MAK-LSB-01155",
+    "MAK-LSB-01164",
+    "MAK-LSB-01166",
+    "MAK-LSB-01167",
+    "MAK-LSB-01168",
+    "MAK-LSB-01169",
+    "MAK-LSB-01170",
+    "MAK-LSB-01171",
+    "MAK-LSB-01172",
+    "MAK-LSB-01173",
+    "MAK-LSB-01224",
+    "MAK-LSB-01225",
+    "MAK-LSB-01226",
+    "MAK-LSB-01227",
+    "MAK-LSB-01228",
+    "MAK-LSB-01229",
+    "MAK-LSB-01230",
+    "MAK-LSB-01338",
+    "MAK-LSB-01339"
+]
+Modificados:
+{
+    "ATL-AGB-80001": {
+        "latitude": {
+            "old": "40.817944",
+            "new": "40.81797"
+        },
+        "longitude": {
+            "old": "-7.541302",
+            "new": "-7.541286"
+        },
+        "latlon": {
+            "old": "40.817944 -7.541302",
+            "new": "40.81797 -7.541286"
+        }
+    },
+    "ATL-CVD-80001": {
+        "latitude": {
+            "old": "39.41109",
+            "new": "39.41073"
+        },
+        "longitude": {
+            "old": "-7.448935",
+            "new": "-7.44898"
+        },
+        "latlon": {
+            "old": "39.41109 -7.448935",
+            "new": "39.41073 -7.44898"
+        }
+    },
+    "ATL-IDN-80001": {
+        "latitude": {
+            "old": "39.923023",
+            "new": "39.922997"
+        },
+        "latlon": {
+            "old": "39.923023 -7.241776",
+            "new": "39.922997 -7.241776"
+        }
+    },
+    "CAP-LSB-00379": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "7": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "10": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "11": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CAP-LSB-00380": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "4": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "5": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "6": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "7": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "8": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "9": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "10": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "11": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CIR-LSB-00273": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CIR-PRD-00007": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "920.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Circuitos de Inovação",
+            "new": "Circuitos Energy Solutions, Lda."
+        }
+    },
+    "CME-OER-00300": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CME-OER-00301": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CME-TND-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "CNT-0001PR0031": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard",
+                        "debitCard",
+                        "nfc",
+                        "pinpad"
+                    ]
+                }
+            }
+        }
+    },
+    "CNT-0001PR0032": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "added_items": [
+                        "creditCard",
+                        "debitCard",
+                        "nfc",
+                        "pinpad"
+                    ]
+                }
+            }
+        }
+    },
+    "CNT-0375PR0002": {
+        "city": {
+            "old": "N§A",
+            "new": "Leiria"
+        },
+        "street": {
+            "old": "N§A",
+            "new": "N361 Zona das At. Económicas de Comercio"
+        }
+    },
+    "ECI-MLD-00029": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "3600.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EDP-OVR-00005": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-MTS-00211": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-MTS-00212": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-MTS-00213": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-OER-00298": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                },
+                                "max_power": {
+                                    "old": "22000.0",
+                                    "new": "11000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-OER-00299": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVI-TNV-00028": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EVP-FIG-00002": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-AVS-90001": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "GLP-ELV-00018": {
+        "street": {
+            "old": "Avenida de Badajoz",
+            "new": "Avenida de Badajoz 1"
+        }
+    },
+    "IMG-LSB-00499": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Image 4 all – Eficiência Energética, Comunicação e Imagem,Lda",
+            "new": "Image4all - Eficiência Energética, Comunicação e Imagem"
+        }
+    },
+    "IMG-LSB-00502": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "opc_name": {
+            "old": "Image 4 all – Eficiência Energética, Comunicação e Imagem,Lda",
+            "new": "Image4all - Eficiência Energética, Comunicação e Imagem"
+        }
+    },
+    "IMG-LSB-00797": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LCG-LLE-00057": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LCG-LLE-00058": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-AGN-00006": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-EVR-00036": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-FAR-00059": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-LGA-00047": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-OLH-00045": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-PTM-00064": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "LUZ-PTM-00065": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "64.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MAK-LSB-01183": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "173.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "173.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MAK-LSB-01336": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "173.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "173.0",
+                                    "new": "200.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MOT-VFX-00081": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "950.0",
+                                    "new": "500.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PAR-AGD-00040": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PLG-TMR-00007": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "60.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PLG-TMR-00008": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode2AC1p"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode3AC3p",
+                                    "new": "mode2AC1p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PQT-OER-00296": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "400.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "PQT-OER-00297": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "230.0",
+                                    "new": "400.0"
+                                },
+                                "charging_mode": {
+                                    "old": "mode2AC1p",
+                                    "new": "mode3AC3p"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REM-CNF-00009": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "93.0",
+                                    "new": "250.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "93.0",
+                                    "new": "250.0"
+                                },
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "1000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "REP-LSB-00270": {
+        "opc_name": {
+            "old": "REPSOL PORTUGUESA LDA",
+            "new": "REPSOL Portuguesa Lda"
+        }
+    },
+    "SEG-PDL-00005": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SGM-GMR-00022": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "connector_format": {
+                                    "old": "cableMode3",
+                                    "new": "socket"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SLX-RPN-00004": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "32.0",
+                                    "new": "16.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "SLX-RPN-00005": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "690.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "690.0",
+                                    "new": "400.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-EPS-00005": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-MMN-00004": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "2": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-PRT-00211": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-RDD-00003": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-RDD-00004": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-VCD-00040": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VEI-VND-00005": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "125.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VIS-VIS-00021": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "87.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "87.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "VIS-VIS-00022": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "87.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "87.0",
+                                    "new": "150.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "WEN-LSB-00610": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    },
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "63.0",
+                                    "new": "32.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
