@@ -1,0 +1,773 @@
+{
+    "ATL-AMD-00123": {
+        "name": "Atlante - Pingo Doce Reboleira",
+        "lastUpdated": "2026-10-08T18:06:29.531Z",
+        "city": "Amadora",
+        "street": "Avenida Dom José I 43",
+        "postcode": "2720-449",
+        "latitude": "38.75029",
+        "longitude": "-9.22949",
+        "latlon": "38.75029 -9.22949",
+        "opc": "ATLA",
+        "opc_name": "Atlante Infra Portugal, S.A",
+        "stations": [
+            {
+                "station_id": "ATL-AMD-00123",
+                "payment": [
+                    "debitCard",
+                    "creditCard",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "AMD-00123-01",
+                        "evse_id": "PT*ATL*EAMD*00123*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "AMD-00123-02",
+                        "evse_id": "PT*ATL*EAMD*00123*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ABF-00206": {
+        "name": "Regency Salgados Hotel & Spa - Invest. Explorações Turísticas",
+        "lastUpdated": "2026-10-08T09:49:20.000Z",
+        "city": "Albufeira",
+        "street": "Estrada dos Salgados - Galé",
+        "postcode": "8200-428",
+        "latitude": "37.08779",
+        "longitude": "-8.315728",
+        "latlon": "37.08779 -8.315728",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-ABF-00206",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EABF-00206-1",
+                        "evse_id": "PT*EDP*EABF*00206*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00206-2",
+                        "evse_id": "PT*EDP*EABF*00206*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EABF-00206-3",
+                        "evse_id": "PT*EDP*EABF*00206*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-CSC-00196": {
+        "name": "Decathlon Cascais 3",
+        "lastUpdated": "2026-10-08T15:18:44.479Z",
+        "city": "Cascais",
+        "street": "Av Brigadeiro Victor Novais Goncalves",
+        "postcode": "2645-019",
+        "latitude": "38.729263",
+        "longitude": "-9.420334",
+        "latlon": "38.729263 -9.420334",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-CSC-00196",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECSC-00196-1",
+                        "evse_id": "PT*EDP*ECSC*00196*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECSC-00196-2",
+                        "evse_id": "PT*EDP*ECSC*00196*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-CSC-00197": {
+        "name": "Decathlon Cascais 4",
+        "lastUpdated": "2026-10-08T21:10:21.326Z",
+        "city": "Cascais",
+        "street": "Av. Brigadeiro Victor Novais Gonçalves",
+        "postcode": "2645-019",
+        "latitude": "38.72937",
+        "longitude": "-9.416018",
+        "latlon": "38.72937 -9.416018",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-CSC-00197",
+                "payment": [
+                    "creditCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ECSC-00197-1",
+                        "evse_id": "PT*EDP*ECSC*00197*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ECSC-00197-2",
+                        "evse_id": "PT*EDP*ECSC*00197*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-SJM-00056": {
+        "name": "ALDI - S. JOÃO DA MADEIRA - 1",
+        "lastUpdated": "2026-10-08T09:39:38.000Z",
+        "city": "São João da Madeira",
+        "street": "Avenida Doutor Renato Araújo 1976",
+        "postcode": "3700-190",
+        "latitude": "40.892918",
+        "longitude": "-8.493312",
+        "latlon": "40.892918 -8.493312",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-SJM-00056",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ESJM-00056-1",
+                        "evse_id": "PT*EDP*ESJM*00056*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ESJM-00056-2",
+                        "evse_id": "PT*EDP*ESJM*00056*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-SJM-00057": {
+        "name": "ALDI - S. JOÃO DA MADEIRA - 2",
+        "lastUpdated": "2026-10-08T10:05:12.000Z",
+        "city": "São João da Madeira",
+        "street": "Avenida Doutor Renato Araújo 1976",
+        "postcode": "3700-190",
+        "latitude": "40.892918",
+        "longitude": "-8.493312",
+        "latlon": "40.892918 -8.493312",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-SJM-00057",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ESJM-00057-1",
+                        "evse_id": "PT*EDP*ESJM*00057*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            },
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-CHV-00035": {
+        "name": "Agriloja Chaves",
+        "lastUpdated": "2026-10-09T02:58:41.329Z",
+        "city": "Chaves",
+        "street": "Zona Industrial da Cocanha, R. Indústria",
+        "postcode": "5400-694",
+        "latitude": "41.771748",
+        "longitude": "-7.4730325",
+        "latlon": "41.771748 -7.4730325",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-CHV-00035",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CHV-00035-01",
+                        "evse_id": "PT*HLX*E*CHV*00035*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CHV-00035-02",
+                        "evse_id": "PT*HLX*E*CHV*00035*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-CLD-00049": {
+        "name": "Agriloja Caldas da Rainha",
+        "lastUpdated": "2026-10-09T02:58:55.045Z",
+        "city": "Caldas da Rainha",
+        "street": "Z. industrial Camara, R. Pedro Nunes 2",
+        "postcode": "2500-303",
+        "latitude": "39.424767",
+        "longitude": "-9.160629",
+        "latlon": "39.424767 -9.160629",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-CLD-00049",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CLD-00049-01",
+                        "evse_id": "PT*HLX*E*CLD*00049*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CLD-00049-02",
+                        "evse_id": "PT*HLX*E*CLD*00049*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-OAZ-00026": {
+        "name": "RUA DOUTOR ARTUR CORREIA BARBOSA",
+        "lastUpdated": "2026-10-09T03:00:01.231Z",
+        "city": "Oliveira de Azeméis",
+        "street": "RUA DOUTOR ARTUR CORREIA BARBOSA, 9999 VE",
+        "postcode": "3720-247",
+        "latitude": "40.83687",
+        "longitude": "-8.476421",
+        "latlon": "40.83687 -8.476421",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-OAZ-00026",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "OAZ-00026-01",
+                        "evse_id": "PT*HLX*E*OAZ*00026*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "140.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00026-02",
+                        "evse_id": "PT*HLX*E*OAZ*00026*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "43000.0",
+                                "voltage": "400.0",
+                                "max_current": "63.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "OAZ-00026-03",
+                        "evse_id": "PT*HLX*E*OAZ*00026*03",
+                        "connectors": [
+                            {
+                                "connector_type": "chademo",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "50000.0",
+                                "voltage": "500.0",
+                                "max_current": "125.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-PTL-00040": {
+        "name": "Pizzaria D'Arcozelo",
+        "lastUpdated": "2026-10-09T02:59:33.977Z",
+        "city": "Ponte de Lima",
+        "street": "Via 9 de Dezembro 1366 A",
+        "postcode": "4990-146",
+        "latitude": "41.78327",
+        "longitude": "-8.579732",
+        "latlon": "41.78327 -8.579732",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-PTL-00040",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "website",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTL-00040-01",
+                        "evse_id": "PT*HLX*E*PTL*00040*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PTL-00040-02",
+                        "evse_id": "PT*HLX*E*PTL*00040*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "350.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HLX-SPS-00015": {
+        "name": "Novo Estacionamento das Termas",
+        "lastUpdated": "2026-10-09T02:59:45.714Z",
+        "city": "São Pedro do Sul",
+        "street": "RUA DO GEROS, 9978",
+        "postcode": "3660-688",
+        "latitude": "40.738766",
+        "longitude": "-8.08671",
+        "latlon": "40.738766 -8.08671",
+        "opc": "HELX",
+        "opc_name": "Helexia II Energy Services, Lda.",
+        "stations": [
+            {
+                "station_id": "HLX-SPS-00015",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "SPS-00015-01",
+                        "evse_id": "PT*HLX*E*SPS*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "SPS-00015-02",
+                        "evse_id": "PT*HLX*E*SPS*00015*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "IBD-GDL-00075": {
+        "name": "Sublime Comporta Villas_Portaria",
+        "lastUpdated": "2026-10-09T02:59:14.218Z",
+        "city": "Grândola",
+        "street": "Estrada Nacional 261-1",
+        "postcode": "7570-337",
+        "latitude": "38.282017",
+        "longitude": "-8.705861",
+        "latlon": "38.282017 -8.705861",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "stations": [
+            {
+                "station_id": "IBD-GDL-00075",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDL-00075-01",
+                        "evse_id": "PT*IBD*E*GDL*00075*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "21000.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00075-02",
+                        "evse_id": "PT*IBD*E*GDL*00075*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "21000.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "IBD-GDL-00076": {
+        "name": "Sublime Comporta Villas_Portaria",
+        "lastUpdated": "2026-10-09T02:59:59.754Z",
+        "city": "Grândola",
+        "street": "Estrada Nacional 261-1",
+        "postcode": "7570-337",
+        "latitude": "38.282017",
+        "longitude": "-8.705861",
+        "latlon": "38.282017 -8.705861",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "stations": [
+            {
+                "station_id": "IBD-GDL-00076",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDL-00076-01",
+                        "evse_id": "PT*IBD*E*GDL*00076*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "21000.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00076-02",
+                        "evse_id": "PT*IBD*E*GDL*00076*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "21000.0",
+                                "voltage": "400.0",
+                                "max_current": "30.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "IBD-GDL-00077": {
+        "name": "Sublime Comporta Villas_Portaria",
+        "lastUpdated": "2026-10-09T02:58:27.045Z",
+        "city": "Grândola",
+        "street": "Estrada Nacional 261-1",
+        "postcode": "7570-337",
+        "latitude": "38.282017",
+        "longitude": "-8.705861",
+        "latlon": "38.282017 -8.705861",
+        "opc": "IBRD",
+        "opc_name": "Iberdrola Clientes Portugal, Unipessoal, Lda",
+        "stations": [
+            {
+                "station_id": "IBD-GDL-00077",
+                "payment": [
+                    "pinpad",
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "GDL-00077-01",
+                        "evse_id": "PT*IBD*E*GDL*00077*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "GDL-00077-02",
+                        "evse_id": "PT*IBD*E*GDL*00077*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "250.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
