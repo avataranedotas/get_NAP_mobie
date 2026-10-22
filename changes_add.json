@@ -1,0 +1,421 @@
+{
+    "EDP-LLE-00160": {
+        "name": "CIAP - Centro de Inspeções Loulé",
+        "lastUpdated": "2026-10-21T11:23:14.000Z",
+        "city": "Loulé",
+        "street": "Estrada Ponte 124 1",
+        "postcode": "8100-012",
+        "latitude": "37.234253",
+        "longitude": "-8.175735",
+        "latlon": "37.234253 -8.175735",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-LLE-00160",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELLE-00160-1",
+                        "evse_id": "PT*EDP*ELLE*00160*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELLE-00160-2",
+                        "evse_id": "PT*EDP*ELLE*00160*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "11000.0",
+                                "voltage": "400.0",
+                                "max_current": "16.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-MRA-90001": {
+        "name": "Praça Sacadura Cabra",
+        "lastUpdated": "2026-10-22T00:40:02.406Z",
+        "city": "Moura",
+        "street": "Praça Sacadura Cabra 1",
+        "postcode": "1600-233",
+        "latitude": "38.143166",
+        "longitude": "-7.450222",
+        "latlon": "38.143166 -7.450222",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-MRA-90001",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EMRA-90001-1",
+                        "evse_id": "PT*EDP*EMRA*90001*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EMRA-90001-2",
+                        "evse_id": "PT*EDP*EMRA*90001*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FCT-CTB-00087": {
+        "name": "Castelo Branco - Mina",
+        "lastUpdated": "2026-10-21T11:56:11.232Z",
+        "city": "Castelo Branco",
+        "street": "Rua da Mina Castelo Branco",
+        "postcode": "6001-909",
+        "latitude": "39.831074",
+        "longitude": "-7.495706",
+        "latlon": "39.831074 -7.495706",
+        "opc": "FCTO",
+        "opc_name": "Iberdrola | bp pulse",
+        "stations": [
+            {
+                "station_id": "FCT-CTB-00087",
+                "payment": [
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "731",
+                        "evse_id": "PT*FCT*E*CTB*00087*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "732",
+                        "evse_id": "PT*FCT*E*CTB*00087*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "200000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-STS-00056": {
+        "name": "STS-00056",
+        "lastUpdated": "2026-10-21T11:50:51.222Z",
+        "city": "Santo Tirso",
+        "street": "Av. de Sousa Cruz, 4780-549 Santo Tirso",
+        "postcode": "4780-549",
+        "latitude": "41.342552",
+        "longitude": "-8.478196",
+        "latlon": "41.342552 -8.478196",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-STS-00056",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "STS-00056-01",
+                        "evse_id": "PT*GLP*ESTS*00056*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STS-00056-02",
+                        "evse_id": "PT*GLP*ESTS*00056*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-STS-00059": {
+        "name": "STS-00059",
+        "lastUpdated": "2026-10-21T19:00:23.334Z",
+        "city": "Santo Tirso",
+        "street": "Av. de Sousa Cruz, 4780-549 Santo Tirso",
+        "postcode": "4780-549",
+        "latitude": "41.342552",
+        "longitude": "-8.478196",
+        "latlon": "41.342552 -8.478196",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-STS-00059",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "STS-00059-01",
+                        "evse_id": "PT*GLP*ESTS*00059*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "STS-00059-02",
+                        "evse_id": "PT*GLP*ESTS*00059*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-ALM-00113": {
+        "name": "ALM-00113",
+        "lastUpdated": "2026-10-22T02:58:58.758Z",
+        "city": "Almada",
+        "street": " PATIO DA MARGUEIRA 9966 EC CACILHAS 2800-294",
+        "postcode": "2800-294",
+        "latitude": "38.683983",
+        "longitude": "-9.150287",
+        "latlon": "38.683983 -9.150287",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "stations": [
+            {
+                "station_id": "MOT-ALM-00113",
+                "payment": [
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ALM-00113-01",
+                        "evse_id": "PT*MOT*E*ALM*00113*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ALM-00113-02",
+                        "evse_id": "PT*MOT*E*ALM*00113*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "150000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-FAR-00110": {
+        "name": "FAR-00110",
+        "lastUpdated": "2026-10-21T08:49:54.931Z",
+        "city": "Faro",
+        "street": "N125 Km 103",
+        "postcode": "8009-126",
+        "latitude": "37.027733",
+        "longitude": "-7.943616",
+        "latlon": "37.027733 -7.943616",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "stations": [
+            {
+                "station_id": "MOT-FAR-00110",
+                "payment": [
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "FAR-00110-01",
+                        "evse_id": "PT*MOT*E*FAR*00110*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "FAR-00110-02",
+                        "evse_id": "PT*MOT*E*FAR*00110*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MOT-TVD-00081": {
+        "name": "TVD-00081",
+        "lastUpdated": "2026-10-22T02:59:58.163Z",
+        "city": "Torres Vedras",
+        "street": "Av. Joaquim Agostinho",
+        "postcode": "2560-521",
+        "latitude": "39.11306",
+        "longitude": "-9.36109",
+        "latlon": "39.11306 -9.36109",
+        "opc": "MOTA",
+        "opc_name": "Mota-Engil Renewing",
+        "stations": [
+            {
+                "station_id": "MOT-TVD-00081",
+                "payment": [
+                    "debitCard",
+                    "creditCard",
+                    "apps",
+                    "rfid",
+                    "nfc"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "TVD-00081-01",
+                        "evse_id": "PT*MOT*E*TVD*00081*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "TVD-00081-02",
+                        "evse_id": "PT*MOT*E*TVD*00081*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "400.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
