@@ -1,0 +1,160 @@
+{
+    "EPK-LSB-01548": {
+        "name": "Telpark - Castil",
+        "lastUpdated": "2026-10-23T02:55:17.855Z",
+        "city": "Lisboa",
+        "street": "Rua Castilho, 39",
+        "postcode": "1269-007",
+        "latitude": "38.723225",
+        "longitude": "-9.152106",
+        "latlon": "38.723225 -9.152106",
+        "opc": "EPKS",
+        "opc_name": "Telpark",
+        "stations": [
+            {
+                "station_id": "EPK-LSB-01548",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "0709373F-2A3E-4F7C-ACE4-E9E04826E5DB",
+                        "evse_id": "PT*EPK*ELSB01126*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "2491A096-26F5-4603-883A-370082E01C31",
+                        "evse_id": "PT*EPK*ELSB00436*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "56814B60-A1B1-494F-BD7E-D6016913F7FF",
+                        "evse_id": "PT*EPK*ELSB01125*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "7D660E10-1502-4FFA-9CF3-515C398A4CAC",
+                        "evse_id": "PT*EPK*ELSB00435*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "DACD0D48-8439-4098-851F-25742017442F",
+                        "evse_id": "PT*EPK*ELSB01462*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "43.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EC3A0C66-57DD-4003-99E6-A6DBB740C322",
+                        "evse_id": "PT*EPK*ELSB01463*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "43.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-CBR-00164": {
+        "name": "CBR-00164",
+        "lastUpdated": "2026-10-23T00:16:45.259Z",
+        "city": "Coimbra",
+        "street": "(N111) (ACESSO A31) PONTE DE EIRAS - ADÉMIA",
+        "postcode": "3020-324",
+        "latitude": "40.251137",
+        "longitude": "-8.44202",
+        "latlon": "40.251137 -8.44202",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-CBR-00164",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CBR-00164-01",
+                        "evse_id": "PT*GLP*ECBR*00164*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CBR-00164-02",
+                        "evse_id": "PT*GLP*ECBR*00164*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -51024,3 +51024,506 @@ Modificados:
         }
     }
 }
+2026-10-23 05:54:59
+Adicionados:
+{
+    "EPK-LSB-01548": {
+        "name": "Telpark - Castil",
+        "lastUpdated": "2026-10-23T02:55:17.855Z",
+        "city": "Lisboa",
+        "street": "Rua Castilho, 39",
+        "postcode": "1269-007",
+        "latitude": "38.723225",
+        "longitude": "-9.152106",
+        "latlon": "38.723225 -9.152106",
+        "opc": "EPKS",
+        "opc_name": "Telpark",
+        "stations": [
+            {
+                "station_id": "EPK-LSB-01548",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "0709373F-2A3E-4F7C-ACE4-E9E04826E5DB",
+                        "evse_id": "PT*EPK*ELSB01126*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "2491A096-26F5-4603-883A-370082E01C31",
+                        "evse_id": "PT*EPK*ELSB00436*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "56814B60-A1B1-494F-BD7E-D6016913F7FF",
+                        "evse_id": "PT*EPK*ELSB01125*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "7D660E10-1502-4FFA-9CF3-515C398A4CAC",
+                        "evse_id": "PT*EPK*ELSB00435*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "DACD0D48-8439-4098-851F-25742017442F",
+                        "evse_id": "PT*EPK*ELSB01462*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "43.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "EC3A0C66-57DD-4003-99E6-A6DBB740C322",
+                        "evse_id": "PT*EPK*ELSB01463*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "1000.0",
+                                "max_current": "43.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-CBR-00164": {
+        "name": "CBR-00164",
+        "lastUpdated": "2026-10-23T00:16:45.259Z",
+        "city": "Coimbra",
+        "street": "(N111) (ACESSO A31) PONTE DE EIRAS - ADÉMIA",
+        "postcode": "3020-324",
+        "latitude": "40.251137",
+        "longitude": "-8.44202",
+        "latlon": "40.251137 -8.44202",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-CBR-00164",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "CBR-00164-01",
+                        "evse_id": "PT*GLP*ECBR*00164*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "CBR-00164-02",
+                        "evse_id": "PT*GLP*ECBR*00164*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "100000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Modificados:
+{
+    "EDP-PRT-00223": {
+        "latlon": {
+            "old": "41.144783 -8.625276",
+            "new": "41.144817 -8.627674"
+        },
+        "longitude": {
+            "old": "-8.625276",
+            "new": "-8.627674"
+        },
+        "name": {
+            "old": "NEYA Porto Hotel 1",
+            "new": "NEYA Porto Hotel - 1"
+        },
+        "latitude": {
+            "old": "41.144783",
+            "new": "41.144817"
+        }
+    },
+    "EPK-LSB-01477": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "12": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "400.0",
+                                    "new": "230.0"
+                                },
+                                "max_power": {
+                                    "old": "0.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "EPK-LSB-01479": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "3": {
+                        "connectors": {
+                            "0": {
+                                "max_power": {
+                                    "old": "0.0",
+                                    "new": "120000.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLG-VLG-00017": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "GLP-STS-00056": {
+        "latlon": {
+            "old": "41.342552 -8.478196",
+            "new": "41.34334 -8.476908"
+        },
+        "longitude": {
+            "old": "-8.478196",
+            "new": "-8.476908"
+        },
+        "latitude": {
+            "old": "41.342552",
+            "new": "41.34334"
+        }
+    },
+    "GLP-STS-00059": {
+        "latlon": {
+            "old": "41.342552 -8.478196",
+            "new": "41.34334 -8.476908"
+        },
+        "longitude": {
+            "old": "-8.478196",
+            "new": "-8.476908"
+        },
+        "latitude": {
+            "old": "41.342552",
+            "new": "41.34334"
+        }
+    },
+    "GLP-TVD-00026": {
+        "opc_name": {
+            "old": "Galp Power",
+            "new": "Galp Power OPC"
+        }
+    },
+    "HGP-LLE-HOTEL-DONA-FILIPA-C01": {
+        "city": {
+            "old": "Almancil - Loulé",
+            "new": "Loulé"
+        }
+    },
+    "HGP-LLE-HOTEL-DONA-FILIPA-C02": {
+        "city": {
+            "old": "Almancil - Loulé",
+            "new": "Loulé"
+        }
+    },
+    "HGP-LLE-HOTEL-DONA-FILIPA-C03": {
+        "city": {
+            "old": "Almancil - Loulé",
+            "new": "Loulé"
+        }
+    },
+    "HGP-MCN-HOTEL-CASAL_SILVA-C02": {
+        "city": {
+            "old": "Magrelos",
+            "new": "Marco de Canaveses"
+        }
+    },
+    "HGP-VRS-HOTEL-MONTE-REI-C01": {
+        "postcode": {
+            "old": "8901-907",
+            "new": null
+        },
+        "city": {
+            "old": "Vila Nova de Cacela",
+            "new": "Vila Real de Santo António"
+        },
+        "latlon": {
+            "old": "37.20815 -7.55111",
+            "new": "37.208103 -7.551082"
+        },
+        "longitude": {
+            "old": "-7.55111",
+            "new": "-7.551082"
+        },
+        "stations": {
+            "0": {
+                "evses": {
+                    "0": {
+                        "connectors": {
+                            "0": {
+                                "max_current": {
+                                    "old": "16.0",
+                                    "new": "32.0"
+                                },
+                                "max_power": {
+                                    "old": "11000.0",
+                                    "new": "22000.0"
+                                }
+                            }
+                        },
+                        "evse_code": {
+                            "old": "175",
+                            "new": "176"
+                        },
+                        "evse_id": {
+                            "old": "PT*HGP*E175",
+                            "new": "PT*HGP*E176"
+                        }
+                    },
+                    "removed_items": [
+                        {
+                            "evse_code": "176",
+                            "evse_id": "PT*HGP*E176",
+                            "connectors": [
+                                {
+                                    "connector_type": "iec62196T2",
+                                    "charging_mode": "mode3AC3p",
+                                    "connector_format": "cableMode3",
+                                    "max_power": "22000.0",
+                                    "voltage": "400.0",
+                                    "max_current": "32.0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "latitude": {
+            "old": "37.20815",
+            "new": "37.208103"
+        }
+    },
+    "HGP-VRS-HOTEL-ROBINSON-C01": {
+        "city": {
+            "old": "Vila Nova de Cacela",
+            "new": "Vila Real de Santo António"
+        }
+    },
+    "HGP-VRS-HOTEL-ROBINSON-C02": {
+        "city": {
+            "old": "Vila Nova de Cacela",
+            "new": "Vila Real de Santo António"
+        }
+    },
+    "MOT-ALM-00113": {
+        "latlon": {
+            "old": "38.683983 -9.150287",
+            "new": "38.683796 -9.150256"
+        },
+        "longitude": {
+            "old": "-9.150287",
+            "new": "-9.150256"
+        },
+        "latitude": {
+            "old": "38.683983",
+            "new": "38.683796"
+        }
+    },
+    "MOT-FAR-00108": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00109": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00110": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00111": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00112": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00113": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00114": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    },
+    "MOT-FAR-00115": {
+        "latlon": {
+            "old": "37.027733 -7.943616",
+            "new": "37.02799 -7.9438987"
+        },
+        "longitude": {
+            "old": "-7.943616",
+            "new": "-7.9438987"
+        },
+        "latitude": {
+            "old": "37.027733",
+            "new": "37.02799"
+        }
+    }
+}
