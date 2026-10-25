@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-24T05:18:51Z",
-    "timestamp_areas_base": "2026-10-24T01:11:36Z",
+    "timestamp_osm_base": "2026-10-25T05:36:59Z",
+    "timestamp_areas_base": "2026-10-24T23:35:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6565,7 +6565,9 @@
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC50",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -41229,7 +41231,9 @@
     "charging_station:output": "90 kW",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 90",
     "motorcar": "yes",
     "name": "VIS-00137",
     "network": "Mobi.E",
@@ -62823,6 +62827,7 @@
     "authentication:none": "no",
     "brand": "SEGMA",
     "capacity": "2",
+    "check_date": "2026-10-24",
     "email": "segma@segma.pt",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -71505,22 +71510,21 @@
 {
   "type": "node",
   "id": 8792838810,
-  "lat": 41.1315558,
-  "lon": -8.2944487,
+  "lat": 41.1312161,
+  "lon": -8.2941480,
   "tags": {
     "access": "yes",
     "addr:city": "Penafiel",
     "addr:postcode": "4575-126",
     "addr:street": "Avenida de Cabeça Santa",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:none": "no",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
     "fee": "yes",
+    "man_made": "charge_point",
     "motorcar": "yes",
-    "name": "Continente Bom Dia Cabeça Santa",
     "network": "Continente Plug&Charge",
     "opening_hours": "24/7",
     "operator": "Continente",
@@ -75172,45 +75176,10 @@
   "lat": 38.5155546,
   "lon": -8.5868014,
   "tags": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Galp electric",
-    "brand:wikidata": "Q135275372",
-    "capacity": "2",
-    "charging_station:output": "93 kW",
-    "disused:amenity": "charging_station",
-    "email": "veiculoeletrico@galp.com",
-    "fee": "yes",
-    "fixme": "Confirmar se ainda existe",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Galp Geste",
-    "operator:wikidata": "Q1492739",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 249 249",
-    "ref": "ASL-00009",
-    "ref:EU:EVSE": "PT*GLG*EASL*00009*01;PT*GLG*EASL*00009*02;PT*GLG*EASL*00009*03",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_cable": "1",
-    "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43 kW",
-    "socket:type2_cable:voltage": "400",
-    "socket:type2_combo": "1",
-    "socket:type2_combo:current": "125",
-    "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt"
+    "old_operator": "Galp Geste",
+    "old_ref": "ASL-00009",
+    "old_ref:EU:EVSE": "PT*GLG*EASL*00009*01;PT*GLG*EASL*00009*02;PT*GLG*EASL*00009*03",
+    "removed:amenity": "charging_station"
   }
 },
 {
@@ -96022,6 +95991,7 @@
   "tags": {
     "access": "yes",
     "addr:city": "Vizela",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -96029,7 +95999,6 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charging_station:output": "60 kW",
-    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "manufacturer": "Hellonext",
@@ -107636,31 +107605,10 @@
   "lat": 41.3614690,
   "lon": -8.4079800,
   "tags": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "High Green Power",
-    "capacity": "1",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "High Green Power",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "STS-00030",
-    "ref:EU:EVSE": "PT*HGP*E*STS*00030*01",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/"
+    "old_operator": "High Green Power",
+    "old_ref": "STS-00030",
+    "old_ref:EU:EVSE": "PT*HGP*E*STS*00030*01",
+    "removed:man_made": "charge_point"
   }
 },
 {
@@ -122042,7 +121990,7 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "charge_point:output": "200 kW",
+    "charge_point:output": "100 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "man_made": "charge_point",
@@ -151738,8 +151686,9 @@
     "charging_station:output": "120 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
-    "fixme": "Verificar a corrente máxima na chapa de características e o modelo de carregador, verificar se aceita pagamento por cartão bancário",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_200",
     "motorcar": "yes",
     "name": "BNV-00021",
     "network": "Mobi.E",
@@ -151757,7 +151706,7 @@
     "ref": "BNV-00021",
     "ref:EU:EVSE": "PT*ATL*EBNV*00021*1;PT*ATL*EBNV*00021*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
+    "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "60 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
@@ -200317,8 +200266,8 @@
 {
   "type": "node",
   "id": 12312704735,
-  "lat": 37.1198112,
-  "lon": -8.6728632,
+  "lat": 37.1198288,
+  "lon": -8.6728645,
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
@@ -236585,9 +236534,10 @@
     "capacity": "2",
     "charge_point:output": "200 kW",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Station Charger C501",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_operator": "InstaVolt",
@@ -285083,7 +285033,6 @@
     "charging_station:output": "300 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
-    "fixme": "Verificar se aceita pagamento com cartão bancário",
     "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
     "model": "HYC_300",
@@ -285094,7 +285043,7 @@
     "operator": "Charging Together",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
@@ -288758,8 +288707,8 @@
 {
   "type": "node",
   "id": 12949715835,
-  "lat": 41.7271350,
-  "lon": -8.1625640,
+  "lat": 41.7271390,
+  "lon": -8.1625975,
   "tags": {
     "access": "yes",
     "amenity": "charging_station",
@@ -332670,31 +332619,10 @@
   "lat": 41.3614689,
   "lon": -8.4079729,
   "tags": {
-    "access": "yes",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "High Green Power",
-    "capacity": "1",
-    "disused:man_made": "charge_point",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "High Green Power",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "ref": "STS-00031",
-    "ref:EU:EVSE": "PT*HGP*E*STS*00031*01",
-    "socket:type2": "1",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt/"
+    "old_operator": "High Green Power",
+    "old_ref": "STS-00031",
+    "old_ref:EU:EVSE": "PT*HGP*E*STS*00031*01",
+    "removed:man_made": "charge_point"
   }
 },
 {
@@ -373587,6 +373515,7 @@
     "model": "HYC_400",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref": "PLM-00087",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -373595,7 +373524,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "PLM-00087;PLM-00089",
+    "ref": "PLM-00089",
     "ref:EU:EVSE": "PT*FCT*E365*1;PT*FCT*E365*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
@@ -373624,6 +373553,7 @@
     "model": "HYC_400",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref": "PLM-00088",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -373632,7 +373562,7 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
-    "ref": "PLM-00086;PLM-00088",
+    "ref": "PLM-00086",
     "ref:EU:EVSE": "PT*FCT*E364*1;PT*FCT*E364*2",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
@@ -381879,12 +381809,12 @@
   "lon": -9.2071570,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "REMO",
     "capacity": "2",
     "charging_station:output": "50 kW",
-    "disused:amenity": "charging_station",
     "email": "charging@me-remo.com",
     "fee": "yes",
     "manufacturer": "Alpitronic",
@@ -383263,8 +383193,8 @@
 {
   "type": "node",
   "id": 13825884440,
-  "lat": 37.1195857,
-  "lon": -8.6734110,
+  "lat": 37.1195884,
+  "lon": -8.6735263,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -408100,12 +408030,12 @@
   "lon": -9.3381807,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "REMO",
     "capacity": "2",
-    "construction:amenity": "charging_station",
     "fee": "yes",
     "manufacturer": "Volt-E",
     "maxstay": "unlimited",
@@ -422507,7 +422437,6 @@
     "capacity": "2",
     "charge_point:output": "82 kW",
     "fee": "yes",
-    "fixme": "Move to exact location",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -422548,7 +422477,7 @@
     "capacity": "2",
     "charge_point:output": "120 kW",
     "fee": "yes",
-    "fixme": "Move to exact location, check maximum current",
+    "fixme": "Verificar a corrente máxima na chapa de características",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -424568,7 +424497,7 @@
     "brand": "Atlante",
     "brand:wikidata": "Q126913632",
     "capacity": "2",
-    "charge_point:output": "200 kW",
+    "charge_point:output": "100 kW",
     "email": "support.portugal@atlante.energy",
     "fee": "yes",
     "man_made": "charge_point",
@@ -425935,74 +425864,6 @@
     "socket:type2_combo:output": "50 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/"
-  }
-},
-{
-  "type": "node",
-  "id": 14286378037,
-  "lat": 38.2169314,
-  "lon": -8.5578751,
-  "tags": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "fixme": "Mover para a localização exacta",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "GDL-00081",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "400 kW",
-    "socket:type2_combo:voltage": "1000"
-  }
-},
-{
-  "type": "node",
-  "id": 14286378038,
-  "lat": 38.2168855,
-  "lon": -8.5578396,
-  "tags": {
-    "access": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "2",
-    "charge_point:output": "400 kW",
-    "construction:man_made": "charge_point",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "fixme": "Mover para a localização exacta",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "payment:app": "yes",
-    "payment:cards": "yes",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 917 576",
-    "ref": "GDL-00082",
-    "socket:type2_combo": "2",
-    "socket:type2_combo:current": "600",
-    "socket:type2_combo:output": "400 kW",
-    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -427893,6 +427754,7 @@
   "lon": -7.9295383,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -427900,10 +427762,11 @@
     "brand:wikidata": "Q62530421",
     "capacity": "2",
     "charging_station:output": "150 kW",
-    "construction:amenity": "charging_station",
     "email": "electric@prioenergy.com",
     "fee": "yes",
+    "manufacturer": "Hellonext",
     "maxstay": "unlimited",
+    "model": "H2 150",
     "motorcar": "yes",
     "name": "VIS-00136",
     "network": "Mobi.E",
@@ -427911,7 +427774,7 @@
     "operator": "Prio.E",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 100 303",
@@ -427993,6 +427856,167 @@
     "socket:type2_combo:current": "185",
     "socket:type2_combo:output": "120 kW",
     "socket:type2_combo:voltage": "1000"
+  }
+},
+{
+  "type": "node",
+  "id": 14316400102,
+  "lat": 41.1792155,
+  "lon": -8.5948015,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402001,
+  "lat": 41.1792550,
+  "lon": -8.5954386,
+  "tags": {
+    "amenity": "charging_station",
+    "operator": "INESCTEC"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402002,
+  "lat": 41.1792091,
+  "lon": -8.5946758,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402101,
+  "lat": 41.1792297,
+  "lon": -8.5950465,
+  "tags": {
+    "amenity": "charging_station",
+    "operator": "INESCTEC"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402102,
+  "lat": 41.1792566,
+  "lon": -8.5953476,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402201,
+  "lat": 41.1792518,
+  "lon": -8.5952545,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402301,
+  "lat": 41.1792396,
+  "lon": -8.5951576,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402401,
+  "lat": 41.1792066,
+  "lon": -8.5945640,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402402,
+  "lat": 41.1791900,
+  "lon": -8.5943089,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316402501,
+  "lat": 41.1791977,
+  "lon": -8.5944378,
+  "tags": {
+    "amenity": "charging_station"
+  }
+},
+{
+  "type": "node",
+  "id": 14316954504,
+  "lat": 41.1312164,
+  "lon": -8.2941879,
+  "tags": {
+    "access": "yes",
+    "addr:city": "Penafiel",
+    "addr:postcode": "4575-126",
+    "addr:street": "Avenida de Cabeça Santa",
+    "authentication:app": "yes",
+    "authentication:none": "no",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "2",
+    "fee": "yes",
+    "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
+    "model": "HYC_50",
+    "motorcar": "yes",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "no",
+    "phone": "+351 210 19 19 19",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
+    "socket:type2_combo:voltage": "1000",
+    "website": "https://plugcharge.continente.pt/"
+  }
+},
+{
+  "type": "node",
+  "id": 14316978579,
+  "lat": 41.6942115,
+  "lon": -8.3435809,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Galp electric",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "TBR-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Galp Power",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 301 303",
+    "ref": "TBR-?????",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
   }
 },
 {
@@ -455140,33 +455164,6 @@
 },
 {
   "type": "way",
-  "id": 1442820312,
-  "nodes": [
-    13238977548,
-    13238977551,
-    13238977545,
-    13238977544,
-    13238977548
-  ],
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "High Green Power",
-    "capacity": "2",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "STS-00030/31",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "High Green Power",
-    "parking:fee": "no",
-    "ref": "STS-00030;STS-00031",
-    "website": "https://www.mobie.pt/"
-  }
-},
-{
-  "type": "way",
   "id": 1442821992,
   "nodes": [
     13239012716,
@@ -474915,7 +474912,7 @@
     "operator": "Charging Together",
     "parking:fee": "no",
     "phone": "+351 800 917 576",
-    "ref": "PLM-00085;PLM-00086;PLM-00087;PLM-00088;PLM-00089",
+    "ref": "PLM-00085;PLM-00086;PLM-00089",
     "website": "https://www.mobie.pt"
   }
 },
@@ -487776,35 +487773,6 @@
 },
 {
   "type": "way",
-  "id": 1568470611,
-  "nodes": [
-    14286378040,
-    14286378039,
-    14286378036,
-    14286378041,
-    14286378040
-  ],
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "brand": "Iberdrola bp pulse",
-    "capacity": "4",
-    "charging_station:output": "800 kW",
-    "email": "suporte@chargingtogether.pt",
-    "fee": "yes",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "GDL-00081/82",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Charging Together",
-    "parking:fee": "no",
-    "phone": "+351 800 917 576",
-    "ref": "GDL-00081;GDL-00082"
-  }
-},
-{
-  "type": "way",
   "id": 1568618816,
   "nodes": [
     14287932197,
@@ -488238,6 +488206,38 @@
     "phone": "+351 800 020 940",
     "ref": "VIS-00119;VIS-00131",
     "website": "https://me-remo.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 1571476049,
+  "nodes": [
+    14316954509,
+    14316954513,
+    14316954503,
+    14316954502,
+    14316954509
+  ],
+  "tags": {
+    "access": "yes",
+    "addr:city": "Penafiel",
+    "addr:postcode": "4575-126",
+    "addr:street": "Avenida de Cabeça Santa",
+    "amenity": "charging_station",
+    "brand": "Continente Plug&Charge",
+    "brand:wikidata": "Q2995683",
+    "capacity": "4",
+    "fee": "yes",
+    "motorcar": "yes",
+    "name": "Continente Bom Dia Cabeça Santa",
+    "network": "Continente Plug&Charge",
+    "opening_hours": "24/7",
+    "operator": "Continente",
+    "operator:wikidata": "Q2995683",
+    "parking:fee": "no",
+    "phone": "+351 210 19 19 19",
+    "ref": "4251PL0001",
+    "website": "https://plugcharge.continente.pt/"
   }
 },
 {
@@ -501403,30 +501403,6 @@
   "id": 12645911024,
   "lat": 38.2164978,
   "lon": -8.5580740
-},
-{
-  "type": "node",
-  "id": 14286378036,
-  "lat": 38.2169278,
-  "lon": -8.5579458
-},
-{
-  "type": "node",
-  "id": 14286378039,
-  "lat": 38.2168381,
-  "lon": -8.5578759
-},
-{
-  "type": "node",
-  "id": 14286378040,
-  "lat": 38.2168677,
-  "lon": -8.5578143
-},
-{
-  "type": "node",
-  "id": 14286378041,
-  "lat": 38.2169574,
-  "lon": -8.5578841
 },
 {
   "type": "node",
@@ -534838,30 +534814,6 @@
 },
 {
   "type": "node",
-  "id": 13238977544,
-  "lat": 41.3614728,
-  "lon": -8.4080356
-},
-{
-  "type": "node",
-  "id": 13238977545,
-  "lat": 41.3614722,
-  "lon": -8.4079175
-},
-{
-  "type": "node",
-  "id": 13238977548,
-  "lat": 41.3614441,
-  "lon": -8.4080359
-},
-{
-  "type": "node",
-  "id": 13238977551,
-  "lat": 41.3614435,
-  "lon": -8.4079178
-},
-{
-  "type": "node",
   "id": 13374611573,
   "lat": 41.3647729,
   "lon": -8.4017411
@@ -538555,6 +538507,30 @@
   "id": 13332645658,
   "lat": 40.9861464,
   "lon": -7.6218142
+},
+{
+  "type": "node",
+  "id": 14316954502,
+  "lat": 41.1312592,
+  "lon": -8.2941923
+},
+{
+  "type": "node",
+  "id": 14316954503,
+  "lat": 41.1311725,
+  "lon": -8.2941923
+},
+{
+  "type": "node",
+  "id": 14316954509,
+  "lat": 41.1312592,
+  "lon": -8.2941143
+},
+{
+  "type": "node",
+  "id": 14316954513,
+  "lat": 41.1311725,
+  "lon": -8.2941143
 },
 {
   "type": "node",
