@@ -2,6 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
+    "timestamp_osm_base": "2026-10-26T09:54:54Z",
+    "timestamp_areas_base": "2026-10-26T04:02:47Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -49986,7 +49988,7 @@
     "ref:EU:EVSE": "PT*ATL*EALR*80001*1;PT*ATL*EALR*80001*2",
     "socket:type2": "2",
     "socket:type2:current": "10",
-    "socket:type2:output": "8 kW",
+    "socket:type2:output": "6.9 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt"
   }
@@ -86715,14 +86717,14 @@
     "ref:EU:EVSE": "PT*MOO*E*LRA*00047*01;PT*MOO*E*LRA*00047*02;PT*MOO*E*LRA*00047*03",
     "socket:chademo": "1",
     "socket:chademo:current": "120",
-    "socket:chademo:output": "75 kW",
+    "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "150",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "75 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
@@ -92879,7 +92881,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt"
   }
 },
@@ -118662,7 +118664,7 @@
     "ref": "LNH-00012",
     "ref:EU:EVSE": "PT*ATL*ELNH*00012*1;PT*ATL*ELNH*00012*2",
     "socket:type2": "2",
-    "socket:type2:current": "30",
+    "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
@@ -121064,10 +121066,13 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "charge_point:output": "200 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Satellite",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -126957,7 +126962,9 @@
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Satellite",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -126972,8 +126979,8 @@
     "ref": "CTB-00027",
     "ref:EU:EVSE": "PT*HRZ*E*CTB*00027*04;PT*HRZ*E*CTB*00027*05",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "300",
-    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:current": "375",
+    "socket:type2_combo:output": "180 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
   }
@@ -138950,7 +138957,7 @@
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "100 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt"
   }
 },
@@ -188050,8 +188057,8 @@
 {
   "type": "node",
   "id": 12101523361,
-  "lat": 39.8128615,
-  "lon": -7.5195614,
+  "lat": 39.8128728,
+  "lon": -7.5194977,
   "tags": {
     "access": "customers",
     "amenity": "charging_station",
@@ -188075,7 +188082,7 @@
     "ref": "MOBI-CTB-00004",
     "ref:EU:EVSE": "PT*MOO*E*MOBI*CTB*00004*01",
     "socket:type2_combo": "1",
-    "socket:type2_combo:current": "40",
+    "socket:type2_combo:current": "60",
     "socket:type2_combo:output": "24 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
@@ -237156,7 +237163,7 @@
     "phone": "+351 800 180 292",
     "ref": "BRG-00069",
     "ref:EU:EVSE": "PT*HRZ*E*BRG*00069*01;PT*HRZ*E*BRG*00069*02",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "500",
@@ -289933,7 +289940,9 @@
     "level": "-3",
     "location": "underground",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "LSB-00917",
@@ -289949,7 +289958,7 @@
     "ref": "LSB-01482",
     "ref:EU:EVSE": "PT*EPK*ELSB00917*1;PT*EPK*ELSB00917*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "144",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/"
@@ -289974,7 +289983,9 @@
     "level": "-3",
     "location": "underground",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "LSB-00916",
@@ -289990,9 +290001,9 @@
     "ref": "LSB-01482",
     "ref:EU:EVSE": "PT*EPK*ELSB00916*1;PT*EPK*ELSB00916*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "144",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "100 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/"
   }
 },
@@ -291465,7 +291476,9 @@
     "level": "-3",
     "location": "underground",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "LSB-00919",
@@ -291481,7 +291494,7 @@
     "ref": "LSB-01482",
     "ref:EU:EVSE": "PT*EPK*ELSB00919*1;PT*EPK*ELSB00919*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "144",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/"
@@ -291506,7 +291519,9 @@
     "level": "-3",
     "location": "underground",
     "man_made": "charge_point",
+    "manufacturer": "Alpitronic",
     "maxstay": "unlimited",
+    "model": "HYC_300",
     "motorcar": "yes",
     "network": "Mobi.E",
     "old_ref": "LSB-00918",
@@ -291522,7 +291537,7 @@
     "ref": "LSB-01482",
     "ref:EU:EVSE": "PT*EPK*ELSB00918*1;PT*EPK*ELSB00918*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "144",
+    "socket:type2_combo:current": "250",
     "socket:type2_combo:output": "100 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.telpark.com/pt/carregamento-eletrico/"
@@ -321399,7 +321414,9 @@
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Station Charger C501",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -323918,7 +323935,7 @@
     "socket:type2": "1",
     "socket:type2:current": "63",
     "socket:type2:output": "43 kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "50 kW",
@@ -329535,10 +329552,13 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
+    "charge_point:output": "200 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "man_made": "charge_point",
+    "manufacturer": "Kempower",
     "maxstay": "unlimited",
+    "model": "Satellite",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -329553,7 +329573,7 @@
     "ref": "VRL-00015",
     "ref:EU:EVSE": "PT*HRZ*E*VRL*00015*01;PT*HRZ*E*VRL*00015*02",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
+    "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150 kW",
     "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
@@ -342742,7 +342762,7 @@
     "socket:chademo:output": "50 kW",
     "socket:chademo:voltage": "500",
     "socket:type2": "1",
-    "socket:type2:current": "22",
+    "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
     "socket:type2_combo": "1",
@@ -361271,7 +361291,7 @@
     "ref:EU:EVSE": "PT*EDP*EVCD*00081*1;PT*EDP*EVCD*00081*2",
     "socket:type2": "2",
     "socket:type2:current": "30",
-    "socket:type2:output": "22 kW",
+    "socket:type2:output": "20.7 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -361307,7 +361327,7 @@
     "ref:EU:EVSE": "PT*EDP*EVCD*00080*1;PT*EDP*EVCD*00080*2",
     "socket:type2": "2",
     "socket:type2:current": "30",
-    "socket:type2:output": "22 kW",
+    "socket:type2:output": "20.7 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -362966,7 +362986,7 @@
     "ref:EU:EVSE": "PT*EDP*EVCD*00082*1;PT*EDP*EVCD*00082*2",
     "socket:type2": "2",
     "socket:type2:current": "30",
-    "socket:type2:output": "22 kW",
+    "socket:type2:output": "20.7 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -367960,12 +367980,14 @@
     "bus": "yes",
     "capacity": "2",
     "charge_point:output": "300 kW",
+    "manufacturer": "Siemens",
     "maxstay": "unlimited",
+    "model": "SICHARGE D 300",
     "opening_hours": "24/7",
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -367982,12 +368004,14 @@
     "bus": "yes",
     "capacity": "2",
     "charge_point:output": "300 kW",
+    "manufacturer": "Siemens",
     "maxstay": "unlimited",
+    "model": "SICHARGE D Dispenser",
     "opening_hours": "24/7",
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -370216,7 +370240,7 @@
     "ref:EU:EVSE": "PT*EDP*EVCD*00079*1;PT*EDP*EVCD*00079*2",
     "socket:type2": "2",
     "socket:type2:current": "30",
-    "socket:type2:output": "22 kW",
+    "socket:type2:output": "20.7 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -378481,12 +378505,14 @@
     "bus": "yes",
     "capacity": "2",
     "charge_point:output": "300 kW",
+    "manufacturer": "Siemens",
     "maxstay": "unlimited",
+    "model": "SICHARGE D Dispenser",
     "opening_hours": "24/7",
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -378503,12 +378529,14 @@
     "bus": "yes",
     "capacity": "2",
     "charge_point:output": "300 kW",
+    "manufacturer": "Siemens",
     "maxstay": "unlimited",
+    "model": "SICHARGE D 300",
     "opening_hours": "24/7",
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -399529,7 +399557,7 @@
     "socket:type2": "2",
     "socket:type2:current": "16",
     "socket:type2:output": "3.7 kW",
-    "socket:type2:voltage": "240",
+    "socket:type2:voltage": "230",
     "website": "https://www.galp.com/"
   }
 },
@@ -399592,7 +399620,7 @@
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -399616,7 +399644,7 @@
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -399640,7 +399668,7 @@
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -399664,7 +399692,7 @@
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -399688,7 +399716,7 @@
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -399712,7 +399740,7 @@
     "operator": "REMO",
     "psv": "yes",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "250",
+    "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000"
   }
@@ -417045,10 +417073,10 @@
     "brand:wikidata": "Q135275372",
     "capacity": "2",
     "charge_point:output": "120 kW",
-    "construction:man_made": "charge_point",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "fixme": "Confirmar os códigos dos postos",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -423785,7 +423813,7 @@
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "230",
+    "socket:type2:voltage": "400",
     "website": "https://www.edp.pt/"
   }
 },
@@ -425811,9 +425839,9 @@
     "ref": "LSB-01483",
     "ref:EU:EVSE": "PT*KLS*E281*1;PT*KLS*E282*1",
     "socket:type2_cable": "2",
-    "socket:type2_cable:current": "16",
-    "socket:type2_cable:output": "11 kW",
-    "socket:type2_cable:voltage": "230"
+    "socket:type2_cable:current": "11",
+    "socket:type2_cable:output": "7.4 kW",
+    "socket:type2_cable:voltage": "400"
   }
 },
 {
@@ -428521,6 +428549,31 @@
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "350 kW",
     "socket:type2_combo:voltage": "1000"
+  }
+},
+{
+  "type": "node",
+  "id": 14320518386,
+  "lat": 37.1660669,
+  "lon": -8.3013226,
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "authentication:membership_card": "yes",
+    "capacity": "2",
+    "fee": "yes",
+    "motorcar": "yes",
+    "socket:type2": "2",
+    "socket:type2:output": "22 kW"
+  }
+},
+{
+  "type": "node",
+  "id": 14320545801,
+  "lat": 41.1785604,
+  "lon": -8.5949302,
+  "tags": {
+    "amenity": "charging_station"
   }
 },
 {
@@ -433235,9 +433288,9 @@
     "parking:fee": "no",
     "ref": "GMR-00115;GMR-00116;GMR-00117;GMR-00118;GMR-00119;GMR-00120;GMR-00121;GMR-00122;GMR-00123",
     "socket:chademo": "4",
-    "socket:type2": "8",
+    "socket:type2": "10",
     "socket:type2_combo": "4",
-    "socket:type2_combo:output": "60"
+    "socket:type2_combo:output": "60000;150000"
   }
 },
 {
@@ -433276,10 +433329,11 @@
     "operator:wikidata": "Q123574541",
     "parking:fee": "no",
     "ref": "BRG-00067;BRG-00069",
+    "socket:chademo": "2",
     "socket:type2": "1",
-    "socket:type2:output": "22",
-    "socket:type2_combo": "8",
-    "socket:type2_combo:output": "150"
+    "socket:type2:output": "11000",
+    "socket:type2_combo": "6",
+    "socket:type2_combo:output": "150000;100000"
   }
 },
 {
@@ -452934,8 +452988,8 @@
     "parking:fee": "no",
     "phone": "+351 800 180 292",
     "ref": "CDN-00005",
-    "socket:type2": "3",
-    "socket:type2_combo": "4",
+    "socket:type2": "1",
+    "socket:type2_combo": "3",
     "website": "https://www.mobie.pt"
   }
 },
@@ -453069,7 +453123,7 @@
     "phone": "+351 800 180 292",
     "ref": "CBR-90003",
     "socket:type2": "4",
-    "socket:type2:output": "4",
+    "socket:type2:output": "3700",
     "website": "https://www.mobie.pt"
   }
 },
@@ -464499,7 +464553,7 @@
     "socket:type2": "2",
     "socket:type2:output": "22",
     "socket:type2_combo": "2;1",
-    "socket:type2_combo:output": "120;60",
+    "socket:type2_combo:output": "120000;60000",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -475011,13 +475065,13 @@
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
-    "operator": "EDP hotel rfid card",
+    "operator": "EDP",
     "operator:wikidata": "Q1341222",
     "parking:fee": "no",
     "phone": "+351 800 222 222",
     "ref": "TBR-00002;TBR-00003",
     "socket:type2": "2",
-    "socket:type2:output": "7",
+    "socket:type2:output": "7400",
     "website": "https://www.mobie.pt"
   }
 },
@@ -480135,7 +480189,7 @@
     "phone": "+351 800 100 303",
     "ref": "OLR-00004;OLR-00005",
     "socket:type2": "2",
-    "socket:type2:output": "22",
+    "socket:type2:output": "22000",
     "socket:type2_combo": "2",
     "website": "https://www.mobie.pt/"
   }
@@ -483914,7 +483968,6 @@
     "parking:fee": "no",
     "phone": "+351 800 296 929;+351 234 246 050",
     "ref": "SSB-00038;SSB-00039",
-    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
   }
 },
