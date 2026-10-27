@@ -1,0 +1,39 @@
+{
+    "HGP-VRS-HOTEL-MONTE-REI-C02": {
+        "name": "HighGreenPower",
+        "lastUpdated": "2026-10-26T14:05:55.878Z",
+        "city": "Vila Real de Santo António",
+        "street": "Sitio do Pocinho - Sesmarias",
+        "postcode": null,
+        "latitude": "37.208103",
+        "longitude": "-7.551082",
+        "latlon": "37.208103 -7.551082",
+        "opc": "HIGH",
+        "opc_name": "HighGreenPower",
+        "stations": [
+            {
+                "station_id": "HGP-VRS-HOTEL-MONTE-REI-C02",
+                "payment": [
+                    "apps",
+                    "website"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "176",
+                        "evse_id": "PT*HGP*E176",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
