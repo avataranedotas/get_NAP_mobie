@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-27T05:54:12Z",
-    "timestamp_areas_base": "2026-10-27T02:47:19Z",
+    "timestamp_osm_base": "2026-10-28T06:35:19Z",
+    "timestamp_areas_base": "2026-10-28T01:21:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16095,8 +16095,8 @@
 {
   "type": "node",
   "id": 8014359634,
-  "lat": 38.7632229,
-  "lon": -9.1090507,
+  "lat": 38.7632020,
+  "lon": -9.1090755,
   "tags": {
     "access": "yes",
     "addr:city": "Lisboa",
@@ -23235,6 +23235,7 @@
     "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
+    "fixme": "Verificar se ainda existe",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "FIG-90003",
@@ -47630,10 +47631,10 @@
 {
   "type": "node",
   "id": 8270246279,
-  "lat": 37.1535936,
-  "lon": -8.5508341,
+  "lat": 37.1535049,
+  "lon": -8.5508261,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -49100,7 +49101,7 @@
   "lat": 38.6626115,
   "lon": -9.2061822,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -56326,7 +56327,7 @@
   "lat": 41.1832623,
   "lon": -8.6537924,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -56363,7 +56364,7 @@
   "lat": 41.1832557,
   "lon": -8.6538496,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -60296,13 +60297,13 @@
   "lon": -9.3067174,
   "tags": {
     "access": "yes",
-    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Helexia",
     "brand:wikidata": "Q137294295",
     "capacity": "2",
+    "disused:amenity": "charging_station",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
     "fixme": "Verificar se ainda existe",
@@ -61893,7 +61894,7 @@
   "lat": 37.0294069,
   "lon": -7.9476079,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -61981,7 +61982,7 @@
   "lat": 40.4211631,
   "lon": -7.7035347,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -62185,7 +62186,7 @@
   "lat": 40.7141149,
   "lon": -8.2063968,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -65718,9 +65719,9 @@
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
     "capacity": "2",
-    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -82550,6 +82551,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*MLT*E*PRT*00110*1",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
     "parking:fee": "no",
@@ -82559,7 +82561,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "PRT-00110",
-    "ref:EU:EVSE": "PT*MLT*EPRT*00110*01;PT*MLT*E*PRT*00110*1",
+    "ref:EU:EVSE": "PT*MLT*EPRT*00110*01",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -93204,10 +93206,10 @@
 {
   "type": "node",
   "id": 9664199135,
-  "lat": 38.7193716,
-  "lon": -9.2348832,
+  "lat": 38.7193465,
+  "lon": -9.2348591,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -94827,7 +94829,7 @@
   "lat": 38.7716070,
   "lon": -9.0972779,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -96497,7 +96499,7 @@
   "lat": 39.7628514,
   "lon": -8.7869072,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -96577,7 +96579,7 @@
   "lat": 40.2519293,
   "lon": -8.4368286,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -98899,7 +98901,7 @@
   "lat": 39.4185942,
   "lon": -9.1318108,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -99205,7 +99207,7 @@
   "lat": 40.2326240,
   "lon": -8.4388337,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -99820,8 +99822,8 @@
     "authentication:none": "no",
     "brand": "Moon",
     "capacity": "1",
+    "disused:man_made": "charge_point",
     "fee": "yes",
-    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -100486,7 +100488,7 @@
   "lat": 38.5409643,
   "lon": -8.8713703,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -100713,7 +100715,7 @@
   "lat": 38.6296112,
   "lon": -9.0374113,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -101822,7 +101824,7 @@
   "lat": 38.7235694,
   "lon": -9.1566212,
   "tags": {
-    "access": "yes",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -117791,10 +117793,10 @@
     "brand:wikidata": "Q123574541",
     "capacity": "2",
     "charge_point:output": "93 kW",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "fixme": "Verificar se ainda existem",
-    "man_made": "charge_point",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -119107,7 +119109,7 @@
     "ref:EU:EVSE": "PT*NRG*E*PLM*00025*01;PT*NRG*E*PLM*00025*02",
     "socket:chademo": "1",
     "socket:chademo:current": "200",
-    "socket:chademo:output": "100 kW",
+    "socket:chademo:output": "80 kW",
     "socket:chademo:voltage": "500",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "375",
@@ -127629,7 +127631,7 @@
   "lat": 41.5354454,
   "lon": -8.4226868,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -129275,7 +129277,7 @@
   "lat": 41.4425785,
   "lon": -8.3333319,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -129505,7 +129507,7 @@
   "lat": 41.3714649,
   "lon": -8.5427002,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -136663,7 +136665,7 @@
   "lat": 39.6313296,
   "lon": -8.6811267,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -145035,7 +145037,7 @@
   "lat": 41.5568483,
   "lon": -8.3951385,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -145073,7 +145075,7 @@
   "lat": 38.7705550,
   "lon": -9.1251280,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145111,7 +145113,7 @@
   "lat": 38.7694604,
   "lon": -9.0982424,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145149,7 +145151,7 @@
   "lat": 41.1792903,
   "lon": -8.6240935,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -145224,7 +145226,7 @@
   "lat": 39.7534993,
   "lon": -8.8128921,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145507,7 +145509,7 @@
   "lat": 38.7690481,
   "lon": -9.1006461,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -145546,7 +145548,7 @@
   "lat": 32.6378316,
   "lon": -16.9343121,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145584,7 +145586,7 @@
   "lat": 32.6367573,
   "lon": -16.9463879,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145622,7 +145624,7 @@
   "lat": 41.1563350,
   "lon": -8.6292460,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145660,7 +145662,7 @@
   "lat": 41.1570216,
   "lon": -8.6022057,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -145698,7 +145700,7 @@
   "lat": 41.2027424,
   "lon": -8.6921973,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -163155,8 +163157,8 @@
     "ref": "AVV-00011",
     "ref:EU:EVSE": "PT*EVC*E*AVV*00011*01;PT*EVC*E*AVV*00011*02",
     "socket:type2": "2",
-    "socket:type2:current": "20",
-    "socket:type2:output": "14 kW",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -176754,7 +176756,7 @@
   "lat": 37.1021322,
   "lon": -8.3798600,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -178979,7 +178981,7 @@
   "lat": 39.7391015,
   "lon": -8.8115043,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -179560,8 +179562,8 @@
     "ref": "BRG-00055",
     "ref:EU:EVSE": "PT*EVC*E*BRG*00055*01;PT*EVC*E*BRG*00055*02",
     "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -181306,7 +181308,7 @@
   "lat": 41.2043017,
   "lon": -8.7114328,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -181343,7 +181345,7 @@
   "lat": 41.2042989,
   "lon": -8.7113859,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -195474,6 +195476,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E250*1;PT*FCT*E250*2;PT*FCT*E250*3",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -195483,7 +195486,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "MTJ-00109",
-    "ref:EU:EVSE": "PT*FCT*E250*1;PT*FCT*E250*2;PT*FCT*E250*3;PT*FCT*E*MTJ*00109*01;PT*FCT*E*MTJ*00109*02;PT*FCT*E*MTJ*00109*03",
+    "ref:EU:EVSE": "PT*FCT*E*MTJ*00109*01;PT*FCT*E*MTJ*00109*02;PT*FCT*E*MTJ*00109*03",
     "socket:chademo": "2",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
@@ -210208,10 +210211,10 @@
     "brand:wikidata": "Q123574541",
     "capacity": "2",
     "charge_point:output": "93 kW",
+    "disused:man_made": "charge_point",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
     "fixme": "Verificar se ainda existem",
-    "man_made": "charge_point",
     "motorcar": "yes",
     "network": "Mobi.E",
     "opening_hours": "24/7",
@@ -217554,7 +217557,7 @@
   "lat": 41.2041418,
   "lon": -8.7118082,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -217591,7 +217594,7 @@
   "lat": 41.2041879,
   "lon": -8.7118065,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -217628,7 +217631,7 @@
   "lat": 41.2042342,
   "lon": -8.7118002,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -217665,7 +217668,7 @@
   "lat": 41.2042740,
   "lon": -8.7117961,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -217702,7 +217705,7 @@
   "lat": 41.2043108,
   "lon": -8.7115999,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -217739,7 +217742,7 @@
   "lat": 41.2043069,
   "lon": -8.7115469,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -217776,7 +217779,7 @@
   "lat": 41.2043038,
   "lon": -8.7114885,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -221718,6 +221721,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*MLT*E*PRT*00112*1",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
     "parking:fee": "no",
@@ -221727,7 +221731,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "PRT-00112",
-    "ref:EU:EVSE": "PT*MLT*EPRT*00112*01;PT*MLT*E*PRT*00112*1",
+    "ref:EU:EVSE": "PT*MLT*EPRT*00112*01",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -221752,6 +221756,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*MLT*E*PRT*00111*1",
     "opening_hours": "24/7",
     "operator": "Mobiletric",
     "parking:fee": "no",
@@ -221761,7 +221766,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 249 249",
     "ref": "PRT-00111",
-    "ref:EU:EVSE": "PT*MLT*EPRT*00111*01;PT*MLT*E*PRT*00111*1",
+    "ref:EU:EVSE": "PT*MLT*EPRT*00111*01",
     "socket:type2": "1",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -232584,7 +232589,7 @@
   "lat": 38.6626125,
   "lon": -9.2062942,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -241988,7 +241993,7 @@
   "lat": 38.7701367,
   "lon": -9.1250847,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -242026,7 +242031,7 @@
   "lat": 38.7701440,
   "lon": -9.1251411,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -242064,7 +242069,7 @@
   "lat": 38.7701517,
   "lon": -9.1251980,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -242571,7 +242576,7 @@
   "lat": 38.7235540,
   "lon": -9.1566369,
   "tags": {
-    "access": "yes",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -242609,7 +242614,7 @@
   "lat": 38.7235847,
   "lon": -9.1566055,
   "tags": {
-    "access": "yes",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -251510,7 +251515,7 @@
   "lat": 38.6414358,
   "lon": -9.2362702,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -251548,7 +251553,7 @@
   "lat": 38.6414078,
   "lon": -9.2363159,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -253007,7 +253012,7 @@
   "lat": 39.0497590,
   "lon": -8.9140076,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
@@ -256854,7 +256859,7 @@
   "lat": 38.7562635,
   "lon": -9.1066484,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -256887,7 +256892,7 @@
   "lat": 38.7562822,
   "lon": -9.1066390,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -256920,7 +256925,7 @@
   "lat": 38.7563009,
   "lon": -9.1066296,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -256953,7 +256958,7 @@
   "lat": 38.7563196,
   "lon": -9.1066201,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -256986,7 +256991,7 @@
   "lat": 38.7563383,
   "lon": -9.1066107,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257019,7 +257024,7 @@
   "lat": 38.7563570,
   "lon": -9.1066012,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257053,7 +257058,7 @@
   "lat": 38.7563757,
   "lon": -9.1065918,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257087,7 +257092,7 @@
   "lat": 38.7563944,
   "lon": -9.1065824,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257121,7 +257126,7 @@
   "lat": 38.7564131,
   "lon": -9.1065729,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257155,7 +257160,7 @@
   "lat": 38.7564318,
   "lon": -9.1065635,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257189,7 +257194,7 @@
   "lat": 38.7564505,
   "lon": -9.1065541,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -257223,7 +257228,7 @@
   "lat": 38.7564879,
   "lon": -9.1065352,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -259569,46 +259574,6 @@
     "socket:type2_cable:current": "16",
     "socket:type2_cable:output": "11 kW",
     "socket:type2_cable:voltage": "400"
-  }
-},
-{
-  "type": "node",
-  "id": 12674316950,
-  "lat": 38.9774788,
-  "lon": -8.9848611,
-  "tags": {
-    "access": "yes",
-    "amenity": "charging_station",
-    "authentication:app": "yes",
-    "authentication:membership_card": "yes",
-    "authentication:none": "no",
-    "brand": "Powerdot",
-    "brand:wikidata": "Q123574541",
-    "capacity": "2",
-    "email": "ajuda@powerdot.pt",
-    "fee": "yes",
-    "layer": "-1",
-    "location": "underground",
-    "maxstay": "unlimited",
-    "motorcar": "yes",
-    "name": "VFX-00016",
-    "network": "Mobi.E",
-    "opening_hours": "24/7",
-    "operator": "Powerdot",
-    "operator:wikidata": "Q123574541",
-    "parking:fee": "yes",
-    "payment:app": "yes",
-    "payment:cards": "no",
-    "payment:cash": "no",
-    "payment:membership_card": "yes",
-    "phone": "+351 800 180 292",
-    "ref": "VFX-00016",
-    "ref:EU:EVSE": "PT*HRZ*E*VFX*00016*01;PT*HRZ*E*VFX*00016*02",
-    "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
-    "socket:type2:voltage": "400",
-    "website": "https://www.mobie.pt"
   }
 },
 {
@@ -279521,7 +279486,7 @@
     "socket:chademo:voltage": "500",
     "socket:type2_cable": "1",
     "socket:type2_cable:current": "63",
-    "socket:type2_cable:output": "43",
+    "socket:type2_cable:output": "43 kW",
     "socket:type2_cable:voltage": "400",
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
@@ -285009,8 +284974,8 @@
     "ref": "GMR-00150",
     "ref:EU:EVSE": "PT*EVC*E*GMR*00150*01;PT*EVC*E*GMR*00150*02",
     "socket:type2": "2",
-    "socket:type2:current": "32",
-    "socket:type2:output": "22 kW",
+    "socket:type2:current": "16",
+    "socket:type2:output": "11 kW",
     "socket:type2:voltage": "400",
     "website": "https://www.mobie.pt/"
   }
@@ -288081,7 +288046,7 @@
   "lat": 37.1021695,
   "lon": -8.3798949,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -288118,7 +288083,7 @@
   "lat": 37.1021516,
   "lon": -8.3798781,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -299729,7 +299694,7 @@
   "lat": 38.7716736,
   "lon": -9.0972743,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -299764,7 +299729,7 @@
   "lat": 38.7716517,
   "lon": -9.0972756,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -299799,7 +299764,7 @@
   "lat": 38.7716291,
   "lon": -9.0972765,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -300389,7 +300354,7 @@
   "lat": 41.1832690,
   "lon": -8.6537350,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -300426,7 +300391,7 @@
   "lat": 41.1832657,
   "lon": -8.6537636,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -300463,7 +300428,7 @@
   "lat": 41.1832590,
   "lon": -8.6538207,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -303288,7 +303253,7 @@
     "phone": "+351 275 961 101",
     "ref": "441326",
     "socket:schuko": "yes",
-    "socket:schuko:output": "2",
+    "socket:schuko:output": "2 kW",
     "socket:tesla_destination": "1",
     "socket:tesla_destination:output": "16 kW",
     "socket:type2_cable": "1",
@@ -318024,7 +317989,7 @@
   "lat": 38.7690930,
   "lon": -9.1006467,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -329367,7 +329332,7 @@
   "lat": 41.2027597,
   "lon": -8.6921426,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -330114,7 +330079,7 @@
   "lat": 41.5568052,
   "lon": -8.3951363,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -338079,7 +338044,7 @@
   "lat": 41.1606454,
   "lon": -8.6105166,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -356502,7 +356467,9 @@
     "capacity": "2",
     "charging_station:output": "50 kW",
     "fee": "yes",
+    "manufacturer": "Autel",
     "maxstay": "unlimited",
+    "model": "MaxiCharger DC Compact",
     "motorcar": "yes",
     "name": "BJA-00065",
     "network": "Mobi.E",
@@ -357776,7 +357743,7 @@
   "lat": 38.6296137,
   "lon": -9.0374067,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -357841,7 +357808,7 @@
   "lat": 39.4185877,
   "lon": -9.1318131,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -373727,6 +373694,7 @@
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E251*1;PT*FCT*E251*2;PT*FCT*E251*3",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -373736,7 +373704,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "MTJ-00110",
-    "ref:EU:EVSE": "PT*FCT*E251*1;PT*FCT*E251*2;PT*FCT*E251*3;PT*FCT*E*MTJ*00110*01;PT*FCT*E*MTJ*00110*02;PT*FCT*E*MTJ*00110*03",
+    "ref:EU:EVSE": "PT*FCT*E*MTJ*00110*01;PT*FCT*E*MTJ*00110*02;PT*FCT*E*MTJ*00110*03",
     "socket:chademo": "2",
     "socket:chademo:current": "200",
     "socket:chademo:output": "80 kW",
@@ -374350,7 +374318,7 @@
     "ref:EU:EVSE": "PT*ENB*E*TVR*00036*01;PT*ENB*E*TVR*00036*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "300",
+    "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
   }
@@ -374387,7 +374355,7 @@
     "ref:EU:EVSE": "PT*ENB*E*TVR*00035*01;PT*ENB*E*TVR*00035*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "300",
+    "socket:type2_combo:output": "300 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
   }
@@ -390825,14 +390793,16 @@
   "lon": -8.5978076,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Luz Verde",
     "capacity": "2",
     "charging_station:output": "50 kW",
-    "disused:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Autel",
     "maxstay": "unlimited",
+    "model": "MaxiCharger DC Compact",
     "motorcar": "yes",
     "name": "CNT-00038",
     "network": "Mobi.E",
@@ -394064,7 +394034,7 @@
   "lat": 38.9774029,
   "lon": -8.9844495,
   "tags": {
-    "access": "yes",
+    "access": "private",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -394090,7 +394060,8 @@
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 800 180 292",
-    "ref": "VFX-?????",
+    "ref": "VFX-00016",
+    "ref:EU:EVSE": "PT*HRZ*E*VFX*00016*01;PT*HRZ*E*VFX*00016*02",
     "socket:type2": "2",
     "socket:type2:current": "32",
     "socket:type2:output": "22 kW",
@@ -395511,7 +395482,7 @@
     "model": "HYC_50",
     "motorcar": "yes",
     "network": "Mobi.E",
-    "old_ref:EU:EVSE": "PT*FCT*E252*1;PT*FCT*E252*2",
+    "old_ref:EU:EVSE": "PT*FCT*E252*1;PT*FCT*E252*2;PT*FCT*E269*1;PT*FCT*E269*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -395521,7 +395492,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "ORQ-00010",
-    "ref:EU:EVSE": "PT*FCT*E269*1;PT*FCT*E269*2;PT*FCT*E*ORQ*00010*01;PT*FCT*E*ORQ*00010*02",
+    "ref:EU:EVSE": "PT*FCT*E*ORQ*00010*01;PT*FCT*E*ORQ*00010*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "50 kW",
@@ -395548,6 +395519,7 @@
     "model": "HYC_200",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E253*1;PT*FCT*E253*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -395557,7 +395529,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "ORQ-00009",
-    "ref:EU:EVSE": "PT*FCT*E253*1;PT*FCT*E253*2;PT*FCT*E*ORQ*00009*01;PT*FCT*E*ORQ*00009*02",
+    "ref:EU:EVSE": "PT*FCT*E*ORQ*00009*01;PT*FCT*E*ORQ*00009*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
@@ -399925,6 +399897,7 @@
     "model": "HYC_400",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E255*1;PT*FCT*E255*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -399934,7 +399907,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "SXL-00091",
-    "ref:EU:EVSE": "PT*FCT*E255*1;PT*FCT*E255*2;PT*FCT*E*SXL*00091*01;PT*FCT*E*SXL*00091*02",
+    "ref:EU:EVSE": "PT*FCT*E*SXL*00091*01;PT*FCT*E*SXL*00091*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -399962,6 +399935,7 @@
     "model": "HYC_400",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E257*1;PT*FCT*E257*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -399971,7 +399945,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "SXL-00090",
-    "ref:EU:EVSE": "PT*FCT*E257*1;PT*FCT*E257*2;PT*FCT*E*SXL*00090*01;PT*FCT*E*SXL*00090*02",
+    "ref:EU:EVSE": "PT*FCT*E*SXL*00090*01;PT*FCT*E*SXL*00090*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -399999,6 +399973,7 @@
     "model": "HYC_400",
     "motorcar": "yes",
     "network": "Mobi.E",
+    "old_ref:EU:EVSE": "PT*FCT*E256*1;PT*FCT*E256*2",
     "opening_hours": "24/7",
     "operator": "Charging Together",
     "parking:fee": "no",
@@ -400008,7 +399983,7 @@
     "payment:membership_card": "yes",
     "phone": "+351 800 917 576",
     "ref": "SXL-00092",
-    "ref:EU:EVSE": "PT*FCT*E256*1;PT*FCT*E256*2;PT*FCT*E*SXL*00092*01;PT*FCT*E*SXL*00092*02",
+    "ref:EU:EVSE": "PT*FCT*E*SXL*00092*01;PT*FCT*E*SXL*00092*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "600",
     "socket:type2_combo:output": "400 kW",
@@ -412341,7 +412316,7 @@
     "ref:EU:EVSE": "PT*HRZ*E*GMR*00165*03;PT*HRZ*E*GMR*00165*04",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "200",
+    "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
   }
@@ -412378,11 +412353,7 @@
     "phone": "+351 800 180 292",
     "ref": "GMR-00165",
     "ref:EU:EVSE": "PT*HRZ*E*GMR*00165*01;PT*HRZ*E*GMR*00165*02",
-    "socket:chademo": "1",
-    "socket:chademo:current": "125",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
-    "socket:type2_combo": "1",
+    "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
     "socket:type2_combo:output": "200 kW",
     "socket:type2_combo:voltage": "1000",
@@ -415693,10 +415664,10 @@
     "brand:wikidata": "Q1341222",
     "capacity": "2",
     "charge_point:output": "82 kW",
-    "construction:man_made": "charge_point",
     "fee": "yes",
     "indoor": "yes",
     "location": "underground",
+    "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "network": "Mobi.E",
@@ -418833,17 +418804,17 @@
   "lon": -7.4732640,
   "tags": {
     "access": "yes",
+    "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "helexia",
     "capacity": "2",
-    "charging_station:output": "120 kW",
-    "construction:amenity": "charging_station",
+    "charging_station:output": "160 kW",
     "email": "geral.pt@helexia.eu",
     "fee": "yes",
     "manufacturer": "iskraemeco",
     "maxstay": "unlimited",
-    "model": "iFC160",
+    "model": "iFC160-350A",
     "motorcar": "yes",
     "name": "CHV-00035",
     "network": "Mobi.E",
@@ -418851,7 +418822,7 @@
     "operator": "Helexia II",
     "parking:fee": "no",
     "payment:app": "yes",
-    "payment:cards": "no",
+    "payment:cards": "yes",
     "payment:cash": "no",
     "payment:membership_card": "yes",
     "phone": "+351 210 181 157",
@@ -421377,7 +421348,7 @@
   "lat": 38.7536768,
   "lon": -9.1887960,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -422583,7 +422554,7 @@
     "authentication:none": "no",
     "brand": "Iberdrola bp pulse",
     "capacity": "2",
-    "charging_station:output": "200 kW",
+    "charging_station:output": "165 kW",
     "email": "suporte@chargingtogether.pt",
     "fee": "yes",
     "manufacturer": "Alpitronic",
@@ -422606,7 +422577,7 @@
     "ref:EU:EVSE": "PT*FCT*E*LSB*01464*01;PT*FCT*E*LSB*01464*02",
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "500",
-    "socket:type2_combo:output": "200 kW",
+    "socket:type2_combo:output": "165 kW",
     "socket:type2_combo:voltage": "1000"
   }
 },
@@ -424794,8 +424765,8 @@
 {
   "type": "node",
   "id": 14270176158,
-  "lat": 41.1971209,
-  "lon": -8.3355251,
+  "lat": 41.1968686,
+  "lon": -8.3356431,
   "tags": {
     "access": "yes",
     "authentication:app": "yes",
@@ -426999,7 +426970,7 @@
   "lat": 39.3597802,
   "lon": -9.1573208,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -427007,7 +426978,6 @@
     "capacity": "1",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
-    "fixme": "Mover para o local exacto",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -427035,7 +427005,7 @@
   "lat": 39.3597908,
   "lon": -9.1572943,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "KLC",
@@ -427043,7 +427013,6 @@
     "capacity": "1",
     "email": "apoio.cliente@kmlowcost.com",
     "fee": "yes",
-    "fixme": "Mover para o local exacto",
     "man_made": "charge_point",
     "maxstay": "unlimited",
     "motorcar": "yes",
@@ -427458,7 +427427,7 @@
   "lat": 41.2262019,
   "lon": -8.6333708,
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
@@ -428601,6 +428570,151 @@
     "socket:type2_combo:output": "400 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://me-remo.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14322876369,
+  "lat": 41.1722134,
+  "lon": -8.3498233,
+  "tags": {
+    "access": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Repsol",
+    "brand:wikidata": "Q174747",
+    "capacity": "2",
+    "construction:amenity": "charging_station",
+    "email": "crc.mobilidade.eletrica.pt@repsol.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "PRD-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Repsol",
+    "operator:wikidata": "Q174747",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 226 624",
+    "ref": "PRD-?????",
+    "socket:chademo": "1",
+    "socket:chademo:current": "125",
+    "socket:chademo:output": "50 kW",
+    "socket:chademo:voltage": "500",
+    "socket:type2_combo": "1",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "60 kW",
+    "socket:type2_combo:voltage": "500"
+  }
+},
+{
+  "type": "node",
+  "id": 14323752681,
+  "lat": 41.2980648,
+  "lon": -8.6953957,
+  "tags": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charge_point:output": "180 kW",
+    "construction:man_made": "charge_point",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VCD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000"
+  }
+},
+{
+  "type": "node",
+  "id": 14323752692,
+  "lat": 41.2981038,
+  "lon": -8.6954202,
+  "tags": {
+    "access": "yes",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "2",
+    "charge_point:output": "180 kW",
+    "construction:man_made": "charge_point",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 800 100 303",
+    "ref": "VCD-?????",
+    "socket:type2_combo": "2",
+    "socket:type2_combo:current": "300",
+    "socket:type2_combo:output": "180 kW",
+    "socket:type2_combo:voltage": "1000"
+  }
+},
+{
+  "type": "node",
+  "id": 14323752736,
+  "lat": 39.3334585,
+  "lon": -8.9365839,
+  "tags": {
+    "access": "customers",
+    "amenity": "charging_station",
+    "authentication:app": "yes",
+    "authentication:membership_card": "yes",
+    "authentication:none": "no",
+    "brand": "Helexia",
+    "brand:wikidata": "Q137294295",
+    "capacity": "2",
+    "email": "geral.pt@helexia.eu",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Helexia II",
+    "operator:wikidata": "Q137294295",
+    "parking:fee": "no",
+    "payment:app": "yes",
+    "payment:cards": "no",
+    "payment:cash": "no",
+    "payment:membership_card": "yes",
+    "phone": "+351 210 181 157",
+    "ref": "RMR-00017",
+    "ref:EU:EVSE": "PT*HLX*E*RMR*00017*01;PT*HLX*E*RMR*00017*02",
+    "socket:type2": "2",
+    "socket:type2:current": "32",
+    "socket:type2:output": "22 kW",
+    "socket:type2:voltage": "400"
   }
 },
 {
@@ -431214,7 +431328,7 @@
     4484386545
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
@@ -431240,7 +431354,7 @@
     12465444541
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Moon",
     "capacity": "14",
@@ -433866,7 +433980,7 @@
     12591346100
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
@@ -443942,7 +444056,7 @@
     12946978115
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
@@ -446528,7 +446642,7 @@
     13028544327
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Mobiletric",
     "capacity": "4",
@@ -447037,7 +447151,7 @@
     13029213177
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Mobiletric",
     "capacity": "5",
@@ -450428,7 +450542,7 @@
     13144528911
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
@@ -454462,7 +454576,7 @@
     13208982595
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
@@ -454526,7 +454640,7 @@
     13208996320
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
@@ -464578,7 +464692,7 @@
     "phone": "+351 800 296 929;+351 234 246 050",
     "ref": "FAF-00020;FAF-00021;FAF-00022",
     "socket:type2": "2",
-    "socket:type2:output": "22",
+    "socket:type2:output": "22000",
     "socket:type2_combo": "2;1",
     "socket:type2_combo:output": "120000;60000",
     "website": "https://www.mobie.pt/"
@@ -467706,7 +467820,7 @@
     13409122001
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Moon",
     "capacity": "2",
@@ -467757,7 +467871,7 @@
     13409218633
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Moon",
     "capacity": "2",
@@ -467922,7 +468036,7 @@
     13410946723
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Powerdot",
     "brand:wikidata": "Q123574541",
@@ -477019,7 +477133,7 @@
     13703132864
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "Mobiletric",
     "capacity": "4",
@@ -488584,7 +488698,7 @@
     14303126708
   ],
   "tags": {
-    "access": "customers",
+    "access": "private",
     "amenity": "charging_station",
     "brand": "KLC",
     "brand:wikidata": "Q127504745",
@@ -488910,6 +489024,35 @@
     "phone": "+351 800 202 060",
     "ref": "LOU-00022;LOU-00023;LOU-00024",
     "website": "https://klc.pt/"
+  }
+},
+{
+  "type": "way",
+  "id": 1572272933,
+  "nodes": [
+    14323752687,
+    14323752690,
+    14323752680,
+    14323752679,
+    14323752687
+  ],
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Prio",
+    "brand:wikidata": "Q62530421",
+    "capacity": "4",
+    "email": "electric@prioenergy.com",
+    "fee": "yes",
+    "maxstay": "unlimited",
+    "motorcar": "yes",
+    "name": "VCD-?????",
+    "network": "Mobi.E",
+    "opening_hours": "24/7",
+    "operator": "Prio.E",
+    "parking:fee": "no",
+    "phone": "+351 800 100 303",
+    "ref": "VCD-?????"
   }
 },
 {
@@ -533017,6 +533160,30 @@
   "id": 13379217685,
   "lat": 41.2889490,
   "lon": -8.7027124
+},
+{
+  "type": "node",
+  "id": 14323752679,
+  "lat": 41.2980468,
+  "lon": -8.6953772
+},
+{
+  "type": "node",
+  "id": 14323752680,
+  "lat": 41.2981253,
+  "lon": -8.6954302
+},
+{
+  "type": "node",
+  "id": 14323752687,
+  "lat": 41.2980237,
+  "lon": -8.6954379
+},
+{
+  "type": "node",
+  "id": 14323752690,
+  "lat": 41.2981022,
+  "lon": -8.6954909
 },
 {
   "type": "node",
