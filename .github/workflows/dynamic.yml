@@ -8,7 +8,7 @@ on:
 
 jobs:
   scheduled:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: Check out this repo
       uses: actions/checkout@v5
@@ -21,9 +21,9 @@ jobs:
       shell: bash
       
     - name: setup python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@v5
       with:
-         python-version: 3.8 #install the python needed    
+         python-version: '3.8' # install the python needed    
          cache: 'pip' # caching pip dependencies
     - run: pip install -r requirements.txt
 
