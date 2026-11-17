@@ -2,6 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
+    "timestamp_osm_base": "2026-11-17T08:55:51Z",
+    "timestamp_areas_base": "2026-11-17T02:13:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -40583,7 +40585,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
   }
 },
@@ -83483,7 +83485,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -93281,7 +93283,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
   }
 },
@@ -93572,7 +93574,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "375",
     "socket:type2_combo:output": "150 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt"
   }
 },
@@ -97682,6 +97684,7 @@
     "charging_station:output": "142 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar a tensão máxima da ficha CCS na chapa de características",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "LRA-00061",
@@ -104066,6 +104069,7 @@
     "charging_station:output": "72 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar a tensão máxima da ficha CCS na chapa de características",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "SNS-00009",
@@ -106136,13 +106140,13 @@
   "lon": -8.6451630,
   "tags": {
     "access": "customers",
+    "amenity": "charging_station",
     "authentication:app": "yes",
     "authentication:membership_card": "yes",
     "authentication:none": "no",
     "brand": "Galp electric",
     "brand:wikidata": "Q135275372",
     "capacity": "2",
-    "disused:amenity": "charging_station",
     "email": "veiculoeletrico@galp.com",
     "fee": "yes",
     "maxstay": "unlimited",
@@ -131665,6 +131669,7 @@
     "charging_station:output": "222 kW",
     "email": "ajuda@powerdot.pt",
     "fee": "yes",
+    "fixme": "Verificar a tensão máxima da ficha CCS na chapa de características",
     "maxstay": "unlimited",
     "motorcar": "yes",
     "name": "MTS-00109",
@@ -134144,7 +134149,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "75",
     "socket:type2_combo:output": "30 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -137898,7 +137903,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -139464,7 +139469,6 @@
     "fee": "yes",
     "manufacturer": "wallbox",
     "maxstay": "unlimited",
-    "model": "SN 60HV",
     "motorcar": "yes",
     "name": "STB-00060",
     "network": "Mobi.E",
@@ -139483,7 +139487,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "60 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -156093,7 +156097,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "150",
     "socket:type2_combo:output": "50 kW",
-    "socket:type2_combo:voltage": "1000",
+    "socket:type2_combo:voltage": "500",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -219522,7 +219526,7 @@
     "socket:type2_combo": "1",
     "socket:type2_combo:current": "125",
     "socket:type2_combo:output": "49 kW",
-    "socket:type2_combo:voltage": "500",
+    "socket:type2_combo:voltage": "1000",
     "website": "https://www.mobie.pt/"
   }
 },
@@ -273507,8 +273511,8 @@
 {
   "type": "node",
   "id": 12766919117,
-  "lat": 40.2209664,
-  "lon": -8.0541673,
+  "lat": 40.2209436,
+  "lon": -8.0541394,
   "tags": {
     "access": "yes",
     "addr:city": "Arganil",
@@ -273552,8 +273556,8 @@
 {
   "type": "node",
   "id": 12766919118,
-  "lat": 40.2209431,
-  "lon": -8.0541552,
+  "lat": 40.2209203,
+  "lon": -8.0541273,
   "tags": {
     "access": "yes",
     "addr:city": "Arganil",
@@ -317234,8 +317238,8 @@
     "brand:wikidata": "Q42717773",
     "capacity": "1",
     "charge_point:output": "350 kW",
-    "disused:man_made": "charge_point",
     "fee": "yes",
+    "man_made": "charge_point",
     "manufacturer": "ABB",
     "maxstay": "unlimited",
     "model": "Terra HP CP4",
@@ -344681,7 +344685,9 @@
     "charging_station:output": "142 kW",
     "disused:amenity": "charging_station",
     "fee": "yes",
+    "manufacturer": "Efacec",
     "maxstay": "unlimited",
+    "model": "QC120",
     "motorcar": "yes",
     "name": "LSB-00985",
     "network": "Mobi.E",
@@ -344702,8 +344708,7 @@
     "socket:type2_combo": "2",
     "socket:type2_combo:current": "300",
     "socket:type2_combo:output": "120 kW",
-    "socket:type2_combo:voltage": "500",
-    "website": "https://www.mobie.pt/"
+    "socket:type2_combo:voltage": "1000"
   }
 },
 {
@@ -432599,7 +432604,7 @@
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
     "capacity": "2",
-    "charge_point:output": "120 kW",
+    "charge_point:output": "50 kW",
     "fee": "yes",
     "man_made": "charge_point",
     "maxstay": "unlimited",
@@ -432614,14 +432619,10 @@
     "payment:cash": "no",
     "payment:membership_card": "no",
     "ref": "3589PR0004",
-    "ref:EU:EVSE": "PT*CNT*E3589PR0004*1;PT*CNT*E3589PR0004*2;PT*CNT*E3589PR0004*3",
-    "socket:chademo": "1",
-    "socket:chademo:current": "120",
-    "socket:chademo:output": "50 kW",
-    "socket:chademo:voltage": "500",
+    "ref:EU:EVSE": "PT*CNT*E3589PR0004*1;PT*CNT*E3589PR0004*2",
     "socket:type2_combo": "2",
-    "socket:type2_combo:current": "200",
-    "socket:type2_combo:output": "120 kW",
+    "socket:type2_combo:current": "150",
+    "socket:type2_combo:output": "50 kW",
     "socket:type2_combo:voltage": "1000",
     "website": "https://plugcharge.continente.pt/"
   }
@@ -445376,7 +445377,12 @@
     "amenity": "charging_station",
     "brand": "Continente Plug&Charge",
     "brand:wikidata": "Q2995683",
+    "building": "carport",
     "capacity": "4",
+    "generator:method": "photovoltaic",
+    "generator:output:electricity": "yes",
+    "generator:source": "solar",
+    "generator:type": "solar_photovoltaic_panel",
     "motorcar": "yes",
     "name": "Continente Bom Dia Arganil",
     "network": "Continente Plug&Charge",
@@ -445384,6 +445390,7 @@
     "operator": "Continente",
     "operator:wikidata": "Q2995683",
     "parking:fee": "no",
+    "power": "generator",
     "ref": "9369PL0001;9369PR0002"
   }
 },
@@ -542398,26 +542405,26 @@
 {
   "type": "node",
   "id": 12412379602,
-  "lat": 40.2209238,
-  "lon": -8.0542044
+  "lat": 40.2208989,
+  "lon": -8.0541783
 },
 {
   "type": "node",
   "id": 12766919119,
-  "lat": 40.2210069,
-  "lon": -8.0541324
+  "lat": 40.2209861,
+  "lon": -8.0541027
 },
 {
   "type": "node",
   "id": 12766919120,
-  "lat": 40.2209580,
-  "lon": -8.0541038
+  "lat": 40.2209348,
+  "lon": -8.0540727
 },
 {
   "type": "node",
   "id": 12766919121,
-  "lat": 40.2209727,
-  "lon": -8.0542328
+  "lat": 40.2209502,
+  "lon": -8.0542081
 },
 {
   "type": "node",
