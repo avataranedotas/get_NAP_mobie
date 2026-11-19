@@ -1,0 +1,761 @@
+{
+    "BBG-PTLPUB5": {
+        "name": "PTL-PUB-5",
+        "lastUpdated": "2026-11-18T17:48:54.458Z",
+        "city": "Ponte de Lima",
+        "street": "Travessa da Rainha, 198 B",
+        "postcode": "4990-740",
+        "latitude": "41.771362",
+        "longitude": "-8.61085",
+        "latlon": "41.771362 -8.61085",
+        "opc": "BBGE",
+        "opc_name": "Morenergy",
+        "stations": [
+            {
+                "station_id": "BBG-PTLPUB5",
+                "payment": [
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PTLPUB51",
+                        "evse_id": "PT*BBG*EPTLPUB00501",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "cableMode3",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CPS-VLG-00063": {
+        "name": "VALONGO",
+        "lastUpdated": "2026-11-19T03:00:01.831Z",
+        "city": "Valongo",
+        "street": " LUGAR DE ESPINHEIRO, R. Fonseca Dias",
+        "postcode": "4440-652",
+        "latitude": "41.18386",
+        "longitude": "-8.485038",
+        "latlon": "41.18386 -8.485038",
+        "opc": "CEPS",
+        "opc_name": "Cepsa Portuguesa Petroleos",
+        "stations": [
+            {
+                "station_id": "CPS-VLG-00063",
+                "payment": [
+                    "nfc",
+                    "apps",
+                    "rfid",
+                    "creditCard",
+                    "debitCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VLG-00063-01",
+                        "evse_id": "PT*CPS*E*VLG*00063*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "400.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VLG-00063-02",
+                        "evse_id": "PT*CPS*E*VLG*00063*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "400.0",
+                                "max_current": "375.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-ALR-00012": {
+        "name": "McDonald's Almeirim 1",
+        "lastUpdated": "2026-11-18T15:13:59.000Z",
+        "city": "Almeirim",
+        "street": "Avenida Professor José de Sousa Gomes 1",
+        "postcode": "2080-221",
+        "latitude": "39.196144",
+        "longitude": "-8.617255",
+        "latlon": "39.196144 -8.617255",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-ALR-00012",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EALR-00012-1",
+                        "evse_id": "PT*EDP*EALR*00012*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EALR-00012-2",
+                        "evse_id": "PT*EDP*EALR*00012*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "1000.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EALR-00012-3",
+                        "evse_id": "PT*EDP*EALR*00012*3",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-GDL-00072": {
+        "name": "Repsol Grândola SN",
+        "lastUpdated": "2026-11-18T18:09:13.326Z",
+        "city": "Grândola",
+        "street": "Área de Servico Grândola SN 3",
+        "postcode": "7570-107",
+        "latitude": "38.16777",
+        "longitude": "-8.491007",
+        "latlon": "38.16777 -8.491007",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-GDL-00072",
+                "payment": [
+                    "apps",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-EGDL-00072-1",
+                        "evse_id": "PT*EDP*EGDL*00072*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-EGDL-00072-2",
+                        "evse_id": "PT*EDP*EGDL*00072*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "400000.0",
+                                "voltage": "1000.0",
+                                "max_current": "600.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EML-LSB-01452": {
+        "name": "Rua Tomás de Mello Breyner",
+        "lastUpdated": "2026-11-19T02:58:39.683Z",
+        "city": "Lisboa",
+        "street": "Rua Tomás de Mello Breyner S/N",
+        "postcode": "1900-202",
+        "latitude": "38.734505",
+        "longitude": "-9.112709",
+        "latlon": "38.734505 -9.112709",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "stations": [
+            {
+                "station_id": "EML-LSB-01452",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01452-01",
+                        "evse_id": "PT*EML*E*LSB*01452*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01452-02",
+                        "evse_id": "PT*EML*E*LSB*01452*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EML-LSB-01495": {
+        "name": "Parque Estacionamento - Combatentes",
+        "lastUpdated": "2026-11-19T02:59:05.899Z",
+        "city": "Lisboa",
+        "street": "Avenida dos Combatentes",
+        "postcode": "1600-083",
+        "latitude": "38.745617",
+        "longitude": "-9.162399",
+        "latlon": "38.745617 -9.162399",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "stations": [
+            {
+                "station_id": "EML-LSB-01495",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01495-01",
+                        "evse_id": "PT*EML*E*LSB*01495*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01495-02",
+                        "evse_id": "PT*EML*E*LSB*01495*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EML-LSB-01496": {
+        "name": "Parque Estacionamento - Combatentes",
+        "lastUpdated": "2026-11-19T02:59:54.945Z",
+        "city": "Lisboa",
+        "street": "Avenida dos Combatentes",
+        "postcode": "1600-083",
+        "latitude": "38.745617",
+        "longitude": "-9.162399",
+        "latlon": "38.745617 -9.162399",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "stations": [
+            {
+                "station_id": "EML-LSB-01496",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01496-01",
+                        "evse_id": "PT*EML*E*LSB*01496*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01496-02",
+                        "evse_id": "PT*EML*E*LSB*01496*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EML-LSB-01497": {
+        "name": "Parque Estacionamento - Combatetnes",
+        "lastUpdated": "2026-11-19T02:59:34.276Z",
+        "city": "Lisboa",
+        "street": "Avenida dos Combatentes",
+        "postcode": "1600-083",
+        "latitude": "38.745617",
+        "longitude": "-9.162399",
+        "latlon": "38.745617 -9.162399",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "stations": [
+            {
+                "station_id": "EML-LSB-01497",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01497-01",
+                        "evse_id": "PT*EML*E*LSB*01497*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01497-02",
+                        "evse_id": "PT*EML*E*LSB*01497*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode2AC1p",
+                                "connector_format": "socket",
+                                "max_power": "7400.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EML-LSB-01500": {
+        "name": "Parque Estacionamento - Combatentes",
+        "lastUpdated": "2026-11-19T02:59:42.039Z",
+        "city": "Lisboa",
+        "street": "Avenida dos Combatentes",
+        "postcode": "1600-083",
+        "latitude": "38.745617",
+        "longitude": "-9.162399",
+        "latlon": "38.745617 -9.162399",
+        "opc": "EMEL",
+        "opc_name": "EMEL - Empresa Municipal de Mobilidade e Estacionamento de Lisboa, E.M., S.A.",
+        "stations": [
+            {
+                "station_id": "EML-LSB-01500",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LSB-01500-01",
+                        "evse_id": "PT*EML*E*LSB*01500*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LSB-01500-02",
+                        "evse_id": "PT*EML*E*LSB*01500*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-VRS-00020": {
+        "name": "VRS-00020",
+        "lastUpdated": "2026-11-18T14:37:03.051Z",
+        "city": "Vila Real de Santo António",
+        "street": "Rua Santo António de Arenilha ",
+        "postcode": "8900-275",
+        "latitude": "37.190407",
+        "longitude": "-7.41947",
+        "latlon": "37.190407 -7.41947",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-VRS-00020",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00020-01",
+                        "evse_id": "PT*GLP*EVRS*00020*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00020-02",
+                        "evse_id": "PT*GLP*EVRS*00020*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-VRS-00027": {
+        "name": "VRS-00027",
+        "lastUpdated": "2026-11-18T17:57:51.972Z",
+        "city": "Vila Real de Santo António",
+        "street": "Rua das Laranjeiras ",
+        "postcode": "8900-038",
+        "latitude": "37.17384",
+        "longitude": "-7.533881",
+        "latlon": "37.17384 -7.533881",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-VRS-00027",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00027-01",
+                        "evse_id": "PT*GLP*EVRS*00027*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00027-02",
+                        "evse_id": "PT*GLP*EVRS*00027*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-VRS-00030": {
+        "name": "VRS-00030",
+        "lastUpdated": "2026-11-18T18:10:12.043Z",
+        "city": "Vila Real de Santo António",
+        "street": "Rua de Ibiza",
+        "postcode": "8900-457",
+        "latitude": "37.182644",
+        "longitude": "-7.448751",
+        "latlon": "37.182644 -7.448751",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-VRS-00030",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00030-01",
+                        "evse_id": "PT*GLP*EVRS*00030*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00030-02",
+                        "evse_id": "PT*GLP*EVRS*00030*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "HRZ-LRA-00214": {
+        "name": "Lis Shopping - Leiria",
+        "lastUpdated": "2026-11-18T10:02:12.400Z",
+        "city": "Leiria",
+        "street": "R. Dr. João Soares 9009",
+        "postcode": "2400-448",
+        "latitude": "39.739887",
+        "longitude": "-8.818589",
+        "latlon": "39.739887 -8.818589",
+        "opc": "HORZ",
+        "opc_name": "Powerdot, S.A",
+        "stations": [
+            {
+                "station_id": "HRZ-LRA-00214",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "LRA-00214-01",
+                        "evse_id": "PT*HRZ*E*LRA*00214*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRA-00214-02",
+                        "evse_id": "PT*HRZ*E*LRA*00214*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRA-00214-03",
+                        "evse_id": "PT*HRZ*E*LRA*00214*03",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRA-00214-04",
+                        "evse_id": "PT*HRZ*E*LRA*00214*04",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "300000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRA-00214-05",
+                        "evse_id": "PT*HRZ*E*LRA*00214*05",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "LRA-00214-06",
+                        "evse_id": "PT*HRZ*E*LRA*00214*06",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "160000.0",
+                                "voltage": "1000.0",
+                                "max_current": "500.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PAR-VFX-00165": {
+        "name": "Pecol Alverca",
+        "lastUpdated": "2026-11-19T02:58:46.564Z",
+        "city": "Vila Franca de Xira",
+        "street": "URBANIZACAO VALE DAS ERVAS 9003, A, AZ1",
+        "postcode": "2615-187",
+        "latitude": "38.908314",
+        "longitude": "-9.027698",
+        "latlon": "38.908314 -9.027698",
+        "opc": "PARI",
+        "opc_name": "Parinox Energia",
+        "stations": [
+            {
+                "station_id": "PAR-VFX-00165",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VFX-00165-01",
+                        "evse_id": "PT*PAR*E*VFX*00165*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "30000.0",
+                                "voltage": "400.0",
+                                "max_current": "50.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
