@@ -37628,3 +37628,433 @@ Modificados:
         }
     }
 }
+2026-11-20 08:19:51
+Adicionados:
+{
+    "ACC-CBR-00175": {
+        "name": "Leitao Carvalho Parking (Coimbra)",
+        "lastUpdated": "2026-11-19T10:40:52.861Z",
+        "city": "Coimbra",
+        "street": "R. João Machado 50 B, 3000-226 Coimbra, Portu",
+        "postcode": "3000-226",
+        "latitude": "40.214046",
+        "longitude": "-8.433277",
+        "latlon": "40.214046 -8.433277",
+        "opc": "ACCI",
+        "opc_name": "Acciona Recarga Portugal",
+        "stations": [
+            {
+                "station_id": "ACC-CBR-00175",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "58",
+                        "evse_id": "PT*ACC*E8521",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CNT-0217PL0002": {
+        "name": "0217PL0002",
+        "lastUpdated": "2026-11-20T00:09:30.667Z",
+        "city": "Évora",
+        "street": "Quinta do Moniz",
+        "postcode": "7000-172",
+        "latitude": "38.57214",
+        "longitude": "-7.902174",
+        "latlon": "38.57214 -7.902174",
+        "opc": "N§A",
+        "opc_name": "N§A",
+        "stations": [
+            {
+                "station_id": "CNT-0217PL0002",
+                "payment": [
+                    "apps"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "0217PL0002.01",
+                        "evse_id": "PT*CNT*E0217PL0002*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "0217PL0002.02",
+                        "evse_id": "PT*CNT*E0217PL0002*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "230.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ECI-ACN-00015": {
+        "name": "Alcanena - Largo Justino Guedes",
+        "lastUpdated": "2026-11-20T02:58:54.194Z",
+        "city": "Alcanena",
+        "street": "Largo Justino Guedes, 9999",
+        "postcode": "2395-130",
+        "latitude": "39.51299",
+        "longitude": "-8.686945",
+        "latlon": "39.51299 -8.686945",
+        "opc": "ECOI",
+        "opc_name": "Ecoinside - Soluções em Ecoeficiência e Sustentabilidade Lda",
+        "stations": [
+            {
+                "station_id": "ECI-ACN-00015",
+                "payment": [
+                    "apps",
+                    "website",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "ACN-00015-01",
+                        "evse_id": "PT*ECI*E*ACN*00015*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "ACN-00015-02",
+                        "evse_id": "PT*ECI*E*ACN*00015*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "EDP-LRS-00134": {
+        "name": "Intermarché Santo António dos Cavaleiros 2",
+        "lastUpdated": "2026-11-19T11:10:18.000Z",
+        "city": "Loures",
+        "street": "PARQ RESID ALMIRANTE 11",
+        "postcode": "2660-447",
+        "latitude": "38.831802",
+        "longitude": "-9.17068",
+        "latlon": "38.831802 -9.17068",
+        "opc": "EDPC",
+        "opc_name": "EDP Comercial",
+        "stations": [
+            {
+                "station_id": "EDP-LRS-00134",
+                "payment": [
+                    "apps",
+                    "rfid",
+                    "creditCard"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "PT-EDP-ELRS-00134-1",
+                        "evse_id": "PT*EDP*ELRS*00134*1",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "PT-EDP-ELRS-00134-2",
+                        "evse_id": "PT*EDP*ELRS*00134*2",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "60000.0",
+                                "voltage": "1000.0",
+                                "max_current": "200.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-VRS-00019": {
+        "name": "VRS-00019",
+        "lastUpdated": "2026-11-19T18:07:12.042Z",
+        "city": "Vila Real de Santo António",
+        "street": "Rua São Gonçalo de Lagos",
+        "postcode": "8900-276",
+        "latitude": "37.19083",
+        "longitude": "-7.41738",
+        "latlon": "37.19083 -7.41738",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-VRS-00019",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00019-01",
+                        "evse_id": "PT*GLP*EVRS*00019*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00019-02",
+                        "evse_id": "PT*GLP*EVRS*00019*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "GLP-VRS-00029": {
+        "name": "VRS-00029",
+        "lastUpdated": "2026-11-19T09:37:03.050Z",
+        "city": "Vila Real de Santo António",
+        "street": "Rua da Praia ",
+        "postcode": "8900-443",
+        "latitude": "37.179066",
+        "longitude": "-7.456408",
+        "latlon": "37.179066 -7.456408",
+        "opc": "GLPP",
+        "opc_name": "Galp Power OPC",
+        "stations": [
+            {
+                "station_id": "GLP-VRS-00029",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VRS-00029-01",
+                        "evse_id": "PT*GLP*EVRS*00029*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VRS-00029-02",
+                        "evse_id": "PT*GLP*EVRS*00029*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2COMBO",
+                                "charging_mode": "mode4DC",
+                                "connector_format": "cableMode3",
+                                "max_power": "120000.0",
+                                "voltage": "950.0",
+                                "max_current": "300.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TRK-VNH-00004": {
+        "name": "WOW-VNH-00810",
+        "lastUpdated": "2026-11-19T16:36:25.053Z",
+        "city": "Vinhais",
+        "street": "R. José Morais Charmendo, Vinhais, 5320-334 V",
+        "postcode": "5320-334",
+        "latitude": "41.832306",
+        "longitude": "-7.008472",
+        "latlon": "41.832306 -7.008472",
+        "opc": "TRUE",
+        "opc_name": "WOWPLUG",
+        "stations": [
+            {
+                "station_id": "TRK-VNH-00004",
+                "payment": [
+                    "apps",
+                    "rfid"
+                ],
+                "evses": [
+                    {
+                        "evse_code": "VNH-00004-01",
+                        "evse_id": "PT*TRK*E*VNH*00004*01",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    },
+                    {
+                        "evse_code": "VNH-00004-02",
+                        "evse_id": "PT*TRK*E*VNH*00004*02",
+                        "connectors": [
+                            {
+                                "connector_type": "iec62196T2",
+                                "charging_mode": "mode3AC3p",
+                                "connector_format": "socket",
+                                "max_power": "22000.0",
+                                "voltage": "400.0",
+                                "max_current": "32.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+Removidos:
+[
+    "CNT-E071PL0005",
+    "GLP-LSB-00998"
+]
+Modificados:
+{
+    "CNT-0001PR0010": {
+        "latitude": {
+            "old": "47.348747",
+            "new": "41.182693"
+        },
+        "latlon": {
+            "old": "47.348747 -18.149414",
+            "new": "41.182693 -8.658268"
+        },
+        "longitude": {
+            "old": "-18.149414",
+            "new": "-8.658268"
+        }
+    },
+    "CNT-0001PR0034": {
+        "stations": {
+            "0": {
+                "payment": {
+                    "removed_items": [
+                        "creditCard",
+                        "debitCard",
+                        "nfc",
+                        "pinpad"
+                    ]
+                }
+            }
+        }
+    },
+    "EDP-VBP-00017": {
+        "latitude": {
+            "old": "37.083748",
+            "new": "38.98935"
+        },
+        "latlon": {
+            "old": "37.083748 -8.912582",
+            "new": "38.98935 -9.243118"
+        },
+        "longitude": {
+            "old": "-8.912582",
+            "new": "-9.243118"
+        }
+    },
+    "GLP-ABF-00061": {
+        "stations": {
+            "0": {
+                "evses": {
+                    "1": {
+                        "connectors": {
+                            "0": {
+                                "voltage": {
+                                    "old": "500.0",
+                                    "new": "950.0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "KLS-ALJ-00006": {
+        "latitude": {
+            "old": "41.30825",
+            "new": "41.38112"
+        },
+        "latlon": {
+            "old": "41.30825 -7.468383",
+            "new": "41.38112 -7.508521"
+        },
+        "longitude": {
+            "old": "-7.468383",
+            "new": "-7.508521"
+        }
+    }
+}
